@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <title>Eclipse Phase Character Sheet</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/defaultToon.js"></script>
+    <script defer src="js/game.js"></script>
+    <script defer src="js/toon.js"></script>
+    <script defer src="js/code.js"></script>
+
+</head>
+<body>
+
+    <!-- Basics -->
+    <div class="rounded-box" id="basics" style="display: flex; width: 98.5%; flex-wrap: wrap; justify-content: space-between;"></div>
+    <template id="basics-element">
+        <div>
+            <span class="label">Basics</span>
+            <span class="input light">basics</span>
+        </div>
+    </template>
+
+    <div class="container">
+
+        <div class="col1">
+
+
+            <!-- Mind Stats -->
+            <div class="rounded-box grid gridx2-left" id="mind-stats">
+                <div class="label heading">Mind Stats</div>
+                <div class="label heading">Rnk</div>
+                <div class="label light" title="WILL x 2">Lucidity</div>
+                <div id="lucidity" class="input light">0</div>
+                <div class="label light" title="LUC / 5">Trauma Threshold</div>
+                <div id="trauma-threshold" class="input light">0</div>
+                <div class="label light" title="LUC x 2">Insanity Rating</div>
+                <div id="insanity-rating" class="input light">0</div>
+            </div>
+
+
+            <!-- Pools -->
+            <div class="rounded-box grid gridx4" id="pools">
+                <div class="label heading" style="grid-column: 1 / span 2;">Pools</div>
+                <div class="label heading" style="grid-column: 3 / span 2;">Used</div>
+            </div>
+            <template id="pool-element">
+                <div class="label light">Pool</div>
+                <div class="input light">0</div>
+                <div class="input light used">0</div>
+                <div><button class="tiny-button light plus">+</button><button class="tiny-button light minus">-</button></div>
+            </template>
+
+
+            <!-- Combat -->
+            <div class="rounded-box" style="display: flex;" id="combat">
+                <div class="label heading">Combat</div>
+                <div>
+                    <span class="label" title="(REF + INT) / 2">Initiative</span>
+                    <span id="initiative" class="input light">0</span>
+                </div>
+            </div>
+
+
+            <!-- Rep -->
+            <div class="rounded-box grid gridx8" style="width: 94%" id="rep">
+                <div class="label" style="vertical-align: sub; grid-column: 1 / span 2;">MAIN-ID<input type="checkbox" id="main" /></div>
+                <div class="label label-right light">Min</div>
+                <div class="input light" style="grid-column: 2 / span 3; display: flex; justify-content: center;"><input type="checkbox" id="main-min1"><input type="checkbox" id="main-min2"><input type="checkbox" id="main-min3"></div>
+                <div class="label label-right light">Mod</div>
+                <div class="input light"><input type="checkbox" id="main-mod1"></div>
+                <div class="label label-right light">Maj</div>
+                <div class="input light"><input type="checkbox" id="main-maj1"></div>
+            </div>
+            <div class="rounded-box grid gridx8" style="width: 94%" id="fake-rep">
+                <div class="label" style="vertical-align: sub; grid-column: 1 / span 2;">FAKE-ID<input type="checkbox" id="fake" /></div>
+                <div class="label label-right light">Min</div>
+                <div class="input light" style="grid-column: 2 / span 3; display: flex; justify-content: center;"><input type="checkbox" id="fake-min1"><input type="checkbox" id="fake-min2"><input type="checkbox" id="fake-min3"></div>
+                <div class="label label-right light">Mod</div>
+                <div class="input light"><input type="checkbox" id="fake-mod1"></div>
+                <div class="label label-right light">Maj</div>
+                <div class="input light"><input type="checkbox" id="fake-maj1"></div> 
+            </div>
+            <template id="rep-element">
+                <div class="label label-right light">Rep</div>
+                <div class="input light">rep</div>
+            </template>
+
+
+            <!-- Morph -->
+            <div class="rounded-box grid gridx5" style="width: 94%" id="morph">
+
+                <div class="label">MORPH</div>
+                <div id="morph-name" class="input input-left light">0</div>
+                <div></div>
+                <div class="label light">Durability</div>
+                <div id="morph-durability" class="input light">0</div>
+
+                <div class="label light">Type</div>
+                <div id="morph-type" class="input input-left light">0</div>
+                <div></div>
+                <div class="label light">Wound Threshold</div>
+                <div id="morph-wound" class="input light">0</div>
+
+                <div class="label light">Size</div>
+                <div id="morph-size" class="input input-left light">0</div>
+                <div></div>
+                <div class="label light">Death Rating</div>
+                <div id="morph-death" class="input light">0</div>
+
+                <div class="label light">Movement</div>
+                <div id="morph-move" class="input input-left light" style="grid-column: 2 / span 4;">0</div>
+
+            </div>
+
+
+        </div>
+        <div class="col2">
+
+
+            <!-- Aptitudes -->
+            <div class="rounded-box grid gridx18" id="aptitudes" style="width: 96%;"></div>
+            <template id="aptitudes-element">
+                <div class="label light">APT</div>
+                <div class="input light">15</div>
+                <div class="input light test">45</div>
+            </template>
+
+
+            <!-- Traits -->
+            <div class="rounded-box grid gridx2-right" id="traits" style="width: 96%;">
+                <div class="label heading">Ego Traits</div>
+                <div class="label heading">Description</div>
+            </div>
+            <div class="rounded-box grid gridx2-right" id="morph-traits" style="width: 96%;">
+                <div class="label heading">Morph Traits</div>
+                <div class="label heading">Description</div>
+            </div>
+            <template id="traits-element">
+                <span class="label light">Trait</span>
+                <span class="input input-left light">Description</span>
+            </template>
+
+
+            <!-- Gear -->
+            <div class="rounded-box grid gridx3-mid" id="gear" style="width: 96%;">
+                <div class="label heading">Gear</div>
+                <div class="label heading">Description</div>
+                <div class="label heading">Qty</div>
+            </div>
+            <template id="gear-element">
+                <div class="label light">Gear</div>
+                <div class="input input-left light">Description</div>
+                <div class="input light">1</div>
+            </template>
+
+
+            <!-- Morph Ware -->
+            <div class="rounded-box grid gridx2-right" id="morph-ware" style="width: 96%;">
+                <div class="label heading">Morph Ware</div>
+                <div class="label heading">Description</div>
+            </div>
+            <template id="ware-element">
+                <span class="label light">Ware</span>
+                <span class="input input-left light">Description</span>
+            </template>
+
+
+        </div>
+        <div class="col3">
+
+
+            <!-- Skills -->
+            <div class="rounded-box grid gridx3-left" id="skills" style="width: 94%;">
+                <div class="label heading">Skills</div>
+                <div class="label heading">Apt</div>
+                <div class="label heading">Tot</div>
+            </div>
+            <template id="skills-element">
+                <div class="label light">Skill</div>
+                <div class="input input-med light uppercase">0</div>
+                <div class="input input-small light">0</div>
+            </template>
+
+
+            <!-- Rests -->
+            <div class="rounded-box grid gridx8" style="width: 94%" id="rests">
+                <div class="label" style="vertical-align: sub; grid-column: 1 / span 2;">Rests</div>
+                <div class="label label-right light">Short</div>
+                <div class="input input-fixed light"><input type="checkbox" id="short1" /></div>
+                <div class="label label-right light">Short</div>
+                <div class="input input-fixed light"><input type="checkbox" id="short2" /></div>
+                <div class="label label-right light">Long</div>
+                <div class="input input-fixed light"><input type="checkbox" id="long" /></div>
+            </div>
+
+
+        </div>
+
+    </div>
+<!--
+    <button onclick="updateStore();">Save</button>
+    <button onclick="newToon();">New Toon</button>
+    <button onclick="exportToon();">Export Toon</button>
+    <input type="file" id="input">
+    <button onclick="importToon();">Import Toon</button>
+
+    <div>
+        <textarea id="edit" class="fullsize"></textarea>
+    </div>
+-->
+</body>
+</html>
