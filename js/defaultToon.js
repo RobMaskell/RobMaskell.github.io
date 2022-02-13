@@ -179,7 +179,7 @@ var defaultToon = {
             'field': 'Sec Ops'
         },
         'know-7': {
-            'base': 30,
+            'base': 10,
             'cp-adj': 0,
             'aptitude': 'cog',
             'field': 'Criminal'
