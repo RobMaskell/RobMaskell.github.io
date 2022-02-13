@@ -249,7 +249,7 @@ function refreshToon(name) {
     }
 
 
-    // handle plus buttons
+    // handle minus buttons
     let minusButtons = document.querySelectorAll('button.minus');
     for (const butt of minusButtons) {
         butt.addEventListener("click", (e) => {
@@ -259,6 +259,23 @@ function refreshToon(name) {
 
             if (usedDiv.innerText > 0) {
                 let val = game.dec(attr);
+                usedDiv.innerText = val;
+            } 
+
+        });
+    }
+
+
+    // handle zero buttons
+    let zeroButtons = document.querySelectorAll('button.zero');
+    for (const butt of zeroButtons) {
+        butt.addEventListener("click", (e) => {
+
+            const attr = butt.getAttribute('data-attr');
+            const usedDiv = e.target.parentNode.previousElementSibling
+
+            if (usedDiv.innerText > 0) {
+                let val = game.reset(attr);
                 usedDiv.innerText = val;
             } 
 

@@ -42,9 +42,7 @@ class Game {
     getInc(attr) { return this.incs[attr] || 0; }
     inc(attr) { this.incs[attr]+=1; this.#save(); return this.incs[attr]; }
     dec(attr) { this.incs[attr]-=1; this.#save(); return this.incs[attr]; }
-
-    // getJSON() { return this; }
-    // setJSON(json) { Object.assign(this, json); }
+    reset(attr) { this.incs[attr]=0; this.#save(); return this.incs[attr]; }
 
     #save() { localStorage.setItem("game", JSON.stringify(this)); }
 
