@@ -87,13 +87,19 @@ function refreshToon(name) {
 
         const a4 = document.importNode(temp.content.children[3], true);
         let added = div.appendChild(a4);
-        added.querySelector('button.plus').addEventListener("click", (e) => {
-            plus(e.target, attr);
-        });
-        added.querySelector('button.minus').addEventListener("click", (e) => {
-            minus(e.target, attr);
-        });
+        // added.querySelector('button.plus').addEventListener("click", (e) => {
+        //     plus(e.target, attr);
+        // });
+        // added.querySelector('button.minus').addEventListener("click", (e) => {
+        //     minus(e.target, attr);
+        // });
+        added.querySelector('button.plus').setAttribute('data-attr', attr);
+        added.querySelector('button.minus').setAttribute('data-attr', attr);
     }
+
+
+    // Combat
+
 
 
     // Rep & Fake
@@ -184,6 +190,7 @@ function refreshToon(name) {
 
     // Combat
     document.getElementById('initiative').textContent = toon.getInitiative();
+    document.getElementById('fray2').textContent = toon.getFrayOverTwo();
     document.getElementById('lucidity').textContent = toon.getLucidity();
     document.getElementById('trauma-threshold').textContent = toon.getTraumaThreshold();
     document.getElementById('insanity-rating').textContent = toon.getInsanityRating();
@@ -206,7 +213,6 @@ function refreshToon(name) {
         if (game.getBool(box.id)) box.setAttribute('checked', 'checked');
         box.addEventListener("click", (e) => {
             game.toggle(box.id);
-            console.log(game);
         });
     }
 

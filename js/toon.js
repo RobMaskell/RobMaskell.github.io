@@ -8,14 +8,14 @@ class Toon {
     // Basics
     getBasics() { return this.#indexArray(this.basics); }
     getBasic(attr) { return this.basics[attr]; }
-    getName() { return this.basics.name; }
-    getBackground() { return this.basics.background; }
-    getCareer() { return this.basics.career; }
-    getInterests() { return this.basics.interests; }
-    getFaction() { return this.basics.faction; }
+    //getName() { return this.basics.name; }
+    //getBackground() { return this.basics.background; }
+    //getCareer() { return this.basics.career; }
+    //getInterests() { return this.basics.interests; }
+    //getFaction() { return this.basics.faction; }
     getLanguages() { return this.basics.languages.base.join(', ') + (this.basics.languages['cp-langs'].length>0 ? ', '+this.basics.languages['cp-langs'].join(', ') : ''); }
     getLanguagesCPSpend() { return this.basics.languages['cp-langs'].length; }
-    getMotivations() { return this.basics.motivations; }
+    getMotivations() { return this.basics.motivations.join(', '); }
     getBase(x) { return this.base[x]; }
     getBasicsJSON() { return this.basics; }
     setBasicsJSON(json) { this.basics = json; }
@@ -25,6 +25,7 @@ class Toon {
     getLucidity() { return this.getAptitude('wil') * 2; }
     getTraumaThreshold() { return this.getLucidity() / 5; }
     getInsanityRating() { return this.getLucidity() * 2; }
+    getFrayOverTwo() { return this.getSkill("fray") / 2; }
     
     // Attributes
     getAptitudes() { return this.#indexArray(this.aptitudes); }

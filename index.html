@@ -31,7 +31,7 @@
 
 
             <!-- Mind Stats -->
-            <div class="rounded-box grid gridx2-left" id="mind-stats">
+            <div class="rounded-box grid gridx2-left" id="mind-stats" style="width: 44%">
                 <div class="label heading">Mind Stats</div>
                 <div class="label heading">Rnk</div>
                 <div class="label light" title="WILL x 2">Lucidity</div>
@@ -44,7 +44,7 @@
 
 
             <!-- Pools -->
-            <div class="rounded-box grid gridx4" id="pools">
+            <div class="rounded-box grid gridx4" id="pools" style="width: 43%">
                 <div class="label heading" style="grid-column: 1 / span 2;">Pools</div>
                 <div class="label heading" style="grid-column: 3 / span 2;">Used</div>
             </div>
@@ -52,19 +52,27 @@
                 <div class="label light">Pool</div>
                 <div class="input light">0</div>
                 <div class="input light used">0</div>
-                <div><button class="tiny-button light plus">+</button><button class="tiny-button light minus">-</button></div>
+                <div><button class="tiny-button light plus" data-bounded="true">+</button><button class="tiny-button light minus">-</button></div>
             </template>
 
 
-            <!-- Combat -->
-            <div class="rounded-box" style="display: flex;" id="combat">
-                <div class="label heading">Combat</div>
-                <div>
-                    <span class="label" title="(REF + INT) / 2">Initiative</span>
-                    <span id="initiative" class="input light">0</span>
-                </div>
-            </div>
+            <!-- Damage -->
+            <div class="rounded-box grid gridx6" style="width: 94%" id="damage">
+                <div class="label heading" style="grid-column: 1 / span 6;">Damage</div>
+                <div class="label light">Stress Taken</div>
+                <div id="stress" class="input light">0</div>
+                <div><button class="tiny-button light plus" data-attr="stress">+</button><button class="tiny-button light minus" data-attr="stress">-</button><button class="tiny-button light zero" data-attr="stress">0</button></div>
+                <div class="label light" title="Traumas (-10 each)">Traumas</div>
+                <div id="traumas" class="input light">0</div>
+                <div><button class="tiny-button light plus" data-attr="traumas">+</button><button class="tiny-button light minus" data-attr="traumas">-</button><button class="tiny-button light zero" data-attr="traumas">0</button></div>
+                <div class="label light">Damage Taken</div>
+                <div id="damage" class="input light">0</div>
+                <div><button class="tiny-button light plus" data-attr="damage">+</button><button class="tiny-button light minus" data-attr="damage">-</button><button class="tiny-button light zero" data-attr="damage">0</button></div>
+                <div class="label light" title="Wounds (-10 each)">Wounds</div>
+                <div id="wounds" class="input light">0</div>
+                <div><button class="tiny-button light plus" data-attr="wounds">+</button><button class="tiny-button light minus" data-attr="wounds">-</button><button class="tiny-button light zero" data-attr="wounds">0</button></div>
 
+            </div>
 
             <!-- Rep -->
             <div class="rounded-box grid gridx8" style="width: 94%" id="rep">
@@ -117,6 +125,26 @@
 
             </div>
 
+
+            <!-- Combat -->
+            <div class="rounded-box grid gridx8" style="width: 94%" id="combat">
+                <div class="label heading" style="grid-column: 1 / span 2;">Combat</div>
+                <div class="label light">Shots</div>
+                <div id="shots1" class="input light">0</div>
+                <div><button class="tiny-button light plus" data-attr="shots1">+</button><button class="tiny-button light minus" data-attr="shots1">-</button><button class="tiny-button light zero" data-attr="shots1">0</button></div>
+                <div id="shots2" class="input light">0</div>
+                <div><button class="tiny-button light plus" data-attr="shots2">+</button><button class="tiny-button light minus" data-attr="shots2">-</button><button class="tiny-button light zero" data-attr="shots2">0</button></div>
+                <div></div>
+
+                <div class="label light" title="(REF + INT) / 2">Initiative</div>
+                <div id="initiative" class="input light">0</div>
+                <div class="label light">Fray/2</div>
+                <div id="fray2" class="input light">0</div>
+                <div class="label light">Arm(En)</div>
+                <div id="arm-en" class="input light">0</div>
+                <div class="label light">Arm(Kin)</div>
+                <div id="arm-kin" class="input light">0</div>
+            </div>
 
         </div>
         <div class="col2">

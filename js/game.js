@@ -8,7 +8,11 @@ class Game {
                                     'vigor': 0, 
                                     'insight': 0, 
                                     'moxie': 0, 
-                                    'flex': 0
+                                    'flex': 0,
+                                    'stress': 0,
+                                    'traumas': 0,
+                                    'damage': 0,
+                                    'wounds': 0
                                 },
                                 'bools': {
                                     'short1': false, 

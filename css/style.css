@@ -56,6 +56,11 @@ body {
     grid-row-gap: 0.5rem;
 }
 
+.gridx6 {
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-row-gap: 0.5rem;
+}
+
 .gridx8 {
     grid-template-columns: auto auto auto auto auto auto auto auto;
     grid-row-gap: 0.5rem;
@@ -71,7 +76,7 @@ body {
     background-color: #ebe1d9;
 }
 
-button.plus, button.minus {
+button.plus, button.minus, button.zero {
     border: 0;
     margin: 2px;
     font-weight: bold;
