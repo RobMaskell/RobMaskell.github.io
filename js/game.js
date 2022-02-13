@@ -12,7 +12,9 @@ class Game {
                                     'stress': 0,
                                     'traumas': 0,
                                     'damage': 0,
-                                    'wounds': 0
+                                    'wounds': 0,
+                                    'shots1': 0,
+                                    'shots2': 0
                                 },
                                 'bools': {
                                     'short1': false, 
