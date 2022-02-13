@@ -49,7 +49,6 @@ function refreshToon(name) {
     // Skills
     div = document.getElementById('skills');
     temp = document.getElementById('skills-element');
-    //item = temp.content.querySelector("div");
     for (const attr of toon.getSkills()) {
         const a1 = document.importNode(temp.content.children[0], true);
         a1.textContent = 
@@ -70,7 +69,6 @@ function refreshToon(name) {
     // Pools
     div = document.getElementById('pools');
     temp = document.getElementById('pool-element');
-    //item = temp.content.querySelector("div");
     for (const attr of toon.getPools()) {
         const a1 = document.importNode(temp.content.children[0], true);
         a1.textContent = attr.toProperCase();
@@ -194,6 +192,15 @@ function refreshToon(name) {
     document.getElementById('lucidity').textContent = toon.getLucidity();
     document.getElementById('trauma-threshold').textContent = toon.getTraumaThreshold();
     document.getElementById('insanity-rating').textContent = toon.getInsanityRating();
+    document.getElementById('shots1').textContent = game.getInc('shots1');
+    document.getElementById('shots2').textContent = game.getInc('shots2');
+
+
+    // damage
+    document.getElementById('stress').textContent = game.getInc('stress');
+    document.getElementById('traumas').textContent = game.getInc('traumas');
+    document.getElementById('damage').textContent = game.getInc('damage');
+    document.getElementById('wounds').textContent = game.getInc('wounds');
 
 
     // Morph
@@ -208,13 +215,56 @@ function refreshToon(name) {
 
     // handle checkboxes
     let boxes = document.querySelectorAll('input[type=checkbox]');
-    console.log(boxes);
     for (const box of boxes) {
         if (game.getBool(box.id)) box.setAttribute('checked', 'checked');
         box.addEventListener("click", (e) => {
             game.toggle(box.id);
         });
     }
+
+
+    // handle plus buttons
+    let plusButtons = document.querySelectorAll('button.plus');
+    for (const butt of plusButtons) {
+        butt.addEventListener("click", (e) => {
+
+            const attr = butt.getAttribute('data-attr');
+            const isBounded = butt.getAttribute('data-bounded');
+            const usedDiv = e.target.parentNode.previousElementSibling
+
+            if (isBounded) {
+                const actualDiv = usedDiv.previousElementSibling
+                if (actualDiv.innerText > usedDiv.innerText) {
+                    let val = game.inc(attr);
+                    usedDiv.innerText = val;
+                } else {
+                    alert("All out of " + attr);
+                }
+            } else {
+                let val = game.inc(attr);
+                usedDiv.innerText = val;               
+            }
+
+        });
+    }
+
+
+    // handle plus buttons
+    let minusButtons = document.querySelectorAll('button.minus');
+    for (const butt of minusButtons) {
+        butt.addEventListener("click", (e) => {
+
+            const attr = butt.getAttribute('data-attr');
+            const usedDiv = e.target.parentNode.previousElementSibling
+
+            if (usedDiv.innerText > 0) {
+                let val = game.dec(attr);
+                usedDiv.innerText = val;
+            } 
+
+        });
+    }
+
 
     // make sure everything checks out
     console.log('Aptitudes (90)', toon.getTotalAptitudesBase());
@@ -259,28 +309,28 @@ function refreshToon(name) {
 
 
 // Plus and minus buttons
-function plus(ele, attr) {
+// function plus(ele, attr) {
 
-    let usedDiv = ele.parentNode.previousElementSibling
-    let actualDiv = usedDiv.previousElementSibling
+//     let usedDiv = ele.parentNode.previousElementSibling
+//     let actualDiv = usedDiv.previousElementSibling
 
-    if (actualDiv.innerText > usedDiv.innerText) {
-        let val = game.inc(attr);
-        usedDiv.innerText = val;
-    } else {
-        alert("All out of " + attr);
-    }
-}
+//     if (actualDiv.innerText > usedDiv.innerText) {
+//         let val = game.inc(attr);
+//         usedDiv.innerText = val;
+//     } else {
+//         alert("All out of " + attr);
+//     }
+// }
 
-function minus(ele, attr) {
+// function minus(ele, attr) {
 
-    let usedDiv = ele.parentNode.previousElementSibling
+//     let usedDiv = ele.parentNode.previousElementSibling
 
-    if (usedDiv.innerText > 0) {
-        let val = game.dec(attr);
-        usedDiv.innerText = val;
-    } 
-} 
+//     if (usedDiv.innerText > 0) {
+//         let val = game.dec(attr);
+//         usedDiv.innerText = val;
+//     } 
+// } 
 
 String.prototype.toProperCase = function(opt_lowerCaseTheRest) {
     return (opt_lowerCaseTheRest ? this.toLowerCase() : this)

@@ -3,7 +3,7 @@ class Game {
     constructor() {
         //Object.assign(this, json);
         let stored = localStorage.getItem('game');
-        Object.assign(this, stored ? JSON.parse(stored) : {
+        Object.assign(this, {
                                 'incs': {
                                     'vigor': 0, 
                                     'insight': 0, 
@@ -32,13 +32,14 @@ class Game {
                                     'fake-maj1': false
                                 }
         });
+        Object.assign(this, JSON.parse(stored));
     }
 
     getBool(attr) { return this.bools[attr]; }
     getBools() { return this.#indexArray(this.bools); }
     toggle(attr) { this.bools[attr] = !this.bools[attr]; this.#save(); }
 
-    getInc(attr) { return this.incs[attr]; }
+    getInc(attr) { return this.incs[attr] || 0; }
     inc(attr) { this.incs[attr]+=1; this.#save(); return this.incs[attr]; }
     dec(attr) { this.incs[attr]-=1; this.#save(); return this.incs[attr]; }
 
