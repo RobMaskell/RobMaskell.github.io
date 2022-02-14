@@ -237,9 +237,7 @@ var defaultToon = {
         { 'gear': 'VPN App',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Create virtual private network', 'src': 'Firewall Pack', 'qty': 1 },
         { 'gear': 'Flex Cutter',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': '1d10+3 DV, The blade of this machete-like weapon is made of a memory polymer', 'src': '', 'qty': 1 },
         { 'gear': 'Specialized Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Scout Swarm - Maps area, collects forensic evidence, Know: Chemistry 60, Medicine: Forensics 60', 'src': '', 'qty': 1 },
-        { 'gear': 'Specialized Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Spy Swarm - Surveillance, Perceive 60s', 'src': '', 'qty': 1 },
-        { 'gear': 'Healing Spray',	'complexity': 'Min/1', 'gp-cost': 2, 'desc': 'Heals 1d10 [5] damage an hour for 12 hours for biomorphs. Single use.', 'src': '', 'qty': 2 }
-    ],
+        { 'gear': 'Specialized Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Spy Swarm - Surveillance, Perceive 60s', 'src': '', 'qty': 1 }     ],
     'morph': {
         'name': 'Bouncer',
         'type': 'Biomorph',
@@ -262,12 +260,13 @@ var defaultToon = {
             { 'ware': 'Oxygen Reserve', 'desc': 'Oxygen tank / rebreather with 4Hrs of air', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Prehensile Feet', 'desc': 'Can use feet as hands. -8 full move', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'SkinLink', 'desc': 'Create a “hardwired” mesh link by touch. (Min/1)', 'mp-cost': 1, 'gp-cost': 0 },
-            { 'ware': 'Chameleon Skin', 'desc': 'Change skin color. +10 Infiltrate, +30 still and covered', 'mp-cost': 0, 'gp-cost': 1 }
+            { 'ware': 'Chameleon Skin', 'desc': 'Change skin color. +10 Infiltrate, +30 still and covered', 'mp-cost': 0, 'gp-cost': 2 },
+            { 'ware': 'Medichinces', 'desc': 'Ignore 1 wound, heal faster (1d6/hour, 1 Wound/day), drug/toxin effect/duration halved', 'mp-cost': 0, 'gp-cost': 3 }
         ],
         'traits': [
             { 'trait': 'Limberness (Lvl 1)', 'desc': '+10 to escape bonds, fit into tight spaces, contort etc', 'mp-cost': 0 },
             { 'trait': 'Lethal', 'desc': '+1d6 DV in melee', 'mp-cost': 1 },
-            { 'trait': 'Rapid Healing', 'desc': 'Heal twice as fast biomorphs only', 'mp-cost': 1 }
+            { 'trait': 'Rapid Healing', 'desc': 'Heal twice as fast biomorphs only 1d10 per 6 hours 1 Wound per 1.5 days', 'mp-cost': 1 }
         ]
     }
 }

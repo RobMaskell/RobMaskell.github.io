@@ -105,6 +105,7 @@ class Toon {
     getMorphWare(index) { return this.morph.ware[index].ware; }
     getMorphWareDesc(index) { return this.morph.ware[index].desc; }
     getTotalMorphWareMPSpend() { return this.#sumArray(this.morph.ware, 'mp-cost'); }
+    getTotalMorphWareGPSpend() { return this.#sumArray(this.morph.ware, 'gp-cost'); }
 
         
     // Private functions

@@ -302,6 +302,7 @@ function refreshToon(name) {
                             + toon.getResourcesLevel()
                             - toon.getTotalMorphTraitsMPSpend();
     const nettGP = baseGP - toon.getTotalGearGPSpend()
+                            - toon.getTotalMorphWareGPSpend()
                             + toon.getResourcesLevel();
     console.log("CP Spend", {'1-BaseCP': baseCP, 
                             '2-Aptitude': -toon.getTotalAptitudesCPSpend(), 
@@ -320,6 +321,7 @@ function refreshToon(name) {
                             '9-nettMP': nettMP});
     console.log('GP Spend', {'1-BaseGP': baseGP,
                             '2-Gear': -toon.getTotalGearGPSpend(),
+                            '3-Ware': -toon.getTotalMorphWareGPSpend(),
                             '5-Resources': toon.getResourcesLevel(),
                             '9-nettGP': nettGP});
 }
