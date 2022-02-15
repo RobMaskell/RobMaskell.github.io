@@ -83,6 +83,17 @@ class Toon {
     getGearJSON() { return this.gear; }
     setGearJSON(json) { this.gear = json; }
 
+    // Armour
+    getNumArmour() { return this.armour.length; }
+    getArmour(index) { return this.armour[index].gear; }
+    getArmourEnergy(index) { return this.armour[index].energy; }
+    getArmourKinetic(index) { return this.armour[index].kinetic; }
+    getArmourDesc(index) { return this.armour[index].desc; }
+    getArmourQty(index) { return this.armour[index].qty; }
+    getTotalArmourEnergy() { return this.#sumArray(this.armour, 'energy'); }
+    getTotalArmourKinetic() { return this.#sumArray(this.armour, 'kinetic'); }
+    getTotalArmourGPSpend() { return this.#sumArray(this.armour, 'gp-cost'); }
+
     // Morph
     getMorphName() { return this.morph.name; }
     getMorphType() { return this.morph.type; }

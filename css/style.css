@@ -56,6 +56,10 @@ body {
     grid-row-gap: 0.5rem;
 }
 
+.gridx5-mid {
+    grid-template-columns: auto auto auto 1fr auto;
+}
+
 .gridx6 {
     grid-template-columns: auto auto auto auto auto auto;
     grid-row-gap: 0.5rem;

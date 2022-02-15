@@ -172,6 +172,32 @@ function refreshToon(name) {
     }
 
 
+    // Armour
+    div = document.getElementById('armour');
+    temp = document.getElementById('armour-element');
+    for (let attr=0; attr<toon.getNumArmour(); attr++) {
+        const a1 = document.importNode(temp.content.children[0], true);
+        a1.textContent = toon.getArmour(attr);
+        div.appendChild(a1);
+
+        const a2 = document.importNode(temp.content.children[1], true);
+        a2.textContent = toon.getArmourEnergy(attr);
+        div.appendChild(a2);
+
+        const a3 = document.importNode(temp.content.children[2], true);
+        a3.textContent = toon.getArmourKinetic(attr);
+        div.appendChild(a3);
+
+        const a4 = document.importNode(temp.content.children[3], true);
+        a4.textContent = toon.getArmourDesc(attr);
+        div.appendChild(a4);
+
+        const a5 = document.importNode(temp.content.children[4], true);
+        a5.textContent = toon.getArmourQty(attr);
+        div.appendChild(a5);
+    }
+
+
     // Morph Ware
     div = document.getElementById('morph-ware');
     temp = document.getElementById('ware-element');
@@ -193,7 +219,8 @@ function refreshToon(name) {
     document.getElementById('trauma-threshold').textContent = toon.getTraumaThreshold();
     document.getElementById('insanity-rating').textContent = toon.getInsanityRating();
     document.getElementById('shots1').textContent = game.getInc('shots1');
-    document.getElementById('shots2').textContent = game.getInc('shots2');
+    document.getElementById('arm-en').textContent = toon.getTotalArmourEnergy();
+    document.getElementById('arm-kin').textContent = toon.getTotalArmourKinetic();
 
 
     // damage
@@ -303,6 +330,7 @@ function refreshToon(name) {
                             - toon.getTotalMorphTraitsMPSpend();
     const nettGP = baseGP - toon.getTotalGearGPSpend()
                             - toon.getTotalMorphWareGPSpend()
+                            - toon.getTotalArmourGPSpend()
                             + toon.getResourcesLevel();
     console.log("CP Spend", {'1-BaseCP': baseCP, 
                             '2-Aptitude': -toon.getTotalAptitudesCPSpend(), 
@@ -322,6 +350,7 @@ function refreshToon(name) {
     console.log('GP Spend', {'1-BaseGP': baseGP,
                             '2-Gear': -toon.getTotalGearGPSpend(),
                             '3-Ware': -toon.getTotalMorphWareGPSpend(),
+                            '4-Armour': -toon.getTotalArmourGPSpend(),
                             '5-Resources': toon.getResourcesLevel(),
                             '9-nettGP': nettGP});
 }
