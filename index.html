@@ -56,6 +56,27 @@
             </template>
 
 
+            <!-- Combat -->
+            <div class="rounded-box grid gridx8" style="width: 94%" id="combat">
+                <div class="label heading" style="grid-column: 1 / span 2;">Combat</div>
+                <div class="label light">Shots</div>
+                <div id="shots1" class="input light">0</div>
+                <div><button class="tiny-button light plus" data-attr="shots1">+</button><button class="tiny-button light minus" data-attr="shots1">-</button><button class="tiny-button light zero" data-attr="shots1">0</button></div>
+                <div id="shots2" class="input light">0</div>
+                <div><button class="tiny-button light plus" data-attr="shots2">+</button><button class="tiny-button light minus" data-attr="shots2">-</button><button class="tiny-button light zero" data-attr="shots2">0</button></div>
+                <div></div>
+
+                <div class="label light" title="(REF + INT) / 2">Initiative</div>
+                <div id="initiative" class="input light">0</div>
+                <div class="label light">Fray/2</div>
+                <div id="fray2" class="input light">0</div>
+                <div class="label light">Arm(En)</div>
+                <div id="arm-en" class="input light">0</div>
+                <div class="label light">Arm(Kin)</div>
+                <div id="arm-kin" class="input light">0</div>
+            </div>
+
+
             <!-- Damage -->
             <div class="rounded-box grid gridx6" style="width: 94%" id="damage-box">
                 <div class="label heading" style="grid-column: 1 / span 6;">Damage</div>
@@ -74,29 +95,17 @@
 
             </div>
 
-            <!-- Rep -->
-            <div class="rounded-box grid gridx8" style="width: 94%" id="rep">
-                <div class="label" style="vertical-align: sub; grid-column: 1 / span 2;">MAIN-ID<input type="checkbox" id="main" /></div>
-                <div class="label label-right light">Min</div>
-                <div class="input light" style="grid-column: 2 / span 3; display: flex; justify-content: center;"><input type="checkbox" id="main-min1"><input type="checkbox" id="main-min2"><input type="checkbox" id="main-min3"></div>
-                <div class="label label-right light">Mod</div>
-                <div class="input light"><input type="checkbox" id="main-mod1"></div>
-                <div class="label label-right light">Maj</div>
-                <div class="input light"><input type="checkbox" id="main-maj1"></div>
+
+            <!-- Rests -->
+            <div class="rounded-box grid gridx8" style="width: 94%" id="rests">
+                <div class="label" style="vertical-align: sub; grid-column: 1 / span 2;">Rests</div>
+                <div class="label label-right light">Short</div>
+                <div class="input input-fixed light"><input type="checkbox" id="short1" /></div>
+                <div class="label label-right light">Short</div>
+                <div class="input input-fixed light"><input type="checkbox" id="short2" /></div>
+                <div class="label label-right light">Long</div>
+                <div class="input input-fixed light"><input type="checkbox" id="long" /></div>
             </div>
-            <div class="rounded-box grid gridx8" style="width: 94%" id="fake-rep">
-                <div class="label" style="vertical-align: sub; grid-column: 1 / span 2;">FAKE-ID<input type="checkbox" id="fake" /></div>
-                <div class="label label-right light">Min</div>
-                <div class="input light" style="grid-column: 2 / span 3; display: flex; justify-content: center;"><input type="checkbox" id="fake-min1"><input type="checkbox" id="fake-min2"><input type="checkbox" id="fake-min3"></div>
-                <div class="label label-right light">Mod</div>
-                <div class="input light"><input type="checkbox" id="fake-mod1"></div>
-                <div class="label label-right light">Maj</div>
-                <div class="input light"><input type="checkbox" id="fake-maj1"></div> 
-            </div>
-            <template id="rep-element">
-                <div class="label label-right light">Rep</div>
-                <div class="input light">rep</div>
-            </template>
 
 
             <!-- Morph -->
@@ -125,26 +134,32 @@
 
             </div>
 
-
-            <!-- Combat -->
-            <div class="rounded-box grid gridx8" style="width: 94%" id="combat">
-                <div class="label heading" style="grid-column: 1 / span 2;">Combat</div>
-                <div class="label light">Shots</div>
-                <div id="shots1" class="input light">0</div>
-                <div><button class="tiny-button light plus" data-attr="shots1">+</button><button class="tiny-button light minus" data-attr="shots1">-</button><button class="tiny-button light zero" data-attr="shots1">0</button></div>
-                <div id="shots2" class="input light">0</div>
-                <div><button class="tiny-button light plus" data-attr="shots2">+</button><button class="tiny-button light minus" data-attr="shots2">-</button><button class="tiny-button light zero" data-attr="shots2">0</button></div>
-                <div></div>
-
-                <div class="label light" title="(REF + INT) / 2">Initiative</div>
-                <div id="initiative" class="input light">0</div>
-                <div class="label light">Fray/2</div>
-                <div id="fray2" class="input light">0</div>
-                <div class="label light">Arm(En)</div>
-                <div id="arm-en" class="input light">0</div>
-                <div class="label light">Arm(Kin)</div>
-                <div id="arm-kin" class="input light">0</div>
+            
+            <!-- Rep -->
+            <div class="rounded-box grid gridx8" style="width: 94%" id="rep">
+                <div class="label" style="vertical-align: sub; grid-column: 1 / span 2;">MAIN-ID<input type="checkbox" id="main" /></div>
+                <div class="label label-right light">Min</div>
+                <div class="input light" style="grid-column: 2 / span 3; display: flex; justify-content: center;"><input type="checkbox" id="main-min1"><input type="checkbox" id="main-min2"><input type="checkbox" id="main-min3"></div>
+                <div class="label label-right light">Mod</div>
+                <div class="input light"><input type="checkbox" id="main-mod1"></div>
+                <div class="label label-right light">Maj</div>
+                <div class="input light"><input type="checkbox" id="main-maj1"></div>
             </div>
+            <div class="rounded-box grid gridx8" style="width: 94%" id="fake-rep">
+                <div class="label" style="vertical-align: sub; grid-column: 1 / span 2;">FAKE-ID<input type="checkbox" id="fake" /></div>
+                <div class="label label-right light">Min</div>
+                <div class="input light" style="grid-column: 2 / span 3; display: flex; justify-content: center;"><input type="checkbox" id="fake-min1"><input type="checkbox" id="fake-min2"><input type="checkbox" id="fake-min3"></div>
+                <div class="label label-right light">Mod</div>
+                <div class="input light"><input type="checkbox" id="fake-mod1"></div>
+                <div class="label label-right light">Maj</div>
+                <div class="input light"><input type="checkbox" id="fake-maj1"></div> 
+            </div>
+            <template id="rep-element">
+                <div class="label label-right light">Rep</div>
+                <div class="input light">rep</div>
+            </template>
+
+
 
         </div>
         <div class="col2">
@@ -249,18 +264,6 @@
                 <div class="input input-med light uppercase">0</div>
                 <div class="input input-small light">0</div>
             </template>
-
-
-            <!-- Rests -->
-            <div class="rounded-box grid gridx8" style="width: 94%" id="rests">
-                <div class="label" style="vertical-align: sub; grid-column: 1 / span 2;">Rests</div>
-                <div class="label label-right light">Short</div>
-                <div class="input input-fixed light"><input type="checkbox" id="short1" /></div>
-                <div class="label label-right light">Short</div>
-                <div class="input input-fixed light"><input type="checkbox" id="short2" /></div>
-                <div class="label label-right light">Long</div>
-                <div class="input input-fixed light"><input type="checkbox" id="long" /></div>
-            </div>
 
 
         </div>
