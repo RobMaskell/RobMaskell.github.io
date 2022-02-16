@@ -27,6 +27,10 @@ body {
     grid-column-gap: 1px;
 }
 
+.gridx1 {
+    grid-template-columns: 1fr;
+}
+
 .gridx2-left {
     grid-template-columns: 1fr auto;
 }

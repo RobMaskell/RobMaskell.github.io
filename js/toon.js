@@ -15,7 +15,7 @@ class Toon {
     //getFaction() { return this.basics.faction; }
     getLanguages() { return this.basics.languages.base.join(', ') + (this.basics.languages['cp-langs'].length>0 ? ', '+this.basics.languages['cp-langs'].join(', ') : ''); }
     getLanguagesCPSpend() { return this.basics.languages['cp-langs'].length; }
-    getMotivations() { return this.basics.motivations.join(', '); }
+    getMotivations() { return this.motivations; }
     getBase(x) { return this.base[x]; }
     getBasicsJSON() { return this.basics; }
     setBasicsJSON(json) { this.basics = json; }

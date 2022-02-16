@@ -63,7 +63,25 @@ function refreshToon(name) {
         const a3 = document.importNode(temp.content.children[2], true);
         a3.textContent = toon.getSkill(attr);
         div.appendChild(a3);
-    }  
+    }
+
+
+    // Motivations
+    div = document.getElementById('motivations');
+    temp = document.getElementById('motivation-element');
+    for (const attr of toon.getMotivations()) {
+        const a1 = document.importNode(temp.content.children[0], true);
+        a1.textContent = attr;
+        div.appendChild(a1);
+
+        // const a2 = document.importNode(temp.content.children[1], true);
+        // a2.textContent = toon.getSkillAptitude(attr);
+        // div.appendChild(a2);
+
+        // const a3 = document.importNode(temp.content.children[2], true);
+        // a3.textContent = toon.getSkill(attr);
+        // div.appendChild(a3);
+    } 
 
 
     // Pools
@@ -85,19 +103,10 @@ function refreshToon(name) {
 
         const a4 = document.importNode(temp.content.children[3], true);
         let added = div.appendChild(a4);
-        // added.querySelector('button.plus').addEventListener("click", (e) => {
-        //     plus(e.target, attr);
-        // });
-        // added.querySelector('button.minus').addEventListener("click", (e) => {
-        //     minus(e.target, attr);
-        // });
+
         added.querySelector('button.plus').setAttribute('data-attr', attr);
         added.querySelector('button.minus').setAttribute('data-attr', attr);
     }
-
-
-    // Combat
-
 
 
     // Rep & Fake
