@@ -230,15 +230,18 @@ var defaultToon = {
     'gear': [
         { 'gear': 'Anonymizer',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Masks your mesh ID', 'src': 'Firewall Pack', 'qty': 1 },
         { 'gear': 'Fake Ego ID',	'complexity': 'Maj/R/3', 'gp-cost': 0, 'desc': 'Forged ID and back history, with its own rep scores', 'src': 'Firewall Pack', 'qty': 1 },
-        { 'gear': 'Medium Pistol Firearm',	'complexity': 'Min/R/1', 'gp-cost': 0, 'desc': 'DV 2d10, SA/BF/FA, Ammo 15+1, Range 30', 'src': 'Firewall Pack', 'qty': 0 },
         { 'gear': 'Smart Clothing',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Can change colour, texture and cut. +10 Infiltrate, +30 covered and stationary', 'src': 'Firewall Pack', 'qty': 1 },
         { 'gear': 'TacNet App',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Share tactical data in real time', 'src': 'Firewall Pack', 'qty': 1 },
         { 'gear': 'VPN App',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Create virtual private network', 'src': 'Firewall Pack', 'qty': 1 },
-        { 'gear': 'Flex Cutter',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': '1d10+3 DV, The blade of this machete-like weapon is made of a memory polymer', 'src': '', 'qty': 1 },
         { 'gear': 'Specialized Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Scout Swarm - Maps area, collects forensic evidence, Know: Chemistry 60, Medicine: Forensics 60', 'src': '', 'qty': 1 },
-        { 'gear': 'Specialized Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Spy Swarm - Surveillance, Perceive 60s', 'src': '', 'qty': 1 }     ],
+        { 'gear': 'Specialized Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Spy Swarm - Surveillance, Perceive 60s', 'src': '', 'qty': 1 },
+        { 'gear': 'Flex Cutter',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': '1d10+3 DV, The blade of this machete-like weapon is made of a memory polymer', 'src': '', 'qty': 1 }
+    ],
     'armour': [
-        { 'gear': 'Armour Vest (Light)',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'AV 4/10. Concealable', 'src': 'Firewall Pack', 'qty': 1, 'energy': 4, 'kinetic': 10 },
+        { 'gear': 'Armour Vest (Light)',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'AV 4/10. Concealable', 'src': 'Firewall Pack', 'qty': 1, 'energy': 4, 'kinetic': 10 }
+    ],
+    'weapons': [
+        { 'gear': 'Medium Pistol Firearm',	'complexity': 'Min/R/1', 'gp-cost': 0, 'desc': 'DV 2d10, SA/BF/FA, Ammo 15+1, Range 30', 'src': 'Firewall Pack', 'qty': 0, 'dmg': '2d10', 'modes': 'SA/BF/FA', 'ammo': '15+1', 'range': '30' }
     ],
     'morph': {
         'name': 'Bouncer',

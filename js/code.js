@@ -198,6 +198,36 @@ function refreshToon(name) {
     }
 
 
+    // Weapons
+    div = document.getElementById('weapons');
+    temp = document.getElementById('weapon-element');
+    for (let attr=0; attr<toon.getNumWeapons(); attr++) {
+        const a1 = document.importNode(temp.content.children[0], true);
+        a1.textContent = toon.getWeapon(attr);
+        div.appendChild(a1);
+
+        const a2 = document.importNode(temp.content.children[1], true);
+        a2.textContent = toon.getWeaponDamage(attr);
+        div.appendChild(a2);
+
+        const a3 = document.importNode(temp.content.children[2], true);
+        a3.textContent = toon.getWeaponModes(attr);
+        div.appendChild(a3);
+
+        const a4 = document.importNode(temp.content.children[3], true);
+        a4.textContent = toon.getWeaponRange(attr);
+        div.appendChild(a4);
+
+        const a5 = document.importNode(temp.content.children[4], true);
+        a5.textContent = toon.getWeaponAmmo(attr);
+        div.appendChild(a5);
+
+        const a6 = document.importNode(temp.content.children[5], true);
+        a6.textContent = toon.getWeaponDesc(attr);
+        div.appendChild(a6);
+    }
+
+
     // Morph Ware
     div = document.getElementById('morph-ware');
     temp = document.getElementById('ware-element');

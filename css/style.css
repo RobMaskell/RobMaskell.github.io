@@ -65,6 +65,11 @@ body {
     grid-row-gap: 0.5rem;
 }
 
+.gridx6-right {
+    grid-template-columns: auto auto auto auto auto 1fr;
+    grid-row-gap: 0.5rem;
+}
+
 .gridx8 {
     grid-template-columns: auto auto auto auto auto auto auto auto;
     grid-row-gap: 0.5rem;

@@ -94,6 +94,16 @@ class Toon {
     getTotalArmourKinetic() { return this.#sumArray(this.armour, 'kinetic'); }
     getTotalArmourGPSpend() { return this.#sumArray(this.armour, 'gp-cost'); }
 
+    // Weapons
+    getNumWeapons() { return this.weapons.length; }
+    getWeapon(index) { return this.weapons[index].gear; }
+    getWeaponDamage(index) { return this.weapons[index].dmg; }
+    getWeaponModes(index) { return this.weapons[index].modes; }
+    getWeaponRange(index) { return this.weapons[index].range; }
+    getWeaponAmmo(index) { return this.weapons[index].ammo; }
+    getWeaponDesc(index) { return this.weapons[index].desc; }
+    getTotalWeaponGPSpend() { return this.#sumArray(this.weapons, 'gp-cost'); }
+
     // Morph
     getMorphName() { return this.morph.name; }
     getMorphType() { return this.morph.type; }
