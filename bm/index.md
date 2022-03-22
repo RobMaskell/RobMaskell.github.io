@@ -5,3 +5,5 @@
 [communication](communication)
 
 [receipe](receipe)
+
+[xkcd](xkcd)
