@@ -8,6 +8,7 @@
 
 [house](house)
 
+[humour](humour)
+
 [mind](mind)
 
-[xkcd](xkcd)
