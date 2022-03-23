@@ -4,7 +4,9 @@
 
 [communication](communication)
 
-[mental](mental)
+[house](house)
+
+[mind](mind)
 
 [receipe](receipe)
 
