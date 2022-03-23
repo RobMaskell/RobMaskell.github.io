@@ -4,10 +4,10 @@
 
 [communication](communication)
 
+[cooking](cooking)
+
 [house](house)
 
 [mind](mind)
-
-[receipe](receipe)
 
 [xkcd](xkcd)
