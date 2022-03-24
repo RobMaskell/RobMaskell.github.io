@@ -8,6 +8,8 @@
 
 [cooking](cooking)
 
+[crypto](crypto)
+
 [development](development)
 
 [house](house)
@@ -16,3 +18,6 @@
 
 [mind](mind)
 
+[photography](photography)
+
+[platform](platform.md)
