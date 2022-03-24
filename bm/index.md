@@ -2,9 +2,13 @@
 
 [agile](agile)
 
+[bills](bills)
+
 [communication](communication)
 
 [cooking](cooking)
+
+[development](development)
 
 [house](house)
 
