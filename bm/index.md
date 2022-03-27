@@ -21,3 +21,5 @@
 [photography](photography)
 
 [platform](platform.md)
+
+[tech companies](tech-companies)

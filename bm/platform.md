@@ -19,6 +19,7 @@
 [Deploying Spring Boot-based microservices with Docker - part 3](http://plainoldobjects.com/2014/11/16/deploying-spring-boot-based-microservices-with-docker/)
 [Spring Boot in a Container](https://spring.io/blog/2018/11/08/spring-boot-in-a-container)
 [Setting up a Mail Forwarder in Docker](https://www.brianchristner.io/setting-up-a-mail-forwarder-in-docker/)
+[COPY --chmod reduced the size of my container image by 35%](https://blog.vamc19.dev/posts/dockerfile-copy-chmod/)
 
 ### lets encrypt
 
