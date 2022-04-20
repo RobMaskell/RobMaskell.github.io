@@ -1,7 +1,7 @@
 var defaultToon = {
     'basics': {
-        'handle': 'Shimo',
-        'name': 'Shimo Turin',
+        'handle': 'Xan',
+        'name': 'Xanadune',
         'player': 'Rob M',
         'background': 'Hyperelite',
         'career': 'Hacker',
