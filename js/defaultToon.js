@@ -232,7 +232,9 @@ var defaultToon = {
         { 'gear': 'Fake Ego ID',	'complexity': 'Maj/R/3', 'gp-cost': 0, 'desc': 'Forged ID and back history, with its own rep scores', 'src': 'Firewall Pack', 'qty': 1 },
         { 'gear': 'Smart Clothing',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Can change colour, texture and cut. +10 Infiltrate, +30 covered and stationary', 'src': 'Firewall Pack', 'qty': 1 },
         { 'gear': 'TacNet App',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Share tactical data in real time', 'src': 'Firewall Pack', 'qty': 1 },
-        { 'gear': 'VPN App',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Create virtual private network', 'src': 'Firewall Pack', 'qty': 1 },
+        { 'gear': 'VPN App',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Create virtual private network (-30 sniffing)', 'src': 'Firewall Pack', 'qty': 1 },
+        { 'gear': 'Exploit App',	'complexity': 'Mod/R/2', 'gp-cost': 2, 'desc': 'A hacker library/tool for taking advantage of known software vulnerabilities. Required for hacking', 'src': '', 'qty': 1 },
+        { 'gear': 'Tracker App',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'This app traces people’s connections online to their origin', 'src': '', 'qty': 1 },
         { 'gear': 'Specialized Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Scout Swarm - Maps area, collects forensic evidence, Know: Chemistry 60, Medicine: Forensics 60', 'src': '', 'qty': 1 },
         { 'gear': 'Specialized Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Spy Swarm - Surveillance, Perceive 60s', 'src': '', 'qty': 1 },
         { 'gear': 'Flex Cutter',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': '1d10+3 DV, The blade of this machete-like weapon is made of a memory polymer', 'src': '', 'qty': 1 }
@@ -266,7 +268,8 @@ var defaultToon = {
             { 'ware': 'Prehensile Feet', 'desc': 'Can use feet as hands. -8 full move', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'SkinLink', 'desc': 'Create a “hardwired” mesh link by touch. (Min/1)', 'mp-cost': 1, 'gp-cost': 0 },
             { 'ware': 'Chameleon Skin', 'desc': 'Change skin color. +10 Infiltrate, +30 still and covered', 'mp-cost': 0, 'gp-cost': 2 },
-            { 'ware': 'Medichinces', 'desc': 'Ignore 1 wound, heal faster (1d6/hour, 1 Wound/day), drug/toxin effect/duration halved', 'mp-cost': 0, 'gp-cost': 3 }
+            { 'ware': 'Medichinces', 'desc': 'Ignore 1 wound, heal faster (1d6/hour, 1 Wound/day), drug/toxin effect/duration halved', 'mp-cost': 0, 'gp-cost': 3 },
+            { 'ware': 'Enhanced Security', 'desc': '–10 Infosec to hack, −30 in defensive mode but no Insight pool and −3 INIT', 'mp-cost': 0, 'gp-cost': 2 }
         ],
         'traits': [
             { 'trait': 'Limberness (Lvl 1)', 'desc': '+10 to escape bonds, fit into tight spaces, contort etc', 'mp-cost': 0 },
