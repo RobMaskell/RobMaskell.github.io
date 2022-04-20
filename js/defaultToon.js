@@ -9,7 +9,7 @@ var defaultToon = {
         'faction': 'Criminal',
         'languages': {'base': ['English', 'Japanese'], 'cp-langs': [] }
     },
-    'motivations': ['+Criminal Interests', 'Mot 2', 'Mot 3'],
+    'motivations': ['+Criminal Interests', 'Anarchist', 'One big hack'],
     'base': {'CP': 20, 'MP': 6, 'GP': 20},
     'aptitudes': {
         'cog': {
