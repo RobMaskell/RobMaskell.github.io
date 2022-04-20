@@ -268,7 +268,7 @@ var defaultToon = {
             { 'ware': 'Prehensile Feet', 'desc': 'Can use feet as hands. -8 full move', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'SkinLink', 'desc': 'Create a “hardwired” mesh link by touch. (Min/1)', 'mp-cost': 1, 'gp-cost': 0 },
             { 'ware': 'Chameleon Skin', 'desc': 'Change skin color. +10 Infiltrate, +30 still and covered', 'mp-cost': 0, 'gp-cost': 2 },
-            { 'ware': 'Medichinces', 'desc': 'Ignore 1 wound, heal faster (1d6/hour, 1 Wound/day), drug/toxin effect/duration halved', 'mp-cost': 0, 'gp-cost': 3 },
+            { 'ware': 'Medichines', 'desc': 'Ignore 1 wound, heal faster (1d6/hour, 1 Wound/day), drug/toxin effect/duration halved', 'mp-cost': 0, 'gp-cost': 3 },
             { 'ware': 'Enhanced Security', 'desc': '–10 Infosec to hack, −30 in defensive mode but no Insight pool and −3 INIT', 'mp-cost': 0, 'gp-cost': 2 }
         ],
         'traits': [
