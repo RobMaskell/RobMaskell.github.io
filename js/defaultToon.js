@@ -235,7 +235,7 @@ var defaultToon = {
         { 'gear': 'VPN App',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Create virtual private network (-30 sniffing)', 'src': 'Firewall Pack', 'qty': 1 },
         { 'gear': 'Exploit App',	'complexity': 'Mod/R/2', 'gp-cost': 2, 'desc': 'A hacker library/tool for taking advantage of known software vulnerabilities. Required for hacking', 'src': '', 'qty': 1 },
         { 'gear': 'Spoofer App',	'complexity': 'Mod/R/2', 'gp-cost': 2, 'desc': 'Fake transmissions and mesh IDs', 'src': '', 'qty': 1 },
-        { 'gear': 'Tracker App',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'This app traces people’s connections online to their origin', 'src': '', 'qty': 1 },
+        { 'gear': 'Sniffer App',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Collect/view traffic between two systems', 'src': '', 'qty': 1 },
         { 'gear': 'Specialized Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Scout Swarm - Maps area, collects forensic evidence, Know: Chemistry 60, Medicine: Forensics 60', 'src': '', 'qty': 1 },
         { 'gear': 'Specialized Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Spy Swarm - Surveillance, Perceive 60', 'src': '', 'qty': 1 },
         { 'gear': 'Flex Cutter',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': '1d10+3 DV, The blade of this machete-like weapon is made of a memory polymer', 'src': '', 'qty': 1 },
