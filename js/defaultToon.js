@@ -206,7 +206,7 @@ var defaultToon = {
     },
     'rep': {
         '@-rep': { 'base': 0, 'cp-adj': 0, 'fake': 0 },
-        'c-rep': { 'base': 0, 'cp-adj': 0, 'fake': 0 },
+        'c-rep': { 'base': 0, 'cp-adj': 0, 'fake': 10 },
         'f-rep': { 'base': 0, 'cp-adj': 0, 'fake': 0 },
         'g-rep': { 'base': 40, 'cp-adj': 0, 'fake': 0 },
         'i-rep': { 'base': 60, 'cp-adj': 0, 'fake': 0 },
