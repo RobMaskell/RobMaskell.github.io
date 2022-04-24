@@ -111,6 +111,11 @@ var defaultToon = {
             'cp-adj': 0,
             'aptitude': 'int'
         },
+        'persuade': {
+            'base': 0,
+            'cp-adj': 0,
+            'aptitude': 'sav'
+        },
         'pilot': {
             'base': 0,
             'cp-adj': 0,
