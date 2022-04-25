@@ -38,7 +38,7 @@ class Toon {
 
     // Skills
     getSkills() { return this.#indexArray(this.skills); }
-    getSkill(skill) { return this.skills[skill]['base'] + this.skills[skill]['cp-adj'] + (this.getAptitude(this.skills[skill]['aptitude']) * this.getSkillAptitudeModifier(skill)); }
+    getSkill(skill) { return (this.skills[skill]['base']>0 || this.skills[skill]['cp-adj']>0) ? (this.skills[skill]['base'] + this.skills[skill]['cp-adj'] + (this.getAptitude(this.skills[skill]['aptitude']) * this.getSkillAptitudeModifier(skill))) : ""; }
     getSkillAptitude(skill) { return this.skills[skill]['aptitude']; }
     getSkillAptitudeModifier(skill) { return (skill == 'fray' || skill == 'perceive') ? 2 : 1; }
     getSkillField(skill) { return this.skills[skill]['field']; }

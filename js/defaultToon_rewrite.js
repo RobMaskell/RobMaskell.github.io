@@ -44,8 +44,8 @@ var defaultToon = {
             'aptitude': 'som'
         },
         'deceive': {
-            'base': 0,
-            'cp-adj': 0,
+            'base': 25,
+            'cp-adj': 25,
             'aptitude': 'sav'
         },
         'exotic': {
@@ -65,7 +65,7 @@ var defaultToon = {
             'aptitude': 'som'
         },
         'guns': {
-            'base': 50,
+            'base': 60,
             'cp-adj': 0,
             'aptitude': 'ref'
         },
@@ -102,8 +102,8 @@ var defaultToon = {
             'field': '-'
         },
         'melee': {
-            'base': 40,
-            'cp-adj': 5,
+            'base': 0,
+            'cp-adj': 0,
             'aptitude': 'som'
         },
         'perceive': {
@@ -123,8 +123,8 @@ var defaultToon = {
             'field': '-'
         },
         'program': {
-            'base': 40,
-            'cp-adj': 10,
+            'base': 55,
+            'cp-adj': 0,
             'aptitude': 'cog'
         },
         'provoke': {
@@ -138,8 +138,8 @@ var defaultToon = {
             'aptitude': 'wil'
         },
         'research': {
-            'base': 40,
-            'cp-adj': 5,
+            'base': 30,
+            'cp-adj': 0,
             'aptitude': 'int'
         },
         'survival': {
@@ -206,7 +206,7 @@ var defaultToon = {
         },
         'flex': {
             'base': 1,
-            'cp-adj': 2
+            'cp-adj': 1
         }
     },
     'rep': {
