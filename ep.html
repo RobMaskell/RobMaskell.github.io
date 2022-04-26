@@ -160,8 +160,12 @@
 
 
             <!-- Rep -->
-            <div class="rounded-box grid gridx8" style="width: 96%" id="rep">
-                <div class="label" style="vertical-align: sub; grid-column: 1 / span 2;">MAIN-ID<input type="checkbox" id="main" /></div>
+            <div class="tabs grid gridx2" style="width: 96%" id="id-tabs">
+                <div class="label" id="main-id-tab">MAIN-ID</div>
+                <div class="label light" id="fake-id-tab">FAKE-ID</div>
+            </div>
+            <div class="rounded-box flat-top grid gridx8" style="width: 96%" id="main-id-tab-body">
+                <div class="label" style="vertical-align: sub; grid-column: 7 / span 2;"></div>
                 <div class="label label-right light">Min</div>
                 <div class="input light" style="grid-column: 2 / span 3; display: flex; justify-content: center;"><input type="checkbox" id="main-min1"><input type="checkbox" id="main-min2"><input type="checkbox" id="main-min3"></div>
                 <div class="label label-right light">Mod</div>
@@ -169,8 +173,8 @@
                 <div class="label label-right light">Maj</div>
                 <div class="input light"><input type="checkbox" id="main-maj1"></div>
             </div>
-            <div class="rounded-box grid gridx8" style="width: 96%" id="fake-rep">
-                <div class="label" style="vertical-align: sub; grid-column: 1 / span 2;">FAKE-ID<input type="checkbox" id="fake" /></div>
+            <div class="rounded-box flat-top grid gridx8 hidden" style="width: 96%" id="fake-id-tab-body">
+                <div class="label" style="vertical-align: sub; grid-column: 7 / span 2;"></div>
                 <div class="label label-right light">Min</div>
                 <div class="input light" style="grid-column: 2 / span 3; display: flex; justify-content: center;"><input type="checkbox" id="fake-min1"><input type="checkbox" id="fake-min2"><input type="checkbox" id="fake-min3"></div>
                 <div class="label label-right light">Mod</div>
@@ -338,7 +342,7 @@
                 <div class="label heading">Motivations</div>
             </div>
             <template id="motivation-element">
-                <div class="label light">Motivations</div>
+                <div class="input input-left light">Motivations</div>
             </template>
 
 

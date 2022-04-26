@@ -40,6 +40,7 @@ class Game {
     getBool(attr) { return this.bools[attr]; }
     getBools() { return this.#indexArray(this.bools); }
     toggle(attr) { this.bools[attr] = !this.bools[attr]; this.#save(); }
+    setBool(attr, bool) { this.bools[attr] = bool; this.#save(); }
 
     getInc(attr) { return this.incs[attr] || 0; }
     inc(attr) { this.incs[attr]+=1; this.#save(); return this.incs[attr]; }

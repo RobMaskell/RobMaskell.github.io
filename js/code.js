@@ -110,9 +110,9 @@ function refreshToon(name) {
 
 
     // Rep & Fake
-    div = document.getElementById('rep');
+    div = document.getElementById('main-id-tab-body');
     temp = document.getElementById('rep-element');
-    let before = div.children[1];
+    let before = div.children[0];
     for (const attr of toon.getReps()) {
         let a1 = document.importNode(temp.content.children[0], true);
         a1.textContent = attr;
@@ -123,9 +123,9 @@ function refreshToon(name) {
         div.insertBefore(a2,before);
     }
 
-    div = document.getElementById('fake-rep');
+    div = document.getElementById('fake-id-tab-body');
     temp = document.getElementById('rep-element');
-    before = div.children[1];
+    before = div.children[0];
     for (const attr of toon.getReps()) {
         let a1 = document.importNode(temp.content.children[0], true);
         a1.textContent = attr;
@@ -277,6 +277,40 @@ function refreshToon(name) {
     document.getElementById('morph-durability').textContent = toon.getMorphDurability();
     document.getElementById('morph-wound').textContent = toon.getMorphWoundThreshold();
     document.getElementById('morph-death').textContent = toon.getMorphDeathRating();
+
+
+    // handle tabs
+    let tabs = document.querySelectorAll('div.tabs div');
+    if (game.getBool("main")) {
+        document.getElementById("main-id-tab").classList.remove("light");
+        document.getElementById("main-id-tab-body").classList.remove("hidden");
+        document.getElementById("fake-id-tab").classList.add("light");
+        document.getElementById("fake-id-tab-body").classList.add("hidden");
+    } else {
+        document.getElementById("fake-id-tab").classList.remove("light");
+        document.getElementById("fake-id-tab-body").classList.remove("hidden");
+        document.getElementById("main-id-tab").classList.add("light");
+        document.getElementById("main-id-tab-body").classList.add("hidden");
+    }
+    for (const tab of tabs) {
+        tab.addEventListener("click", (e) => {
+            if ( tab.id == 'main-id-tab' ) {
+                tab.classList.remove("light");
+                document.getElementById("main-id-tab-body").classList.remove("hidden");
+                document.getElementById("fake-id-tab").classList.add("light");
+                document.getElementById("fake-id-tab-body").classList.add("hidden");
+                game.setBool("main", true);
+                game.setBool("fake", false);
+            } else {
+                tab.classList.remove("light");
+                document.getElementById("fake-id-tab-body").classList.remove("hidden");
+                document.getElementById("main-id-tab").classList.add("light");
+                document.getElementById("main-id-tab-body").classList.add("hidden");
+                game.setBool("main", false);
+                game.setBool("fake", true);
+            }
+        });
+    }
 
 
     // handle checkboxes

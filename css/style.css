@@ -12,12 +12,34 @@ body {
     padding: 0.75rem;
 }
 
+.flat-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
 .container {
     display: grid;
     grid-row-gap: 1rem;
     grid-column-gap: 1rem;
     grid-template-columns: 3fr 6fr 2fr;
 
+}
+
+.tabs div {
+    background-color: #af6c34;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 0.25rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tabs div.light {
+    background-color: #ebe1d9;
+}
+
+.hidden {
+    display: none !important;
 }
 
 .grid {
@@ -28,6 +50,10 @@ body {
 
 .gridx1 {
     grid-template-columns: 1fr;
+}
+
+.gridx2 {
+    grid-template-columns: 1fr 1fr;
 }
 
 .gridx2-left {
@@ -92,6 +118,7 @@ button.plus, button.minus, button.zero {
     border: 0;
     margin: 2px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .heading, .uppercase {
