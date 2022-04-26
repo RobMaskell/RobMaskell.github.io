@@ -282,30 +282,18 @@ function refreshToon(name) {
     // handle tabs
     let tabs = document.querySelectorAll('div.tabs div');
     if (game.getBool("main")) {
-        document.getElementById("main-id-tab").classList.remove("light");
-        document.getElementById("main-id-tab-body").classList.remove("hidden");
-        document.getElementById("fake-id-tab").classList.add("light");
-        document.getElementById("fake-id-tab-body").classList.add("hidden");
+        selectRepTab("main", "fake");
     } else {
-        document.getElementById("fake-id-tab").classList.remove("light");
-        document.getElementById("fake-id-tab-body").classList.remove("hidden");
-        document.getElementById("main-id-tab").classList.add("light");
-        document.getElementById("main-id-tab-body").classList.add("hidden");
+        selectRepTab("fake", "main");
     }
     for (const tab of tabs) {
         tab.addEventListener("click", (e) => {
             if ( tab.id == 'main-id-tab' ) {
-                tab.classList.remove("light");
-                document.getElementById("main-id-tab-body").classList.remove("hidden");
-                document.getElementById("fake-id-tab").classList.add("light");
-                document.getElementById("fake-id-tab-body").classList.add("hidden");
+                selectRepTab("main", "fake");
                 game.setBool("main", true);
                 game.setBool("fake", false);
             } else {
-                tab.classList.remove("light");
-                document.getElementById("fake-id-tab-body").classList.remove("hidden");
-                document.getElementById("main-id-tab").classList.add("light");
-                document.getElementById("main-id-tab-body").classList.add("hidden");
+                selectRepTab("fake", "main");
                 game.setBool("main", false);
                 game.setBool("fake", true);
             }
@@ -428,6 +416,12 @@ function refreshToon(name) {
                             '9-nettGP': nettGP});
 }
 
+function selectRepTab(select, deselect) {
+    document.getElementById(select + "-id-tab").classList.remove("light");
+    document.getElementById(select + "-id-tab-body").classList.remove("hidden");
+    document.getElementById(deselect + "-id-tab").classList.add("light");
+    document.getElementById(deselect + "-id-tab-body").classList.add("hidden");
+}
 
 // Plus and minus buttons
 // function plus(ele, attr) {
