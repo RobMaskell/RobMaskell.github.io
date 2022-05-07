@@ -13,15 +13,15 @@ var defaultToon = {
     'base': {'CP': 20, 'MP': 6, 'GP': 20},
     'aptitudes': {
         'cog': {
-            'base': 25,
-            'cp-adj': 0,
+            'base': 20,
+            'cp-adj': 5,
         },
         'int': {
             'base': 10,
             'cp-adj': 0,
         },
         'ref': {
-            'base': 20,
+            'base': 25,
             'cp-adj': 0,
         },
         'sav': {
@@ -44,8 +44,8 @@ var defaultToon = {
             'aptitude': 'som'
         },
         'deceive': {
-            'base': 25,
-            'cp-adj': 25,
+            'base': 0,
+            'cp-adj': 10,
             'aptitude': 'sav'
         },
         'exotic': {
@@ -55,7 +55,7 @@ var defaultToon = {
             'field': '-'
         },
         'fray': {
-            'base': 40,
+            'base': 30,
             'cp-adj': 0,
             'aptitude': 'ref'
         },
@@ -65,29 +65,29 @@ var defaultToon = {
             'aptitude': 'som'
         },
         'guns': {
-            'base': 60,
+            'base': 55,
             'cp-adj': 0,
             'aptitude': 'ref'
         },
         'hardware': {
-            'base': 40,
-            'cp-adj': 5,
+            'base': 45,
+            'cp-adj': 0,
             'aptitude': 'cog',
             'field': 'Electronics'
         },
         'infiltrate (+10)(+10)': {
-            'base': 50,
-            'cp-adj': 10,
+            'base': 55,
+            'cp-adj': 0,
             'aptitude': 'ref'
         },
         'infosec': {
-            'base': 45,
-            'cp-adj': 10,
+            'base': 55,
+            'cp-adj': 00,
             'aptitude': 'cog'
         },
         'interface': {
-            'base': 45,
-            'cp-adj': 10,
+            'base': 55,
+            'cp-adj': 0,
             'aptitude': 'cog'
         },
         'kinesics': {
@@ -107,8 +107,8 @@ var defaultToon = {
             'aptitude': 'som'
         },
         'perceive': {
-            'base': 0,
-            'cp-adj': 0,
+            'base': 10,
+            'cp-adj': 50,
             'aptitude': 'int'
         },
         'persuade': {
@@ -154,7 +154,7 @@ var defaultToon = {
             'field': 'Computer Science'
         },
         'know-2': {
-            'base': 50,
+            'base': 55,
             'cp-adj': 0,
             'aptitude': 'cog',
             'field': 'Cryptography'
@@ -166,24 +166,18 @@ var defaultToon = {
             'field': 'Engineering'
         },
         'know-4': {
-            'base': 30,
+            'base': 40,
             'cp-adj': 0,
             'aptitude': 'cog',
             'field': 'Nanotechnology'
         },
         'know-5': {
-            'base': 20,
-            'cp-adj': 0,
-            'aptitude': 'cog',
-            'field': 'Fencing'
-        },
-        'know-6': {
-            'base': 50,
+            'base': 55,
             'cp-adj': 0,
             'aptitude': 'cog',
             'field': 'Sec Ops'
         },
-        'know-7': {
+        'know-6': {
             'base': 10,
             'cp-adj': 0,
             'aptitude': 'cog',
@@ -273,7 +267,7 @@ var defaultToon = {
             { 'ware': 'Grip Pads', 'desc': '+30 climbing Athletics checks', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Cold Tolerance', 'desc': 'Handle temps as low as -80C / -112F', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Oxygen Reserve', 'desc': 'Oxygen tank / rebreather with 4Hrs of air', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Vacuum Sealing', 'desc': 'Can survive exposure to vacuum', 'mp-cost': 0, 'gp-cost': 1 },
+            { 'ware': 'Vacuum Sealing', 'desc': 'Can survive exposure to vacuum', 'mp-cost': 1, 'gp-cost': 0 },
             { 'ware': 'SkinLink', 'desc': 'Create a “hardwired” mesh link by touch. (Min/1)', 'mp-cost': 1, 'gp-cost': 0 },
             { 'ware': 'Chameleon Skin', 'desc': 'Change skin color. +10 Infiltrate, +30 still and covered', 'mp-cost': 0, 'gp-cost': 2 },
             { 'ware': 'Respirocytes', 'desc': 'Artificial blood cells, provide 4 hours of air, +5 DUR, +1 WT, +8 DR ### FIX THIS', 'mp-cost': 0, 'gp-cost': 2 },
