@@ -1,5 +1,9 @@
 ## mind
 
+### life advice
+
+[Advice I wish I knew](https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/)
+
 ### mental traits
 
 [Unlearning Perfectionism](https://arunkprasad.com/log/unlearning-perfectionism/)
