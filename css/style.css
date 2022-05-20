@@ -101,7 +101,6 @@ body {
 
 .gridx7-6 {
     grid-template-columns: auto auto auto auto auto 1fr auto;
-    grid-row-gap: 0.5rem;
 }
 
 .gridx8 {
