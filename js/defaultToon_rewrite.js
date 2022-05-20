@@ -154,7 +154,7 @@ var defaultToon = {
             'field': 'Computer Science'
         },
         'know-2': {
-            'base': 55,
+            'base': 50,
             'cp-adj': 0,
             'aptitude': 'cog',
             'field': 'Cryptography'
@@ -163,19 +163,19 @@ var defaultToon = {
             'base': 50,
             'cp-adj': 0,
             'aptitude': 'cog',
-            'field': 'Engineering'
+            'field': 'Network Eng'
         },
         'know-4': {
-            'base': 40,
+            'base': 50,
             'cp-adj': 0,
             'aptitude': 'cog',
-            'field': 'Nanotechnology'
+            'field': 'Sys Admin'
         },
         'know-5': {
-            'base': 55,
+            'base': 50,
             'cp-adj': 0,
             'aptitude': 'cog',
-            'field': 'Sec Ops'
+            'field': 'Security Ops'
         },
         'know-6': {
             'base': 10,
