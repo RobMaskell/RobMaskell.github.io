@@ -235,8 +235,8 @@ var defaultToon = {
         { 'gear': 'Exploit App',	'complexity': 'Mod/R/2', 'gp-cost': 2, 'desc': 'A hacker library/tool for taking advantage of known software vulnerabilities. Required for hacking', 'src': '', 'qty': 1 },
         { 'gear': 'Spoofer App',	'complexity': 'Mod/R/2', 'gp-cost': 2, 'desc': 'Fake transmissions and mesh IDs', 'src': '', 'qty': 1 },
         { 'gear': 'Sniffer App',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Collect/view traffic between two systems', 'src': '', 'qty': 1 },
-        { 'gear': 'Specialized Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Scout Swarm - Maps area, collects forensic evidence, Know: Chemistry 60, Medicine: Forensics 60', 'src': '', 'qty': 1 },
-        { 'gear': 'Specialized Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Spy Swarm - Surveillance, Perceive 60', 'src': '', 'qty': 1 },
+        { 'gear': 'Scount Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Scout Swarm - Maps area, collects forensic evidence, Know: Chemistry 60, Medicine: Forensics 60', 'src': '', 'qty': 1 },
+        { 'gear': 'Spy Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Spy Swarm - Surveillance, Perceive 60', 'src': '', 'qty': 1 },
         { 'gear': 'Comfurt x5',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': '+5 LUC, +1 TT, +5 IR (Duration: 12 Hrs) [Addiction: −10/Mental]', 'src': '', 'qty': 5 }
     ],
     'armour': [

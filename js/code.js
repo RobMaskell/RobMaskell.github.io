@@ -178,6 +178,10 @@ function refreshToon(name) {
         const a3 = document.importNode(temp.content.children[2], true);
         a3.textContent = toon.getGearQty(attr);
         div.appendChild(a3);
+
+        const a4 = document.importNode(temp.content.children[3], true);
+        a4.firstChild.id = createEquipId(toon.getGear(attr));
+        div.appendChild(a4);
     }
 
 
@@ -204,6 +208,10 @@ function refreshToon(name) {
         const a5 = document.importNode(temp.content.children[4], true);
         a5.textContent = toon.getArmourQty(attr);
         div.appendChild(a5);
+
+        const a6 = document.importNode(temp.content.children[5], true);
+        a6.firstChild.id = createEquipId(toon.getArmour(attr));
+        div.appendChild(a6);
     }
 
 
@@ -234,6 +242,10 @@ function refreshToon(name) {
         const a6 = document.importNode(temp.content.children[5], true);
         a6.textContent = toon.getWeaponDesc(attr);
         div.appendChild(a6);
+
+        const a7 = document.importNode(temp.content.children[6], true);
+        a7.firstChild.id = createEquipId(toon.getWeapon(attr));
+        div.appendChild(a7);
     }
 
 
@@ -421,6 +433,12 @@ function selectRepTab(select, deselect) {
     document.getElementById(select + "-id-tab-body").classList.remove("hidden");
     document.getElementById(deselect + "-id-tab").classList.add("light");
     document.getElementById(deselect + "-id-tab-body").classList.add("hidden");
+}
+
+function createEquipId(input) {
+    let output = input.toLowerCase();
+    output = output.replace(/ /g, "-");
+    return "equip-" + output;
 }
 
 // Plus and minus buttons

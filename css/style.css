@@ -80,22 +80,27 @@ body {
     grid-template-columns: auto auto auto auto;
 }
 
+.gridx4-2 {
+    grid-template-columns: auto 1fr auto auto;
+}
+
 .gridx5 {
     grid-template-columns: auto auto 0.25rem auto auto;
     grid-row-gap: 0.5rem;
 }
 
-.gridx5-mid {
-    grid-template-columns: auto auto auto 1fr auto;
-}
 
 .gridx6 {
     grid-template-columns: auto auto auto auto auto auto;
     grid-row-gap: 0.5rem;
 }
 
-.gridx6-right {
-    grid-template-columns: auto auto auto auto auto 1fr;
+.gridx6-mid {
+    grid-template-columns: auto auto auto 1fr auto auto;
+}
+
+.gridx7-6 {
+    grid-template-columns: auto auto auto auto auto 1fr auto;
     grid-row-gap: 0.5rem;
 }
 
