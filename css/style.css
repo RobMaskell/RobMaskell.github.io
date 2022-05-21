@@ -85,14 +85,14 @@ body {
 }
 
 .gridx5 {
-    grid-template-columns: auto auto 0.25rem auto auto;
-    grid-row-gap: 0.5rem;
+    grid-template-columns: auto auto 0.1rem auto auto;
+    grid-row-gap: 0.3rem;
 }
 
 
 .gridx6 {
     grid-template-columns: auto auto auto auto auto auto;
-    grid-row-gap: 0.5rem;
+    grid-row-gap: 0.3rem;
 }
 
 .gridx6-mid {
@@ -105,12 +105,12 @@ body {
 
 .gridx8 {
     grid-template-columns: auto auto auto auto auto auto auto auto;
-    grid-row-gap: 0.5rem;
+    grid-row-gap: 0.3rem;
 }
 
 .gridx18 {
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-    grid-row-gap: 0.5rem;
+    grid-row-gap: 0.3rem;
 }
 
 .light {
