@@ -109,9 +109,9 @@ class Toon {
     getMorphType() { return this.morph.type; }
     getMorphMovement() { return this.morph.movement; }
     getMorphSize() { return this.morph.size; }
-    getMorphDurability() { return this.morph.durability; }
-    getMorphWoundThreshold() { return this.morph.durability / 5; }
-    getMorphDeathRating() { return this.#morphDeathRating(this.morph.type, this.morph.durability); }
+    getMorphDurability() { return this.morph.durability + this.#sumArray(this.morph.ware, 'plus-dur'); }
+    getMorphWoundThreshold() { return (this.morph.durability / 5) + this.#sumArray(this.morph.ware, 'plus-wt'); }
+    getMorphDeathRating() { return this.#morphDeathRating(this.morph.type, this.getMorphDurability()) + this.#sumArray(this.morph.ware, 'plus-dr'); }
     getMorphMPSpend() { return this.morph['mp-cost']; }
     
 
@@ -133,7 +133,7 @@ class Toon {
     #sumArray(obj, attrib) {
         var tot = 0;
         for (const name in obj) {
-            tot += obj[name][attrib];
+            tot += (obj[name][attrib] ? obj[name][attrib] : 0);
         }
         return tot;
     }
