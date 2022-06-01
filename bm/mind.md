@@ -3,6 +3,7 @@
 ### life advice
 
 [Advice I wish I knew](https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/)
+[Friends come from shared contect not shared activities](https://billmei.net/blog/friendship)
 
 ### mental traits
 
