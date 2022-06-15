@@ -355,6 +355,18 @@
             </div>
 
 
+            <!-- Import / Export -->
+            <div class="rounded-box grid gridx3" style="width: 92%" id="rests">
+                <div class="label" style="vertical-align: sub; grid-column: 1 / span 3;">Import / Export Game Data</div>
+                <div class="input input-fixed light" style="vertical-align: sub; grid-column: 1 / span 3;">
+                    <input type="file" id="input">
+                    <div id="file-error" style="font-weight: bold; color: red; padding-top: 2px;"></div>
+                </div>
+                <div class="input input-fixed light"><button onclick="resetGame();">Reset Game</button></div>
+                <div class="input input-fixed light"><button onclick="exportGame();">Export Game</button></div>
+                <div class="input input-fixed light"><button onclick="importGame();">Import Game</button></div>
+            </div>
+
         </div>
 
     </div>

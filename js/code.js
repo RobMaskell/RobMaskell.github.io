@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-function refreshToon(name) {
+function refreshToon() {
 
     console.clear();
 
@@ -469,6 +469,56 @@ String.prototype.toProperCase = function(opt_lowerCaseTheRest) {
     return (opt_lowerCaseTheRest ? this.toLowerCase() : this)
       .replace(/(^|[\s\xA0])[^\s\xA0]/g, function(s){ return s.toUpperCase(); });
   };
+
+
+function resetGame() {
+    // localStorage.setItem("game", JSON.stringify("{}"));
+    localStorage.removeItem("game");
+    game = new Game();
+    window.location.reload();
+}
+
+
+function exportGame() {
+
+    var game = JSON.parse(localStorage.getItem("game"));
+    var date = new Date();
+    var dateString = date.getFullYear() + "-" + (date.getMonth()+1) + "-" + date.getDate() + "-" + date.getHours() + "-" + date.getMinutes();
+
+    var element = document.createElement('a');
+    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(JSON.stringify(game, null, 2)));
+    element.setAttribute('download', "ep-game-" + dateString + ".json");
+    element.style.display = 'none';
+    document.body.appendChild(element);
+    element.click();
+    document.body.removeChild(element);
+
+}
+
+
+function importGame() {
+    var error = document.getElementById("file-error");
+    error.textContent = "";
+    const selectedFile = document.getElementById('input').files[0];
+    if (!selectedFile) {
+        error.textContent = "Select a game file to import";
+    } else {
+        document.getElementById('input').value = null;
+        const reader = new FileReader();
+        reader.readAsText(selectedFile);
+        reader.onload = function(evt) {
+            // var toons = JSON.parse(localStorage.getItem("toons")) || {};
+            const gameData = JSON.parse(reader.result);
+            localStorage.setItem("game", JSON.stringify(gameData));
+            window.location.reload();
+        };
+        reader.onerror = function() {
+            alert(reader.error);
+        };
+    }
+    
+}
+
 
 // function updateStore() {
 
