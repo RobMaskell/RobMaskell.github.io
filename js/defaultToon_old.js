@@ -1,7 +1,7 @@
 var defaultToon = {
     'basics': {
-        'handle': 'Xan II',
-        'name': 'Xanadune II',
+        'handle': 'Xan',
+        'name': 'Xanadune',
         'player': 'Rob M',
         'background': 'Hyperelite',
         'career': 'Hacker',
@@ -14,14 +14,14 @@ var defaultToon = {
     'aptitudes': {
         'cog': {
             'base': 20,
-            'cp-adj': 5,
+            'cp-adj': 0,
         },
         'int': {
             'base': 10,
             'cp-adj': 0,
         },
         'ref': {
-            'base': 25,
+            'base': 20,
             'cp-adj': 0,
         },
         'sav': {
@@ -29,7 +29,7 @@ var defaultToon = {
             'cp-adj': 0,
         },
         'som': {
-            'base': 10,
+            'base': 15,
             'cp-adj': 0,
         },
         'wil': {
@@ -38,14 +38,14 @@ var defaultToon = {
         }
     },
     'skills': {
-        'athletics (+30)': {
-            'base': 10,
+        'athletics': {
+            'base': 40,
             'cp-adj': 0,
             'aptitude': 'som'
         },
         'deceive': {
             'base': 0,
-            'cp-adj': 10,
+            'cp-adj': 0,
             'aptitude': 'sav'
         },
         'exotic': {
@@ -55,7 +55,7 @@ var defaultToon = {
             'field': '-'
         },
         'fray': {
-            'base': 30,
+            'base': 40,
             'cp-adj': 0,
             'aptitude': 'ref'
         },
@@ -65,29 +65,29 @@ var defaultToon = {
             'aptitude': 'som'
         },
         'guns': {
-            'base': 55,
+            'base': 40,
             'cp-adj': 0,
             'aptitude': 'ref'
         },
         'hardware': {
-            'base': 45,
-            'cp-adj': 0,
+            'base': 40,
+            'cp-adj': 5,
             'aptitude': 'cog',
             'field': 'Electronics'
         },
-        'infiltrate (+10)(+10)': {
-            'base': 55,
-            'cp-adj': 0,
+        'infiltrate': {
+            'base': 40,
+            'cp-adj': 10,
             'aptitude': 'ref'
         },
         'infosec': {
-            'base': 55,
-            'cp-adj': 00,
+            'base': 40,
+            'cp-adj': 10,
             'aptitude': 'cog'
         },
         'interface': {
-            'base': 55,
-            'cp-adj': 0,
+            'base': 40,
+            'cp-adj': 10,
             'aptitude': 'cog'
         },
         'kinesics': {
@@ -102,13 +102,13 @@ var defaultToon = {
             'field': '-'
         },
         'melee': {
-            'base': 0,
-            'cp-adj': 0,
+            'base': 40,
+            'cp-adj': 5,
             'aptitude': 'som'
         },
         'perceive': {
-            'base': 10,
-            'cp-adj': 50,
+            'base': 0,
+            'cp-adj': 0,
             'aptitude': 'int'
         },
         'persuade': {
@@ -123,8 +123,8 @@ var defaultToon = {
             'field': '-'
         },
         'program': {
-            'base': 55,
-            'cp-adj': 0,
+            'base': 40,
+            'cp-adj': 10,
             'aptitude': 'cog'
         },
         'provoke': {
@@ -138,8 +138,8 @@ var defaultToon = {
             'aptitude': 'wil'
         },
         'research': {
-            'base': 30,
-            'cp-adj': 0,
+            'base': 40,
+            'cp-adj': 5,
             'aptitude': 'int'
         },
         'survival': {
@@ -163,21 +163,27 @@ var defaultToon = {
             'base': 50,
             'cp-adj': 0,
             'aptitude': 'cog',
-            'field': 'Network Eng'
+            'field': 'Engineering'
         },
         'know-4': {
-            'base': 50,
+            'base': 30,
             'cp-adj': 0,
             'aptitude': 'cog',
-            'field': 'Sys Admin'
+            'field': 'Nanotechnology'
         },
         'know-5': {
+            'base': 20,
+            'cp-adj': 0,
+            'aptitude': 'cog',
+            'field': 'Fencing'
+        },
+        'know-6': {
             'base': 50,
             'cp-adj': 0,
             'aptitude': 'cog',
-            'field': 'Security Ops'
+            'field': 'Sec Ops'
         },
-        'know-6': {
+        'know-7': {
             'base': 10,
             'cp-adj': 0,
             'aptitude': 'cog',
@@ -200,7 +206,7 @@ var defaultToon = {
         },
         'flex': {
             'base': 1,
-            'cp-adj': 1
+            'cp-adj': 2
         }
     },
     'rep': {
@@ -235,17 +241,16 @@ var defaultToon = {
         { 'gear': 'Exploit App',	'complexity': 'Mod/R/2', 'gp-cost': 2, 'desc': 'A hacker library/tool for taking advantage of known software vulnerabilities. Required for hacking', 'src': '', 'qty': 1 },
         { 'gear': 'Spoofer App',	'complexity': 'Mod/R/2', 'gp-cost': 2, 'desc': 'Fake transmissions and mesh IDs', 'src': '', 'qty': 1 },
         { 'gear': 'Sniffer App',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Collect/view traffic between two systems', 'src': '', 'qty': 1 },
-        { 'gear': 'Scount Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Scout Swarm - Maps area, collects forensic evidence, Know: Chemistry 60, Medicine: Forensics 60', 'src': '', 'qty': 1 },
+        { 'gear': 'Scout Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Scout Swarm - Maps area, collects forensic evidence, Know: Chemistry 60, Medicine: Forensics 60', 'src': '', 'qty': 1 },
         { 'gear': 'Spy Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Spy Swarm - Surveillance, Perceive 60', 'src': '', 'qty': 1 },
+        { 'gear': 'Flex Cutter',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': '1d10+3 DV, The blade of this machete-like weapon is made of a memory polymer', 'src': '', 'qty': 1 },
         { 'gear': 'Comfurt x5',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': '+5 LUC, +1 TT, +5 IR (Duration: 12 Hrs) [Addiction: −10/Mental]', 'src': '', 'qty': 5 }
     ],
     'armour': [
-        { 'gear': 'Armour Vest (Light)',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'AV 4/10. Concealable', 'src': 'Firewall Pack', 'qty': 1, 'energy': 4, 'kinetic': 10 },
-        { 'gear': 'Mod: Medical Repair',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Heals 1d10 damage per hour, ignore 1 wound', 'src': '', 'qty': 1, 'energy': 0, 'kinetic': 0 }
+        { 'gear': 'Armour Vest (Light)',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'AV 4/10. Concealable', 'src': 'Firewall Pack', 'qty': 1, 'energy': 4, 'kinetic': 10 }
     ],
     'weapons': [
-        { 'gear': 'Medium Pistol Firearm',	'complexity': 'Min/R/1', 'gp-cost': 0, 'desc': 'DV 2d10, SA/BF/FA, Ammo 15+1, Range 30', 'src': 'Firewall Pack', 'qty': 0, 'dmg': '2d10', 'modes': 'SA/BF/FA', 'ammo': '15+1', 'range': '30' },
-        { 'gear': 'Medium Pistol Railgun',	'complexity': 'Min/R/1', 'gp-cost': 0, 'desc': 'DV 2d10, SA/BF/FA, Ammo 30+1, Range 45, Rounds 100', 'src': 'Picked Up', 'qty': 0, 'dmg': '2d10', 'modes': 'SA/BF/FA', 'ammo': '30+1', 'range': '45' }
+        { 'gear': 'Medium Pistol Firearm',	'complexity': 'Min/R/1', 'gp-cost': 0, 'desc': 'DV 2d10, SA/BF/FA, Ammo 15+1, Range 30', 'src': 'Firewall Pack', 'qty': 0, 'dmg': '2d10', 'modes': 'SA/BF/FA', 'ammo': '15+1', 'range': '30' }
     ],
     'morph': {
         'name': 'Bouncer',
@@ -262,19 +267,19 @@ var defaultToon = {
         },
         'ware': [
             { 'ware': 'Biomods', 'desc': 'Genetic tweaks for health, faster healing, immunities and more', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Cortical Stack', 'desc': 'Memory diamond storage unit for ego backups', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Mesh Inserts', 'desc': 'Cranial computer, wireless tranceiver, muse home, medical sensors', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Prehensile Feet', 'desc': 'Can use feet as hands. -8 full move', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Grip Pads', 'desc': '+30 climbing Athletics checks', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Cold Tolerance', 'desc': 'Handle temps as low as -80C / -112F', 'mp-cost': 0, 'gp-cost': 0 },
+            { 'ware': 'Cortical Stack', 'desc': 'Memory diamond storage unit for ego backups', 'mp-cost': 0, 'gp-cost': 0 },
+            { 'ware': 'Grip Pads', 'desc': '+30 climbing Athletics checks', 'mp-cost': 0, 'gp-cost': 0 },
+            { 'ware': 'Mesh Inserts', 'desc': 'Cranial computer, wireless tranceiver, muse home, medical sensors', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Oxygen Reserve', 'desc': 'Oxygen tank / rebreather with 4Hrs of air', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Vacuum Sealing', 'desc': 'Can survive exposure to vacuum', 'mp-cost': 1, 'gp-cost': 0 },
+            { 'ware': 'Prehensile Feet', 'desc': 'Can use feet as hands. -8 full move', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'SkinLink', 'desc': 'Create a “hardwired” mesh link by touch. (Min/1)', 'mp-cost': 1, 'gp-cost': 0 },
             { 'ware': 'Chameleon Skin', 'desc': 'Change skin color. +10 Infiltrate, +30 still and covered', 'mp-cost': 0, 'gp-cost': 2 },
-            { 'ware': 'Respirocytes', 'desc': 'Artificial blood cells, provide 4 hours of air, +5 DUR, +1 WT, +8 DR', 'mp-cost': 0, 'gp-cost': 2, 'plus-dur': 5, 'plus-wt': 1, 'plus-dr': 8},
+            { 'ware': 'Medichines', 'desc': 'Ignore 1 wound, heal faster (1d6/hour, 1 Wound/day), drug/toxin effect/duration halved', 'mp-cost': 0, 'gp-cost': 3 }
             ],
         'traits': [
             { 'trait': 'Limberness (Lvl 1)', 'desc': '+10 to escape bonds, fit into tight spaces, contort etc', 'mp-cost': 0 },
+            { 'trait': 'Lethal', 'desc': '+1d6 DV in melee', 'mp-cost': 1 },
             { 'trait': 'Rapid Healing', 'desc': 'Heal twice as fast biomorphs only 1d10 per 6 hours 1 Wound per 1.5 days', 'mp-cost': 1 }
         ]
     }
