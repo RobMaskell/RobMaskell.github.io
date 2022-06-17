@@ -240,7 +240,8 @@ var defaultToon = {
         { 'gear': 'Comfurt x5',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': '+5 LUC, +1 TT, +5 IR (Duration: 12 Hrs) [Addiction: −10/Mental]', 'src': '', 'qty': 5 }
     ],
     'armour': [
-        { 'gear': 'Armour Vest (Light)',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'AV 4/10. Concealable', 'src': 'Firewall Pack', 'qty': 1, 'energy': 4, 'kinetic': 10 }
+        { 'gear': 'Armour Vest (Light)',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'AV 4/10. Concealable', 'src': 'Firewall Pack', 'qty': 1, 'energy': 4, 'kinetic': 10 },
+        { 'gear': 'Mod: Medical Repair',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Heals 1d10 damage per hour, ignore 1 wound', 'src': '', 'qty': 1, 'energy': 0, 'kinetic': 0 }
     ],
     'weapons': [
         { 'gear': 'Medium Pistol Firearm',	'complexity': 'Min/R/1', 'gp-cost': 0, 'desc': 'DV 2d10, SA/BF/FA, Ammo 15+1, Range 30', 'src': 'Firewall Pack', 'qty': 0, 'dmg': '2d10', 'modes': 'SA/BF/FA', 'ammo': '15+1', 'range': '30' },
@@ -260,21 +261,20 @@ var defaultToon = {
             'flex': { 'base': 2, 'mp-adj': 1 }
         },
         'ware': [
-            { 'ware': 'Biomods', 'desc': 'Genetic tweaks for health, faster healing, immunities and more', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Cortical Stack', 'desc': 'Memory diamond storage unit for ego backups', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Mesh Inserts', 'desc': 'Cranial computer, wireless tranceiver, muse home, medical sensors', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Prehensile Feet', 'desc': 'Can use feet as hands. -8 full move', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Grip Pads', 'desc': '+30 climbing Athletics checks', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Cold Tolerance', 'desc': 'Handle temps as low as -80C / -112F', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Oxygen Reserve', 'desc': 'Oxygen tank / rebreather with 4Hrs of air', 'mp-cost': 0, 'gp-cost': 0 },
+            { 'ware': 'Biomods', 'desc': 'Genetic tweaks for health, faster healing, immunities and more (morph)', 'mp-cost': 0, 'gp-cost': 0 },
+            { 'ware': 'Cortical Stack', 'desc': 'Memory diamond storage unit for ego backups (morph)', 'mp-cost': 0, 'gp-cost': 0 },
+            { 'ware': 'Mesh Inserts', 'desc': 'Cranial computer, wireless tranceiver, muse home, medical sensors (morph)', 'mp-cost': 0, 'gp-cost': 0 },
+            { 'ware': 'Prehensile Feet', 'desc': 'Can use feet as hands. -8 full move (morph)', 'mp-cost': 0, 'gp-cost': 0 },
+            { 'ware': 'Grip Pads', 'desc': '+30 climbing Athletics checks (morph)', 'mp-cost': 0, 'gp-cost': 0 },
+            { 'ware': 'Cold Tolerance', 'desc': 'Handle temps as low as -80C / -112F (morph)', 'mp-cost': 0, 'gp-cost': 0 },
+            { 'ware': 'Oxygen Reserve', 'desc': 'Oxygen tank / rebreather with 4Hrs of air (morph)', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Vacuum Sealing', 'desc': 'Can survive exposure to vacuum', 'mp-cost': 1, 'gp-cost': 0 },
             { 'ware': 'SkinLink', 'desc': 'Create a “hardwired” mesh link by touch. (Min/1)', 'mp-cost': 1, 'gp-cost': 0 },
             { 'ware': 'Chameleon Skin', 'desc': 'Change skin color. +10 Infiltrate, +30 still and covered', 'mp-cost': 0, 'gp-cost': 2 },
             { 'ware': 'Respirocytes', 'desc': 'Artificial blood cells, provide 4 hours of air, +5 DUR, +1 WT, +8 DR', 'mp-cost': 0, 'gp-cost': 2, 'plus-dur': 5, 'plus-wt': 1, 'plus-dr': 8},
             ],
         'traits': [
-            { 'trait': 'Limberness (Lvl 1)', 'desc': '+10 to escape bonds, fit into tight spaces, contort etc', 'mp-cost': 0 },
-            { 'trait': 'Rapid Healing', 'desc': 'Heal twice as fast biomorphs only 1d10 per 6 hours 1 Wound per 1.5 days', 'mp-cost': 1 }
+            { 'trait': 'Limberness (Lvl 1)', 'desc': '+10 to escape bonds, fit into tight spaces, contort etc', 'mp-cost': 0 }
         ]
     }
 }
