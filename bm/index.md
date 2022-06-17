@@ -18,7 +18,11 @@
 
 [humour](humour)
 
+[lifehacks](lifehacks)
+
 [mind](mind)
+
+[music](music)
 
 [photography](photography)
 
