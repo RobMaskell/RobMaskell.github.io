@@ -274,7 +274,7 @@ var defaultToon = {
             { 'ware': 'Respirocytes', 'desc': 'Artificial blood cells, provide 4 hours of air, +5 DUR, +1 WT, +8 DR', 'mp-cost': 0, 'gp-cost': 2, 'plus-dur': 5, 'plus-wt': 1, 'plus-dr': 8},
             ],
         'traits': [
-            { 'trait': 'Limberness (Lvl 1)', 'desc': '+10 to escape bonds, fit into tight spaces, contort etc', 'mp-cost': 0 }
+            { 'trait': 'Limberness (Lvl 1)', 'desc': '+10 to escape bonds, fit into tight spaces, contort etc (morph)', 'mp-cost': 0 }
         ]
     }
 }

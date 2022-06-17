@@ -170,4 +170,13 @@ class Toon {
         }
     }
 
+    #cost(obj) {
+        var res = [];
+        if (obj["cp-cost"] && obj["cp-cost"] > 0) res.push("(cp)");
+        if (obj["gp-cost"] && obj["gp-cost"] > 0) res.push("(gp)");
+        if (obj["mp-cost"] && obj["mp-cost"] > 0) res.push("(mp)");
+        var ret = res.join(" ");
+        return ret=="" ? "" : " " + ret;
+    }
+
 }
