@@ -220,7 +220,7 @@ var defaultToon = {
             'resources-lvl': 3 
         },
         {
-            'trait': 'Composure (???)',
+            'trait': 'Composure',
             'desc': '+5 LUC, +1 Trauma Threshold, +10 Insanity Rating',
             'cp-adj': 2,
             'plus-luc': 5, 'plus-tt': 1, 'plus-ir': 10
