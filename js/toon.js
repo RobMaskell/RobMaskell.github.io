@@ -22,9 +22,10 @@ class Toon {
 
     // Derived
     getInitiative() { return (this.getAptitude('ref') + this.getAptitude('int')) / 5; }
-    getLucidity() { return this.getAptitude('wil') * 2; }
-    getTraumaThreshold() { return this.getLucidity() / 5; }
-    getInsanityRating() { return this.getLucidity() * 2; }
+    getBaseLucidity() { return this.getAptitude('wil') * 2; }
+    getLucidity() { return (this.getAptitude('wil') * 2) + this.#sumArray(this.traits, 'plus-luc'); }
+    getTraumaThreshold() { return (this.getBaseLucidity() / 5) + this.#sumArray(this.traits, 'plus-tt'); }
+    getInsanityRating() { return (this.getBaseLucidity() * 2) + this.#sumArray(this.traits, 'plus-ir'); }
     getFrayOverTwo() { return this.getSkill("fray") / 2; }
     
     // Attributes

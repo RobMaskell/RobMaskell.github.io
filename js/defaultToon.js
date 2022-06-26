@@ -214,16 +214,22 @@ var defaultToon = {
     },
     'traits': [
         {
-            'trait': 'Adjusted Memory', 
-            'desc': 'Given by GM as -ve trait',
-            'cp-adj': -1,
-            'resources-lvl': 0 
-        },
-        {
             'trait': 'Resources', 
             'desc': 'Wealth to acquire gear, 3mp 3gp, 5gp/week',
             'cp-adj': 6,
             'resources-lvl': 3 
+        },
+        {
+            'trait': 'Composure (???)',
+            'desc': '+5 LUC, +1 Trauma Threshold, +10 Insanity Rating',
+            'cp-adj': 2,
+            'plus-luc': 5, 'plus-tt': 1, 'plus-ir': 10
+        },
+        {
+            'trait': 'Adjusted Memory', 
+            'desc': 'Given by GM as -ve trait',
+            'cp-adj': -1,
+            'resources-lvl': 0 
         },
         {
             'trait': 'Real World Naiveté',
@@ -242,7 +248,7 @@ var defaultToon = {
         { 'gear': 'Sniffer App',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Collect/view traffic between two systems', 'src': '', 'qty': 1 },
         { 'gear': 'Scout Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Scout Swarm - Maps area, collects forensic evidence, Know: Chemistry 60, Medicine: Forensics 60', 'src': '', 'qty': 1 },
         { 'gear': 'Spy Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Spy Swarm - Surveillance, Perceive 60', 'src': '', 'qty': 1 },
-        { 'gear': 'Comfurt x5',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': '+5 LUC, +1 TT, +5 IR (Duration: 12 Hrs) [Addiction: −10/Mental]', 'src': '', 'qty': 5 }
+        { 'gear': 'Psi Jammer',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Jams brainwave frequencies w/in 20 m, −30 Psi Tests', 'src': '', 'qty': 1 }
     ],
     'armour': [
         { 'gear': 'Armour Vest (Light)',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'AV 4/10. Concealable', 'src': 'Firewall Pack', 'qty': 1, 'energy': 4, 'kinetic': 10 },
@@ -274,9 +280,10 @@ var defaultToon = {
             { 'ware': 'Cold Tolerance', 'desc': 'Handle temps as low as -80C / -112F (morph)', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Oxygen Reserve', 'desc': 'Oxygen tank / rebreather with 4Hrs of air (morph)', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Vacuum Sealing', 'desc': 'Can survive exposure to vacuum', 'mp-cost': 1, 'gp-cost': 0 },
-            { 'ware': 'SkinLink', 'desc': 'Create a “hardwired” mesh link by touch. (Min/1)', 'mp-cost': 1, 'gp-cost': 0 },
+            { 'ware': 'SkinLink', 'desc': 'Create a “hardwired” mesh link by touch', 'mp-cost': 1, 'gp-cost': 0 },
             { 'ware': 'Chameleon Skin', 'desc': 'Change skin color. +10 Infiltrate, +30 still and covered', 'mp-cost': 0, 'gp-cost': 2 },
             { 'ware': 'Respirocytes', 'desc': 'Artificial blood cells, provide 4 hours of air, +5 DUR, +1 WT, +8 DR', 'mp-cost': 0, 'gp-cost': 2, 'plus-dur': 5, 'plus-wt': 1, 'plus-dr': 8},
+            { 'ware': 'Electrical Sense', 'desc': 'Sense electrical fields within 5m', 'mp-cost': 1, 'gp-cost': 0 },
             ],
         'traits': [
             { 'trait': 'Limberness (Lvl 1)', 'desc': '+10 to escape bonds, fit into tight spaces, contort etc (morph)', 'mp-cost': 0 }
