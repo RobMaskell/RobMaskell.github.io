@@ -224,6 +224,11 @@ var defaultToon = {
             'desc': 'Wealth to acquire gear, 3mp 3gp, 5gp/week',
             'cp-adj': 6,
             'resources-lvl': 3 
+        },
+        {
+            'trait': 'Real World Naiveté',
+            'desc': 'GM may provide false info once per session',
+            'cp-adj': -2
         }
     ],
     'gear': [
