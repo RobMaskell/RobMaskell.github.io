@@ -18,6 +18,8 @@
 
 [humour](humour)
 
+[innovation](innovation)
+
 [lifehacks](lifehacks)
 
 [mind](mind)
