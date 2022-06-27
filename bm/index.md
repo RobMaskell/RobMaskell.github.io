@@ -24,6 +24,8 @@
 
 [music](music)
 
+[philosophy](philosophy)
+
 [photography](photography)
 
 [platform](platform.md)
