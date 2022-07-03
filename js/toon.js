@@ -60,7 +60,7 @@ class Toon {
 
     // Rep
     getReps() { return this.#indexArray(this.rep); }
-    getRep(rep, isFake) { return isFake ? this.rep[rep].fake : this.rep[rep]['base'] + this.rep[rep]['cp-adj'] }
+    getRep(rep, isFake) { return isFake ? this.rep[rep].fake : this.rep[rep]['base'] + this.rep[rep]['adj'] + this.rep[rep]['cp-adj'] }
     getTotalRepBase() { return this.#sumArray(this.rep, 'base'); }
     getTotalRepCPSpend() { return this.#sumArray(this.rep, 'cp-adj') / 5; }
     getRepJSON() { return this.rep; }

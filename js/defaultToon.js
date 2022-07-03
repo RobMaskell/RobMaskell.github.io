@@ -10,7 +10,7 @@ var defaultToon = {
         'languages': {'base': ['English', 'Japanese'], 'cp-langs': [] }
     },
     'motivations': ['+ Criminal Interests', '+ Anarchist', '+ One big hack'],
-    'base': {'CP': 20, 'MP': 6, 'GP': 20},
+    'base': {'CP': 20, 'MP': 6, 'GP': 20, 'RP': 5},
     'aptitudes': {
         'cog': {
             'base': 20,
@@ -204,13 +204,13 @@ var defaultToon = {
         }
     },
     'rep': {
-        '@-rep': { 'base': 0, 'cp-adj': 0, 'fake': 0 },
-        'c-rep': { 'base': 0, 'cp-adj': 0, 'fake': 10 },
-        'f-rep': { 'base': 0, 'cp-adj': 0, 'fake': 0 },
-        'g-rep': { 'base': 40, 'cp-adj': 0, 'fake': 0 },
-        'i-rep': { 'base': 60, 'cp-adj': 0, 'fake': 0 },
-        'r-rep': { 'base': 0, 'cp-adj': 0, 'fake': 0 },
-        'x-rep': { 'base': 0, 'cp-adj': 0, 'fake': 0 }
+        '@-rep': { 'base': 0,'adj': 0, 'cp-adj': 0, 'fake': 0 },
+        'c-rep': { 'base': 0,'adj': 1, 'cp-adj': 0, 'fake': 10 },
+        'f-rep': { 'base': 0,'adj': 2, 'cp-adj': 0, 'fake': 0 },
+        'g-rep': { 'base': 40,'adj': 2, 'cp-adj': 0, 'fake': 0 },
+        'i-rep': { 'base': 60,'adj': 9, 'cp-adj': 0, 'fake': 0 },
+        'r-rep': { 'base': 0,'adj': 0, 'cp-adj': 0, 'fake': 0 },
+        'x-rep': { 'base': 0,'adj': 0, 'cp-adj': 0, 'fake': 0 }
     },
     'traits': [
         {
