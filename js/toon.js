@@ -84,6 +84,14 @@ class Toon {
     getGearJSON() { return this.gear; }
     setGearJSON(json) { this.gear = json; }
 
+    // BluePrints
+    getNumBlueprints() { return this.blueprints.length; }
+    getBlueprintGear(index) { return this.blueprints[index].gear; }
+    getBlueprintDesc(index) { return this.blueprints[index].desc; }
+    getBlueprintType(index) { return this.blueprints[index].type; }
+    getBlueprintsJSON() { return this.blueprints; }
+    setBlueprintsJSON(json) { this.blueprints = json; }
+
     // Armour
     getNumArmour() { return this.armour.length; }
     getArmour(index) { return this.armour[index].gear; }

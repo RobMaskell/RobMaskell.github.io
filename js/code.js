@@ -263,6 +263,24 @@ function refreshToon() {
     }
 
 
+    // Blueprints
+    div = document.getElementById('blueprints');
+    temp = document.getElementById('blueprint-element');
+    for (let attr=0; attr<toon.getNumBlueprints(); attr++) {
+        const a1 = document.importNode(temp.content.children[0], true);
+        a1.textContent = toon.getBlueprintGear(attr);
+        div.appendChild(a1);
+
+        const a2 = document.importNode(temp.content.children[1], true);
+        a2.textContent = toon.getBlueprintDesc(attr);
+        div.appendChild(a2);
+
+        const a3 = document.importNode(temp.content.children[2], true);
+        a3.textContent = toon.getBlueprintType(attr);
+        div.appendChild(a3);
+    }
+
+
     // Combat
     document.getElementById('initiative').textContent = toon.getInitiative();
     document.getElementById('fray2').textContent = toon.getFrayOverTwo();

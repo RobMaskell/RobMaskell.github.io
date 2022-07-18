@@ -238,55 +238,58 @@ var defaultToon = {
         }
     ],
     'gear': [
-        { 'gear': 'Anonymizer',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Masks your mesh ID', 'src': 'Firewall Pack', 'qty': 1 },
+        { 'gear': 'Anonymizer',	'complexity': 'Min/1', 'gp-cost': 0, 'desc': 'Masks your mesh ID', 'src': 'Firewall Pack', 'qty': 1 },
         { 'gear': 'Fake Ego ID',	'complexity': 'Maj/R/3', 'gp-cost': 0, 'desc': 'Forged ID and back history, with its own rep scores', 'src': 'Firewall Pack', 'qty': 1 },
-        { 'gear': 'Smart Clothing',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Can change colour, texture and cut. +10 Infiltrate, +30 covered and stationary', 'src': 'Firewall Pack', 'qty': 1 },
-        { 'gear': 'TacNet App',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Share tactical data in real time', 'src': 'Firewall Pack', 'qty': 1 },
-        { 'gear': 'VPN App',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Create virtual private network (-30 sniffing)', 'src': 'Firewall Pack', 'qty': 1 },
-        { 'gear': 'Exploit App',	'complexity': 'Mod/R/2', 'gp-cost': 2, 'desc': 'A hacker library/tool for taking advantage of known software vulnerabilities. Required for hacking', 'src': '', 'qty': 1 },
-        { 'gear': 'Spoofer App',	'complexity': 'Mod/R/2', 'gp-cost': 2, 'desc': 'Fake transmissions and mesh IDs', 'src': '', 'qty': 1 },
-        { 'gear': 'Sniffer App',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Collect/view traffic between two systems', 'src': '', 'qty': 1 },
-        { 'gear': 'Scout Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Scout Swarm - Maps area, collects forensic evidence, Know: Chemistry 60, Medicine: Forensics 60', 'src': '', 'qty': 1 },
-        { 'gear': 'Spy Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Spy Swarm - Surveillance, Perceive 60', 'src': '', 'qty': 1 },
-        { 'gear': 'Psi Jammer',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Jams brainwave frequencies w/in 20 m, −30 Psi Tests', 'src': '', 'qty': 1 }
+        { 'gear': 'TacNet App',	'complexity': 'Mod/2', 'gp-cost': 0, 'desc': 'Share tactical data in real time', 'src': 'Firewall Pack', 'qty': 1 },
+        { 'gear': 'Crypto App',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Encrypt/decrypt files and messages', 'src': '', 'qty': 1 },
+        { 'gear': 'Exploit App',	'complexity': 'Mod/R/2', 'gp-cost': 0, 'desc': 'A hacker library/tool for taking advantage of known software vulnerabilities. Required for hacking', 'src': '', 'qty': 1 },
+        { 'gear': 'Firewall App',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Protects devices from intrusion', 'src': '', 'qty': 1 },
+        { 'gear': 'Spoofer App',	'complexity': 'Mod/R/2', 'gp-cost': 0, 'desc': 'Fake transmissions and mesh IDs', 'src': '', 'qty': 1 },
+        { 'gear': 'Sniffer App',	'complexity': 'Mod/2', 'gp-cost': 0, 'desc': 'Collect/view traffic between two systems', 'src': '', 'qty': 1 },
+        { 'gear': 'Tracker App',	'complexity': 'Mod/2', 'gp-cost': 1, 'desc': 'Trace connections', 'src': '', 'qty': 1 },
+        { 'gear': 'VPN App',	'complexity': 'Min/1', 'gp-cost': 0, 'desc': 'Create virtual private network (-30 sniffing)', 'src': 'Firewall Pack', 'qty': 1 },
+        { 'gear': 'Smart Clothing',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Can change colour, texture and cut. +10 Infiltrate, +30 covered and stationary', 'src': 'Firewall Pack', 'qty': 1 }
     ],
     'armour': [
         { 'gear': 'Armour Vest (Light)',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'AV 4/10. Concealable', 'src': 'Firewall Pack', 'qty': 1, 'energy': 4, 'kinetic': 10 },
         { 'gear': 'Mod: Medical Repair',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Heals 1d10 damage per hour, ignore 1 wound', 'src': '', 'qty': 1, 'energy': 0, 'kinetic': 0 }
     ],
     'weapons': [
-        { 'gear': 'Medium Pistol Firearm',	'complexity': 'Min/R/1', 'gp-cost': 0, 'desc': 'DV 2d10, SA/BF/FA, Ammo 15+1, Range 30', 'src': 'Firewall Pack', 'qty': 0, 'dmg': '2d10', 'modes': 'SA/BF/FA', 'ammo': '15+1', 'range': '30' },
-        { 'gear': 'Medium Pistol Railgun',	'complexity': 'Min/R/1', 'gp-cost': 0, 'desc': 'DV 2d10, SA/BF/FA, Ammo 30+1, Range 45, Rounds 100', 'src': 'Picked Up', 'qty': 0, 'dmg': '2d10', 'modes': 'SA/BF/FA', 'ammo': '30+1', 'range': '45' }
+        { 'gear': 'None', 'complexity': 'Min/R/1', 'gp-cost': 0, 'desc': 'None', 'src': '', 'qty': 0, 'dmg': '0d0', 'modes': 'SA/BF/FA', 'ammo': '0', 'range': '0' }
+    ],
+    'blueprints': [
+        { 'gear': 'Armour Vest (Light)', 'complexity': 'Min/1', 'desc': 'AV 4/10. Concealable', 'src': 'Firewall Pack', 'qty': 0, 'energy': 4, 'kinetic': 10, type: 'Multi Use'},
+        { 'gear': 'Mod: Medical Repair', 'complexity': 'Min/1', 'desc': 'Heals 1d10 damage per hour, ignore 1 wound', 'src': '', 'qty': 0, 'energy': 0, 'kinetic': 0, type: 'Multi Use' },
+        { 'gear': 'Smart Clothing',	'complexity': 'Min/1', 'gp-cost': 0, 'desc': 'Can change colour, texture and cut. +10 Infiltrate, +30 covered and stationary', 'src': '', 'qty': 0, type: 'Multi Use' },
+        { 'gear': 'Scout Hive',	'complexity': 'Mod/2', 'gp-cost': 0, 'desc': 'Scout Swarm - Maps area, collects forensic evidence, Know: Chemistry 60, Medicine: Forensics 60', 'src': '', 'qty': 0, type: 'Multi Use' },
+        { 'gear': 'Spy Hive',	'complexity': 'Mod/2', 'gp-cost': 0, 'desc': 'Spy Swarm - Surveillance, Perceive 60', 'src': '', 'qty': 0, type: 'Multi Use' },
+        { 'gear': 'Psi Jammer',	'complexity': 'Mod/2', 'gp-cost': 0, 'desc': 'Jams brainwave frequencies w/in 20 m, −30 Psi Tests', 'src': '', 'qty': 0, type: 'Multi Use' }
     ],
     'morph': {
-        'name': 'Bouncer',
+        'name': 'None',
         'type': 'Biomorph',
         'size': 'Normal',
-        'mp-cost': 4,
-        'durability': 35,
+        'mp-cost': 0,
+        'durability': 0,
         'movement': 'Walker 4/12',
         'pools': {
-            'insight': { 'base': 1 },
+            'insight': { 'base': 0 },
             'moxie': { 'base': 0 },
-            'vigor': { 'base': 1 },
-            'flex': { 'base': 2, 'mp-adj': 1 }
+            'vigor': { 'base': 0 },
+            'flex': { 'base': 1, 'mp-adj': 1 }
         },
         'ware': [
             { 'ware': 'Biomods', 'desc': 'Genetic tweaks for health, faster healing, immunities and more (morph)', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Cortical Stack', 'desc': 'Memory diamond storage unit for ego backups (morph)', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Mesh Inserts', 'desc': 'Cranial computer, wireless tranceiver, muse home, medical sensors (morph)', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Prehensile Feet', 'desc': 'Can use feet as hands. -8 full move (morph)', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Grip Pads', 'desc': '+30 climbing Athletics checks (morph)', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Cold Tolerance', 'desc': 'Handle temps as low as -80C / -112F (morph)', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Oxygen Reserve', 'desc': 'Oxygen tank / rebreather with 4Hrs of air (morph)', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Vacuum Sealing', 'desc': 'Can survive exposure to vacuum', 'mp-cost': 1, 'gp-cost': 0 },
-            { 'ware': 'SkinLink', 'desc': 'Create a “hardwired” mesh link by touch', 'mp-cost': 1, 'gp-cost': 0 },
             { 'ware': 'Chameleon Skin', 'desc': 'Change skin color. +10 Infiltrate, +30 still and covered', 'mp-cost': 0, 'gp-cost': 2 },
-            { 'ware': 'Respirocytes', 'desc': 'Artificial blood cells, provide 4 hours of air, +5 DUR, +1 WT, +8 DR', 'mp-cost': 0, 'gp-cost': 2, 'plus-dur': 5, 'plus-wt': 1, 'plus-dr': 8},
-            { 'ware': 'Electrical Sense', 'desc': 'Sense electrical fields within 5m', 'mp-cost': 1, 'gp-cost': 0 },
+            { 'ware': 'Vacuum Sealing ???', 'desc': 'Can survive exposure to vacuum', 'mp-cost': 1, 'gp-cost': 0 },
+            { 'ware': 'SkinLink ???', 'desc': 'Create a “hardwired” mesh link by touch', 'mp-cost': 1, 'gp-cost': 0 },
+            { 'ware': 'Respirocytes ???', 'desc': 'Artificial blood cells, provide 4 hours of air, +5 DUR, +1 WT, +8 DR', 'mp-cost': 0, 'gp-cost': 2, 'plus-dur': 5, 'plus-wt': 1, 'plus-dr': 8},
+            { 'ware': 'Electrical Sense ???', 'desc': 'Sense electrical fields within 5m', 'mp-cost': 1, 'gp-cost': 0 },
             ],
         'traits': [
-            { 'trait': 'Limberness (Lvl 1)', 'desc': '+10 to escape bonds, fit into tight spaces, contort etc (morph)', 'mp-cost': 0 }
+            { 'trait': 'None', 'desc': 'None', 'mp-cost': 0 }
         ]
     }
 }
