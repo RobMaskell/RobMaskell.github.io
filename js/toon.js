@@ -30,39 +30,43 @@ class Toon {
     
     // Attributes
     getAptitudes() { return this.#indexArray(this.aptitudes); }
-    getAptitude(apt) { return this.aptitudes[apt] ? (this.aptitudes[apt]['base'] + this.aptitudes[apt]['cp-adj']) : 0; }
+    getAptitude(apt) { return this.aptitudes[apt] ? (this.aptitudes[apt]['base'] + this.aptitudes[apt]['cp-adj'] + this.aptitudes[apt]['rp-adj']) : 0; }
     getAptitudeTest(apt, val) { return this.getAptitude(apt) * 3; }
     getTotalAptitudesBase() { return this.#sumArray(this.aptitudes, 'base'); }
     getTotalAptitudesCPSpend() { return this.#sumArray(this.aptitudes, 'cp-adj') / 5; }
+    getTotalAptitudesRPSpend() { return this.#sumArray(this.aptitudes, 'rp-adj') / 5; }
     getAptitudeJSON() { return this.aptitudes; }
     setAptitudeJSON(json) { this.aptitudes = json; }
 
     // Skills
     getSkills() { return this.#indexArray(this.skills); }
-    getSkill(skill) { return (this.skills[skill]['base']>0 || this.skills[skill]['cp-adj']>0) ? (this.skills[skill]['base'] + this.skills[skill]['cp-adj'] + (this.getAptitude(this.skills[skill]['aptitude']) * this.getSkillAptitudeModifier(skill))) : ""; }
+    getSkill(skill) { return (this.skills[skill]['base']>0 || this.skills[skill]['cp-adj']>0 || this.skills[skill]['rp-adj']>0) ? (this.skills[skill]['base'] + this.skills[skill]['cp-adj'] + this.skills[skill]['rp-adj'] + (this.getAptitude(this.skills[skill]['aptitude']) * this.getSkillAptitudeModifier(skill))) : ""; }
     getSkillAptitude(skill) { return this.skills[skill]['aptitude']; }
     getSkillAptitudeModifier(skill) { return (skill == 'fray' || skill == 'perceive') ? 2 : 1; }
     getSkillField(skill) { return this.skills[skill]['field']; }
     getTotalSkillsBase() { return this.#sumArrayIgnore(this.skills, 'base', 'know'); }
     getTotalKnowsBase() { return this.#sumArrayOnly(this.skills, 'base', 'know'); }
     getTotalSkillsCPSpend() { return this.#sumArray(this.skills, 'cp-adj') / 5; }
+    getTotalSkillsRPSpend() { return this.#sumArray(this.skills, 'rp-adj') / 5; }
     getSkillJSON() { return this.skills; }
     setSkillJSON(json) { this.skills = json; }
 
     // Pools
     getPools() { return this.#indexArray(this.pools); }
-    getPool(pool) { return this.pools[pool]['base'] + this.pools[pool]['cp-adj'] + this.morph.pools[pool]['base'] + (this.morph.pools[pool]['mp-adj']||0); }
+    getPool(pool) { return this.pools[pool]['base'] + this.pools[pool]['cp-adj'] + this.pools[pool]['rp-adj'] + this.morph.pools[pool]['base'] + (this.morph.pools[pool]['mp-adj']||0); }
     getPoolTitle(pool) { return this.poolTitles[pool]; }
     getTotalPoolsCPSpend() { return this.pools.flex['cp-adj'] * 2; }
+    getTotalPoolsRPSpend() { return this.pools.flex['rp-adj'] * 2; }
     getTotalPoolsMPSpend() { return this.morph.pools.flex['mp-adj'] * 2; }
     getPoolsJSON() { return this.pools; }
     setPoolsJSON(json) { this.pools = json; }
 
     // Rep
     getReps() { return this.#indexArray(this.rep); }
-    getRep(rep, isFake) { return isFake ? this.rep[rep].fake : this.rep[rep]['base'] + this.rep[rep]['adj'] + this.rep[rep]['cp-adj'] }
+    getRep(rep, isFake) { return isFake ? this.rep[rep].fake : this.rep[rep]['base'] + this.rep[rep]['adj'] + this.rep[rep]['cp-adj'] + this.rep[rep]['rp-adj'] }
     getTotalRepBase() { return this.#sumArray(this.rep, 'base'); }
     getTotalRepCPSpend() { return this.#sumArray(this.rep, 'cp-adj') / 5; }
+    getTotalRepRPSpend() { return this.#sumArray(this.rep, 'rp-adj') / 5; }
     getRepJSON() { return this.rep; }
     setRepJSON(json) { this.rep = json; }
 
@@ -72,6 +76,7 @@ class Toon {
     getTraitDesc(index) { return this.traits[index].desc; }
     getResourcesLevel() { return this.#sumArray(this.traits, 'resources-lvl'); }
     getTotalTraitsCPSpend() { return this.#sumArray(this.traits, 'cp-adj'); }
+    getTotalTraitsRPSpend() { return this.#sumArray(this.traits, 'rp-adj'); }
     getTraitsJSON() { return this.traits; }
     setTraitsJSON(json) { this.traits = json; }
 

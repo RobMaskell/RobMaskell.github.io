@@ -407,6 +407,7 @@ function refreshToon() {
     console.log('Knows (250)', toon.getTotalKnowsBase());
     console.log('Rep (100)', toon.getTotalRepBase());
     const baseCP = toon.getBase('CP');
+    const baseRP = toon.getBase('RP');
     const baseMP = toon.getBase('MP');
     const baseGP = toon.getBase('GP');
     const nettCP = baseCP - toon.getTotalAptitudesCPSpend() 
@@ -414,6 +415,10 @@ function refreshToon() {
                             - toon.getTotalPoolsCPSpend() 
                             - toon.getTotalTraitsCPSpend()
                             - toon.getLanguagesCPSpend();
+    const nettRP = baseRP - toon.getTotalAptitudesRPSpend() 
+                            - toon.getTotalSkillsRPSpend() 
+                            - toon.getTotalPoolsRPSpend() 
+                            - toon.getTotalTraitsRPSpend();
     const nettMP = baseMP - toon.getMorphMPSpend()
                             - toon.getTotalMorphWareMPSpend()
                             - toon.getTotalPoolsMPSpend()
@@ -431,6 +436,13 @@ function refreshToon() {
                             '6-Traits': -toon.getTotalTraitsCPSpend(),
                             '7-Langs': -toon.getLanguagesCPSpend(),
                             '9-nettCP': nettCP});
+    console.log("RP Spend", {'1-BaseRP': baseRP, 
+                            '2-Aptitude': -toon.getTotalAptitudesRPSpend(), 
+                            '3-Skills': -toon.getTotalSkillsRPSpend(),
+                            '4-Flex': -toon.getTotalPoolsRPSpend(),
+                            '5-Rep': -toon.getTotalRepRPSpend(),
+                            '6-Traits': -toon.getTotalTraitsRPSpend(),
+                            '9-nettRP': nettRP});
     console.log("MP Spend", {'1-BaseMP': baseMP,
                             '2-Morph': -toon.getMorphMPSpend(),
                             '3-Ware': -toon.getTotalMorphWareMPSpend(),

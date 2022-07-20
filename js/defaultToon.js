@@ -15,171 +15,204 @@ var defaultToon = {
         'cog': {
             'base': 20,
             'cp-adj': 5,
+            'rp-adj': 0,
         },
         'int': {
             'base': 10,
             'cp-adj': 0,
+            'rp-adj': 0,
         },
         'ref': {
             'base': 25,
             'cp-adj': 0,
+            'rp-adj': 0,
         },
         'sav': {
             'base': 10,
             'cp-adj': 0,
+            'rp-adj': 0,
         },
         'som': {
             'base': 10,
             'cp-adj': 0,
+            'rp-adj': 0,
         },
         'wil': {
             'base': 15,
             'cp-adj': 0,
+            'rp-adj': 0,
         }
     },
     'skills': {
         'athletics (+30)': {
             'base': 10,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'som'
         },
         'deceive (+30)': {
             'base': 0,
             'cp-adj': 10,
+            'rp-adj': 0,
             'aptitude': 'sav'
         },
         'exotic': {
             'base': 0,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': '-',
             'field': '-'
         },
         'fray': {
             'base': 30,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'ref'
         },
         'freefall': {
             'base': 0,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'som'
         },
         'guns': {
             'base': 55,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'ref'
         },
         'hardware': {
             'base': 45,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'cog',
             'field': 'Electronics'
         },
         'infiltrate (+10)(+10)': {
             'base': 55,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'ref'
         },
         'infosec': {
             'base': 55,
-            'cp-adj': 00,
+            'cp-adj': 0,
+            'rp-adj': 10,
             'aptitude': 'cog'
         },
         'interface': {
             'base': 55,
             'cp-adj': 0,
+            'rp-adj': 10,
             'aptitude': 'cog'
         },
         'kinesics': {
             'base': 0,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'sav'
         },
         'medicine': {
             'base': 0,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'cog',
             'field': '-'
         },
         'melee': {
             'base': 0,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'som'
         },
         'perceive': {
             'base': 10,
             'cp-adj': 50,
+            'rp-adj': 0,
             'aptitude': 'int'
         },
         'persuade': {
             'base': 0,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'sav'
         },
         'pilot': {
             'base': 0,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'ref',
             'field': '-'
         },
         'program': {
             'base': 55,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'cog'
         },
         'provoke': {
             'base': 0,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'sav'
         },
         'psi': {
             'base': 0,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'wil'
         },
         'research': {
             'base': 30,
             'cp-adj': 0,
+            'rp-adj': 5,
             'aptitude': 'int'
         },
         'survival': {
             'base': 0,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'int'
         },
         'know-1': {
             'base': 50,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'cog',
             'field': 'Computer Science'
         },
         'know-2': {
             'base': 50,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'cog',
             'field': 'Cryptography'
         },
         'know-3': {
             'base': 50,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'cog',
             'field': 'Network Eng'
         },
         'know-4': {
             'base': 50,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'cog',
             'field': 'Sys Admin'
         },
         'know-5': {
             'base': 50,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'cog',
             'field': 'Security Ops'
         },
         'know-6': {
             'base': 10,
             'cp-adj': 0,
+            'rp-adj': 0,
             'aptitude': 'cog',
             'field': 'Criminal'
         }
@@ -188,29 +221,33 @@ var defaultToon = {
     'pools': {
         'vigor': {
             'base': 0,
-            'cp-adj': 0
+            'cp-adj': 0,
+            'rp-adj': 0
         },
         'insight': {
             'base': 0,
-            'cp-adj': 0
+            'cp-adj': 0,
+            'rp-adj': 0
         },
         'moxie': {
             'base': 0,
-            'cp-adj': 0
+            'cp-adj': 0,
+            'rp-adj': 0
         },
         'flex': {
             'base': 1,
-            'cp-adj': 1
+            'cp-adj': 1,
+            'rp-adj': 0
         }
     },
     'rep': {
-        '@-rep': { 'base': 0,'adj': 0, 'cp-adj': 0, 'fake': 0 },
-        'c-rep': { 'base': 0,'adj': 1, 'cp-adj': 0, 'fake': 10 },
-        'f-rep': { 'base': 0,'adj': 2, 'cp-adj': 0, 'fake': 0 },
-        'g-rep': { 'base': 40,'adj': 2, 'cp-adj': 0, 'fake': 0 },
-        'i-rep': { 'base': 60,'adj': 9, 'cp-adj': 0, 'fake': 0 },
-        'r-rep': { 'base': 0,'adj': 0, 'cp-adj': 0, 'fake': 0 },
-        'x-rep': { 'base': 0,'adj': 0, 'cp-adj': 0, 'fake': 0 }
+        '@-rep': { 'base': 0,'adj': 0, 'cp-adj': 0,'rp-adj': 0, 'fake': 0 },
+        'c-rep': { 'base': 0,'adj': 1, 'cp-adj': 0,'rp-adj': 0, 'fake': 10 },
+        'f-rep': { 'base': 0,'adj': 2, 'cp-adj': 0,'rp-adj': 0, 'fake': 0 },
+        'g-rep': { 'base': 40,'adj': 2, 'cp-adj': 0,'rp-adj': 0, 'fake': 0 },
+        'i-rep': { 'base': 60,'adj': 9, 'cp-adj': 0,'rp-adj': 0, 'fake': 0 },
+        'r-rep': { 'base': 0,'adj': 0, 'cp-adj': 0,'rp-adj': 0, 'fake': 0 },
+        'x-rep': { 'base': 0,'adj': 0, 'cp-adj': 0,'rp-adj': 0, 'fake': 0 }
     },
     'traits': [
         {
@@ -285,7 +322,10 @@ var defaultToon = {
             { 'ware': 'Chameleon Skin', 'desc': 'Change skin color. +10 Infiltrate, +30 still and covered (morph)', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Grip Pads', 'desc': '+30 climbing Athletics Tests (morph)', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'SkinLink', 'desc': 'Create a “hardwired” mesh link by touch', 'mp-cost': 1, 'gp-cost': 0 },
-            { 'ware': 'Skin Flex', 'desc': 'Disguise face, skin, hair. +30 to impersonation/disguise Deceive Tests', 'mp-cost': 0, 'gp-cost': 2 }
+            { 'ware': 'Skin Flex', 'desc': 'Disguise face, skin, hair. +30 to impersonation/disguise Deceive Tests', 'mp-cost': 0, 'gp-cost': 2 },
+            { 'ware': 'Skillware', 'desc': 'Can use 120 points of skillsofts', 'mp-cost': 0, 'gp-cost': 3 },
+            { 'ware': 'Skillsoft', 'desc': 'Persuade: 40', 'mp-cost': 0, 'gp-cost': 2 },
+            { 'ware': 'Skillsoft', 'desc': 'Know[Sex Professionals]: 80', 'mp-cost': 0, 'gp-cost': 2 }
             ],
         'traits': [
             { 'trait': 'Enhanced Behavior (Patience, Level 2)', 'desc': 'None', 'mp-cost': 0 }
