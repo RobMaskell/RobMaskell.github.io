@@ -43,7 +43,7 @@ var defaultToon = {
             'cp-adj': 0,
             'aptitude': 'som'
         },
-        'deceive': {
+        'deceive (+30)': {
             'base': 0,
             'cp-adj': 10,
             'aptitude': 'sav'
@@ -266,30 +266,29 @@ var defaultToon = {
         { 'gear': 'Psi Jammer',	'complexity': 'Mod/2', 'gp-cost': 0, 'desc': 'Jams brainwave frequencies w/in 20 m, −30 Psi Tests', 'src': '', 'qty': 0, type: 'Multi Use' }
     ],
     'morph': {
-        'name': 'None',
+        'name': 'Ghost',
         'type': 'Biomorph',
         'size': 'Normal',
-        'mp-cost': 0,
-        'durability': 0,
+        'mp-cost': 6,
+        'durability': 45,
         'movement': 'Walker 4/12',
         'pools': {
-            'insight': { 'base': 0 },
-            'moxie': { 'base': 0 },
-            'vigor': { 'base': 0 },
-            'flex': { 'base': 1, 'mp-adj': 1 }
+            'insight': { 'base': 2 },
+            'moxie': { 'base': 1 },
+            'vigor': { 'base': 3 },
+            'flex': { 'base': 2, 'mp-adj': 1 }
         },
         'ware': [
             { 'ware': 'Biomods', 'desc': 'Genetic tweaks for health, faster healing, immunities and more (morph)', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Cortical Stack', 'desc': 'Memory diamond storage unit for ego backups (morph)', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Mesh Inserts', 'desc': 'Cranial computer, wireless tranceiver, muse home, medical sensors (morph)', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Chameleon Skin', 'desc': 'Change skin color. +10 Infiltrate, +30 still and covered', 'mp-cost': 0, 'gp-cost': 2 },
-            { 'ware': 'Vacuum Sealing ???', 'desc': 'Can survive exposure to vacuum', 'mp-cost': 1, 'gp-cost': 0 },
-            { 'ware': 'SkinLink ???', 'desc': 'Create a “hardwired” mesh link by touch', 'mp-cost': 1, 'gp-cost': 0 },
-            { 'ware': 'Respirocytes ???', 'desc': 'Artificial blood cells, provide 4 hours of air, +5 DUR, +1 WT, +8 DR', 'mp-cost': 0, 'gp-cost': 2, 'plus-dur': 5, 'plus-wt': 1, 'plus-dr': 8},
-            { 'ware': 'Electrical Sense ???', 'desc': 'Sense electrical fields within 5m', 'mp-cost': 1, 'gp-cost': 0 },
+            { 'ware': 'Chameleon Skin', 'desc': 'Change skin color. +10 Infiltrate, +30 still and covered (morph)', 'mp-cost': 0, 'gp-cost': 0 },
+            { 'ware': 'Grip Pads', 'desc': '+30 climbing Athletics Tests (morph)', 'mp-cost': 0, 'gp-cost': 0 },
+            { 'ware': 'SkinLink', 'desc': 'Create a “hardwired” mesh link by touch', 'mp-cost': 1, 'gp-cost': 0 },
+            { 'ware': 'Skin Flex', 'desc': 'Disguise face, skin, hair. +30 to impersonation/disguise Deceive Tests', 'mp-cost': 0, 'gp-cost': 2 }
             ],
         'traits': [
-            { 'trait': 'None', 'desc': 'None', 'mp-cost': 0 }
+            { 'trait': 'Enhanced Behavior (Patience, Level 2)', 'desc': 'None', 'mp-cost': 0 }
         ]
     }
 }
