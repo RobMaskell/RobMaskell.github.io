@@ -252,7 +252,7 @@ var defaultToon = {
     'traits': [
         {
             'trait': 'Resources', 
-            'desc': 'Wealth to acquire gear, 3mp 3gp, 5gp/week',
+            'desc': 'Wealth to acquire gear (lvl 3), 3mp 3gp, 5gp/week',
             'cp-adj': 6,
             'resources-lvl': 3 
         },
