@@ -268,7 +268,7 @@ function refreshToon() {
     temp = document.getElementById('blueprint-element');
     for (let attr=0; attr<toon.getNumBlueprints(); attr++) {
         const a1 = document.importNode(temp.content.children[0], true);
-        a1.textContent = toon.getBlueprintGear(attr);
+        a1.textContent = toon.getBlueprintName(attr);
         div.appendChild(a1);
 
         const a2 = document.importNode(temp.content.children[1], true);

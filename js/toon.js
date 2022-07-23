@@ -91,7 +91,7 @@ class Toon {
 
     // BluePrints
     getNumBlueprints() { return this.blueprints.length; }
-    getBlueprintGear(index) { return this.blueprints[index].gear; }
+    getBlueprintName(index) { return this.blueprints[index].name; }
     getBlueprintDesc(index) { return this.blueprints[index].desc; }
     getBlueprintType(index) { return this.blueprints[index].type; }
     getBlueprintsJSON() { return this.blueprints; }
