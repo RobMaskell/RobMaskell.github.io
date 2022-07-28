@@ -15,7 +15,7 @@ var defaultToon = {
         'cog': {
             'base': 20,
             'cp-adj': 5,
-            'rp-adj': 0,
+            'rp-adj': 5,
         },
         'int': {
             'base': 10,
@@ -44,15 +44,15 @@ var defaultToon = {
         }
     },
     'skills': {
-        'athletics (+30)': {
-            'base': 10,
+        'athletics': {
+            'base': 0,
             'cp-adj': 0,
             'rp-adj': 0,
             'aptitude': 'som'
         },
         'deceive (+30)': {
-            'base': 0,
-            'cp-adj': 10,
+            'base': 10,
+            'cp-adj': 0,
             'rp-adj': 0,
             'aptitude': 'sav'
         },
@@ -97,13 +97,13 @@ var defaultToon = {
         'infosec': {
             'base': 55,
             'cp-adj': 0,
-            'rp-adj': 10,
+            'rp-adj': 0,
             'aptitude': 'cog'
         },
         'interface': {
             'base': 55,
             'cp-adj': 0,
-            'rp-adj': 10,
+            'rp-adj': 0,
             'aptitude': 'cog'
         },
         'kinesics': {
@@ -127,7 +127,7 @@ var defaultToon = {
         },
         'perceive': {
             'base': 10,
-            'cp-adj': 50,
+            'cp-adj': 40,
             'rp-adj': 0,
             'aptitude': 'int'
         },
@@ -165,7 +165,7 @@ var defaultToon = {
         'research': {
             'base': 30,
             'cp-adj': 0,
-            'rp-adj': 5,
+            'rp-adj': 0,
             'aptitude': 'int'
         },
         'survival': {
@@ -333,7 +333,9 @@ var defaultToon = {
             { 'ware': 'Skillsoft', 'desc': 'Know[Sex Professionals]: 80', 'mp-cost': 0, 'gp-cost': 2 }
             ],
         'traits': [
-            { 'trait': 'Enhanced Behavior (Patience, Level 2)', 'desc': 'None', 'mp-cost': 0 }
+            { 'trait': 'Enhanced Behavior', 'desc': 'Patience, Level 2, You are driven to engage in the specified behavior', 'mp-cost': 0 },
+            { 'trait': 'Rapid Healing', 'desc': 'Heal twice as fast. Biomorphs only', 'mp-cost': 1 },
+            { 'trait': 'Feebleness', 'desc': '–5 per level to SOM Checks', 'mp-cost': -1 }
         ]
     }
 }

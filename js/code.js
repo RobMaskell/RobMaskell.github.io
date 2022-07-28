@@ -73,14 +73,6 @@ function refreshToon() {
         const a1 = document.importNode(temp.content.children[0], true);
         a1.textContent = attr;
         div.appendChild(a1);
-
-        // const a2 = document.importNode(temp.content.children[1], true);
-        // a2.textContent = toon.getSkillAptitude(attr);
-        // div.appendChild(a2);
-
-        // const a3 = document.importNode(temp.content.children[2], true);
-        // a3.textContent = toon.getSkill(attr);
-        // div.appendChild(a3);
     } 
 
 

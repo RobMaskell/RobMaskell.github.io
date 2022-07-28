@@ -33,8 +33,8 @@ class Toon {
     getAptitude(apt) { return this.aptitudes[apt] ? (this.aptitudes[apt]['base'] + this.aptitudes[apt]['cp-adj'] + this.aptitudes[apt]['rp-adj']) : 0; }
     getAptitudeTest(apt, val) { return this.getAptitude(apt) * 3; }
     getTotalAptitudesBase() { return this.#sumArray(this.aptitudes, 'base'); }
-    getTotalAptitudesCPSpend() { return this.#sumArray(this.aptitudes, 'cp-adj') / 5; }
-    getTotalAptitudesRPSpend() { return this.#sumArray(this.aptitudes, 'rp-adj') / 5; }
+    getTotalAptitudesCPSpend() { return this.#sumArray(this.aptitudes, 'cp-adj'); }
+    getTotalAptitudesRPSpend() { return this.#sumArray(this.aptitudes, 'rp-adj'); }
     getAptitudeJSON() { return this.aptitudes; }
     setAptitudeJSON(json) { this.aptitudes = json; }
 
