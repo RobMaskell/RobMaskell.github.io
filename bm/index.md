@@ -34,4 +34,6 @@
 
 [rpg](rpg.md)
 
+[startup](startup.md)
+
 [tech companies](tech-companies)
