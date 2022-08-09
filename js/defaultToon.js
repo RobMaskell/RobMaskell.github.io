@@ -285,7 +285,8 @@ var defaultToon = {
         { 'gear': 'Sniffer App',	'complexity': 'Mod/2', 'gp-cost': 0, 'desc': 'Collect/view traffic between two systems', 'src': '', 'qty': 1 },
         { 'gear': 'Tracker App',	'complexity': 'Mod/2', 'gp-cost': 1, 'desc': 'Trace connections', 'src': '', 'qty': 1 },
         { 'gear': 'VPN App',	'complexity': 'Min/1', 'gp-cost': 0, 'desc': 'Create virtual private network (-30 sniffing)', 'src': 'Firewall Pack', 'qty': 1 },
-        { 'gear': 'Smart Clothing',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Can change colour, texture and cut. +10 Infiltrate, +30 covered and stationary', 'src': 'Firewall Pack', 'qty': 1 }
+        { 'gear': 'Smart Clothing',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Can change colour, texture and cut. +10 Infiltrate, +30 covered and stationary', 'src': 'Firewall Pack', 'qty': 1 },
+        { 'gear': 'Covert Operations Tool',	'complexity': 'Maj/R/3', 'gp-cost': 3, 'desc': 'Bypasses locks, cuts/repairs holes, Hardware: Electronics 60 vs. electronic locks, more', 'src': '', 'qty': 1 }
     ],
     'armour': [
         { 'gear': 'Armour Vest (Light)',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'AV 4/10. Concealable', 'src': 'Firewall Pack', 'qty': 1, 'energy': 4, 'kinetic': 10 },
@@ -328,6 +329,8 @@ var defaultToon = {
             { 'ware': 'Grip Pads', 'desc': '+30 climbing Athletics Tests (morph)', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'SkinLink', 'desc': 'Create a “hardwired” mesh link by touch', 'mp-cost': 1, 'gp-cost': 0 },
             { 'ware': 'Skin Flex', 'desc': 'Disguise face, skin, hair. +30 to impersonation/disguise Deceive Tests', 'mp-cost': 0, 'gp-cost': 2 },
+            { 'ware': 'Pain Regulator', 'complexity': 'Mod/2', 'desc': 'Dulls pain experience. Ignore 1 wound effect', 'mp-cost': 0, 'gp-cost': 2 },
+            { 'ware': 'Adrenal Surge', 'complexity': 'Maj/3', 'desc': 'Supercharged adrenal response. +1 Vigor, ignore 1 wound.', 'mp-cost': 0, 'gp-cost': 2 },
             { 'ware': 'Skillware', 'desc': 'Can use 120 points of skillsofts', 'mp-cost': 0, 'gp-cost': 3 },
             { 'ware': 'Skillsoft', 'desc': 'Persuade: 40', 'mp-cost': 0, 'gp-cost': 2 },
             { 'ware': 'Skillsoft', 'desc': 'Know[Sex Professionals]: 80', 'mp-cost': 0, 'gp-cost': 2 }
