@@ -419,6 +419,7 @@ function refreshToon() {
     const nettGP = baseGP - toon.getTotalGearGPSpend()
                             - toon.getTotalMorphWareGPSpend()
                             - toon.getTotalArmourGPSpend()
+                            - toon.getTotalWeaponGPSpend()
                             + toon.getResourcesLevel();
     console.log("CP Spend", {'1-BaseCP': baseCP, 
                             '2-Aptitude': -toon.getTotalAptitudesCPSpend(), 
@@ -447,6 +448,7 @@ function refreshToon() {
                             '3-Ware': -toon.getTotalMorphWareGPSpend(),
                             '4-Armour': -toon.getTotalArmourGPSpend(),
                             '5-Resources': toon.getResourcesLevel(),
+                            '6-Weapon': -toon.getTotalWeaponGPSpend(),
                             '9-nettGP': nettGP});
 }
 

@@ -293,7 +293,7 @@ var defaultToon = {
         { 'gear': 'Mod: Medical Repair',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Heals 1d10 damage per hour, ignore 1 wound', 'src': '', 'qty': 1, 'energy': 0, 'kinetic': 0 }
     ],
     'weapons': [
-        { 'gear': 'None', 'complexity': 'Min/R/1', 'gp-cost': 0, 'desc': 'None', 'src': '', 'qty': 0, 'dmg': '0d0', 'modes': 'SA/BF/FA', 'ammo': '0', 'range': '0' }
+        { 'gear': 'Holdout', 'complexity': 'Min/R/1', 'gp-cost': 1, 'desc': 'Concealable', 'src': '', 'qty': 1, 'dmg': '1d10 + 1d6 [9]', 'modes': 'SA/BF', 'ammo': '9+1', 'range': '25' }
     ],
     'blueprints': [
         { 'name': 'Armour Vest (Light)', 'complexity': 'Min/1', 'desc': 'AV 4/10. Concealable', 'src': 'Firewall Pack', 'qty': 0, 'energy': 4, 'kinetic': 10, type: 'Gear, Limited Use'},
