@@ -314,7 +314,7 @@ var defaultToon = {
         'size': 'Normal',
         'mp-cost': 6,
         'durability': 45,
-        'movement': 'Walker 4/12',
+        'movement': 'Walker 4/20',
         'pools': {
             'insight': { 'base': 2 },
             'moxie': { 'base': 1 },
