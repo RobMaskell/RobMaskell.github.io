@@ -8,6 +8,7 @@
 ### mental traits
 
 [Unlearning Perfectionism](https://arunkprasad.com/log/unlearning-perfectionism/)
+[Tacit Knowledge](https://commoncog.com/tacit-knowledge-is-a-real-thing/)
 
 ### memory
 
