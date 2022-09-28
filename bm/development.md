@@ -20,6 +20,10 @@
 [10 REASONS MVC FRAMEWORKS AREN'T DINOSAURS BUT SHARKS](https://www.david-dahan.com/blog/10-reasons-mvc-frameworks-arent-dinosaurs-but-sharks)
 
 
-### Devops / Git
+### devops / git
 
 [Oh shit git, how to correct git mistakes](https://ohshitgit.com)
+
+### clean code
+
+[Clean code, rule of six](https://davidamos.dev/the-rule-of-six/)
