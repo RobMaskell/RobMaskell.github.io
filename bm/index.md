@@ -20,6 +20,8 @@
 
 [innovation](innovation)
 
+[language](language)
+
 [lifehacks](lifehacks)
 
 [mind](mind)
