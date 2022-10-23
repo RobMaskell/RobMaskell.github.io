@@ -10,6 +10,8 @@
 
 [crypto](crypto)
 
+[dance](dance)
+
 [development](development)
 
 [health](health)
