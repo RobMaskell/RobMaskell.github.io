@@ -7,3 +7,5 @@
 [Plan a Project in 10 Minutes - or How I Learnt to Stop Worrying and Love Little's Law](http://www.infoq.com/presentations/little-law-estimate)
 
 [David Jeske's answer to Why do some developers at strong companies like Google consider Agile development to be nonsense?](https://www.quora.com/Why-do-some-developers-at-strong-companies-like-Google-consider-Agile-development-to-be-nonsense/answer/David-Jeske?share=1)
+
+[Invers Conway Manouver](https://martinfowler.com/bliki/ConwaysLaw.html)
