@@ -280,6 +280,7 @@ function refreshToon() {
     document.getElementById('trauma-threshold').textContent = toon.getTraumaThreshold();
     document.getElementById('insanity-rating').textContent = toon.getInsanityRating();
     document.getElementById('shots1').textContent = game.getInc('shots1');
+    document.getElementById('shots2').textContent = game.getInc('shots2');
     document.getElementById('arm-en').textContent = toon.getTotalArmourEnergy();
     document.getElementById('arm-kin').textContent = toon.getTotalArmourKinetic();
 
