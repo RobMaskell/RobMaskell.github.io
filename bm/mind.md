@@ -6,6 +6,8 @@
 
 [Friends come from shared contect not shared activities](https://billmei.net/blog/friendship)
 
+[Intentionally making close friends](https://www.neelnanda.io/blog/43-making-friends)
+
 ### mental traits
 
 [Unlearning Perfectionism](https://arunkprasad.com/log/unlearning-perfectionism/)
