@@ -24,6 +24,12 @@
 
 [Oh shit git, how to correct git mistakes](https://ohshitgit.com)
 
+
 ### clean code
 
 [Clean code, rule of six](https://davidamos.dev/the-rule-of-six/)
+
+
+### databases
+
+[Use postgres for everything](https://www.amazingcto.com/postgres-for-everything/)
