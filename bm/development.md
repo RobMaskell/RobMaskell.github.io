@@ -4,6 +4,8 @@
 
 [Skeleton: Beautiful Boilerplate for Responsive, Mobile-Friendly Development](http://www.getskeleton.com/)
 
+[Interactive guide to flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
+
 
 ### javascript
 
