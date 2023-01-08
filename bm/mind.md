@@ -8,6 +8,8 @@
 
 [Intentionally making close friends](https://www.neelnanda.io/blog/43-making-friends)
 
+[Essential Conversation Skills](https://tynan.com/letstalk/)
+
 ### mental traits
 
 [Unlearning Perfectionism](https://arunkprasad.com/log/unlearning-perfectionism/)
