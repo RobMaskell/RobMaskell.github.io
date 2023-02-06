@@ -35,3 +35,6 @@
 ### databases
 
 [Use postgres for everything](https://www.amazingcto.com/postgres-for-everything/)
+
+### estimation
+[Improving dev estimation](https://jbconsulting.substack.com/p/task-estimation-conquering-hofstadters)
