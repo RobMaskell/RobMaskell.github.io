@@ -11,3 +11,11 @@
 [Dungeon Fog map creator](https://www.dungeonfog.com)
 
 [Tactical Tokens generator](https://tacticaltokens.com/token-creator/)
+
+### Other RPGs
+
+[Eclipse Phase in the Apocalypse system](https://eclipse-phase-apocalypse.obsidianportal.com)
+
+[Powered by the Apocalypse](https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse)
+
+[Moster of the Week](https://evilhat.com/product/monster-of-the-week/)
