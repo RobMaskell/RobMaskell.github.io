@@ -10,7 +10,7 @@ var defaultToon = {
         'languages': {'base': ['English', 'Japanese'], 'cp-langs': [] }
     },
     'motivations': ['+ Criminal Interests', '+ Anarchist', '+ One big hack'],
-    'base': {'CP': 20, 'MP': 2, 'GP': 10, 'RP': 10},
+    'base': {'CP': 20, 'MP': 6, 'GP': 20, 'RP': 13},
     'aptitudes': {
         'cog': {
             'base': 20,
@@ -241,7 +241,7 @@ var defaultToon = {
         }
     },
     'rep': {
-        '@-rep': { 'base': 0,'adj': 0, 'cp-adj': 0,'rp-adj': 0, 'fake': 0 },
+        '@-rep': { 'base': 0,'adj': 10, 'cp-adj': 0,'rp-adj': 0, 'fake': 0 },
         'c-rep': { 'base': 0,'adj': 9, 'cp-adj': 0,'rp-adj': 0, 'fake': 10 },
         'f-rep': { 'base': 0,'adj': 2, 'cp-adj': 0,'rp-adj': 0, 'fake': 0 },
         'g-rep': { 'base': 40,'adj': 7, 'cp-adj': 0,'rp-adj': 0, 'fake': 0 },
@@ -342,29 +342,34 @@ var defaultToon = {
         { 'name': 'Holdout', 'complexity': 'Min/R/1', 'gp-cost': 3, 'desc': 'Concealable', 'src': '', 'qty': 1, 'dmg': '1d10 + 1d6 [9]', 'modes': 'SA/BF', 'ammo': '9+1', 'range': '25', type: 'Gear, Limited Use' }
     ],
     'morph': {
-        'name': 'Ghost',
+        'name': 'Bouncer',
         'type': 'Biomorph',
         'size': 'Normal',
-        'mp-cost': 6,
-        'durability': 45,
-        'movement': 'Walker 4/20',
+        'mp-cost': 4,
+        'durability': 35,
+        'movement': 'Walker 4/12',
         'pools': {
-            'insight': { 'base': 2 },
-            'moxie': { 'base': 1 },
-            'vigor': { 'base': 3 },
-            'flex': { 'base': 2, 'mp-adj': 0 }
+            'insight': { 'base': 1 },
+            'moxie': { 'base': 0 },
+            'vigor': { 'base': 1 },
+            'flex': { 'base': 2, 'mp-adj': 2 }
         },
         'ware': [
             { 'ware': 'Biomods', 'desc': 'Genetic tweaks for health, faster healing, immunities and more (morph)', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Cortical Stack', 'desc': 'Memory diamond storage unit for ego backups (morph)', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Mesh Inserts', 'desc': 'Cranial computer, wireless tranceiver, muse home, medical sensors (morph)', 'mp-cost': 0, 'gp-cost': 0 },
-            { 'ware': 'Chameleon Skin', 'desc': 'Change skin color. +10 Infiltrate, +30 still and covered (morph)', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Grip Pads', 'desc': '+30 climbing Athletics Tests (morph)', 'mp-cost': 0, 'gp-cost': 0 },
+            { 'ware': 'Cold Tolerance', 'desc': 'Handle temps as low as -80C/-112F (morph)', 'mp-cost': 0, 'gp-cost': 0 },
+            { 'ware': 'Oxygen Reserve', 'desc': 'Oxygen tank / rebreather with 4 hours air (morph)', 'mp-cost': 0, 'gp-cost': 0 },
+            { 'ware': 'Prehensile Feet', 'desc': ' (morph)', 'mp-cost': 0, 'gp-cost': 0 },
+            
+            { 'ware': 'Chameleon Skin', 'desc': 'Change skin color. +10 Infiltrate, +30 still and covered', 'mp-cost': 2, 'gp-cost': 0 },
             { 'ware': 'SkinLink', 'desc': 'Create a “hardwired” mesh link by touch', 'mp-cost': 1, 'gp-cost': 0 },
             { 'ware': 'Skillsoft', 'desc': 'Persuade: 40', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Skillsoft', 'desc': 'Know[Sex Professionals]: 80', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Skillsoft', 'desc': 'Know[Pharmacology]: 80', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Skillware', 'desc': 'Can use 120 points of skillsofts', 'mp-cost': 0, 'gp-cost': 3 },
+            
             { 'ware': 'Skin Flex', 'desc': 'Disguise face, skin, hair. +30 to impersonation/disguise Deceive Tests', 'mp-cost': 0, 'gp-cost': 2 },
             { 'ware': 'Pain Regulator', 'complexity': 'Mod/2', 'desc': 'Dulls pain experience. Ignore 1 wound effect', 'mp-cost': 0, 'gp-cost': 2 },
             { 'ware': 'Adrenal Surge', 'complexity': 'Maj/3', 'desc': 'Supercharged adrenal response. +1 Vigor, ignore 1 wound.', 'mp-cost': 0, 'gp-cost': 2 }
@@ -374,8 +379,6 @@ var defaultToon = {
         'traits': [
             { 'trait': 'Enhanced Behavior', 'desc': 'Patience, Level 2, You are driven to engage in the specified behavior', 'mp-cost': 0 },
             { 'trait': 'Rapid Healing', 'desc': 'Heal twice as fast. Biomorphs only', 'mp-cost': 1 },
-            { 'trait': 'Feebleness', 'desc': '–5 per level to SOM Checks', 'mp-cost': -1 },
-            { 'trait': 'Feebleness', 'desc': '–20 to Persuade and Provoke Tests where looks matter (Lvl 2)', 'mp-cost': -2 },
             ],
         'XXX-traits': [
             
