@@ -276,6 +276,7 @@ var defaultToon = {
         {
             'trait': 'Adaptability',
             'desc': 'Easier resleeving +10 to resleeving and integration',
+            'cp-adj': 0,
             'rp-adj': -2
         },
         {
