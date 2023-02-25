@@ -55,9 +55,9 @@ class Toon {
     getPools() { return this.#indexArray(this.pools); }
     getPool(pool) { return this.pools[pool]['base'] + this.pools[pool]['cp-adj'] + this.pools[pool]['rp-adj'] + this.morph.pools[pool]['base'] + (this.morph.pools[pool]['mp-adj']||0); }
     getPoolTitle(pool) { return this.poolTitles[pool]; }
-    getTotalPoolsCPSpend() { return this.pools.flex['cp-adj'] * 2; }
-    getTotalPoolsRPSpend() { return this.pools.flex['rp-adj'] * 2; }
-    getTotalPoolsMPSpend() { return this.morph.pools.flex['mp-adj'] * 2; }
+    getTotalPoolsCPSpend() { return this.pools.flex['cp-adj'] / 2; }
+    getTotalPoolsRPSpend() { return this.pools.flex['rp-adj'] / 2; }
+    getTotalPoolsMPSpend() { return this.morph.pools.flex['mp-adj'] / 2; }
     getPoolsJSON() { return this.pools; }
     setPoolsJSON(json) { this.pools = json; }
 
