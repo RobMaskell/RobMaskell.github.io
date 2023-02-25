@@ -360,7 +360,7 @@ var defaultToon = {
             'insight': { 'base': 1 },
             'moxie': { 'base': 0 },
             'vigor': { 'base': 1 },
-            'flex': { 'base': 2, 'mp-adj': 2 }
+            'flex': { 'base': 2, 'mp-adj': 1 }
         },
         'ware': [
             { 'ware': 'Biomods', 'desc': 'Genetic tweaks for health, faster healing, immunities and more (morph)', 'mp-cost': 0, 'gp-cost': 0 },
