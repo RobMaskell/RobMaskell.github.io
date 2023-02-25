@@ -371,7 +371,7 @@ var defaultToon = {
             { 'ware': 'Prehensile Feet', 'desc': ' (morph)', 'mp-cost': 0, 'gp-cost': 0 },
             
             { 'ware': 'Chameleon Skin', 'desc': 'Change skin color. +10 Infiltrate, +30 still and covered', 'mp-cost': 0, 'gp-cost': 2 },
-            { 'ware': 'SkinLink', 'desc': 'Create a “hardwired” mesh link by touch', 'mp-cost': 1, 'gp-cost': 0 },
+            { 'ware': 'SkinLink', 'desc': 'Create a “hardwired” mesh link by touch', 'mp-cost': 0, 'gp-cost': 1 },
             { 'ware': 'Skillsoft', 'desc': 'Persuade: 40', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Skillsoft', 'desc': 'Know[Sex Professionals]: 80', 'mp-cost': 0, 'gp-cost': 0 },
             { 'ware': 'Skillsoft', 'desc': 'Know[Pharmacology]: 80', 'mp-cost': 0, 'gp-cost': 0 },
