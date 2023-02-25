@@ -317,7 +317,7 @@ var defaultToon = {
         { 'gear': 'Sniffer App',	'complexity': 'Mod/2', 'gp-cost': 0, 'desc': 'Collect/view traffic between two systems', 'src': '', 'qty': 1 },
         { 'gear': 'Tracker App',	'complexity': 'Mod/2', 'gp-cost': 0, 'desc': 'Trace connections', 'src': '', 'qty': 1 },
         { 'gear': 'VPN App',	'complexity': 'Min/1', 'gp-cost': 0, 'desc': 'Create virtual private network (-30 sniffing)', 'src': 'Firewall Pack', 'qty': 1 },
-        { 'gear': 'Smart Clothing',	'complexity': 'Min/1', 'gp-cost': 0, 'desc': 'Can change colour, texture and cut. +10 Infiltrate, +30 covered and stationary', 'src': 'Firewall Pack', 'qty': 1 },
+        { 'gear': 'Smart Clothing',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Can change colour, texture and cut. +10 Infiltrate, +30 covered and stationary', 'src': 'Firewall Pack', 'qty': 1 },
         { 'gear': 'Covert Operations Tool',	'complexity': 'Maj/R/3', 'gp-cost': 0, 'desc': 'Bypasses locks, cuts/repairs holes, Hardware: Electronics 60 vs. electronic locks, more', 'src': '', 'qty': 1 },
         { 'gear': 'Healing Spray',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Heals 1d10 damage per hour for 12 hours', 'src': '', 'qty': 1 },
         { 'name': 'Scout Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Scout Swarm - Maps area, collects forensic evidence, Know: Chemistry 60, Medicine: Forensics 60', 'src': '', 'qty': 0, type: 'Gear, Limited Use' },
@@ -379,8 +379,10 @@ var defaultToon = {
             
             { 'ware': 'Skin Flex', 'desc': 'Disguise face, skin, hair. +30 to impersonation/disguise Deceive Tests', 'mp-cost': 0, 'gp-cost': 2 },
             { 'ware': 'Pain Regulator', 'complexity': 'Mod/2', 'desc': 'Dulls pain experience. Ignore 1 wound effect', 'mp-cost': 0, 'gp-cost': 2 },
-            { 'ware': 'Adrenal Surge', 'complexity': 'Maj/3', 'desc': 'Supercharged adrenal response. +1 Vigor, ignore 1 wound.', 'mp-cost': 0, 'gp-cost': 2 }
-            ],
+            { 'ware': 'Adrenal Surge', 'complexity': 'Maj/3', 'desc': 'Supercharged adrenal response. +1 Vigor, ignore 1 wound.', 'mp-cost': 0, 'gp-cost': 2 },
+            { 'name': 'Vacuum Sealing', 'complexity': 'Min/1', 'desc': 'Can survive exposure to vacuum', 'mp-cost': 0, 'gp-cost': 0, type: 'Ware, Limited Use' },
+
+        ],
         'XXX-ware': [
            ],
         'traits': [
