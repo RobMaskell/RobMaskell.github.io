@@ -272,6 +272,31 @@ var defaultToon = {
             'trait': 'Real World Naiveté',
             'desc': 'GM may provide false info once per session',
             'cp-adj': -2
+        },
+        {
+            'trait': 'Restricted Behaviour',
+            'desc': 'Disobeying Orders Lvl 1 all orders, Lvl 2 Thebes command',
+            'cp-adj': 0
+        },
+        {
+            'trait': 'Enhanced Behaviour',
+            'desc': 'For all Mankind, all transhumanity is tribe',
+            'cp-adj': 0
+        },
+        {
+            'trait': 'Resolve',
+            'desc': '+5 per level to WILL (+5 or +15 with Kristina)',
+            'cp-adj': 0
+        },
+        {
+            'trait': 'Quickness',
+            'desc': '+5 per level to REF (+5 or +15 with Kristina)',
+            'cp-adj': 0
+        },
+        {
+            'trait': 'Stalwart',
+            'desc': '+5 per level to WILL (fear) (+5 or +15 with Kristina)',
+            'cp-adj': 0
         }
     ],
     'gear': [
