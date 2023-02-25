@@ -384,8 +384,7 @@ var defaultToon = {
         'XXX-ware': [
            ],
         'traits': [
-            { 'trait': 'Enhanced Behavior', 'desc': 'Patience, Level 2, You are driven to engage in the specified behavior', 'mp-cost': 0 },
-            { 'trait': 'Rapid Healing', 'desc': 'Heal twice as fast. Biomorphs only', 'mp-cost': 1 },
+            { 'trait': 'Rapid Healing', 'desc': 'Heal twice as fast. Biomorphs only', 'mp-cost': 1 }
             ],
         'XXX-traits': [
             
