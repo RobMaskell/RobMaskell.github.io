@@ -165,7 +165,7 @@ var defaultToon = {
         'research': {
             'base': 30,
             'cp-adj': 0,
-            'rp-adj': 25,
+            'rp-adj': 30,
             'aptitude': 'int'
         },
         'survival': {
@@ -271,6 +271,11 @@ var defaultToon = {
         {
             'trait': 'Real World Naiveté',
             'desc': 'GM may provide false info once per session',
+            'cp-adj': -2
+        },
+        {
+            'trait': 'Adaptability',
+            'desc': 'Easier resleeving +10 to resleeving and integration',
             'cp-adj': -2
         },
         {
