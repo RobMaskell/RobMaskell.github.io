@@ -295,7 +295,8 @@ var defaultToon = {
     ],
     'weapons': [
         { 'gear': 'Laser Pulser (Lethal)', 'complexity': 'Mod/R/2', 'gp-cost': 0, 'desc': 'Knockdown, Long, Two-Handed', 'src': 'scratch', 'qty': 1, 'dmg': '2d10 + 2 [13]', 'modes': 'SA/BF/FA', 'ammo': '30', 'range': '100' },
-        { 'gear': 'Holdout', 'complexity': 'Min/R/1', 'gp-cost': 0, 'desc': 'Concealable', 'src': '', 'qty': 1, 'dmg': '1d10 + 1d6 [9]', 'modes': 'SA/BF', 'ammo': '9+1', 'range': '25' }
+        { 'gear': 'Holdout', 'complexity': 'Min/R/1', 'gp-cost': 0, 'desc': 'Concealable', 'src': '', 'qty': 1, 'dmg': '1d10 + 1d6 [9]', 'modes': 'SA/BF', 'ammo': '9+1', 'range': '25' },
+        { 'gear': 'Medium Pistol', 'complexity': 'Min/R/1', 'gp-cost': 0, 'desc': '', 'src': 'foc', 'qty': 1, 'dmg': '2d10 [11]', 'modes': 'SA/BF/FA', 'ammo': '15+1', 'range': '30' }
     ],
     'blueprints': [
         { 'name': 'Armour Vest (Light)', 'complexity': 'Min/1', 'desc': 'AV 4/10. Concealable', 'src': 'Firewall Pack', 'qty': 0, 'energy': 4, 'kinetic': 10, type: 'Gear, Limited Use'},
