@@ -333,20 +333,20 @@ var defaultToon = {
         { 'gear': 'Medium Pistol', 'complexity': 'Min/R/1', 'gp-cost': 0, 'desc': '', 'src': 'foc', 'qty': 1, 'dmg': '2d10 [11]', 'modes': 'SA/BF/FA', 'ammo': '15+1', 'range': '30' }
     ],
     'blueprints': [
-        { 'name': 'Armour Vest (Light)', 'complexity': 'Min/1', 'desc': 'AV 4/10. Concealable', 'src': 'Firewall Pack', 'qty': 0, 'energy': 4, 'kinetic': 10, type: 'Gear, Limited Use'},
-        { 'name': 'Mod: Medical Repair', 'complexity': 'Min/1', 'desc': 'Heals 1d10 damage per hour, ignore 1 wound', 'src': '', 'qty': 0, 'energy': 0, 'kinetic': 0, type: 'Gear, Limited Use' },
-        { 'name': 'Psi Jammer',	'complexity': 'Mod/2', 'gp-cost': 0, 'desc': 'Jams brainwave frequencies w/in 20 m, −30 Psi Tests', 'src': '', 'qty': 0, type: 'Gear, Limited Use' },
-        { 'name': 'Scout Hive',	'complexity': 'Mod/2', 'gp-cost': 0, 'desc': 'Scout Swarm - Maps area, collects forensic evidence, Know: Chemistry 60, Medicine: Forensics 60', 'src': '', 'qty': 0, type: 'Gear, Limited Use' },
-        { 'name': 'Smart Clothing',	'complexity': 'Min/1', 'gp-cost': 0, 'desc': 'Can change colour, texture and cut. +10 Infiltrate, +30 covered and stationary', 'src': '', 'qty': 0, type: 'Gear, Limited Use' },
-        { 'name': 'Spy Hive',	'complexity': 'Mod/2', 'gp-cost': 0, 'desc': 'Spy Swarm - Surveillance, Perceive 60', 'src': '', 'qty': 0, type: 'Gear, Limited Use' },
-        { 'name': 'Chameleon Skin', 'desc': 'Change skin color. +10 Infiltrate, +30 still and covered', 'mp-cost': 0, 'gp-cost': 0, type: 'Ware, Limited Use' },
-        { 'name': 'Electrical Sense', 'desc': 'Sense electrical fields within 5m', 'mp-cost': 0, 'gp-cost': 0, type: 'Ware, Limited Use' },
-        { 'name': 'Respirocytes', 'desc': 'Artificial blood cells, provide 4 hours of air, +5 DUR, +1 WT, +8 DR', 'mp-cost': 0, 'gp-cost': 0, 'plus-dur': 5, 'plus-wt': 1, 'plus-dr': 8, type: 'Ware, Limited Use'},
-        { 'name': 'SkinLink', 'desc': 'Create a “hardwired” mesh link by touch', 'mp-cost': 0, 'gp-cost': 0, type: 'Ware, Limited Use' },
-        { 'name': 'Vacuum Sealing', 'desc': 'Can survive exposure to vacuum', 'mp-cost': 0, 'gp-cost': 0, type: 'Ware, Limited Use' },
-        { 'name': 'Smart Clothing',	'complexity': 'Min/1', 'gp-cost': 3, 'desc': 'Can change colour, texture and cut. +10 Infiltrate, +30 covered and stationary', 'src': 'Firewall Pack', 'qty': 1, type: 'Gear, Limited Use' },
-        { 'name': 'Covert Operations Tool',	'complexity': 'Maj/R/3', 'gp-cost': 3, 'desc': 'Bypasses locks, cuts/repairs holes, Hardware: Electronics 60 vs. electronic locks, more', 'src': '', 'qty': 1, type: 'Gear, Limited Use' },
-        { 'name': 'Holdout', 'complexity': 'Min/R/1', 'gp-cost': 3, 'desc': 'Concealable', 'src': '', 'qty': 1, 'dmg': '1d10 + 1d6 [9]', 'modes': 'SA/BF', 'ammo': '9+1', 'range': '25', type: 'Gear, Limited Use' }
+        { 'name': 'Armour Vest (Light)', 'complexity': 'Min/1', 'desc': 'AV 4/10. Concealable', 'src': 'Firewall Pack', 'qty': 0, 'energy': 4, 'kinetic': 10, 'type': 'Gear, Limited Use'},
+        { 'name': 'Mod: Medical Repair', 'complexity': 'Min/1', 'desc': 'Heals 1d10 damage per hour, ignore 1 wound', 'src': '', 'qty': 0, 'energy': 0, 'kinetic': 0, 'type': 'Gear, Limited Use' },
+        { 'name': 'Psi Jammer',	'complexity': 'Mod/2', 'gp-cost': 0, 'desc': 'Jams brainwave frequencies w/in 20 m, −30 Psi Tests', 'src': '', 'qty': 0, 'type': 'Gear, Limited Use' },
+        { 'name': 'Scout Hive',	'complexity': 'Mod/2', 'gp-cost': 0, 'desc': 'Scout Swarm - Maps area, collects forensic evidence, Know: Chemistry 60, Medicine: Forensics 60', 'src': '', 'qty': 0, 'type': 'Gear, Limited Use' },
+        { 'name': 'Smart Clothing',	'complexity': 'Min/1', 'gp-cost': 0, 'desc': 'Can change colour, texture and cut. +10 Infiltrate, +30 covered and stationary', 'src': '', 'qty': 0, 'type': 'Gear, Limited Use' },
+        { 'name': 'Spy Hive',	'complexity': 'Mod/2', 'gp-cost': 0, 'desc': 'Spy Swarm - Surveillance, Perceive 60', 'src': '', 'qty': 0, 'type': 'Gear, Limited Use' },
+        { 'name': 'Chameleon Skin', 'desc': 'Change skin color. +10 Infiltrate, +30 still and covered', 'mp-cost': 0, 'gp-cost': 0, 'type': 'Ware, Limited Use' },
+        { 'name': 'Electrical Sense', 'desc': 'Sense electrical fields within 5m', 'mp-cost': 0, 'gp-cost': 0, 'type': 'Ware, Limited Use' },
+        { 'name': 'Respirocytes', 'desc': 'Artificial blood cells, provide 4 hours of air, +5 DUR, +1 WT, +8 DR', 'mp-cost': 0, 'gp-cost': 0, 'plus-dur': 5, 'plus-wt': 1, 'plus-dr': 8, 'type': 'Ware, Limited Use'},
+        { 'name': 'SkinLink', 'desc': 'Create a “hardwired” mesh link by touch', 'mp-cost': 0, 'gp-cost': 0, 'type': 'Ware, Limited Use' },
+        { 'name': 'Vacuum Sealing', 'desc': 'Can survive exposure to vacuum', 'mp-cost': 0, 'gp-cost': 0, 'type': 'Ware, Limited Use' },
+        { 'name': 'Smart Clothing',	'complexity': 'Min/1', 'gp-cost': 3, 'desc': 'Can change colour, texture and cut. +10 Infiltrate, +30 covered and stationary', 'src': 'Firewall Pack', 'qty': 1, 'type': 'Gear, Limited Use' },
+        { 'name': 'Covert Operations Tool',	'complexity': 'Maj/R/3', 'gp-cost': 3, 'desc': 'Bypasses locks, cuts/repairs holes, Hardware: Electronics 60 vs. electronic locks, more', 'src': '', 'qty': 1, 'type': 'Gear, Limited Use' },
+        { 'name': 'Holdout', 'complexity': 'Min/R/1', 'gp-cost': 3, 'desc': 'Concealable', 'src': '', 'qty': 1, 'dmg': '1d10 + 1d6 [9]', 'modes': 'SA/BF', 'ammo': '9+1', 'range': '25', 'type': 'Gear, Limited Use' }
     ],
     'morph': {
         'name': 'Bouncer',
@@ -380,7 +380,7 @@ var defaultToon = {
             { 'ware': 'Skin Flex', 'desc': 'Disguise face, skin, hair. +30 to impersonation/disguise Deceive Tests', 'mp-cost': 0, 'gp-cost': 2 },
             { 'ware': 'Pain Regulator', 'complexity': 'Mod/2', 'desc': 'Dulls pain experience. Ignore 1 wound effect', 'mp-cost': 0, 'gp-cost': 2 },
             { 'ware': 'Adrenal Surge', 'complexity': 'Maj/3', 'desc': 'Supercharged adrenal response. +1 Vigor, ignore 1 wound.', 'mp-cost': 0, 'gp-cost': 2 },
-            { 'name': 'Vacuum Sealing', 'complexity': 'Min/1', 'desc': 'Can survive exposure to vacuum', 'mp-cost': 0, 'gp-cost': 0, type: 'Ware, Limited Use' },
+            { 'name': 'Vacuum Sealing', 'complexity': 'Min/1', 'desc': 'Can survive exposure to vacuum', 'mp-cost': 0, 'gp-cost': 1 },
 
         ],
         'XXX-ware': [
