@@ -286,12 +286,14 @@ var defaultToon = {
         {
             'trait': 'Resolve',
             'desc': '+5 per level to WILL (+5 or +15 with Kristina)',
-            'cp-adj': 0
+            'cp-adj': 0,
+            'plus-will': 15
         },
         {
             'trait': 'Quickness',
             'desc': '+5 per level to REF (+5 or +15 with Kristina)',
-            'cp-adj': 0
+            'cp-adj': 0,
+            'plus-ref': 15
         },
         {
             'trait': 'Stalwart',
