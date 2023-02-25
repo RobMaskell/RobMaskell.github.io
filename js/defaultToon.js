@@ -236,8 +236,8 @@ var defaultToon = {
         },
         'flex': {
             'base': 1,
-            'cp-adj': 0,
-            'rp-adj': 2
+            'cp-adj': 1,
+            'rp-adj': 1
         }
     },
     'rep': {
