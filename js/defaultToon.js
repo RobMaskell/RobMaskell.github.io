@@ -236,7 +236,7 @@ var defaultToon = {
         },
         'flex': {
             'base': 1,
-            'cp-adj': 1,
+            'cp-adj': 2,
             'rp-adj': 0
         }
     },
