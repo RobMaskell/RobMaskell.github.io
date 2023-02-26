@@ -382,7 +382,7 @@ var defaultToon = {
             { 'ware': 'Pain Regulator', 'complexity': 'Mod/2', 'desc': 'Dulls pain experience. Ignore 1 wound effect', 'mp-cost': 0, 'gp-cost': 2 },
             { 'ware': 'Adrenal Surge', 'complexity': 'Maj/3', 'desc': 'Supercharged adrenal response. +1 Vigor, ignore 1 wound.', 'mp-cost': 0, 'gp-cost': 2 },
             { 'name': 'Vacuum Sealing', 'complexity': 'Min/1', 'desc': 'Can survive exposure to vacuum', 'mp-cost': 0, 'gp-cost': 1 },
-
+            { 'name': 'Pain Tolerance', 'complexity': '2/4', 'desc': 'Ignore one wound', 'mp-cost': 2, 'gp-cost': 0 },
         ],
         'XXX-ware': [
            ],
