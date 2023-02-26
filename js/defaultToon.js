@@ -303,7 +303,7 @@ var defaultToon = {
         },
         {
             'trait': 'Stalwart',
-            'desc': '+5 per level to WILL (fear) (+5 or +15 with Kristina)',
+            'desc': '+10 per level to WILL (fear) (+5 or +15 with Kristina)',
             'cp-adj': 0
         }
     ],
