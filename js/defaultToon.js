@@ -321,8 +321,8 @@ var defaultToon = {
         { 'gear': 'Smart Clothing',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Can change colour, texture and cut. +10 Infiltrate, +30 covered and stationary', 'src': 'Firewall Pack', 'qty': 1 },
         { 'gear': 'Covert Operations Tool',	'complexity': 'Maj/R/3', 'gp-cost': 0, 'desc': 'Bypasses locks, cuts/repairs holes, Hardware: Electronics 60 vs. electronic locks, more', 'src': '', 'qty': 1 },
         { 'gear': 'Healing Spray',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'Heals 1d10 damage per hour for 12 hours', 'src': '', 'qty': 1 },
-        { 'gear': 'Scout Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Scout Swarm - Maps area, collects forensic evidence, Know: Chemistry 60, Medicine: Forensics 60', 'src': '', 'qty': 0 },
-        { 'gear': 'Spy Hive', 'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Spy Swarm - Surveillance, Perceive 60', 'src': '', 'qty': 0 }
+        { 'gear': 'Scout Hive',	'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Scout Swarm - Maps area, collects forensic evidence, Know: Chemistry 60, Medicine: Forensics 60', 'src': '', 'qty': 1 },
+        { 'gear': 'Spy Hive', 'complexity': 'Mod/2', 'gp-cost': 2, 'desc': 'Spy Swarm - Surveillance, Perceive 60', 'src': '', 'qty': 1 }
     ],
     'armour': [
         { 'gear': 'Armour Vest (Light)',	'complexity': 'Min/1', 'gp-cost': 1, 'desc': 'AV 4/10. Concealable', 'src': 'Firewall Pack', 'qty': 1, 'energy': 4, 'kinetic': 10 },
