@@ -19,3 +19,6 @@
 [Powered by the Apocalypse](https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse)
 
 [Moster of the Week](https://evilhat.com/product/monster-of-the-week/)
+
+### Dice percentages
+[PbtA dice roll probabilities with modifiers](https://redmoosegames.blogspot.com/2014/10/probabilities-of-2d6-with-common-pbta.html)
