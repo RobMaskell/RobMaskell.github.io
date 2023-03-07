@@ -15,4 +15,3 @@ var hunter = {
     'heroic': [ 'Mystical inheritance', 'You can save the world', ],
     'doom': [ 'A nemesis', 'The end of days', ],
 }
-

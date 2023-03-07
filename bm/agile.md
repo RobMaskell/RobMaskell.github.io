@@ -9,3 +9,5 @@
 [David Jeske's answer to Why do some developers at strong companies like Google consider Agile development to be nonsense?](https://www.quora.com/Why-do-some-developers-at-strong-companies-like-Google-consider-Agile-development-to-be-nonsense/answer/David-Jeske?share=1)
 
 [Invers Conway Manouver](https://martinfowler.com/bliki/ConwaysLaw.html)
+
+[The age of cargo cult Agile must end](https://jchyip.medium.com/the-age-of-cargo-cult-agile-must-end-9408e1d13e1d)
