@@ -11,12 +11,12 @@ body {
 }
 
 section {
-    padding: 20px;
+    padding: 1.5rem;
 }
     
 .header {
     margin: 0;
-    padding: 0.5rem;
+    padding: 0.5rem 0 0.5rem 1.5rem ;
     font-family: thirdman;
     font-size: 3rem;
     color: white;
