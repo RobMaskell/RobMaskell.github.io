@@ -10,7 +10,7 @@ async function rollDiceClick(e) {
 
     var div = document.createElement("div");
     div.innerHTML = "Result: " + res.tot + " (" + res.roll1 + ", " + res.roll2 + ") - " + textRes;
-    document.body.appendChild(div);
+    document.getElementById("rolls").appendChild(div);
 
 }
 
