@@ -20,7 +20,7 @@ function setupButtons() {
     // roll dice button
     var rolldice = document.getElementById("rolldice");
     rolldice.addEventListener("click", (e) => {
-        rollDiceClick(2);
+        rollDiceClick(0);
     });
 
 }
