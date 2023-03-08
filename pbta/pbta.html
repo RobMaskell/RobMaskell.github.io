@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/style.css">
 
     <script defer src="js/code.js"></script>
-    <script defer src="js/playbooks/chosen.js"></script>
     <script defer src="js/hunter.js"></script>
     <script defer src="js/toon.js"></script>
 
@@ -25,9 +24,22 @@
         Monster of the Week Beyond
     </header>
 
+    <section id="creation">
+        <h1>Create a character</h1>
+        
+        <h2>Choose your hunter playbook</h2>
+        <div class="control">
+            <button id="chosen" class="playbook">Chosen</button></nbsp><button id="expert" class="playbook">Expert</button>
+        </div>
+        <div id="desc" class="control"></div>
+        <div class="control"><label for="name">Character Name: </label><input type="text" name="name" /></div>
+    </section>
+
     <section>
+        <h1>Character Sheet</h1>
+
         <h2>Test dice roll (2d6+2)</h2>
-        <button onclick="rollDiceClick();">Roll Dice</button>
+        <button id="rolldice">Roll Dice</button>
         <br /><br />
         <div id="rolls"></div>
     </section>

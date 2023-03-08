@@ -10,10 +10,18 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: thirdman;
+}
+
 section {
     padding: 1.5rem;
 }
-    
+
+div.control {
+    margin-top: 1rem;
+}
+
 .header {
     margin: 0;
     padding: 0.5rem 0 0.5rem 1.5rem ;
