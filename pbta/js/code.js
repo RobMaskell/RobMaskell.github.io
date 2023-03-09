@@ -2,7 +2,8 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     setupButtons();
-    hunterClick("chosen", true);
+    playbookSelectClick("chosen", true);
+    loadHunter();
 
 });
 
@@ -13,14 +14,15 @@ function setupButtons() {
     var playbookButtons = document.getElementsByClassName("playbook");
     for (const butt of playbookButtons) {
         butt.addEventListener("click", (e) => {
-            hunterClick(butt.id, false);
+            playbookSelectClick(butt.id, false);
         });
     }
 
     // hunter save button
-    var rolldice = document.getElementById("save");
+    var rolldice = document.getElementById("hunter-save");
     rolldice.addEventListener("click", (e) => {
         saveHunter();
+        loadHunter();
     });
 
     // roll dice button
@@ -32,7 +34,8 @@ function setupButtons() {
 }
 
 
-async function hunterClick(pb, isNew) {
+// Setup character creation page
+async function playbookSelectClick(pb, isNew) {
 
     const scriptPromise = new Promise((resolve, reject) => {
         const script = document.createElement('script');
@@ -45,23 +48,39 @@ async function hunterClick(pb, isNew) {
       
     scriptPromise.then(() => { 
 
-        document.querySelector("section#creation input#playbook").value = pb;
-        document.querySelector("section#creation div#desc").innerText = playbook.desc;
-        isNew ? document.querySelector("section#creation input#name").value = "" : null;
+        var section = document.querySelector("section#creation");
+        section.querySelector("input#hunter-playbook").value = pb;
+        section.querySelector("div#hunter-desc").innerText = playbook.desc;
+        isNew ? section.querySelector("input#hunter-name").value = "" : null;
 
     });
 
 }
 
 
+// Save hunter to local storage
 function saveHunter() {
 
     var toon = {};
-    toon.playbook = document.querySelector("section#creation input#playbook").value;
-    toon.name = document.querySelector("section#creation input#name").value;
+    document.querySelector("section#creation");
+    toon.playbook = document.querySelector("input#hunter-playbook").value;
+    toon.name = document.querySelector("input#hunter-name").value;
 
 
     localStorage.setItem("toon", JSON.stringify(toon));
+    console.log(toon);
+}
+
+
+// Load hunter from local storage
+function loadHunter() {
+
+    var toon = JSON.parse(localStorage.getItem("toon"));
+
+    var section = document.querySelector("section#sheet");
+    document.querySelector("div#toon-name").innerText = toon.name;
+    // toon.name = document.querySelector("section#creation input#name").value;
+
     console.log(toon);
 }
 

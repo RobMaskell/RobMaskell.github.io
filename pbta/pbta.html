@@ -30,20 +30,22 @@
         <h2>Choose your hunter playbook</h2>
         <div class="control">
             <button id="chosen" class="playbook">Chosen</button></nbsp><button id="expert" class="playbook">Expert</button>
-            <input type="text" name="playbook" id="playbook"/>
+            <input type="hidden" name="playbook" id="hunter-playbook"/>
         </div>
-        <div id="desc" class="control"></div>
+        <div id="hunter-desc" class="control"></div>
         <div class="control">
-            <label for="name">Character Name: </label><input type="text" name="name" id="name"/>
+            <label for="hunter-name">Character Name: </label><input type="text" name="hunter-name" id="hunter-name"/>
         </div>
         <div class="control">
-            <button id="save">Save Hunter</button>
+            <button id="hunter-save">Save Hunter</button>
         </div>
     </section>
 
-    <section>
+    <section id="sheet">
         <h1>Character Sheet</h1>
 
+        <div id="toon-name" class="control"></div>
+        
         <h2>Test dice roll (2d6+0)</h2>
         <button id="rolldice">Roll Dice</button>
         <br /><br />
