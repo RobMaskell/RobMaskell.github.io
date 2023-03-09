@@ -26,6 +26,8 @@
 
 [lifehacks](lifehacks)
 
+[machine learning](machine-learning)
+
 [mind](mind)
 
 [music](music)
