@@ -61,6 +61,7 @@ function saveHunter() {
     toon.name = document.querySelector("section#creation input#name").value;
 
 
+    localStorage.setItem("toon", JSON.stringify(toon));
     console.log(toon);
 }
 
