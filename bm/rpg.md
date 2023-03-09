@@ -21,4 +21,7 @@
 [Moster of the Week](https://evilhat.com/product/monster-of-the-week/)
 
 ### Dice percentages
+
 [PbtA dice roll probabilities with modifiers](https://redmoosegames.blogspot.com/2014/10/probabilities-of-2d6-with-common-pbta.html)
+
+[Foundry add-on for PbtA including MotW](https://asacolips.gitbook.io/pbta-system/)
