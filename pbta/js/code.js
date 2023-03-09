@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     setupButtons();
-    hunterClick("chosen");
+    hunterClick("chosen", true);
 
 });
 
@@ -13,9 +13,15 @@ function setupButtons() {
     var playbookButtons = document.getElementsByClassName("playbook");
     for (const butt of playbookButtons) {
         butt.addEventListener("click", (e) => {
-            hunterClick(butt.id);
+            hunterClick(butt.id, false);
         });
     }
+
+    // hunter save button
+    var rolldice = document.getElementById("save");
+    rolldice.addEventListener("click", (e) => {
+        saveHunter();
+    });
 
     // roll dice button
     var rolldice = document.getElementById("rolldice");
@@ -26,7 +32,7 @@ function setupButtons() {
 }
 
 
-async function hunterClick(pb) {
+async function hunterClick(pb, isNew) {
 
     const scriptPromise = new Promise((resolve, reject) => {
         const script = document.createElement('script');
@@ -39,10 +45,23 @@ async function hunterClick(pb) {
       
     scriptPromise.then(() => { 
 
+        document.querySelector("section#creation input#playbook").value = pb;
         document.querySelector("section#creation div#desc").innerText = playbook.desc;
+        isNew ? document.querySelector("section#creation input#name").value = "" : null;
 
     });
 
+}
+
+
+function saveHunter() {
+
+    var toon = {};
+    toon.playbook = document.querySelector("section#creation input#playbook").value;
+    toon.name = document.querySelector("section#creation input#name").value;
+
+
+    console.log(toon);
 }
 
 
