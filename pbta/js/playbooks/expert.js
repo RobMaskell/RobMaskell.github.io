@@ -12,12 +12,12 @@ var playbook = {
             'Old fashioned', 'Casual', 'Utility', 'Tailored', 'Outdoor',
         ],
     },
-    'ratings': [
-        { 'cool': 1, 'Tough': 1, 'Charm': -1, 'Sharp': 2, 'Weird': 0 },
-        { 'cool': 1, 'Tough': -1, 'Charm': 0, 'Sharp': 2, 'Weird': 1 },
-        { 'cool': -1, 'Tough': 1, 'Charm': 1, 'Sharp': 2, 'Weird': 0 },
-        { 'cool': 1, 'Tough': 0, 'Charm': -1, 'Sharp': 2, 'Weird': 1 },
-        { 'cool': 0, 'Tough': -1, 'Charm': -1, 'Sharp': 2, 'Weird': 2 },
+    'ratingOptions': [
+        [ {'name': 'Cool', 'value': 1}, {'name': 'Tough', 'value': 1}, {'name': 'Charm', 'value': -1}, {'name': 'Sharp', 'value': 2}, {'name': 'Weird', 'value': 0} ],
+        [ {'name': 'Cool', 'value': 1}, {'name': 'Tough', 'value': -1}, {'name': 'Charm', 'value': 0}, {'name': 'Sharp', 'value': 2}, {'name': 'Weird', 'value': 1} ],
+        [ {'name': 'Cool', 'value': -1}, {'name': 'Tough', 'value': 1}, {'name': 'Charm', 'value': 1}, {'name': 'Sharp', 'value': 2}, {'name': 'Weird', 'value': 0} ],
+        [ {'name': 'Cool', 'value': 1}, {'name': 'Tough', 'value': 0}, {'name': 'Charm', 'value': -1}, {'name': 'Sharp', 'value': 2}, {'name': 'Weird', 'value': 1} ],
+        [ {'name': 'Cool', 'value': 0}, {'name': 'Tough', 'value': -1}, {'name': 'Charm', 'value': -1}, {'name': 'Sharp', 'value': 2}, {'name': 'Weird', 'value': 2} ],
     ],
     'moves': [
     ],

@@ -53,6 +53,17 @@ async function playbookSelectClick(pb, isNew) {
         section.querySelector("div#hunter-desc").innerText = playbook.desc;
         isNew ? section.querySelector("input#hunter-name").value = "" : null;
 
+        const ratingTemplate = '<div class="rating">{{name}}<br /><span>{{value}}</span></div>';
+        var ratings = '';
+        for (const ratingOption of playbook.ratingOptions) {
+            ratings += '<div class="rating-options">';
+            for (const rating of ratingOption) {
+                ratings += ratingTemplate.replace('{{name}}', rating.name).replace('{{value}}', rating.value);
+            }
+            ratings += '</div>';
+        }
+        section.querySelector("div#ratings").innerHTML = ratings;
+
     });
 
 }
@@ -78,7 +89,7 @@ function loadHunter() {
     var toon = JSON.parse(localStorage.getItem("toon"));
 
     var section = document.querySelector("section#sheet");
-    document.querySelector("div#toon-name").innerText = toon.name;
+    document.querySelector("div#toon-name").innerText = toon.name + ' (' + toon.playbook + ')';
     // toon.name = document.querySelector("section#creation input#name").value;
 
     console.log(toon);

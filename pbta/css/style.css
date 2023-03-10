@@ -22,6 +22,26 @@ div.control {
     margin-top: 1rem;
 }
 
+div.rating-options {
+    display: flex;
+}
+
+div.rating {
+    border: solid black 2px;
+    margin: 0.5rem;
+    padding: 3px;
+    text-align: center;
+    min-width: 60px;
+}
+
+div.rating span {
+    font-size: 20pt;
+}
+
+div#toon-name {
+    text-transform: capitalize;
+}
+
 .header {
     margin: 0;
     padding: 0.5rem 0 0.5rem 1.5rem ;

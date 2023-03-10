@@ -13,12 +13,12 @@ var playbook = {
             'Preppy', 'Casual', 'Urban', 'Normal', 'Neat', 'Street',
         ],
     },
-    'ratings': [
-        { 'cool': -1, 'Tough': 2, 'Charm': 2, 'Sharp': 1, 'Weird': -1 },
-        { 'cool': 2, 'Tough': 2, 'Charm': -1, 'Sharp': 1, 'Weird': -1 },
-        { 'cool': 2, 'Tough': 1, 'Charm': 1, 'Sharp': 1, 'Weird': -1 },
-        { 'cool': 1, 'Tough': -1, 'Charm': -1, 'Sharp': 2, 'Weird': 2 },
-        { 'cool': 2, 'Tough': -1, 'Charm': 1, 'Sharp': -1, 'Weird': 2 },
+    'ratingOptions': [
+        [ {'name': 'Cool', 'value': -1}, {'name': 'Tough', 'value': 2}, {'name': 'Charm', 'value': 2}, {'name': 'Sharp', 'value': 1}, {'name': 'Weird', 'value': -1} ],
+        [ {'name': 'Cool', 'value': 2}, {'name': 'Tough', 'value': 2}, {'name': 'Charm', 'value': -1}, {'name': 'Sharp', 'value': 1}, {'name': 'Weird', 'value': -1} ],
+        [ {'name': 'Cool', 'value': 2}, {'name': 'Tough', 'value': 1}, {'name': 'Charm', 'value': 1}, {'name': 'Sharp', 'value': 1}, {'name': 'Weird', 'value': -1} ],
+        [ {'name': 'Cool', 'value': 1}, {'name': 'Tough', 'value': -1}, {'name': 'Charm', 'value': -1}, {'name': 'Sharp', 'value': 2}, {'name': 'Weird', 'value': 2} ],
+        [ {'name': 'Cool', 'value': 2}, {'name': 'Tough', 'value': -1}, {'name': 'Charm', 'value': 1}, {'name': 'Sharp', 'value': -1}, {'name': 'Weird', 'value': 2} ],
     ],
     'fates': {
         'Title': 'Your fate',
