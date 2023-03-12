@@ -1,4 +1,4 @@
-var hunter = {
+var hunterRef = {
     'playbooks': {
         'title': 'Playbook',
         'select': 1,
@@ -17,13 +17,13 @@ var hunter = {
         { 'name': 'Read a Bad Situation', 'desc': 'used to work out what dangers are immediately threatening you. For instance, if you think you are walking into a trap, or want to do some tactical analysis' },
         { 'name': 'Use Magic', 'desc': 'used to cast magic spells or use enchanted items' },
     ],
-    'ratings': [
-        { 'name': 'Cool', 'desc': 'Cool is how calm and collected you are. It is added to your die roll for the act under pressure and help out basic moves' },
-        { 'name': 'Tough', 'desc': 'Tough is how strong and mean you are in a fight. It is added to your die roll for the kick some ass and protect someone basic moves' },
-        { 'name': 'Charm', 'desc': 'Charm is how pleasant and persuasive you are. It is added to your die roll for the manipulate someone basic move' },
-        { 'name': 'Sharp', 'desc': 'Sharp is how observant you are. It is added to your die roll for the investigate a mystery and read a bad situation basic moves' },
-        { 'name': 'Weird', 'desc': 'Weird is how attuned to the supernatural you are. It is added to your die roll for the use magic basic move' },
-    ],
+    'ratings': {
+        'cool': 'Cool is how calm and collected you are. \nIt is added to your die roll for the act \nunder pressure and help out basic moves',
+        'tough': 'Tough is how strong and mean you are in a fight. \nIt is added to your die roll for the kick some \nass and protect someone basic moves',
+        'charm': 'Charm is how pleasant and persuasive you are. \nIt is added to your die roll for the manipulate \nsomeone basic move',
+        'sharp': 'Sharp is how observant you are. \nIt is added to your die roll for the investigate \na mystery and read a bad situation basic moves',
+        'weird': 'Weird is how attuned to the supernatural you are. \nIt is added to your die roll for the use magic basic move',
+    },
     'luck': {
         'title': 'Luck',
         'select': 'none',

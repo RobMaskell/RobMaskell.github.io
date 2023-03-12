@@ -37,6 +37,7 @@ function setupButtons() {
 // Setup character creation page
 async function playbookSelectClick(pb, isNew) {
 
+    // load the playbook JS
     const scriptPromise = new Promise((resolve, reject) => {
         const script = document.createElement('script');
         document.body.appendChild(script);
@@ -49,18 +50,25 @@ async function playbookSelectClick(pb, isNew) {
     scriptPromise.then(() => { 
 
         var section = document.querySelector("section#creation");
+
+        // playbook and description
         section.querySelector("input#hunter-playbook").value = pb;
         section.querySelector("div#hunter-desc").innerText = playbook.desc;
         isNew ? section.querySelector("input#hunter-name").value = "" : null;
 
-        const ratingTemplate = '<div class="rating">{{name}}<br /><span>{{value}}</span></div>';
+        // ratings
+        const ratingTemplate = '<div class="rating" title="{{title}}">{{name}}<br /><span>{{value}}</span></div>';
         var ratings = '';
+        var iter = 1;
         for (const ratingOption of playbook.ratingOptions) {
-            ratings += '<div class="rating-options">';
+            ratings += '<div class="rating-options"><div class="rating"><input type="radio" name="rating" value=' + iter + ' style="margin-top: 0.75rem; height:25px; width:25px;" /></div>';
             for (const rating of ratingOption) {
-                ratings += ratingTemplate.replace('{{name}}', rating.name).replace('{{value}}', rating.value);
+                ratings += ratingTemplate.replace('{{name}}', rating.name)
+                                .replace('{{value}}', rating.value)
+                                .replace('{{title}}', hunterRef.ratings[rating.name.toLowerCase()]);
             }
             ratings += '</div>';
+            iter++;
         }
         section.querySelector("div#ratings").innerHTML = ratings;
 
@@ -76,10 +84,15 @@ function saveHunter() {
     document.querySelector("section#creation");
     toon.playbook = document.querySelector("input#hunter-playbook").value;
     toon.name = document.querySelector("input#hunter-name").value;
+    const ratingOption = document.querySelector('input[name="rating"]:checked').value;
+    toon.ratings = {};
+    for (const rating of playbook.ratingOptions[ratingOption-1]) {
+        toon.ratings[rating.name] = rating.value;
+    }
 
 
     localStorage.setItem("toon", JSON.stringify(toon));
-    console.log(toon);
+    console.log("saveHunter", toon);
 }
 
 
@@ -92,7 +105,7 @@ function loadHunter() {
     document.querySelector("div#toon-name").innerText = toon.name + ' (' + toon.playbook + ')';
     // toon.name = document.querySelector("section#creation input#name").value;
 
-    console.log(toon);
+    console.log("loadHunter", toon);
 }
 
 
