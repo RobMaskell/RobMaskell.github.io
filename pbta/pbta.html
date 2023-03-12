@@ -25,32 +25,38 @@
     </header>
 
     <section id="creation">
-        <h1>Create a character</h1>
-        
-        <h2>Choose your hunter playbook</h2>
-        <div class="control">
-            <button id="chosen" class="playbook">Chosen</button></nbsp><button id="expert" class="playbook">Expert</button>
-            <input type="hidden" name="playbook" id="hunter-playbook"/>
-        </div>
-        <div id="hunter-desc" class="control"></div>
+        <form name="hunter-creation">
 
-        <h2>Give your hunter a suitable name</h2>
-        <div class="control">
-            <label for="hunter-name">Character Name: </label><input type="text" name="hunter-name" id="hunter-name"/>
-        </div>
+            <h1>Create a character</h1>
+            
+            <h2>Choose your hunter playbook</h2>
+            <div class="control">
+                <button id="chosen" class="playbook">Chosen</button></nbsp><button id="expert" class="playbook">Expert</button>
+                <input type="hidden" name="playbook" id="hunter-playbook"/>
+            </div>
+            <div id="hunter-desc" class="control"></div>
 
-        <h2>Select a set of ratings that suit your hunter</h2>
-        <div class="control" id="ratings"></div>
+            <h2>Give your hunter a suitable name</h2>
+            <div class="control">
+                <label for="hunter-name">Character Name: </label><input type="text" name="hunter-name" id="hunter-name"/>
+            </div>
 
-        <div class="control">
-            <button id="hunter-save">Save Hunter</button>
-        </div>
+            <h2>Select a set of ratings that suit your hunter</h2>
+            <div class="control" id="ratings"></div>
+
+            <div class="control">
+                <button id="hunter-save">Save Hunter</button>
+            </div>
+
+        </form>
     </section>
 
     <section id="sheet">
         <h1>Character Sheet</h1>
 
         <div id="toon-name" class="control"></div>
+
+        <div id="ratings" class="control"></div>
         
         <h2>Test dice roll (2d6+0)</h2>
         <button id="rolldice">Roll Dice</button>

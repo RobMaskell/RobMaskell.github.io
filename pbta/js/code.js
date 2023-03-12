@@ -1,8 +1,14 @@
 
-document.addEventListener('DOMContentLoaded', () => {
+// HTML Templates
+const ratingTemplate = '<div class="rating" title="{{title}}">{{name}}<br /><span>{{value}}</span></div>';
+
+document.addEventListener('DOMContentLoaded', async () => {
+
+    const isNew = localStorage.getItem("toon") === null;
+    var toon = JSON.parse(localStorage.getItem("toon"));
 
     setupButtons();
-    playbookSelectClick("chosen", true);
+    await playbookSelectClick(isNew?"chosen":toon.playbook, isNew);
     loadHunter();
 
 });
@@ -43,11 +49,11 @@ async function playbookSelectClick(pb, isNew) {
         document.body.appendChild(script);
         script.onload = resolve;
         script.onerror = reject;
-        script.async = true;
+        script.async = false;
         script.src = 'js/playbooks/' + pb + '.js';
       });
       
-    scriptPromise.then(() => { 
+    await scriptPromise.then(() => { 
 
         var section = document.querySelector("section#creation");
 
@@ -57,11 +63,10 @@ async function playbookSelectClick(pb, isNew) {
         isNew ? section.querySelector("input#hunter-name").value = "" : null;
 
         // ratings
-        const ratingTemplate = '<div class="rating" title="{{title}}">{{name}}<br /><span>{{value}}</span></div>';
         var ratings = '';
         var iter = 1;
         for (const ratingOption of playbook.ratingOptions) {
-            ratings += '<div class="rating-options"><div class="rating"><input type="radio" name="rating" value=' + iter + ' style="margin-top: 0.75rem; height:25px; width:25px;" /></div>';
+            ratings += '<div class="rating-options"><div class="rating"><input type="radio" name="hunter-rating" id="hunter-rating' + iter + '" value=' + iter + ' style="margin-top: 0.75rem; height:25px; width:25px;"></div>';
             for (const rating of ratingOption) {
                 ratings += ratingTemplate.replace('{{name}}', rating.name)
                                 .replace('{{value}}', rating.value)
@@ -84,9 +89,10 @@ function saveHunter() {
     document.querySelector("section#creation");
     toon.playbook = document.querySelector("input#hunter-playbook").value;
     toon.name = document.querySelector("input#hunter-name").value;
-    const ratingOption = document.querySelector('input[name="rating"]:checked').value;
+    const ratingOption = document.querySelector('input[name="hunter-rating"]:checked').value;
+    toon.ratingOption = Number(ratingOption);
     toon.ratings = {};
-    for (const rating of playbook.ratingOptions[ratingOption-1]) {
+    for (const rating of playbook.ratingOptions[toon.ratingOption-1]) {
         toon.ratings[rating.name] = rating.value;
     }
 
@@ -99,13 +105,41 @@ function saveHunter() {
 // Load hunter from local storage
 function loadHunter() {
 
-    var toon = JSON.parse(localStorage.getItem("toon"));
+    // get json
+    var toonString = localStorage.getItem("toon");
+    if (!(toonString === null)) {
+        var toon = JSON.parse(toonString);
+        console.log("loadHunter", toon);
 
-    var section = document.querySelector("section#sheet");
-    document.querySelector("div#toon-name").innerText = toon.name + ' (' + toon.playbook + ')';
-    // toon.name = document.querySelector("section#creation input#name").value;
+        // CHARCTER SHEET FIRST
+        var section = document.querySelector("section#sheet");
 
-    console.log("loadHunter", toon);
+        // name and playbook
+        document.querySelector("div#toon-name").innerText = toon.name + ' (' + toon.playbook + ')';
+        // toon.name = document.querySelector("section#creation input#name").value;
+
+        // ratings
+        var ratings = '';
+        ratings += '<div class="rating-options">';
+        for (const name in toon.ratings) {
+            ratings += ratingTemplate.replace('{{name}}', name)
+                            .replace('{{value}}', toon.ratings[name])
+                            .replace('{{title}}', hunterRef.ratings[name.toLowerCase()]);
+        }
+        ratings += '</div>';
+        section.querySelector("div#ratings").innerHTML = ratings;
+
+
+        // CHARACTER BUILD SHEET FIRST
+        section = document.querySelector("section#creation");
+
+        // toon name
+        section.querySelector("input[name=hunter-name]").value = toon.name;
+
+        // rating options
+        section.querySelectorAll('input[name="hunter-rating"]')[toon.ratingOption-1].checked = true;
+
+    }
 }
 
 
@@ -115,10 +149,10 @@ async function rollDiceClick(e) {
     var modifier = 2;
     var res = await get2d6(modifier);
 
-    var textRes = res.tot <= 6 ? "Fail" : (res.tot <= 10 ? "Pass" : "Great Pass")
+    var textRes = res.tot <= 6 ? "Fail" : (res.tot <= 10 ? "Partial Success" : "Success")
 
     var div = document.createElement("div");
-    div.innerHTML = "Result: " + res.tot + " (" + res.roll1 + ", " + res.roll2 + ") - " + textRes;
+    div.innerHTML = "Result: (" + res.roll1 + ", " + res.roll2 + ") " + modifier + " = " + res.tot + " - " + textRes;
     document.getElementById("rolls").appendChild(div);
 
 }
