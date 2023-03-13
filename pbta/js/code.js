@@ -152,7 +152,7 @@ function loadHunter() {
     } else {
         var section = document.querySelector("section#sheet");
         section.querySelector("div#toon-name").innerText = "";
-        section.querySelector("div#ratings").innerHTML = "";
+        section.querySelector("div#toon-ratings").innerHTML = "";
     }
 }
 
