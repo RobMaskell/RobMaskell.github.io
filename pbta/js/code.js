@@ -34,7 +34,7 @@ function setupButtons() {
     // roll dice button
     var rolldice = document.getElementById("rolldice");
     rolldice.addEventListener("click", (e) => {
-        rollDiceClick(0);
+        rollDiceClick("Test", 0);
     });
 
     // reset button
@@ -129,13 +129,15 @@ function loadHunter() {
         // ratings
         var ratings = '';
         ratings += '<div class="rating-options">';
-        for (const name in toon.ratings) {
-            ratings += ratingTemplate.replace('{{name}}', name)
-                            .replace('{{value}}', toon.ratings[name])
-                            .replace('{{title}}', hunterRef.ratings[name.toLowerCase()]);
-        }
         ratings += '</div>';
-        section.querySelector("div#ratings").innerHTML = ratings;
+        section.querySelector("div#toon-ratings").innerHTML = ratings;
+        for (const name in toon.ratings) {
+            // ratings += ratingTemplate.replace('{{name}}', name)
+            //                 .replace('{{value}}', toon.ratings[name])
+            //                 .replace('{{title}}', hunterRef.ratings[name.toLowerCase()]);
+            createRatingCard(document.querySelector("div#toon-ratings div"), name, toon.ratings[name], hunterRef.ratings[name.toLowerCase()], true);
+        }
+
 
 
         // CHARACTER BUILD SHEET FIRST
@@ -155,16 +157,42 @@ function loadHunter() {
 }
 
 
-async function rollDiceClick(e) {
+// create rating card
+function createRatingCard(appendTo, name, value, title, addClick) {
+    // var newRatings = ratingTemplate.replace('{{name}}', name)
+    //             .replace('{{value}}', toon.ratings[name])
+    //             .replace('{{title}}', hunterRef.ratings[name.toLowerCase()]);
+    // const ratingTemplate = '<div class="rating" title="{{title}}">{{name}}<br /><span>{{value}}</span></div>';
+
+    var ratingDiv = document.createElement("div");
+    ratingDiv.className = "rating" + (addClick?" hand":"");
+    ratingDiv.setAttribute("title", title);
+    ratingDiv.setAttribute("data-mod", value);
+    ratingDiv.setAttribute("data-name", name);
+    ratingDiv.innerText = name;
+    var ratingSpan = document.createElement("span");
+    ratingSpan.innerText = value;
+    ratingDiv.append(document.createElement("br"));
+    ratingDiv.appendChild(ratingSpan);
+    if (addClick) {
+        ratingDiv.addEventListener("click", (e) => {
+            var attrs = e.target.attributes;
+            rollDiceClick( attrs["data-name"].value, Number(attrs["data-mod"].value) );
+        });
+    }
+
+    appendTo.appendChild(ratingDiv);
+}
 
 
-    var modifier = 2;
+async function rollDiceClick(rollType, modifier) {
+
     var res = await get2d6(modifier);
 
     var textRes = res.tot <= 6 ? "Fail" : (res.tot <= 10 ? "Partial Success" : "Success")
 
     var div = document.createElement("div");
-    div.innerHTML = "Result: (" + res.roll1 + ", " + res.roll2 + ") " + modifier + " = " + res.tot + " - " + textRes;
+    div.innerHTML = rollType + ": (" + res.roll1 + ", " + res.roll2 + ") " + modifier + " = " + res.tot + " - " + textRes;
     document.getElementById("rolls").appendChild(div);
 
 }
