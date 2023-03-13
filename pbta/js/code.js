@@ -37,6 +37,14 @@ function setupButtons() {
         rollDiceClick(0);
     });
 
+    // reset button
+    var reset = document.getElementById("reset");
+    reset.addEventListener("click", (e) => {
+        localStorage.removeItem("toon");
+        playbookSelectClick("chosen", true);
+        loadHunter();
+    });
+
 }
 
 
@@ -139,6 +147,10 @@ function loadHunter() {
         // rating options
         section.querySelectorAll('input[name="hunter-rating"]')[toon.ratingOption-1].checked = true;
 
+    } else {
+        var section = document.querySelector("section#sheet");
+        section.querySelector("div#toon-name").innerText = "";
+        section.querySelector("div#ratings").innerHTML = "";
     }
 }
 
