@@ -192,7 +192,7 @@ async function rollDiceClick(rollType, modifier) {
     var textRes = res.tot <= 6 ? "Fail" : (res.tot <= 10 ? "Partial Success" : "Success")
 
     var div = document.createElement("div");
-    div.innerHTML = rollType + ": (" + res.roll1 + ", " + res.roll2 + ") " + modifier + " = " + res.tot + " - " + textRes;
+    div.innerHTML = rollType + " :check (" + res.roll1 + " + " + res.roll2 + ") " + (modifier>=0?"+":"") + modifier + " = " + res.tot + " Result: " + textRes;
     document.getElementById("rolls").appendChild(div);
 
 }
