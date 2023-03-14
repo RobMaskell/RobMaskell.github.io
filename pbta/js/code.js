@@ -34,10 +34,10 @@ function setupButtons() {
     });
 
     // roll dice button
-    var rolldice = document.getElementById("rolldice");
-    rolldice.addEventListener("click", (e) => {
-        rollDiceClick("Test", 0);
-    });
+    // var rolldice = document.getElementById("rolldice");
+    // rolldice.addEventListener("click", (e) => {
+    //     rollDiceClick("Test", 0);
+    // });
 
     // reset button
     var reset = document.getElementById("reset");
