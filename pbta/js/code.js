@@ -1,11 +1,13 @@
 
+var toon = {};
+
 // HTML Templates
 const ratingTemplate = '<div class="rating" title="{{title}}">{{name}}<br /><span>{{value}}</span></div>';
 
 document.addEventListener('DOMContentLoaded', async () => {
 
     const isNew = localStorage.getItem("toon") === null;
-    var toon = JSON.parse(localStorage.getItem("toon"));
+    toon = JSON.parse(localStorage.getItem("toon"));
 
     setupButtons();
     await playbookSelectClick(isNew?"chosen":toon.playbook, isNew);
@@ -116,7 +118,7 @@ function loadHunter() {
     // get json
     var toonString = localStorage.getItem("toon");
     if (!(toonString === null)) {
-        var toon = JSON.parse(toonString);
+        toon = JSON.parse(toonString);
         console.log("loadHunter", toon);
 
         // CHARCTER SHEET FIRST
@@ -139,7 +141,7 @@ function loadHunter() {
         }
 
         // default moves
-        createDefaultMoves(document.querySelector("div#toon-moves div"), true)
+        createDefaultMoves(document.querySelector("div#toon-moves"), true)
 
 
         // BUILD SHEET SECOND
@@ -151,10 +153,14 @@ function loadHunter() {
         // rating options
         section.querySelectorAll('input[name="hunter-rating"]')[toon.ratingOption-1].checked = true;
 
+        // default moves
+        createDefaultMoves(document.querySelector("div#hunter-moves"), false)
+
     } else {
         var section = document.querySelector("section#sheet");
         section.querySelector("div#toon-name").innerText = "";
         section.querySelector("div#toon-ratings").innerHTML = "";
+        section.querySelector("div#toon-moves").innerHTML = "";
     }
 }
 
@@ -187,14 +193,30 @@ function createRatingCard(appendTo, name, value, title, addClick) {
 function createDefaultMoves(appendTo, addClick) {
 
     var ratingDiv = document.createElement("div");
-    for(move of hunterRef.moves) {
-        console.log("move", move.name, move.desc);
+    for(let move of hunterRef.moves) {
+
         var moveNameDiv = document.createElement("div");
         moveNameDiv.innerText = move.name;
         appendTo.appendChild(moveNameDiv);
         var moveDescDiv = document.createElement("div");
         moveDescDiv.innerText = move.desc;
         appendTo.appendChild(moveDescDiv);
+        var moveRollDiv = document.createElement("div");
+
+        if (addClick) {
+            var moveRollButton = document.createElement("button");
+            moveRollButton.innerText = "Roll +" + move.rating;
+            moveRollDiv.appendChild(moveRollButton);
+            appendTo.appendChild(moveRollDiv);
+
+            moveRollButton.addEventListener("click", function(){
+                rollDiceClick( move.name, toon.ratings[move.rating] );
+            }, false);
+        } else {
+            moveRollDiv.innerText = "Roll +" + move.rating;
+            appendTo.appendChild(moveRollDiv);
+        }
+
     }
 }
 

@@ -47,6 +47,17 @@ div#toon-name {
     text-transform: capitalize;
 }
 
+div#toon-moves, div#hunter-moves {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    border: solid black 1px;
+}
+
+div#toon-moves div, div#hunter-moves div {
+    padding: 0.5rem;
+    border: solid black 1px;
+}
+
 .header {
     margin: 0;
     padding: 0.5rem 0 0.5rem 1.5rem ;
@@ -58,4 +69,10 @@ div#toon-name {
 
 .hand {
     cursor: pointer;
+}
+
+.grid {
+    display: inline-grid;
+    grid-row-gap: 1px;
+    grid-column-gap: 1px;
 }
