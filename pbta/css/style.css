@@ -8,10 +8,24 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button {
     padding: 0.5rem;
+    background-color: #dddddd;
+    border: #555555 solid 2px;
+    border-radius: 17px;
+    height: 34px;
+    vertical-align: middle;
+    color: #555555;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+button:hover {
+    background-color: #aaaaaa;
+    border-width: 3px;
 }
 
 h1 {
@@ -56,6 +70,8 @@ div#toon-moves, div#hunter-moves {
 div#toon-moves div, div#hunter-moves div {
     padding: 0.5rem;
     border: solid black 1px;
+    align-items: center;
+    display: grid;
 }
 
 .header {
