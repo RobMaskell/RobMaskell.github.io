@@ -138,9 +138,11 @@ function loadHunter() {
             createRatingCard(document.querySelector("div#toon-ratings div"), name, toon.ratings[name], hunterRef.ratings[name.toLowerCase()], true);
         }
 
+        // default moves
+        createDefaultMoves(document.querySelector("div#toon-moves div"), true)
 
 
-        // CHARACTER BUILD SHEET FIRST
+        // BUILD SHEET SECOND
         section = document.querySelector("section#creation");
 
         // toon name
@@ -159,10 +161,6 @@ function loadHunter() {
 
 // create rating card
 function createRatingCard(appendTo, name, value, title, addClick) {
-    // var newRatings = ratingTemplate.replace('{{name}}', name)
-    //             .replace('{{value}}', toon.ratings[name])
-    //             .replace('{{title}}', hunterRef.ratings[name.toLowerCase()]);
-    // const ratingTemplate = '<div class="rating" title="{{title}}">{{name}}<br /><span>{{value}}</span></div>';
 
     var ratingDiv = document.createElement("div");
     ratingDiv.className = "rating" + (addClick?" hand":"");
@@ -182,6 +180,22 @@ function createRatingCard(appendTo, name, value, title, addClick) {
     }
 
     appendTo.appendChild(ratingDiv);
+}
+
+
+// create default moves section
+function createDefaultMoves(appendTo, addClick) {
+
+    var ratingDiv = document.createElement("div");
+    for(move of hunterRef.moves) {
+        console.log("move", move.name, move.desc);
+        var moveNameDiv = document.createElement("div");
+        moveNameDiv.innerText = move.name;
+        appendTo.appendChild(moveNameDiv);
+        var moveDescDiv = document.createElement("div");
+        moveDescDiv.innerText = move.desc;
+        appendTo.appendChild(moveDescDiv);
+    }
 }
 
 
