@@ -1,5 +1,6 @@
 
 var toon = {};
+var playbook = {};
 
 // HTML Templates
 const ratingTemplate = '<div class="rating" title="{{title}}">{{name}}<br /><span>{{value}}</span></div>';
@@ -33,12 +34,6 @@ function setupButtons() {
         loadHunter();
     });
 
-    // roll dice button
-    // var rolldice = document.getElementById("rolldice");
-    // rolldice.addEventListener("click", (e) => {
-    //     rollDiceClick("Test", 0);
-    // });
-
     // reset button
     var reset = document.getElementById("reset");
     reset.addEventListener("click", (e) => {
@@ -55,6 +50,7 @@ async function playbookSelectClick(pb, isNew) {
 
     // load the playbook JS
     const scriptPromise = new Promise((resolve, reject) => {
+        document.querySelectorAll("script").forEach((elem) => elem.remove());
         const script = document.createElement('script');
         document.body.appendChild(script);
         script.onload = resolve;
@@ -86,6 +82,10 @@ async function playbookSelectClick(pb, isNew) {
             iter++;
         }
         section.querySelector("div#ratings").innerHTML = ratings;
+
+        // moves
+        section.querySelector("div#hunter-moves").innerHTML = "";
+        createDefaultMoves(document.querySelector("div#hunter-moves"), true)
 
     });
 
@@ -193,7 +193,8 @@ function createRatingCard(appendTo, name, value, title, addClick) {
 function createDefaultMoves(appendTo, addClick) {
 
     var ratingDiv = document.createElement("div");
-    for(let move of hunterRef.moves) {
+    const moves = hunterRef.moves.concat(playbook.moves);
+    for(let move of moves) {
 
         var moveNameDiv = document.createElement("div");
         moveNameDiv.innerText = move.name;
@@ -203,7 +204,7 @@ function createDefaultMoves(appendTo, addClick) {
         appendTo.appendChild(moveDescDiv);
         var moveRollDiv = document.createElement("div");
 
-        if (addClick) {
+        if (addClick && move.rating!="none" ) {
             var moveRollButton = document.createElement("button");
             moveRollButton.innerText = "Roll +" + move.rating;
             moveRollDiv.appendChild(moveRollButton);
@@ -213,7 +214,7 @@ function createDefaultMoves(appendTo, addClick) {
                 rollDiceClick( move.name, toon.ratings[move.rating] );
             }, false);
         } else {
-            moveRollDiv.innerText = "Roll +" + move.rating;
+            moveRollDiv.innerText = move.rating=="none" ? "No Roll" : "Roll +" + move.rating;
             appendTo.appendChild(moveRollDiv);
         }
 

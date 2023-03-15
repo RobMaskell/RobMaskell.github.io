@@ -1,5 +1,5 @@
 
-var playbook = {
+playbook = {
     'desc': 'Your birth was prophesied. You are the Chosen One, and with your abilities you can save the world. If you fail, all will be destroyed. It all rests on you. Only you', 
     'creation': 'To make your Chosen, first pick a name. The follow the instructions below to decide your look, ratings, fate, moves and gear. Finally introduce yourself and pick a history',
     'look': {
@@ -74,8 +74,8 @@ var playbook = {
         ],
     },
     'moves': [
-        { 'name': 'Destiny\'s Plaything', 'desc': 'At the beginning of each mystery, roll +Weird to see what is revealed about your immediate future. On a 10+, the Keeper will reveal a useful detail about the coming mystery. On a 7-9 you get a vague hint about it. On a miss, something bad is going to happen to you' },
-        { 'name': 'I\'m Here For A Reason', 'desc': 'There\'s something you are destined to do. Work out the details with the Keeper, based on your fate. You cannot die until it comes to pass. If you die in play, then you must spend a Luck point. You will then, somehow, recover or get returned to life. Once your task is done (or you use up all your Luck), all bets are off' },
+        { 'name': 'Destiny\'s Plaything', 'rating': 'weird', 'desc': 'At the beginning of each mystery, roll +Weird to see what is revealed about your immediate future. On a 10+, the Keeper will reveal a useful detail about the coming mystery. On a 7-9 you get a vague hint about it. On a miss, something bad is going to happen to you' },
+        { 'name': 'I\'m Here For A Reason', 'rating': 'none', 'desc': 'There\'s something you are destined to do. Work out the details with the Keeper, based on your fate. You cannot die until it comes to pass. If you die in play, then you must spend a Luck point. You will then, somehow, recover or get returned to life. Once your task is done (or you use up all your Luck), all bets are off' },
     ],
     'optional-moves': {
         'select': 1,
