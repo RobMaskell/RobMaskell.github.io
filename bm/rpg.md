@@ -18,6 +18,8 @@
 
 [Powered by the Apocalypse](https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse)
 
+[Apocalypse Now and it's impact on RPGs](https://www.goonhammer.com/turn-order-apocalypse-world-and-its-impact-on-rpgs/)
+
 [Moster of the Week](https://evilhat.com/product/monster-of-the-week/)
 
 ### Dice percentages
