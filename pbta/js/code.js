@@ -111,6 +111,7 @@ function resetHunterPage() {
     section.querySelector("input#hunter-playbook").value = '';
     section.querySelector("div#hunter-desc").innerText = '';
     section.querySelector("input#hunter-name").value = '';
+    section.querySelector("div#hunter-look").innerHTML = '';
     section.querySelector("div#ratings").innerHTML = '';
     section.querySelector("div#hunter-moves").innerHTML = '';
 
@@ -124,7 +125,9 @@ function resetToonPage() {
 
     // name and playbook
     section.querySelector("div#toon-name").innerText = toon.name + ' (' + toon.playbook + ')';
-
+    section.querySelector("div#toon-look").innerHTML = '';
+    section.querySelector("div#toon-ratings").innerHTML = '';
+    section.querySelector("div#toon-moves").innerHTML = '';
 
 }
 
@@ -135,9 +138,16 @@ function primeHunterPage(pbook) {
     var section = document.querySelector("section#creation");
 
     // playbook and description
-    section.querySelector("input#hunter-playbook").value = pbook;
     section.querySelector("div#hunter-desc").innerText = playbook.desc;
     section.querySelector("input#hunter-name").value = toon.name;
+    section.querySelector("input#hunter-playbook").value = pbook;
+
+    // look, sex/face/clothes
+    var lookHtml = '';
+    for (look in playbook.looks) {
+        lookHtml += '<div class-"control"><label>{{look}}</label></div>'.replace('{{look}}', look);
+    }
+    section.querySelector("div#hunter-look").innerHTML = lookHtml;
 
     // ratings
     var ratings = '';
@@ -188,55 +198,55 @@ function primeToonPage() {
 
 
 // Load hunter from local storage
-function loadHunter() {
+// function loadHunter() {
 
-    // get json
-    var toonString = localStorage.getItem("toon");
-    if (!(toonString === null)) {
-        toon = JSON.parse(toonString);
-        console.log("loadHunter", toon);
+//     // get json
+//     var toonString = localStorage.getItem("toon");
+//     if (!(toonString === null)) {
+//         toon = JSON.parse(toonString);
+//         console.log("loadHunter", toon);
 
-        // CHARCTER SHEET FIRST
-        var section = document.querySelector("section#sheet");
+//         // CHARCTER SHEET FIRST
+//         var section = document.querySelector("section#sheet");
 
-        // name and playbook
-        document.querySelector("div#toon-name").innerText = toon.name + ' (' + toon.playbook + ')';
-        // toon.name = document.querySelector("section#creation input#name").value;
+//         // name and playbook
+//         document.querySelector("div#toon-name").innerText = toon.name + ' (' + toon.playbook + ')';
+//         // toon.name = document.querySelector("section#creation input#name").value;
 
-        // ratings
-        var ratings = '';
-        ratings += '<div class="rating-options">';
-        ratings += '</div>';
-        section.querySelector("div#toon-ratings").innerHTML = ratings;
-        for (const name in toon.ratings) {
-            // ratings += ratingTemplate.replace('{{name}}', name)
-            //                 .replace('{{value}}', toon.ratings[name])
-            //                 .replace('{{title}}', hunterRef.ratings[name.toLowerCase()]);
-            createRatingCard(document.querySelector("div#toon-ratings div"), name, toon.ratings[name], hunterRef.ratings[name.toLowerCase()], true);
-        }
+//         // ratings
+//         var ratings = '';
+//         ratings += '<div class="rating-options">';
+//         ratings += '</div>';
+//         section.querySelector("div#toon-ratings").innerHTML = ratings;
+//         for (const name in toon.ratings) {
+//             // ratings += ratingTemplate.replace('{{name}}', name)
+//             //                 .replace('{{value}}', toon.ratings[name])
+//             //                 .replace('{{title}}', hunterRef.ratings[name.toLowerCase()]);
+//             createRatingCard(document.querySelector("div#toon-ratings div"), name, toon.ratings[name], hunterRef.ratings[name.toLowerCase()], true);
+//         }
 
-        // default moves
-        createDefaultMoves(document.querySelector("div#toon-moves"), true)
-
-
-        // BUILD SHEET SECOND
-        section = document.querySelector("section#creation");
-
-        // toon name
-        section.querySelector("input[name=hunter-name]").value = toon.name;
+//         // default moves
+//         createDefaultMoves(document.querySelector("div#toon-moves"), true)
 
 
+//         // BUILD SHEET SECOND
+//         section = document.querySelector("section#creation");
 
-        // default moves
-        createDefaultMoves(document.querySelector("div#hunter-moves"), false)
+//         // toon name
+//         section.querySelector("input[name=hunter-name]").value = toon.name;
 
-    } else {
-        var section = document.querySelector("section#sheet");
-        section.querySelector("div#toon-name").innerText = "";
-        section.querySelector("div#toon-ratings").innerHTML = "";
-        section.querySelector("div#toon-moves").innerHTML = "";
-    }
-}
+
+
+//         // default moves
+//         createDefaultMoves(document.querySelector("div#hunter-moves"), false)
+
+//     } else {
+//         var section = document.querySelector("section#sheet");
+//         section.querySelector("div#toon-name").innerText = "";
+//         section.querySelector("div#toon-ratings").innerHTML = "";
+//         section.querySelector("div#toon-moves").innerHTML = "";
+//     }
+// }
 
 
 // create rating card
