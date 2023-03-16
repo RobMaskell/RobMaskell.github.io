@@ -1,4 +1,5 @@
 playbook = {
+    'name': 'Expert',
     'desc': 'I have dedicated my life to the study of the unnatural. I know their habits, their weaknesses. I may not be youngest or strongest, but I know enough to be the biggest threat', 
     'creation': 'To make your Expoert, first pick a name. The follow the instructions below to decide your look, ratings, fate, moves and gear. Finally introduce yourself and pick a history',
     'look': {

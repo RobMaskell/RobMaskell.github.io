@@ -9,10 +9,17 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const isNew = localStorage.getItem("toon") === null;
     toon = JSON.parse(localStorage.getItem("toon"));
+    selectedPlaybook = 'Chosen';
 
     setupButtons();
-    await playbookSelectClick(isNew?"chosen":toon.playbook, isNew);
-    loadHunter();
+    var scriptPromise = playbookSelectClick(isNew?playbook.name:toon.playbook, isNew)
+    await scriptPromise.then(() => { 
+
+        resetHunterPage();
+        primeHunterPage(isNew?playbook.name:toon.playbook);
+        resetToonPage();
+        primeToonPage();
+    });
 
 });
 
@@ -22,8 +29,12 @@ function setupButtons() {
     // hunter select buttons
     var playbookButtons = document.getElementsByClassName("playbook");
     for (const butt of playbookButtons) {
-        butt.addEventListener("click", (e) => {
-            playbookSelectClick(butt.id, false);
+        butt.addEventListener("click", async (e) => {
+            var scriptPromise = playbookSelectClick(butt.id, false);
+            await scriptPromise.then(() => { 
+                resetHunterPage();
+                primeHunterPage(playbook.name);
+            });
         });
     }
 
@@ -31,15 +42,23 @@ function setupButtons() {
     var rolldice = document.getElementById("hunter-save");
     rolldice.addEventListener("click", (e) => {
         saveHunter();
-        loadHunter();
+        resetHunterPage();
+        primeHunterPage(toon.playbook);
+        resetToonPage();
+        primeToonPage();
     });
 
     // reset button
     var reset = document.getElementById("reset");
-    reset.addEventListener("click", (e) => {
+    reset.addEventListener("click", async (e) => {
         localStorage.removeItem("toon");
-        playbookSelectClick("chosen", true);
-        loadHunter();
+        toon = {};
+        var scriptPromise = playbookSelectClick("chosen", true);
+        await scriptPromise.then(() => { 
+            resetHunterPage();
+            primeHunterPage(playbook.name);
+            resetToonPage();
+        });
     });
 
 }
@@ -57,37 +76,10 @@ async function playbookSelectClick(pb, isNew) {
         script.onerror = reject;
         script.async = false;
         script.src = 'js/playbooks/' + pb + '.js';
+        playbook = {};
       });
-      
-    await scriptPromise.then(() => { 
-
-        var section = document.querySelector("section#creation");
-
-        // playbook and description
-        section.querySelector("input#hunter-playbook").value = pb;
-        section.querySelector("div#hunter-desc").innerText = playbook.desc;
-        isNew ? section.querySelector("input#hunter-name").value = "" : null;
-
-        // ratings
-        var ratings = '';
-        var iter = 1;
-        for (const ratingOption of playbook.ratingOptions) {
-            ratings += '<div class="rating-options"><div class="rating"><input type="radio" name="hunter-rating" id="hunter-rating' + iter + '" value=' + iter + ' style="margin-top: 0.75rem; height:25px; width:25px;"></div>';
-            for (const rating of ratingOption) {
-                ratings += ratingTemplate.replace('{{name}}', rating.name)
-                                .replace('{{value}}', rating.value)
-                                .replace('{{title}}', hunterRef.ratings[rating.name.toLowerCase()]);
-            }
-            ratings += '</div>';
-            iter++;
-        }
-        section.querySelector("div#ratings").innerHTML = ratings;
-
-        // moves
-        section.querySelector("div#hunter-moves").innerHTML = "";
-        createDefaultMoves(document.querySelector("div#hunter-moves"), true)
-
-    });
+    
+    return scriptPromise;
 
 }
 
@@ -95,7 +87,7 @@ async function playbookSelectClick(pb, isNew) {
 // Save hunter to local storage
 function saveHunter() {
 
-    var toon = {};
+    toon = {};
     document.querySelector("section#creation");
     toon.playbook = document.querySelector("input#hunter-playbook").value;
     toon.name = document.querySelector("input#hunter-name").value;
@@ -106,9 +98,92 @@ function saveHunter() {
         toon.ratings[rating.name] = rating.value;
     }
 
-
     localStorage.setItem("toon", JSON.stringify(toon));
-    console.log("saveHunter", toon);
+}
+
+
+// Reset the hunter page
+function resetHunterPage() {
+
+    var section = document.querySelector("section#creation");
+
+    // playbook and description
+    section.querySelector("input#hunter-playbook").value = '';
+    section.querySelector("div#hunter-desc").innerText = '';
+    section.querySelector("input#hunter-name").value = '';
+    section.querySelector("div#ratings").innerHTML = '';
+    section.querySelector("div#hunter-moves").innerHTML = '';
+
+}
+
+
+// Reset the toon page
+function resetToonPage() {
+
+    var section = document.querySelector("section#sheet");
+
+    // name and playbook
+    section.querySelector("div#toon-name").innerText = toon.name + ' (' + toon.playbook + ')';
+
+
+}
+
+
+// Prime the hunter page
+function primeHunterPage(pbook) {
+
+    var section = document.querySelector("section#creation");
+
+    // playbook and description
+    section.querySelector("input#hunter-playbook").value = pbook;
+    section.querySelector("div#hunter-desc").innerText = playbook.desc;
+    section.querySelector("input#hunter-name").value = toon.name;
+
+    // ratings
+    var ratings = '';
+    var iter = 1;
+    for (const ratingOption of playbook.ratingOptions) {
+        ratings += '<div class="rating-options"><div class="rating"><input type="radio" name="hunter-rating" id="hunter-rating' + iter + '" value=' + iter + ' style="margin-top: 0.75rem; height:25px; width:25px;"></div>';
+        for (const rating of ratingOption) {
+            ratings += ratingTemplate.replace('{{name}}', rating.name)
+                            .replace('{{value}}', rating.value)
+                            .replace('{{title}}', hunterRef.ratings[rating.name.toLowerCase()]);
+        }
+        ratings += '</div>';
+        iter++;
+    }
+    section.querySelector("div#ratings").innerHTML = ratings;
+    section.querySelectorAll('input[name="hunter-rating"]')[toon.ratingOption-1].checked = true;
+
+    // moves
+    createDefaultMoves(document.querySelector("div#hunter-moves"), false)
+
+}
+
+
+// Prime the toon page
+function primeToonPage() {
+
+    var section = document.querySelector("section#sheet");
+
+    // name and playbook
+    section.querySelector("div#toon-name").innerText = toon.name + ' (' + toon.playbook + ')';
+
+    // ratings
+    var ratings = '';
+    ratings += '<div class="rating-options">';
+    ratings += '</div>';
+    section.querySelector("div#toon-ratings").innerHTML = ratings;
+    for (const name in toon.ratings) {
+        // ratings += ratingTemplate.replace('{{name}}', name)
+        //                 .replace('{{value}}', toon.ratings[name])
+        //                 .replace('{{title}}', hunterRef.ratings[name.toLowerCase()]);
+        createRatingCard(document.querySelector("div#toon-ratings div"), name, toon.ratings[name], hunterRef.ratings[name.toLowerCase()], true);
+    }
+
+    // default moves
+    createDefaultMoves(document.querySelector("div#toon-moves"), true)
+
 }
 
 
@@ -150,8 +225,7 @@ function loadHunter() {
         // toon name
         section.querySelector("input[name=hunter-name]").value = toon.name;
 
-        // rating options
-        section.querySelectorAll('input[name="hunter-rating"]')[toon.ratingOption-1].checked = true;
+
 
         // default moves
         createDefaultMoves(document.querySelector("div#hunter-moves"), false)

@@ -1,5 +1,6 @@
 
 playbook = {
+    'name': 'Chosen',
     'desc': 'Your birth was prophesied. You are the Chosen One, and with your abilities you can save the world. If you fail, all will be destroyed. It all rests on you. Only you', 
     'creation': 'To make your Chosen, first pick a name. The follow the instructions below to decide your look, ratings, fate, moves and gear. Finally introduce yourself and pick a history',
     'look': {
