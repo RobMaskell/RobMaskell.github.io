@@ -65,7 +65,7 @@ div.rating span {
     pointer-events: none; 
 }
 
-div#toon-name {
+div#toon-name, div#hunter-playbook {
     text-transform: capitalize;
 }
 
