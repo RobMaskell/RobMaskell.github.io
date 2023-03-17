@@ -44,6 +44,10 @@ input[type="text"] {
     font-size: 1rem
 }
 
+label {
+    text-transform: capitalize;
+}
+
 section {
     padding: 1.5rem;
 }
