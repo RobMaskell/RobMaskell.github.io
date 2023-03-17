@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     selectedPlaybook = 'Chosen';
 
     setupButtons();
-    var scriptPromise = playbookSelectClick(isNew?playbook.name:toon.playbook, isNew)
+    var scriptPromise = playbookSelectClick(isNew?selectedPlaybook.toLowerCase():toon.playbook, isNew)
     await scriptPromise.then(() => { 
 
         resetHunterPage();
-        primeHunterPage(isNew?playbook.name:toon.playbook);
+        primeHunterPage(isNew?selectedPlaybook.toLowerCase():toon.playbook);
         resetToonPage();
         primeToonPage();
     });
@@ -85,10 +85,18 @@ async function playbookSelectClick(pb, isNew) {
 function saveHunter() {
 
     toon = {};
-    document.querySelector("section#creation");
-    toon.playbook = document.querySelector("input#hunter-playbook").value;
-    toon.name = document.querySelector("input#hunter-name").value;
-    const ratingOption = document.querySelector('input[name="hunter-rating"]:checked').value;
+    var section = document.querySelector("section#creation");
+    toon.playbook = section.querySelector("input#hunter-playbook").value;
+    toon.name = section.querySelector("input#hunter-name").value;
+
+    // looks
+    toon.looks = {};
+    for (look in playbook.looks) {
+        toon.looks[look] = section.querySelector('input[name="hunter-look-' + look + '"]:checked').value;
+    }
+
+    // ratings
+    const ratingOption = section.querySelector('input[name="hunter-rating"]:checked').value;
     toon.ratingOption = Number(ratingOption);
     toon.ratings = {};
     for (const rating of playbook.ratingOptions[toon.ratingOption-1]) {
@@ -140,11 +148,14 @@ function primeHunterPage(pbook) {
     section.querySelector("input#hunter-playbook").value = pbook;
 
     // look, sex/face/clothes
-    var lookHtml = '';
+    var lookSection = section.querySelector("div#hunter-look");
     for (look in playbook.looks) {
-        lookHtml += '<div class-"control"><label>{{look}}</label></div>'.replace('{{look}}', look);
+        createLookLabel(lookSection, look);
+        for (option of playbook.looks[look]) {
+            createLookOption(lookSection, look, option);
+        }
+        section.querySelector('input[name="hunter-look-' + look + '"][value="' + toon.looks[look] + '"]').checked = true;
     }
-    section.querySelector("div#hunter-look").innerHTML = lookHtml;
 
     // ratings
     var iter = 1;
@@ -173,6 +184,11 @@ function primeToonPage() {
 
     // name and playbook
     section.querySelector("div#toon-name").innerText = toon.name + ' (' + toon.playbook + ')';
+
+    // looks
+    for (look in playbook.looks) {
+        section.querySelector('div#toon-look').insertAdjacentHTML('beforeend', look + "-" + toon.looks[look]);
+    }
 
     // ratings
     var ratings = '';

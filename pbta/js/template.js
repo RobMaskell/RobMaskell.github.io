@@ -9,6 +9,22 @@
 // }
 
 
+// create look label
+function createLookLabel(appendTo, look) {
+    var lookLabel = '<div class-"control"><label>{{look}}</label></div>'.replace('{{look}}', look);
+    appendTo.insertAdjacentHTML("beforeend", lookLabel);
+}
+
+
+// create look option
+function createLookOption(appendTo, look, option) {
+    var optionHtml = '<input type="radio" name="hunter-look-{{look}}" id="hunter-look-{{look}}-{{option}}" value="{{option}}"><label for="hunter-look-{{look}}-{{option}}">{{option}}</label>'
+        .replaceAll('{{look}}', look)
+        .replaceAll('{{option}}', option);
+    appendTo.insertAdjacentHTML("beforeend", optionHtml);
+}
+
+
 // create rating card
 function createRatingCard(appendTo, name, value, title, addClick) {
 

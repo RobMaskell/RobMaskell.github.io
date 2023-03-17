@@ -107,7 +107,7 @@ div#rolls div:last-child {
 }
 
 div#rolls div {
-    font-size: 1.25rem
+    font-size: 1.25rem;
     padding: 0.5rem;
 }
 
