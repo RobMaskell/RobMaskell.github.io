@@ -55,6 +55,10 @@
   border-image: url(button.svg) 10 10 10 10 stretch stretch;
 }
 
+.doodle button:disabled, .doodle input:disabled, .doodle select:disabled {
+  border-image: url(button-disabled.svg) 10 10 10 10 stretch stretch;
+}
+
 .doodle button {
   text-align: center;
 }

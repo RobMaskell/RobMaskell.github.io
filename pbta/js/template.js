@@ -13,7 +13,7 @@
 function createRatingCard(appendTo, name, value, title, addClick) {
 
     var ratingDiv = document.createElement("div");
-    ratingDiv.className = "rating" + (addClick?" hand":"");
+    ratingDiv.className = "rating border" + (addClick?" hand":"");
     ratingDiv.setAttribute("title", title);
     ratingDiv.setAttribute("data-mod", value);
     ratingDiv.setAttribute("data-name", name);
@@ -37,16 +37,20 @@ function createRatingCard(appendTo, name, value, title, addClick) {
 function createDefaultMoves(appendTo, addClick) {
 
     var ratingDiv = document.createElement("div");
+    ratingDiv.className = "grid";
     const moves = hunterRef.moves.concat(playbook.moves);
     for(let move of moves) {
 
         var moveNameDiv = document.createElement("div");
+        moveNameDiv.className = "border";
         moveNameDiv.innerText = move.name;
         appendTo.appendChild(moveNameDiv);
         var moveDescDiv = document.createElement("div");
+        moveDescDiv.className = "border";
         moveDescDiv.innerText = move.desc;
         appendTo.appendChild(moveDescDiv);
         var moveRollDiv = document.createElement("div");
+        moveRollDiv.className = "border";
 
         if (addClick && move.rating!="none" ) {
             var moveRollButton = document.createElement("button");

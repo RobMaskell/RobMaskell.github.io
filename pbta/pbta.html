@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/doodle.css">
     <link rel="stylesheet" href="css/style.css">
 
     <script src="js/template.js"></script>
@@ -18,8 +19,12 @@
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="apple-touch-icon" type="image/x-icon" href="favicon.ico">
 
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+</style>
+
 </head>
-<body>
+<body class="doodle">
 
     <header class="header">
         Monster of the Week Beyond
@@ -37,10 +42,10 @@
 
         <h2>Give your hunter a suitable name</h2>
         <div class="control">
-            <label for="hunter-name">Character Name: </label><input type="text" name="hunter-name" id="hunter-name"/>
+            <label for="hunter-name">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" name="hunter-name" id="hunter-name"/>
         </div>
         <div class="control">
-            <label for="hunter-playbook">Playbook: </label><input type="text" name="hunter-playbook" id="hunter-playbook" disabled />
+            <label for="hunter-playbook">Playbook:&nbsp;&nbsp;</label><input type="text" name="hunter-playbook" id="hunter-playbook" disabled />
         </div>
         <div class="control" id="hunter-look"></div>
 
@@ -48,7 +53,7 @@
         <div class="control" id="hunter-ratings"></div>
 
         <h2>Moves</h2>
-        <div id="hunter-moves" class="control"></div>
+        <div id="hunter-moves" class="control grid"></div>
 
         <div class="control">
             <button id="hunter-save">Save Hunter</button>

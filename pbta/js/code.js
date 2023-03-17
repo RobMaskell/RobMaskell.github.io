@@ -150,7 +150,7 @@ function primeHunterPage(pbook) {
     var iter = 1;
     for (const ratingOption of playbook.ratingOptions) {
 
-        const ratingLineHtml = '<div id="rating-option' + iter + '" class="rating-options"><div class="rating"><input type="radio" name="hunter-rating" id="hunter-rating' + iter + '" value=' + iter + ' style="margin-top: 0.75rem; height:25px; width:25px;"></div></div>';
+        const ratingLineHtml = '<div id="rating-option' + iter + '" class="rating-options"><div class="rating border"><input type="radio" name="hunter-rating" id="hunter-rating' + iter + '" value=' + iter + ' style="margin-top: 0.75rem; height:25px; width:25px;"></div></div>';
         section.querySelector("div#hunter-ratings").insertAdjacentHTML("beforeend", ratingLineHtml);
         const ratingSection = section.querySelector("div#rating-option" + iter);
         for (const rating of ratingOption) {
