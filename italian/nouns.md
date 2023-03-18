@@ -3,10 +3,12 @@
 ## People
 | un / una | IT | IT Plural | ENG |
 | -- | -- | -- | -- |
+| un | l'uomo | gli uomini | man / men |
+| un | il ragazzo | i ragazzi | boy / boys |
 | una | la donna | le donne | woman / women |
 | una | la ragazza | le ragazze | girl / girls |
-| un | il ragazzo | i ragazzi | boy / boys |
-| un | l'uomo | gli uomini | man / men |
+| una | la moglie | le mogli | wife / wives |
+| un | il marito | i mariti | husband / husbands |
 
 ## Food / Drink
 | un / una | IT | IT Plural | ENG |
