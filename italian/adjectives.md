@@ -3,3 +3,4 @@
 | IT | ENG |
 | -- | -- |
 | acido | sour |
+| fame | hunger |
