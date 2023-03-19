@@ -82,17 +82,19 @@ You don’t permanently damage something important
 
 </details>
 
-<hr>
-
 **Packing All Kinds of Heat**  
 When you go into battle, choose one of the following:  
 <details>
 <summary>more info</summary>
 
-* You’ve loaded incendiary ammunition. Add +burn to your ranged weapon attacks.  
-* You’ve loaded armor-piercing ammunition. Add +ap-1 to your ranged weapon attacks.  
-* You’ve loaded plastic ammunition. Add +shock to your ranged weapon attacks.  
-* You’ve loaded tracking ammunition. Add +bug to your ranged weapon attacks  
+You’ve loaded incendiary ammunition. Add +burn to your ranged weapon attacks.  
+<br>
+You’ve loaded armor-piercing ammunition. Add +ap-1 to your ranged weapon attacks.  
+<br>
+You’ve loaded plastic ammunition. Add +shock to your ranged weapon attacks.  
+<br>
+You’ve loaded tracking ammunition. Add +bug to your ranged weapon attacks  
+<br>
 
 </details>
 <hr>
