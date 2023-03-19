@@ -2,7 +2,7 @@
 
 ## People
 | un / una | IT | IT Plural | ENG |
-| -- | -- | -- | -- |
+| --- | --- | --- | --- |
 | un | l'uomo | gli uomini | man / men |
 | un | il ragazzo | i ragazzi | boy / boys |
 | una | la donna | le donne | woman / women |
@@ -12,7 +12,7 @@
 
 ## Jobs / Roles / descriptiond
 | un / una | IT | IT Plural | ENG |
-| -- | -- | -- | -- |
+| --- | --- | --- | --- |
 | un | il cuoco | i cuochi | cooks / cooks |
 | un | il vegatariano | i vegetariani | vegetarian / vegetarians |
 |  |  |  |  |
@@ -20,7 +20,7 @@
 
 ## Food / Drink
 | un / una | IT | IT Plural | ENG |
-| -- | -- | -- | -- |
+| --- | --- | --- | --- |
 |  | l'acqua |  | water |
 |  | l'aglio |  | garlic |
 | un | il biscotto | i biscotti |  |
@@ -53,7 +53,7 @@
 
 ## Animals
 | un / una | IT | IT Plural | ENG |
-| -- | -- | -- | -- |
+| --- | --- | --- | --- |
 | un | l'animale | gli animali | animal / animals |
 | un | il cane | i cani | dog / dogs |
 | un | il delfino | i delfini | dolphin / dolphins |
@@ -76,7 +76,7 @@
 
 ## Objects
 | un / una | IT | IT Plural | ENG |
-| -- | -- | -- | -- |
+| --- | --- | --- | --- |
 | un | il bicchiere | i bicchieri | glass / glasses (drink) |
 | una | la forchetta | le forchette | fork / forks |
 | un | il giornale | i giornali | newspaper / newspapers |
@@ -94,7 +94,7 @@
 
 ## Places
 | un / una | IT | IT Plural | ENG |
-| -- | -- | -- | -- |
+| --- | --- | --- | --- |
 | una | la cucina | le cucine | kitchen / kitchens |
 |  |  |  |  |
 |  |  |  |  |

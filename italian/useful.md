@@ -3,7 +3,7 @@
 ## Basics
 
 | IT | ENG |
-| -- | -- |
+| --- | --- |
 | io | I |
 | tu | you |
 | lui/lei | he/she/it |
@@ -15,7 +15,7 @@
 ## Greetings
 
 | IT | ENG |
-| -- | -- |
+| --- | --- |
 | ciao | hi / bye |
 | buongiorno | good day |
 | buonasera | good evening |
@@ -25,7 +25,7 @@
 ## Useful
 
 | IT | ENG |
-| -- | -- |
+| --- | --- |
 | prego | you're welcome |
 | ho fame | i am hungry |
 | nel | in the / on the whole (in + il) |
@@ -36,7 +36,7 @@
 ## Plurals
 
 |  |  |
-| -- | -- |
+| --- | --- |
 | ___a | ___e |
 | ___o | ___i |
 | ___e | ___i |

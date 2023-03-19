@@ -2,7 +2,7 @@
 
 ## Essere - To Be
 | IT | ENG |
-| -- | -- |
+| --- | --- |
 | io | sono |
 | tu | sei |
 | lui/lei | e |
@@ -12,7 +12,7 @@
 
 ## Avere - To Have
 | IT | ENG |
-| -- | -- |
+| --- | --- |
 | io | ho |
 | tu | hai |
 | lui/lei | ha |
@@ -22,7 +22,7 @@
 
 ## Mangiare - To Eat
 | IT | ENG |
-| -- | -- |
+| --- | --- |
 | io | mangio |
 | tu | mangi |
 | lui/lei | mangia |
@@ -32,7 +32,7 @@
 
 ## Beve - To Drink
 | IT | ENG |
-| -- | -- |
+| --- | --- |
 | io | bevo |
 | tu | bevi |
 | lui/lei | beve |
@@ -42,7 +42,7 @@
 
 ## Leggere - To Read
 | IT | ENG |
-| -- | -- |
+| --- | --- |
 | io | leggo |
 | tu | leggi |
 | lui/lei | legge |
@@ -52,7 +52,7 @@
 
 ## Scrivere - To X
 | IT | ENG |
-| -- | -- |
+| --- | --- |
 | io | scrivo |
 | tu | scrivi |
 | lui/lei | scrive |
@@ -62,7 +62,7 @@
 
 ## Tagliare - To Cut
 | IT | ENG |
-| -- | -- |
+| --- | --- |
 | io | taglio |
 | tu | tagli |
 | lui/lei | taglia |
@@ -72,7 +72,7 @@
 
 ## X - To X
 | IT | ENG |
-| -- | -- |
+| --- | --- |
 | io |  |
 | tu |  |
 | lui/lei |  |
