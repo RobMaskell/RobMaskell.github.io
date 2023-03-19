@@ -17,6 +17,7 @@ You are privileged to have been raised as part of the immortal upper class that 
 
 **Background Stats**: Resources at +2
 </details>
+<hr>
 
 ## Faction
 ### ANARCHIST
@@ -25,13 +26,14 @@ You are privileged to have been raised as part of the immortal upper class that 
 You are opposed to hierarchy, favoring flat forms of social organization and directly democratic decisionmaking. You believe power is always corrupting and everyone should have a say in the decisions that affect their lives. According to the primitive and restrictive policies of the inner system and Jovian Junta, this makes you an irresponsible hoodlum at best and a terrorist at worst. In your opinion, that’s comedy coming from governments that keep their populations in line with economic oppression and threats of violence.
 Common Morphs: All
 </details>
+<hr>
 
 ## Connection
 TBD
 
 ## Ego Stats
 | Cognition | Intuition | Coordination | Somatics | Savvy | Willpower | Total |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| --------- | --------- | --------- | --------- | --------- | --------- | --------- |
 | 2 | 0 | 2 | 0 | -2 | 1 | 5 |
 | -3 | 0 | -3 | 0 | +2 | -1 | -5 |
 
@@ -67,6 +69,8 @@ You leave no trace behind
 You don’t permanently damage something important  
 </details>
 
+<hr>
+
 **Packing All Kinds of Heat**
 When you go into battle, choose one of the following:  
 <details>
@@ -76,6 +80,7 @@ You’ve loaded armor-piercing ammunition. Add +ap-1 to your ranged weapon attac
 You’ve loaded plastic ammunition. Add +shock to your ranged weapon attacks.  
 You’ve loaded tracking ammunition. Add +bug to your ranged weapon attacks  
 </details>
+<hr>
 
 ## Persona
 <details>
@@ -100,4 +105,5 @@ A -
 
 Q - Do you want bad candy?  
 A - 
-<./details>
+</details>
+<hr>
