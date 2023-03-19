@@ -67,11 +67,13 @@ Tags: **+biomods, +mesh inserts, +cortical stack, +chameleon skin, +adrenal boos
 When you seek to subvert a non-informorph computer system or electronic security measures
 <details>
 <summary>more info</summary>
+
 Roll+Intuition. On a 10+, choose 3. On a 7-9, choose 2. On a miss, choose 1 anyway.  
-You get into the system or past the security  
-You don’t alert anyone to your intrusion  
-You leave no trace behind  
-You don’t permanently damage something important  
+* You get into the system or past the security  
+* You don’t alert anyone to your intrusion  
+* You leave no trace behind  
+* You don’t permanently damage something important  
+
 </details>
 
 <hr>
@@ -81,10 +83,11 @@ When you go into battle, choose one of the following:
 <details>
 <summary>more info</summary>
 
-You’ve loaded incendiary ammunition. Add +burn to your ranged weapon attacks.  
-You’ve loaded armor-piercing ammunition. Add +ap-1 to your ranged weapon attacks.  
-You’ve loaded plastic ammunition. Add +shock to your ranged weapon attacks.  
-You’ve loaded tracking ammunition. Add +bug to your ranged weapon attacks  
+* You’ve loaded incendiary ammunition. Add +burn to your ranged weapon attacks.  
+* You’ve loaded armor-piercing ammunition. Add +ap-1 to your ranged weapon attacks.  
+* You’ve loaded plastic ammunition. Add +shock to your ranged weapon attacks.  
+* You’ve loaded tracking ammunition. Add +bug to your ranged weapon attacks  
+
 </details>
 <hr>
 
