@@ -44,13 +44,10 @@ TBD
 
 g
 
-<!--
 | Cognition | Intuition | Coordination | Somatics | Savvy | Willpower | Total |  
-| First Header  | Second Header |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | 2 | 0 | 2 | 0 | -2 | 1 | 5 |  
 | -3 | 0 | -3 | 0 | +2 | -1 | -5 |  
--->
 
 ## Morph
 **Ghosts**  
