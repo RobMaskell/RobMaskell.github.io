@@ -9,13 +9,13 @@
 ### Hyperelite
 <details>
 <summary>more info</summary>
-You are privileged to have been raised as part of the immortal upper class that rules many inner system habitats and hypercorps. You were pampered with wealth and influence that most people can only dream of
+You are privileged to have been raised as part of the immortal upper class that rules many inner system habitats and hypercorps. You were pampered with wealth and influence that most people can only dream of  
 
-**Starting Morph:** Any except Flat, Splicer, Futura, Pod, Uplift, or any Synthmorph
+**Starting Morph:** Any except Flat, Splicer, Futura, Pod, Uplift, or any Synthmorph  
 
-**Move**: Wealth or Life of the Party
+**Move**: Wealth or Life of the Party  
 
-**Background Stats**: Resources at +2
+**Background Stats**: Resources at +2  
 </details>
 <hr>
 
@@ -59,7 +59,7 @@ Tags: **+biomods, +mesh inserts, +cortical stack, +chameleon skin, +adrenal boos
 
 ### Character Moves
 
-**Hacker**
+**Hacker**  
 When you seek to subvert a non-informorph computer system or electronic security measures, roll+Intuition. On a 10+, choose 3. On a 7-9, choose 2. On a miss, choose 1 anyway.
 <details>
 <summary>more info</summary>
@@ -71,7 +71,7 @@ You don’t permanently damage something important
 
 <hr>
 
-**Packing All Kinds of Heat**
+**Packing All Kinds of Heat**  
 When you go into battle, choose one of the following:  
 <details>
 <summary>more info</summary>
