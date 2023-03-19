@@ -27,7 +27,7 @@ You are privileged to have been raised as part of the immortal upper class that 
 <summary>more info</summary>
 
 You are opposed to hierarchy, favoring flat forms of social organization and directly democratic decisionmaking. You believe power is always corrupting and everyone should have a say in the decisions that affect their lives. According to the primitive and restrictive policies of the inner system and Jovian Junta, this makes you an irresponsible hoodlum at best and a terrorist at worst. In your opinion, that’s comedy coming from governments that keep their populations in line with economic oppression and threats of violence.  
-
+<br>
 Common Morphs: All
 </details>
 <hr>
