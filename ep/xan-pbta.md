@@ -36,7 +36,7 @@ You are opposed to hierarchy, favoring flat forms of social organization and dir
 TBD
 
 ## Ego Stats  
-| Cognition | Intuition | Coordination | Somatics | Savvy | Willpower | Total |  
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
@@ -44,6 +44,7 @@ TBD
 g
 
 <!--
+| Cognition | Intuition | Coordination | Somatics | Savvy | Willpower | Total |  
 | First Header  | Second Header |
 | ------------- | ------------- |
 | 2 | 0 | 2 | 0 | -2 | 1 | 5 |  
