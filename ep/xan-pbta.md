@@ -70,10 +70,15 @@ When you seek to subvert a non-informorph computer system or electronic security
 <summary>more info</summary>
 
 Roll+Intuition. On a 10+, choose 3. On a 7-9, choose 2. On a miss, choose 1 anyway.  
-* You get into the system or past the security  
-* You don’t alert anyone to your intrusion  
-* You leave no trace behind  
-* You don’t permanently damage something important  
+<br>
+You get into the system or past the security  
+<br>
+You don’t alert anyone to your intrusion  
+<br>
+You leave no trace behind  
+<br>
+You don’t permanently damage something important  
+<br>
 
 </details>
 
