@@ -37,15 +37,8 @@ TBD
 
 ## Ego Stats  
 
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-
-g
-
 | Cognition | Intuition | Coordination | Somatics | Savvy | Willpower | Total |  
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
 | 2 | 0 | 2 | 0 | -2 | 1 | 5 |  
 | -3 | 0 | -3 | 0 | +2 | -1 | -5 |  
 
