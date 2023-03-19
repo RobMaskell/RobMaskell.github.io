@@ -31,7 +31,7 @@ Common Morphs: All
 ## Connection
 TBD
 
-## Ego Stats
+## Ego Stats  
 | Cognition | Intuition | Coordination | Somatics | Savvy | Willpower | Total |
 | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
 | 2 | 0 | 2 | 0 | -2 | 1 | 5 |
