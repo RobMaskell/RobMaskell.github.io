@@ -10,13 +10,13 @@
 <details>
 <summary>more info</summary>
 You are privileged to have been raised as part of the immortal upper class that rules many inner system habitats and hypercorps. You were pampered with wealth and influence that most people can only dream of
-</details>
 
 **Starting Morph:** Any except Flat, Splicer, Futura, Pod, Uplift, or any Synthmorph
 
 **Move**: Wealth or Life of the Party
 
 **Background Stats**: Resources at +2
+</details>
 
 ## Faction
 ### ANARCHIST
@@ -31,9 +31,9 @@ TBD
 
 ## Ego Stats
 | Cognition | Intuition | Coordination | Somatics | Savvy | Willpower | Total |
-| --- | --- | --- | --- | --- | --- | --- |
-| `2` | `0` | `2` | `0` | `-2` | `1` | `5` |
-| `-3` | `0` | `-3` | `0` | `+2` | `-1` | `-5` |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 2 | 0 | 2 | 0 | -2 | 1 | 5 |
+| -3 | 0 | -3 | 0 | +2 | -1 | -5 |
 
 ## Morph
 **Ghosts**  
