@@ -36,6 +36,7 @@ You are opposed to hierarchy, favoring flat forms of social organization and dir
 TBD
 
 ## Ego Stats  
+
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
