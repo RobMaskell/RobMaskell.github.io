@@ -53,13 +53,14 @@
 
 ## Animals
 | un / una | IT | IT Plural | ENG |
-| --- | --- | --- | --- |
+|---|---|---|---|
 | un | l'animale | gli animali | animal / animals |
 | un | il cane | i cani | dog / dogs |
 | un | il delfino | i delfini | dolphin / dolphins |
 | un | l'elefante | gli elefanti | elephant / elephants |
 | un / una | il gatto / la gatta | i gatti / le gatte | cat / cats |
 | un | l'insetto | gli insetti | insect / insects |
+| un | il lupo | i lupi | wolf / wolves |
 | una | la mucca | le mucche | cow / cows |
 | una | la mosca | le mosche | fly / flys |
 | un | l'orsa | gli orsi | bear / bears |
@@ -68,7 +69,7 @@
 | una | la scimmia | le scimmie | monkey / monkeys |
 | uno | lo squalo | gli squali | shark / sharks |
 | una | la tigre | le tigri | tiger / tigers |
-| un | il lupo | i lupi | wolf / wolves |
+| un una | il topo / la topo | gli topi / le topi | mouse / mice |
 | un | l'uccello | gli uccelli | bird / birds |
 |  |  |  |  |
 |  |  |  |  |
