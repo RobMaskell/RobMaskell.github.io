@@ -4,3 +4,4 @@
 | -- | -- |
 | acido | sour |
 | fame | hunger |
+| fritto | fried |

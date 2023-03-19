@@ -22,15 +22,19 @@
 | un / una | IT | IT Plural | ENG |
 | -- | -- | -- | -- |
 |  | l'acqua |  | water |
+|  | l'aglio |  | garlic |
 | un | il biscotto | i biscotti |  |
 | una | la bistecca | le bistecche | steak / steaks |
+|  | il burro | i burri | butter |
 | un | il caffe | i caffe | coffee / coffees |
 | una | la carota | le carote | carrot / carrots |
 | una | la cena | le cene | dinner / dinners |
 |  | il cibo |  | food |
 | una cioccolata | la cioccolato | i cioccolatini | chocolate / chocolates |
 | una | la cipolla | le cipolle | onion / onions |
+|  | la crema |  | cream |
 | una | la colazione | le colazioni | breakfast / breakfasts |
+| una | la farfalla | le farfalle | butterfly / butterflies |
 | un | il formaggio | i formaggi | cheese / cheeses |
 | una | la fragola | le fragole | strawberry / strawberries |
 | un | il frutta | i frutti | fruit / fruits |
@@ -46,24 +50,26 @@
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
-|  |  |  |  |
 
 ## Animals
 | un / una | IT | IT Plural | ENG |
 | -- | -- | -- | -- |
+| un | l'animale | gli animali | animal / animals |
 | un | il cane | i cani | dog / dogs |
+| un | il delfino | i delfini | dolphin / dolphins |
 | un | l'elephante | gli elephanti | elephant / elephants |
 | un | il gatto | i gatti |  |
 | un | l'insetto | gli insetti | insect / insects |
 | una | la mucca | le mucche | cow / cows |
 | una | la mosca | le mosche | fly / flys |
+| un | l'orsa | gli orsi | bear / bears |
 | un | il pesce | i pesci | fish / fishes |
 | un | il pinguino | gli pinguini | penguin / penguins |
 | una | la scimmia | le scimmie | monkey / monkeys |
+| uno | lo squalo | gli squali | shark / sharks |
 | una | la tigre | le tigri | tiger / tigers |
 | un | il lupo | i lupi | wolf / wolves |
-|  |  |  |  |
-|  |  |  |  |
+| un | l'uccello | gli uccelli | bird / birds |
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
@@ -72,11 +78,12 @@
 | un / una | IT | IT Plural | ENG |
 | -- | -- | -- | -- |
 | un | il bicchiere | i bicchieri | glass / glasses (drink) |
+| una | la forchetta | le forchette | fork / forks |
 | un | il giornale | i giornali | newspaper / newspapers |
 | una | l'ingrediente | gli ingredienti | ingredient |
 | un | il libro | i libri | book / books |
-|  |  |  |  |
-|  |  |  |  |
+| un | il piatto | i piatti | plate / plates |
+| una | la tazza | le tazze | cup / cups |
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
