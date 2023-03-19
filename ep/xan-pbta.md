@@ -30,7 +30,7 @@ TBD
 | -3 | 0 | -3 | 0 | +2 | -1 | -5 |
 
 ## Morph
-**Ghosts|**  
+**Ghosts**  
 Ghosts are partially designed for combat applications, but their primary focus is stealth and infiltration. Their genetic profile encourages speed, agility, and reflexes, and their minds are modified for patience and problem-solving.  
 Armor: 0  
 Tags: **+biomods, +mesh inserts, +cortical stack, +chameleon skin, +adrenal boost, +enhanced vision, +grip pads**
