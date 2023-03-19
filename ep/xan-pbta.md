@@ -37,10 +37,10 @@ TBD
 
 ## Ego Stats  
 
-| Cognition | Intuition | Coordination | Somatics | Savvy | Willpower | Total |  
-| :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
-| 2 | 0 | 2 | 0 | -2 | 1 | 5 |  
-| -3 | 0 | -3 | 0 | +2 | -1 | -5 |  
+|  | Cognition | Intuition | Coordination | Somatics | Savvy | Willpower | Total |  
+| --- | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
+| Stat | 2 | 0 | 2 | 0 | -2 | 1 | 5 |  
+| Cost | -3 | 0 | -3 | 0 | +2 | -1 | -5 |  
 
 ## Morph
 **Ghosts**  
