@@ -38,13 +38,17 @@ TBD
 ## Ego Stats  
 | Cognition | Intuition | Coordination | Somatics | Savvy | Willpower | Total |  
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 2 | 0 | 2 | 0 | -2 | 1 | 5 |  
-| -3 | 0 | -3 | 0 | +2 | -1 | -5 |  
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 
+g
+
+<!--
 | First Header  | Second Header |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| 2 | 0 | 2 | 0 | -2 | 1 | 5 |  
+| -3 | 0 | -3 | 0 | +2 | -1 | -5 |  
+-->
 
 ## Morph
 **Ghosts**  
