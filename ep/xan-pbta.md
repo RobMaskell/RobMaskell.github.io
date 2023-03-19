@@ -36,10 +36,10 @@ You are opposed to hierarchy, favoring flat forms of social organization and dir
 TBD
 
 ## Ego Stats  
-| Cognition | Intuition | Coordination | Somatics | Savvy | Willpower | Total |
-| --------- | --------- | --------- | --------- | --------- | --------- | --------- |
-| 2 | 0 | 2 | 0 | -2 | 1 | 5 |
-| -3 | 0 | -3 | 0 | +2 | -1 | -5 |
+| Cognition | Intuition | Coordination | Somatics | Savvy | Willpower | Total |  
+| --------- | --------- | --------- | --------- | --------- | --------- | --------- |  
+| 2 | 0 | 2 | 0 | -2 | 1 | 5 |  
+| -3 | 0 | -3 | 0 | +2 | -1 | -5 |  
 
 ## Morph
 **Ghosts**  
