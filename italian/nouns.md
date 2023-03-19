@@ -57,8 +57,8 @@
 | un | l'animale | gli animali | animal / animals |
 | un | il cane | i cani | dog / dogs |
 | un | il delfino | i delfini | dolphin / dolphins |
-| un | l'elephante | gli elephanti | elephant / elephants |
-| un | il gatto | i gatti |  |
+| un | l'elefante | gli elefanti | elephant / elephants |
+| un / una | il gatto / la gatta | i gatti / le gatte | cat / cats |
 | un | l'insetto | gli insetti | insect / insects |
 | una | la mucca | le mucche | cow / cows |
 | una | la mosca | le mosche | fly / flys |
