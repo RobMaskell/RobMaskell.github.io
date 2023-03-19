@@ -64,10 +64,10 @@ Tags: **+biomods, +mesh inserts, +cortical stack, +chameleon skin, +adrenal boos
 ### Character Moves
 
 **Hacker**  
-When you seek to subvert a non-informorph computer system or electronic security measures, roll+Intuition. On a 10+, choose 3. On a 7-9, choose 2. On a miss, choose 1 anyway.
+When you seek to subvert a non-informorph computer system or electronic security measures
 <details>
 <summary>more info</summary>
-
+Roll+Intuition. On a 10+, choose 3. On a 7-9, choose 2. On a miss, choose 1 anyway.  
 You get into the system or past the security  
 You don’t alert anyone to your intrusion  
 You leave no trace behind  
