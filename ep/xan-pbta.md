@@ -81,6 +81,7 @@ You don’t permanently damage something important
 <br>
 
 </details>
+<br>
 
 **Packing All Kinds of Heat**  
 When you go into battle, choose one of the following:  
@@ -104,24 +105,32 @@ You’ve loaded tracking ammunition. Add +bug to your ranged weapon attacks
 <summary>more info</summary>
 
 Q - You have at least one ally! Who is s/he?  
+<br>
 A -    
-
+<br><br>
 Q - You have at least one enemy! Who is s/he?  
+<br>
 A -    
-
+<br><br>
 Q - Who is your family? Where are they now?  
+<br>
 A -    
-
+<br><br>
 Q - Who is your muse? An AI who has been with you since childhood? A fork of yourself?  
+<br>
 A - My muse is called Orac and is quite a intelligent machine with a distinct mmachine voice, in AR they appear as a clear rectalgular plastic box with carrying handles containing a sparse array of LEDs around a spherical center   
-
+<br><br>
 Q - Whom or what do you love most? Why?  
+<br>
 A -    
-
+<br><br>
 Q - Whom or what do you hate most? Why?  
+<br>
 A -    
-
+<br><br>
 Q - Do you want bad candy?  
-A -    
+<br>
+A - 
+<br>   
 </details>
-<hr>
+<br>
