@@ -129,7 +129,7 @@ function resetToonPage() {
     var section = document.querySelector("section#sheet");
 
     // name and playbook
-    section.querySelector("div#toon-name").innerText = toon.name + ' (' + toon.playbook + ')';
+    section.querySelector("div#toon-name").innerText = toon ? toon.name + ' (' + toon.playbook + ')' : "";
     section.querySelector("div#toon-look").innerHTML = '';
     section.querySelector("div#toon-ratings").innerHTML = '';
     section.querySelector("div#toon-moves").innerHTML = '';
@@ -144,7 +144,7 @@ function primeHunterPage(pbook) {
 
     // playbook and description
     section.querySelector("div#hunter-desc").innerText = playbook.desc;
-    section.querySelector("input#hunter-name").value = toon.name;
+    section.querySelector("input#hunter-name").value = toon ? toon.name : "";
     section.querySelector("input#hunter-playbook").value = pbook;
 
     // look, sex/face/clothes
@@ -154,7 +154,7 @@ function primeHunterPage(pbook) {
         for (option of playbook.looks[look]) {
             createLookOption(lookSection, look, option);
         }
-        section.querySelector('input[name="hunter-look-' + look + '"][value="' + toon.looks[look] + '"]').checked = true;
+        if (toon) section.querySelector('input[name="hunter-look-' + look + '"][value="' + toon.looks[look] + '"]').checked = true;
     }
 
     // ratings
@@ -169,7 +169,7 @@ function primeHunterPage(pbook) {
         }
         iter++;
     }
-    section.querySelectorAll('input[name="hunter-rating"]')[toon.ratingOption-1].checked = true;
+    if (toon) section.querySelectorAll('input[name="hunter-rating"]')[toon.ratingOption-1].checked = true;
 
     // moves
     createDefaultMoves(document.querySelector("div#hunter-moves"), false)
@@ -183,19 +183,21 @@ function primeToonPage() {
     var section = document.querySelector("section#sheet");
 
     // name and playbook
-    section.querySelector("div#toon-name").innerText = toon.name + ' (' + toon.playbook + ')';
+    section.querySelector("div#toon-name").innerText = toon ? toon.name + ' (' + toon.playbook + ')' : "";
 
     // looks
     for (look in playbook.looks) {
-        section.querySelector('div#toon-look').insertAdjacentHTML('beforeend', look + "-" + toon.looks[look]);
+        section.querySelector('div#toon-look').insertAdjacentHTML('beforeend', look + "-" + (toon ? toon.looks[look] : ""));
     }
 
     // ratings
-    var ratings = '';
-    ratings += '<div class="rating-options"></div>';
-    section.querySelector("div#toon-ratings").innerHTML = ratings;
-    for (const name in toon.ratings) {
-        createRatingCard(section.querySelector("div#toon-ratings div"), name, toon.ratings[name], hunterRef.ratings[name.toLowerCase()], true);
+    if (toon && toon.ratings) {
+        var ratings = '';
+        ratings += '<div class="rating-options"></div>';
+        section.querySelector("div#toon-ratings").innerHTML = ratings;
+        for (const name in toon.ratings) {
+            createRatingCard(section.querySelector("div#toon-ratings div"), name, toon.ratings[name], hunterRef.ratings[name.toLowerCase()], true);
+        }
     }
 
     // default moves
