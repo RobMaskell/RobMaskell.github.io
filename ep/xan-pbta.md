@@ -19,7 +19,7 @@ You are privileged to have been raised as part of the immortal upper class that 
 <b>Background Stats</b>: Resources at +2  
 
 </details>
-<hr>
+<br>
 
 ## Faction
 ### ANARCHIST
@@ -30,7 +30,7 @@ You are opposed to hierarchy, favoring flat forms of social organization and dir
 <br>
 <b>Common Morphs:</b> All
 </details>
-<hr>
+<br>
 
 ## Connection
 TBD
@@ -98,7 +98,7 @@ You’ve loaded tracking ammunition. Add +bug to your ranged weapon attacks
 <br>
 
 </details>
-<hr>
+<br>
 
 ## Persona
 <details>
