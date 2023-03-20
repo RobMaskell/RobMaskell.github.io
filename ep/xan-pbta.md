@@ -134,3 +134,19 @@ A -
 <br>   
 </details>
 <br>
+
+## Gear
+
+* <b>Light armor (1-armor)</b> is the most common, taking the form of clothing made of smart materials, subdermal implants, or simply being made out of durable materials  
+* <b>Light Machine Gun</b> (2-damage +close/far +autofire +loud +recoil)  
+* <b>+medichines</b> – You have elaborate, custom built medical technology in your body. Heal 1 mark on the damage track per minute  
+* <b>+skinflex</b> – You can restructure your facial features and musculature and alter skin tone and hair color in about 20 minutes  
+* <b>+skinlink</b> – Can interface with electronics and mesh devices simply by touching them. This is a “wired” link and not subject to eavesdropping. Two people with +skinlink can communicate by touch  
+
+### potential other gear to match what I had originally (but not looked into what +2 resources means yet or advances)
+
+* <b>+skillware</b> – Artificial neural net that can be programmed with one or two skills the ego may not possess  
+* <b>+mental speed (cognition)</b> – You are +boosted on any roll using Cognition. Not compatible with other variants of mental speed  
+* <b>+vacuum sealing</b> – Your morph is sealed against vacuum  
+* <b>+grip pads</b> – Gecko-feet. You can climb any object except those made specifically to counter you.+grip pads – Gecko-feet. You can climb any object except those made specifically to counter you  
+* <b>+oxygen reserves</b> – You have an internal supply of oxygen that can keep you alive longer in airless settings  
