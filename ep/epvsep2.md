@@ -3,7 +3,7 @@
 
 ## General Comments
 
-EP1 lines up better with the original Apocalypse World and is clearly based on it, whereas as Ben suggests EP2 is based on Uncharted World which is a Star Trek style space opera game from the look of it and the toons are somewhat limited by that in gear and such
+EP1 lines up better with the original Apocalypse World and is clearly based on it, whereas as Ben suggests EP2 is based on Uncharted World which is a Star Trek style space opera game from the look of it
 
 ## Specific comparisons
 
