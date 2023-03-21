@@ -13,7 +13,7 @@ EP1 lines up better with the original Apocalypse World and is clearly based on i
 | Core Concepts - Hold | Is a thing  **PREFER** | Not a thing |
 | Core Concepts - Dmg | Ladder, similar to AW **PREFER** | This I don't like, gets big quick |
 | Core Concepts - Data points | Doesn't exist | I quite like this idea **PREFER** |
-| Basic Moves | Access the Mesh<br>Aid/Hinder<br>Assess the Situation<br>Negotiate<br>Open Fire<br>Procure Something<br>Skirmish<br>Take a Chance<br><br>Integration, Alienation, and Continuity<br><br>Damage Move<br>Trauma Move <br>**PREFER???** | Access<br>Get Involved<br>Assessment<br>Command<br>Open Fire<br>Acquisition<br>Launch Assault<br><br>Face Adversity<br><br>Patch Up<br>Take Damage<br>Take Trauma <br>**PREFER???** |
+| Basic Moves | Access the Mesh<br><br>Aid/Hinder<br>Assess the Situation<br>Negotiate<br>Open Fire<br>Procure Something<br>Skirmish<br>Take a Chance<br><br>Integration, Alienation, and Continuity<br><br>Damage Move<br>Trauma Move <br>**PREFER???** | <br>Access<br>Get Involved<br>Assessment<br>Command<br>Open Fire<br>Acquisition<br>Launch Assault<br><br>Face Adversity<br><br>Patch Up<br>Take Damage<br>Take Trauma <br>**PREFER???** |
 | Advancement | Individual to the player based on marking XP if roll a 6- **PREFER** | Collective, everyone marks XP if anyone hits a chosen trigger, that can only be used once per toon. `Might be more equal?` |
 Charcter stats choice | Stats must equal 5, means very weird builds possible | I +2 / +2 / +1 / +0 / -1 spread out **PREFER**|
 | Background | One move out of 2 for my choice, but more open for others e.g. 'and tech move' for Infolife | 1 moves out of 4 |
