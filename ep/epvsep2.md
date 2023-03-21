@@ -21,4 +21,11 @@ Charcter stats choice | Stats must equal 5, means very weird builds possible | I
 | Morph (What you get very similar in add-ons) | Free choice, doesn't seem to be a cost but includes toys, could be misused | Part of asset system better morphs have cost from your asset allowance. Plus... Upgrades: Pick 2 upgrades when designing Class 1 Morph, pick 4 for Class 2, etc. **SLIGHTLY PREFER ON BALANCE**|
 | Gear | Most basic gear is cheap to the point of being free. The only restricted items tend to be dangerous or require exotic raw materials. As a result, characters can start with pretty much any personal effects they desire. In addition, each character may start with four items or services that might otherwise be expensive or difficult to obtain. Then for extras currency is rep or resources, both can get dimished if overused  | At character creation, choose two Class 1 Assets and one Class 2 Asset. Choose as many Class 0 Assets as is reasonable to fill out your character. Moprhs and weapons count as assets. Class 0 - simple, Class 1 - Rarer, Class 2 - rare, advanced, Class 3 - exceptionally rare, Class 4 - ??????. Your Resource Asset's Class is used when rolling the Acquisition move (Rep, Fame basedcan become depleted or roll at disavantage if no or bad rep) |
 | Persona | Both have the answer questions for a free advance | Both have the answer questions for a free advance |
-| Other thoughts... |  | +Medichines are awesome... You have custom medical technology in your body. Automatically heal minor and major wounds |
+
+## Other thoughts... 
+
+### medichines
+`+Medichines` are awesome... You have custom medical technology in your body. Automatically heal minor and major wounds
+
+### hacking
+In EP2 hacking seem to be based on INT and I think COG should also be allowed, you can hack by hunches and guesses but also just work it out

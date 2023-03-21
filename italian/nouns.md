@@ -23,7 +23,7 @@
 | --- | --- | --- | --- |
 |  | l'acqua |  | water |
 |  | l'aglio |  | garlic |
-| un | il biscotto | i biscotti |  |
+| un | il biscotto | i biscotti | biscuit / biscuits |
 | una | la bistecca | le bistecche | steak / steaks |
 |  | il burro | i burri | butter |
 | un | il caffe | i caffe | coffee / coffees |
