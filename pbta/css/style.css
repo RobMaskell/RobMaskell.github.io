@@ -133,3 +133,9 @@ div#rolls div {
     grid-row-gap: 1px;
     grid-column-gap: 1px;
 }
+
+.doodle input[type="radio"] {
+    border-width: 10px 10px 10px 10px !important;
+    /* source | slice | width | outset | repeat */
+    border-image: url(radio.svg) 13 13 13 13 stretch stretch !important;
+  }

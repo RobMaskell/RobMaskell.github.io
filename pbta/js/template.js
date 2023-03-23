@@ -75,7 +75,7 @@ function createDefaultMoves(appendTo, addClick) {
             appendTo.appendChild(moveRollDiv);
 
             moveRollButton.addEventListener("click", function(){
-                rollDiceClick( move.name + "+" + move.rating, toon.ratings[move.rating] );
+                rollDiceClick( move.name + "+" + move.rating, (toon ? toon.ratings[move.rating] : 0) );
             }, false);
         } else {
             moveRollDiv.innerText = move.rating=="none" ? "No Roll" : "Roll +" + move.rating;
