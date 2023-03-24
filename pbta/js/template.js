@@ -5,7 +5,7 @@
 // function getRatingFromTemplate(ratingName, ratingValue) {
 //     return ratingTemplate.replace('{{name}}', ratingName)
 //                         .replace('{{value}}', ratingValue)
-//                         .replace('{{title}}', hunterRef.ratings[ratingName.toLowerCase()]);
+//                         .replace('{{title}}', gameRef.ratings[ratingName.toLowerCase()]);
 // }
 
 
@@ -54,7 +54,7 @@ function createDefaultMoves(appendTo, addClick) {
 
     var ratingDiv = document.createElement("div");
     ratingDiv.className = "grid";
-    const moves = hunterRef.moves.concat(playbook.moves);
+    const moves = gameRef.moves.concat(playbook.moves);
     for(let move of moves) {
 
         var moveNameDiv = document.createElement("div");

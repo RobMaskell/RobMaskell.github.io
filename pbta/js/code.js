@@ -72,7 +72,7 @@ async function playbookSelectClick(pb, isNew) {
         script.onload = resolve;
         script.onerror = reject;
         script.async = false;
-        script.src = 'js/playbooks/' + pb + '.js';
+        script.src = 'js/playbooks/' + gameRef.id + "/" + pb + '.js';
         playbook = {};
       });
     
@@ -85,6 +85,7 @@ async function playbookSelectClick(pb, isNew) {
 function saveHunter() {
 
     toon = {};
+    toon.gameId = playbook.gameId;
     var section = document.querySelector("section#creation");
     toon.playbook = section.querySelector("input#hunter-playbook").value;
     toon.name = section.querySelector("input#hunter-name").value;
@@ -154,7 +155,7 @@ function primeHunterPage(pbook) {
         for (option of playbook.looks[look]) {
             createLookOption(lookSection, look, option);
         }
-        if (toon) section.querySelector('input[name="hunter-look-' + look + '"][value="' + toon.looks[look] + '"]').checked = true;
+        if (toon) lookSection.querySelector('input[name="hunter-look-' + look + '"][value="' + toon.looks[look] + '"]').checked = true;
     }
 
     // ratings
@@ -165,7 +166,7 @@ function primeHunterPage(pbook) {
         section.querySelector("div#hunter-ratings").insertAdjacentHTML("beforeend", ratingLineHtml);
         const ratingSection = section.querySelector("div#rating-option" + iter);
         for (const rating of ratingOption) {
-            createRatingCard(ratingSection, rating.name, rating.value, hunterRef.ratings[rating.name.toLowerCase()], false);
+            createRatingCard(ratingSection, rating.name, rating.value, gameRef.ratings[rating.name.toLowerCase()], false);
         }
         iter++;
     }
@@ -196,7 +197,7 @@ function primeToonPage() {
         ratings += '<div class="rating-options"></div>';
         section.querySelector("div#toon-ratings").innerHTML = ratings;
         for (const name in toon.ratings) {
-            createRatingCard(section.querySelector("div#toon-ratings div"), name, toon.ratings[name], hunterRef.ratings[name.toLowerCase()], true);
+            createRatingCard(section.querySelector("div#toon-ratings div"), name, toon.ratings[name], gameRef.ratings[name.toLowerCase()], true);
         }
     }
 

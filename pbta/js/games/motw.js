@@ -1,4 +1,6 @@
-var hunterRef = {
+var gameRef = {
+    'name' : 'Monster of the Week',
+    'id' : "motw",
     'playbooks': {
         'title': 'Playbook',
         'select': 1,
