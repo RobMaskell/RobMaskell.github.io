@@ -32,6 +32,8 @@
 | nello | in the / in / in my (in +il) |
 | al | to the / in to the / the |
 | ai | ??? |
+| alcuni | some |
+| guarda | looks at |
 
 ## Plurals
 
