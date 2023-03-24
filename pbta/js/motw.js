@@ -13,6 +13,7 @@ var hunterRef = {
         'charm': 'Charm is how pleasant and persuasive you are. \nIt is added to your die roll for the manipulate \nsomeone basic move',
         'sharp': 'Sharp is how observant you are. \nIt is added to your die roll for the investigate \na mystery and read a bad situation basic moves',
         'weird': 'Weird is how attuned to the supernatural you are. \nIt is added to your die roll for the use magic basic move',
+        'arse': 'Arse is how much of an arse you are',
     },
     'moves': [
         { 'name': 'Act Under Pressure', 'rating': 'Cool', 'desc': 'used for any difficult or dangerous action that isn\'t covered by another move' },
@@ -23,6 +24,7 @@ var hunterRef = {
         { 'name': 'Protect Someone', 'rating': 'Tough', 'desc': 'used to save someone from danger' },
         { 'name': 'Read a Bad Situation', 'rating': 'Sharp', 'desc': 'used to work out what dangers are immediately threatening you. For instance, if you think you are walking into a trap, or want to do some tactical analysis' },
         { 'name': 'Use Magic', 'rating': 'Weird', 'desc': 'used to cast magic spells or use enchanted items' },
+        { 'name': 'Be an Arse', 'rating': 'Arse', 'desc': 'used to be an arse' },
     ],
     'luck': {
         'title': 'Luck',

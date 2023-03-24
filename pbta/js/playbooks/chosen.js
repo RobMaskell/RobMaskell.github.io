@@ -15,11 +15,11 @@ playbook = {
         ],
     },
     'ratingOptions': [
-        [ {'name': 'Cool', 'value': -1}, {'name': 'Tough', 'value': 2}, {'name': 'Charm', 'value': 2}, {'name': 'Sharp', 'value': 1}, {'name': 'Weird', 'value': -1} ],
-        [ {'name': 'Cool', 'value': 2}, {'name': 'Tough', 'value': 2}, {'name': 'Charm', 'value': -1}, {'name': 'Sharp', 'value': 1}, {'name': 'Weird', 'value': -1} ],
-        [ {'name': 'Cool', 'value': 2}, {'name': 'Tough', 'value': 1}, {'name': 'Charm', 'value': 1}, {'name': 'Sharp', 'value': 1}, {'name': 'Weird', 'value': -1} ],
-        [ {'name': 'Cool', 'value': 1}, {'name': 'Tough', 'value': -1}, {'name': 'Charm', 'value': -1}, {'name': 'Sharp', 'value': 2}, {'name': 'Weird', 'value': 2} ],
-        [ {'name': 'Cool', 'value': 2}, {'name': 'Tough', 'value': -1}, {'name': 'Charm', 'value': 1}, {'name': 'Sharp', 'value': -1}, {'name': 'Weird', 'value': 2} ],
+        [ {'name': 'Cool', 'value': -1}, {'name': 'Tough', 'value': 2}, {'name': 'Charm', 'value': 2}, {'name': 'Sharp', 'value': 1}, {'name': 'Weird', 'value': -1}, {'name': 'Arse', 'value': 2} ],
+        [ {'name': 'Cool', 'value': 2}, {'name': 'Tough', 'value': 2}, {'name': 'Charm', 'value': -1}, {'name': 'Sharp', 'value': 1}, {'name': 'Weird', 'value': -1}, {'name': 'Arse', 'value': 2} ],
+        [ {'name': 'Cool', 'value': 2}, {'name': 'Tough', 'value': 1}, {'name': 'Charm', 'value': 1}, {'name': 'Sharp', 'value': 1}, {'name': 'Weird', 'value': -1}, {'name': 'Arse', 'value': 2} ],
+        [ {'name': 'Cool', 'value': 1}, {'name': 'Tough', 'value': -1}, {'name': 'Charm', 'value': -1}, {'name': 'Sharp', 'value': 2}, {'name': 'Weird', 'value': 2}, {'name': 'Arse', 'value': 2} ],
+        [ {'name': 'Cool', 'value': 2}, {'name': 'Tough', 'value': -1}, {'name': 'Charm', 'value': 1}, {'name': 'Sharp', 'value': -1}, {'name': 'Weird', 'value': 2}, {'name': 'Arse', 'value': 2} ],
     ],
     'fates': {
         'Title': 'Your fate',
