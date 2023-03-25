@@ -1,6 +1,7 @@
 # Nouns
 
 ## People
+
 | un / una | IT | IT Plural | ENG |
 | --- | --- | --- | --- |
 | un | l'uomo | gli uomini | man / men |
@@ -11,6 +12,7 @@
 | un | il marito | i mariti | husband / husbands |
 
 ## Jobs / Roles / descriptions
+
 | un / una | IT | IT Plural | ENG |
 | --- | --- | --- | --- |
 | un | il cuoco | i cuochi | cooks / cooks |
@@ -19,6 +21,7 @@
 |  |  |  |  |
 
 ## Food / Drink
+
 | un / una | IT | IT Plural | ENG |
 | --- | --- | --- | --- |
 |  | l'acqua |  | water |
@@ -57,6 +60,7 @@
 |  |  |  |  |
 
 ## Animals
+
 | un / una | IT | IT Plural | ENG |
 |---|---|---|---|
 | un | l'animale | gli animali | animal / animals |
@@ -86,6 +90,7 @@
 |  |  |  |  |
 
 ## Objects
+
 | un / una | IT | IT Plural | ENG |
 | --- | --- | --- | --- |
 | un | il bicchiere | i bicchieri | glass / glasses (drink) |
@@ -106,7 +111,7 @@
 |  |  |  |  |
 
 
-## Places
+## Places  
 | un / una | IT | IT Plural | ENG |
 | --- | --- | --- | --- |
 | una | la cucina | le cucine | kitchen / kitchens |
