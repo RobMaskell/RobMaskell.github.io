@@ -23,6 +23,27 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 function setupButtons() {
 
+    var readButton = document.getElementById("tab-read");
+    var editButton = document.getElementById("tab-edit");
+    var readSection = document.getElementById("creation");
+    var editSection = document.getElementById("sheet");
+
+    // toon read button
+    readButton.addEventListener("click", (e) => {
+        readButton.removeAttribute("class");
+        editButton.className = "disabled";
+        editSection.removeAttribute("class");
+        readSection.className = "hidden";
+    });
+
+    // toon edit button
+    editButton.addEventListener("click", (e) => {
+        editButton.removeAttribute("class");
+        readButton.className = "disabled";
+        readSection.removeAttribute("class");
+        editSection.className = "hidden";
+    });
+
     // hunter select buttons
     var playbookButtons = document.getElementsByClassName("playbook");
     for (const butt of playbookButtons) {

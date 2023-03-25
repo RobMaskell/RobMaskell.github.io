@@ -21,6 +21,7 @@ button {
     font-size: 1.15rem !important;
     color: #555555;
     margin-right: 1.25rem;
+    user-select: none;
     /* border: #555555 solid 2px;
     border-radius: 17px;
     height: 34px;
@@ -138,4 +139,53 @@ div#rolls div {
     border-width: 10px 10px 10px 10px !important;
     /* source | slice | width | outset | repeat */
     border-image: url(radio.svg) 13 13 13 13 stretch stretch !important;
-  }
+}
+
+.hidden {
+    display: none;
+}
+
+.tabs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.tabs div {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    font-size: 1.75rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.tabs div.disabled {
+    color: #999999;
+}
+
+.tabs div:hover {
+    font-size-adjust: 0.51;
+}
+
+.tabs div#tab-edit, .tabs div#tab-read {
+    /* border: 2px solid black; */
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    border-image: url(border.svg) 10 10 10 10 stretch stretch;
+    cursor: pointer;
+    flex-grow: 1;
+    user-select: none;
+}
+
+.tabs div#tab-left, .tabs div#tab-right {
+    /* border-bottom: 2px solid black; */
+    border-style: solid;
+    border-width: 0px 0px 10px 0px;
+    border-image: url(border.svg) 10 10 10 10 stretch stretch;
+    flex-grow: 3;
+}
+
+.tabs div h2 {
+    padding: 0;
+    margin: 0;
+}

@@ -31,9 +31,12 @@
         Monster of the Week Beyond
     </header>
 
-    <section id="creation">
+    <div class="tabs">
+        <div id="tab-left"></div><div id="tab-read"><h2>Character Sheet</h2></div><div id="tab-edit" class="disabled"><h2>Create/Edit character</h2></div><div id="tab-right"></div>
+    </div>
 
-        <h1>Create a character</h1>
+
+    <section id="creation" class="hidden">
         
         <h2>Choose your hunter playbook</h2>
         <div class="control">
@@ -58,13 +61,13 @@
 
         <div class="control">
             <button id="hunter-save">Save Hunter</button>
+            <button id="reset" class="danger">Total hunter/toon reset (you will lose your character)</button>
         </div>
 
     </section>
 
     <section id="sheet">
 
-        <h1>Character Sheet</h1>
         <div id="toon-name" class="control"></div>
         <div id="toon-look" class="control"></div>
 
@@ -85,9 +88,6 @@
         -->
         <h1>Dice Log</h1>
         <div id="rolls"></div>
-
-        <h1>Reset Entire Page</h1>
-        <button id="reset" class="danger">Total hunter/toon reset (you will lose your character)</button>
     
     </section>
 
