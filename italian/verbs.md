@@ -1,6 +1,7 @@
 # Verbs
 
 ## Essere - To Be
+
 | IT | ENG |
 | --- | --- |
 | io | sono |
@@ -11,6 +12,7 @@
 | loro | sono |
 
 ## Avere - To Have
+
 | IT | ENG |
 | --- | --- |
 | io | ho |
@@ -21,6 +23,7 @@
 | loro | hanno |
 
 ## Mangiare - To Eat
+
 | IT | ENG |
 | --- | --- |
 | io | mangio |
@@ -31,6 +34,7 @@
 | Loro | mangiano |
 
 ## Beve - To Drink
+
 | IT | ENG |
 | --- | --- |
 | io | bevo |
@@ -41,6 +45,7 @@
 | Loro | bevono |
 
 ## Leggere - To Read
+
 | IT | ENG |
 | --- | --- |
 | io | leggo |
@@ -50,7 +55,8 @@
 | voi | leggete |
 | Loro | leggono |
 
-## Scrivere - To X
+## Scrivere - To Write
+
 | IT | ENG |
 | --- | --- |
 | io | scrivo |
@@ -61,6 +67,7 @@
 | Loro | scrivono |
 
 ## Tagliare - To Cut
+
 | IT | ENG |
 | --- | --- |
 | io | taglio |
@@ -71,6 +78,7 @@
 | Loro | tagliano |
 
 ## X - To X
+
 | IT | ENG |
 | --- | --- |
 | io |  |
