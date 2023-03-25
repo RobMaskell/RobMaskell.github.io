@@ -11,7 +11,7 @@
 
 // create look label
 function createLookLabel(appendTo, look) {
-    var lookLabel = '<div class-"control"><label>{{look}}</label></div>'.replace('{{look}}', look);
+    var lookLabel = '<div><label>{{look}}: </label>'.replace('{{look}}', look);
     appendTo.insertAdjacentHTML("beforeend", lookLabel);
 }
 

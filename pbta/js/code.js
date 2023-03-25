@@ -174,8 +174,9 @@ function primeHunterPage(pbook) {
     for (look in playbook.looks) {
         createLookLabel(lookSection, look);
         for (option of playbook.looks[look]) {
-            createLookOption(lookSection, look, option);
+            createLookOption(lookSection.querySelector("div:last-child"), look, option);
         }
+        //lookSection.insertAdjacentHTML("afterend", "</div");
         if (toon) lookSection.querySelector('input[name="hunter-look-' + look + '"][value="' + toon.looks[look] + '"]').checked = true;
     }
 

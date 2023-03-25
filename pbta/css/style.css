@@ -53,6 +53,27 @@ input[type="text"]:disabled {
 
 label {
     text-transform: capitalize;
+    vertical-align: middle;
+}
+
+div#hunter-look label {
+    vertical-align: bottom;
+}
+
+div#hunter-look div {
+    padding-bottom: 1rem;
+}
+
+div#hunter-look div label:first-child {
+    width: 6rem;
+}
+
+div#hunter-look div input[type="radio"]:not(:first-child) {
+    margin-left: 2rem;
+}
+
+div#hunter-look div label:not(:first-child) {
+    margin-left: 0.25rem;
 }
 
 section {
