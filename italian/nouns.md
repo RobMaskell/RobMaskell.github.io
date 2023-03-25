@@ -112,6 +112,7 @@
 
 
 ## Places  
+
 | un / una | IT | IT Plural | ENG |
 | --- | --- | --- | --- |
 | una | la cucina | le cucine | kitchen / kitchens |
