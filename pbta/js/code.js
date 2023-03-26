@@ -51,7 +51,7 @@ function setupButtons() {
             var scriptPromise = playbookSelectClick(butt.id, false);
             await scriptPromise.then(() => { 
                 resetHunterPage();
-                primeHunterPage(playbook.name);
+                primeHunterPage(playbook.playbook);
             });
         });
     }
@@ -74,7 +74,7 @@ function setupButtons() {
         var scriptPromise = playbookSelectClick("chosen", true);
         await scriptPromise.then(() => { 
             resetHunterPage();
-            primeHunterPage(playbook.name);
+            primeHunterPage(playbook.playbook);
             resetToonPage();
         });
     });
@@ -165,15 +165,15 @@ function primeHunterPage(pbook) {
     var section = document.querySelector("section#creation");
 
     // playbook and description
-    section.querySelector("div#hunter-desc").innerText = playbook.desc;
+    section.querySelector("div#hunter-desc").innerText = playbook.desc.text;
     section.querySelector("input#hunter-name").value = toon ? toon.name : "";
     section.querySelector("input#hunter-playbook").value = pbook;
 
     // look, sex/face/clothes
     var lookSection = section.querySelector("div#hunter-look");
-    for (look in playbook.looks) {
+    for (look in playbook.looks.options) {
         createLookLabel(lookSection, look);
-        for (option of playbook.looks[look]) {
+        for (option of playbook.looks.options[look]) {
             createLookOption(lookSection.querySelector("div:last-child"), look, option);
         }
         //lookSection.insertAdjacentHTML("afterend", "</div");
@@ -182,7 +182,7 @@ function primeHunterPage(pbook) {
 
     // ratings
     var iter = 1;
-    for (const ratingOption of playbook.ratingOptions) {
+    for (const ratingOption of playbook.ratingOptions.options) {
 
         const ratingLineHtml = '<div id="rating-option' + iter + '" class="rating-options"><div class="rating border"><input type="radio" name="hunter-rating" id="hunter-rating' + iter + '" value=' + iter + ' style="margin-top: 0.75rem; height:25px; width:25px;"></div></div>';
         section.querySelector("div#hunter-ratings").insertAdjacentHTML("beforeend", ratingLineHtml);

@@ -1,26 +1,44 @@
 playbook = {
     'gameId': 'motw',
-    'name': 'Chosen',
-    'desc': 'Your birth was prophesied. You are the Chosen One, and with your abilities you can save the world. If you fail, all will be destroyed. It all rests on you. Only you', 
-    'creation': 'To make your Chosen, first pick a name. The follow the instructions below to decide your look, ratings, fate, moves and gear. Finally introduce yourself and pick a history',
-    'looks': {
-        'sex': [
-            'Man', 'Woman', 'Boy', 'Girl',
-        ],
-        'face': [
-            'Fresh', 'Haggard', 'Young', 'Haunted', 'hopeful', 'controlled',
-        ],
-        'clothes': [
-            'Preppy', 'Casual', 'Urban', 'Normal', 'Neat', 'Street',
-        ],
+    'playbook': 'Chosen',
+    'name': {'type': 'text', 'placholder': 'Enter you hunter\'s name'},
+    'desc': {'type': 'display', 'text': 'Your birth was prophesied. You are the Chosen One, and with your abilities you can save the world. If you fail, all will be destroyed. It all rests on you. Only you'}, 
+    'looks': {'type': 'radio', 'options': {
+            'sex': [
+                'Man', 'Woman', 'Boy', 'Girl',
+            ],
+            'face': [
+                'Fresh', 'Haggard', 'Young', 'Haunted', 'hopeful', 'controlled',
+            ],
+            'clothes': [
+                'Preppy', 'Casual', 'Urban', 'Normal', 'Neat', 'Street',
+            ],
+        }
     },
-    'ratingOptions': [
+    'ratingOptions': {'type': 'ratings', 'options': 
+    [
         [ {'name': 'Cool', 'value': -1}, {'name': 'Tough', 'value': 2}, {'name': 'Charm', 'value': 2}, {'name': 'Sharp', 'value': 1}, {'name': 'Weird', 'value': -1}, {'name': 'Arse', 'value': 2} ],
         [ {'name': 'Cool', 'value': 2}, {'name': 'Tough', 'value': 2}, {'name': 'Charm', 'value': -1}, {'name': 'Sharp', 'value': 1}, {'name': 'Weird', 'value': -1}, {'name': 'Arse', 'value': 2} ],
         [ {'name': 'Cool', 'value': 2}, {'name': 'Tough', 'value': 1}, {'name': 'Charm', 'value': 1}, {'name': 'Sharp', 'value': 1}, {'name': 'Weird', 'value': -1}, {'name': 'Arse', 'value': 2} ],
         [ {'name': 'Cool', 'value': 1}, {'name': 'Tough', 'value': -1}, {'name': 'Charm', 'value': -1}, {'name': 'Sharp', 'value': 2}, {'name': 'Weird', 'value': 2}, {'name': 'Arse', 'value': 2} ],
         [ {'name': 'Cool', 'value': 2}, {'name': 'Tough', 'value': -1}, {'name': 'Charm', 'value': 1}, {'name': 'Sharp', 'value': -1}, {'name': 'Weird', 'value': 2}, {'name': 'Arse', 'value': 2} ],
+    ]},
+    'moves': [
+        { 'name': 'Destiny\'s Plaything', 'rating': 'Weird', 'desc': 'At the beginning of each mystery, roll +Weird to see what is revealed about your immediate future. On a 10+, the Keeper will reveal a useful detail about the coming mystery. On a 7-9 you get a vague hint about it. On a miss, something bad is going to happen to you' },
+        { 'name': 'I\'m Here For A Reason', 'rating': 'none', 'desc': 'There\'s something you are destined to do. Work out the details with the Keeper, based on your fate. You cannot die until it comes to pass. If you die in play, then you must spend a Luck point. You will then, somehow, recover or get returned to life. Once your task is done (or you use up all your Luck), all bets are off' },
     ],
+    'optional-moves': {
+        'select': 1,
+        'list': [
+            { 'name': 'The Big Entrance', 'desc': 'When you make a showy entrance into a dangerous situation, roll +Cool. On 10+ everyone stops to watch and listen until you finish your opening speech. On a 7- 9, you pick one person or monster to stop, watch and listen until you finish talking. On a miss, you\'re marked as the biggest threat by all' },
+            { 'name': 'Devastating', 'desc': 'When you inflict harm, you may inflict +1 harm' },
+            { 'name': 'Acceptance', 'desc': 'When your fate rears its ugly head, and you act in accordance with any of your fate tags (either heroic or doom) then mark experience' },
+            { 'name': 'Invincible', 'desc': 'You always count as having 2-armour. This doesn\'t stack with other protection' },
+            { 'name': 'Resilience', 'desc': 'You heal faster than normal people. Any time your harm gets healed, heal an extra point. Additionally, your wounds count as 1-harm less for the purpose of the Keeper\'s harm moves' },
+        ],
+    },
+};
+var temp = {
     'fates': {
         'Title': 'Your fate',
         'select': 1,
@@ -72,20 +90,6 @@ playbook = {
             'Hosts of monsters',
             'The end of days',
             'The source of Evil',
-        ],
-    },
-    'moves': [
-        { 'name': 'Destiny\'s Plaything', 'rating': 'Weird', 'desc': 'At the beginning of each mystery, roll +Weird to see what is revealed about your immediate future. On a 10+, the Keeper will reveal a useful detail about the coming mystery. On a 7-9 you get a vague hint about it. On a miss, something bad is going to happen to you' },
-        { 'name': 'I\'m Here For A Reason', 'rating': 'none', 'desc': 'There\'s something you are destined to do. Work out the details with the Keeper, based on your fate. You cannot die until it comes to pass. If you die in play, then you must spend a Luck point. You will then, somehow, recover or get returned to life. Once your task is done (or you use up all your Luck), all bets are off' },
-    ],
-    'optional-moves': {
-        'select': 1,
-        'list': [
-            { 'name': 'The Big Entrance', 'desc': 'When you make a showy entrance into a dangerous situation, roll +Cool. On 10+ everyone stops to watch and listen until you finish your opening speech. On a 7- 9, you pick one person or monster to stop, watch and listen until you finish talking. On a miss, you\'re marked as the biggest threat by all' },
-            { 'name': 'Devastating', 'desc': 'When you inflict harm, you may inflict +1 harm' },
-            { 'name': 'Acceptance', 'desc': 'When your fate rears its ugly head, and you act in accordance with any of your fate tags (either heroic or doom) then mark experience' },
-            { 'name': 'Invincible', 'desc': 'You always count as having 2-armour. This doesn\'t stack with other protection' },
-            { 'name': 'Resilience', 'desc': 'You heal faster than normal people. Any time your harm gets healed, heal an extra point. Additionally, your wounds count as 1-harm less for the purpose of the Keeper\'s harm moves' },
         ],
     },
     'gear-desc': 'You can have protective gear worth 1-armour, if you want it. You have a special weapon you are destined to wield',
