@@ -3,6 +3,8 @@
 | IT | ENG |
 | --- | --- |
 | l'acido | sour / acid |
-| fame | hunger |
-| fritto | fried |
 | dolce | sweet |
+| fame | hunger |
+| gusto | taste |
+| fritto | fried |
+|  |  |

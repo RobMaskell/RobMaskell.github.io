@@ -34,6 +34,9 @@
 | ai | ??? |
 | alcuni | some |
 | guarda | looks at |
+| dolce | dessert |
+| cena | dinner |
+| pranzo | lunch |
 
 ## Plurals
 
