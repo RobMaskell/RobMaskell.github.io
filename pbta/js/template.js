@@ -8,6 +8,14 @@
 //                         .replace('{{title}}', gameRef.ratings[ratingName.toLowerCase()]);
 // }
 
+// add container div
+function createColumn(appendTo, colClass) {
+    var div = document.createElement("div");
+    div.className = colClass;
+    appendTo.appendChild(div);
+    return div;
+}
+
 
 // create plybook buttons
 function createPlaybookButtons(appendTo, playbooks) {
@@ -107,4 +115,12 @@ function createDefaultMoves(appendTo, addClick) {
         }
 
     }
+}
+
+
+// title
+function createTitle(appendTo, title) {
+    var h = document.createElement("h2");
+    h.innerText = title;
+    appendTo.appendChild(h);
 }

@@ -166,9 +166,11 @@ function resetToonPage() {
 function primeHunterPage(pbook) {
 
     var section = document.querySelector("section#creation");
+    var sectionCol = createColumn(section, "onecol");
 
     // playbook and description
-    createPlaybookButtons(section, gameRef.playbooks.list);
+    createTitle(sectionCol, 'Choose your playbook');
+    createPlaybookButtons(sectionCol, gameRef.playbooks.list);
     section.querySelector("div#hunter-desc").innerText = playbook.desc.text;
     section.querySelector("input#hunter-name").value = toon ? toon.name : "";
     section.querySelector("input#hunter-playbook").value = pbook;
