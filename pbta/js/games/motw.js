@@ -6,7 +6,7 @@ var gameRef = {
         'select': 1,
         'list': [
             'Chosen',
-            'Expoert',
+            'Expert',
         ],
     },
     'ratings': {

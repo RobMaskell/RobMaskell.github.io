@@ -45,39 +45,39 @@ function setupButtons() {
     });
 
     // hunter select buttons
-    var playbookButtons = document.getElementsByClassName("playbook");
-    for (const butt of playbookButtons) {
-        butt.addEventListener("click", async (e) => {
-            var scriptPromise = playbookSelectClick(butt.id, false);
-            await scriptPromise.then(() => { 
-                resetHunterPage();
-                primeHunterPage(playbook.playbook);
-            });
-        });
-    }
+    // var playbookButtons = document.getElementsByClassName("playbook");
+    // for (const butt of playbookButtons) {
+    //     butt.addEventListener("click", async (e) => {
+    //         var scriptPromise = playbookSelectClick(butt.id, false);
+    //         await scriptPromise.then(() => { 
+    //             resetHunterPage();
+    //             primeHunterPage(playbook.playbook);
+    //         });
+    //     });
+    // }
 
     // hunter save button
-    var rolldice = document.getElementById("hunter-save");
-    rolldice.addEventListener("click", (e) => {
-        saveHunter();
-        resetHunterPage();
-        primeHunterPage(toon.playbook);
-        resetToonPage();
-        primeToonPage();
-    });
+    // var rolldice = document.getElementById("hunter-save");
+    // rolldice.addEventListener("click", (e) => {
+    //     saveHunter();
+    //     resetHunterPage();
+    //     primeHunterPage(toon.playbook);
+    //     resetToonPage();
+    //     primeToonPage();
+    // });
 
     // reset button
-    var reset = document.getElementById("reset");
-    reset.addEventListener("click", async (e) => {
-        localStorage.removeItem("toon");
-        toon = {};
-        var scriptPromise = playbookSelectClick("chosen", true);
-        await scriptPromise.then(() => { 
-            resetHunterPage();
-            primeHunterPage(playbook.playbook);
-            resetToonPage();
-        });
-    });
+    // var reset = document.getElementById("reset");
+    // reset.addEventListener("click", async (e) => {
+    //     localStorage.removeItem("toon");
+    //     toon = {};
+    //     var scriptPromise = playbookSelectClick("chosen", true);
+    //     await scriptPromise.then(() => { 
+    //         resetHunterPage();
+    //         primeHunterPage(playbook.playbook);
+    //         resetToonPage();
+    //     });
+    // });
 
 }
 
@@ -133,14 +133,17 @@ function saveHunter() {
 function resetHunterPage() {
 
     var section = document.querySelector("section#creation");
+    for (child of section.children) {
+        section.removeChild(child);
+    }
 
     // playbook and description
-    section.querySelector("input#hunter-playbook").value = '';
-    section.querySelector("div#hunter-desc").innerText = '';
-    section.querySelector("input#hunter-name").value = '';
-    section.querySelector("div#hunter-look").innerHTML = '';
-    section.querySelector("div#hunter-ratings").innerHTML = '';
-    section.querySelector("div#hunter-moves").innerHTML = '';
+    // section.querySelector("input#hunter-playbook").value = '';
+    // section.querySelector("div#hunter-desc").innerText = '';
+    // section.querySelector("input#hunter-name").value = '';
+    // section.querySelector("div#hunter-look").innerHTML = '';
+    // section.querySelector("div#hunter-ratings").innerHTML = '';
+    // section.querySelector("div#hunter-moves").innerHTML = '';
 
 }
 
@@ -165,6 +168,7 @@ function primeHunterPage(pbook) {
     var section = document.querySelector("section#creation");
 
     // playbook and description
+    createPlaybookButtons(section, gameRef.playbooks.list);
     section.querySelector("div#hunter-desc").innerText = playbook.desc.text;
     section.querySelector("input#hunter-name").value = toon ? toon.name : "";
     section.querySelector("input#hunter-playbook").value = pbook;

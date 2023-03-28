@@ -9,6 +9,30 @@
 // }
 
 
+// create plybook buttons
+function createPlaybookButtons(appendTo, playbooks) {
+    var container = document.createElement("div");
+    container.className = "control";
+    for(var playbook of playbooks) {
+        var pbutt = document.createElement("button");
+        pbutt.innerHTML = playbook.toUpperCase();
+        pbutt.id = playbook;
+        pbutt.className = "playbook";
+        container.appendChild(pbutt);
+        pbutt.addEventListener("click", async (e) => {
+            var scriptPromise = playbookSelectClick(playbook, false);
+            await scriptPromise.then(() => { 
+                resetHunterPage();
+                primeHunterPage(playbook.playbook);
+            });
+        });
+    }
+    appendTo.appendChild(container);
+}
+/* <div class="control">
+<button id="chosen" class="playbook">Chosen</button></nbsp><button id="expert" class="playbook">Expert</button>
+</div> */
+
 // create look label
 function createLookLabel(appendTo, look) {
     var lookLabel = '<div><label>{{look}}: </label>'.replace('{{look}}', look);
