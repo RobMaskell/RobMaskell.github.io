@@ -171,20 +171,35 @@ function primeHunterPage(pbook) {
     // playbook and description
     createTitle(sectionCol, 'Choose your playbook');
     createPlaybookButtons(sectionCol, gameRef.playbooks.list);
-    section.querySelector("div#hunter-desc").innerText = playbook.desc.text;
-    section.querySelector("input#hunter-name").value = toon ? toon.name : "";
-    section.querySelector("input#hunter-playbook").value = pbook;
+
+    for (let field in playbook) {
+
+        let fieldDetails = playbook[field];
+
+        // random bit of text
+        if (fieldDetails.type=='display') {
+            createParagraph(sectionCol, fieldDetails.text);
+        }
+
+        // text fields
+        if (fieldDetails.type=='text' || fieldDetails.type=='hidden') {
+            fieldDetails.title ? createTitle(sectionCol, fieldDetails.title) : null;
+            createLabelAndInputText(sectionCol, fieldDetails.type, field, fieldDetails.label, fieldDetails.placeholder, fieldDetails.disabled)
+            setFieldValue(field, toon[field]);
+        }
+
+    }
 
     // look, sex/face/clothes
-    var lookSection = section.querySelector("div#hunter-look");
-    for (look in playbook.looks.options) {
-        createLookLabel(lookSection, look);
-        for (option of playbook.looks.options[look]) {
-            createLookOption(lookSection.querySelector("div:last-child"), look, option);
-        }
-        //lookSection.insertAdjacentHTML("afterend", "</div");
-        if (toon) lookSection.querySelector('input[name="hunter-look-' + look + '"][value="' + toon.looks[look] + '"]').checked = true;
-    }
+    // var lookSection = section.querySelector("div#hunter-look");
+    // for (look in playbook.looks.options) {
+    //     createLookLabel(lookSection, look);
+    //     for (option of playbook.looks.options[look]) {
+    //         createLookOption(lookSection.querySelector("div:last-child"), look, option);
+    //     }
+    //     //lookSection.insertAdjacentHTML("afterend", "</div");
+    //     if (toon) lookSection.querySelector('input[name="hunter-look-' + look + '"][value="' + toon.looks[look] + '"]').checked = true;
+    // }
 
     // ratings
     var iter = 1;
@@ -232,4 +247,10 @@ function primeToonPage() {
     // default moves
     createDefaultMoves(section.querySelector("div#toon-moves"), true)
 
+}
+
+
+function setFieldValue(name, value) {
+    let field = document.getElementById('edit-' + name);
+    field.value = value;
 }

@@ -124,3 +124,25 @@ function createTitle(appendTo, title) {
     h.innerText = title;
     appendTo.appendChild(h);
 }
+
+
+// text field
+function createLabelAndInputText(appendTo, type, name, label, placeholder, isDisabled) {
+    let html = '<div class="control"><label for="edit-{{name}}">{{label}}</label><input type="{{type}}" name="edit-{{name}}" id="edit-{{name}}" placeholder="{{placeholder}}" {{disabled}}/></div>';
+    appendTo.insertAdjacentHTML("beforeend", 
+        html.replace(/{{name}}/g, name)
+            .replace(/{{label}}/g, label)
+            .replace(/{{type}}/g, type)
+            .replace(/{{placeholder}}/g, placeholder)
+            .replace(/{{disabled}}/g, isDisabled ? "disabled" : "")
+    );
+}
+
+
+// paragrpgh of text
+function createParagraph(appendTo, text) {
+    let html = '<p class="control">{{text}}</p>';
+    appendTo.insertAdjacentHTML("beforeend", 
+        html.replace("{{text}}", text)
+    );
+}
