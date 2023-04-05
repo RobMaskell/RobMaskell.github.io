@@ -15,6 +15,7 @@
 ### Other RPGs
 
 [Eclipse Phase in the Apocalypse system](https://eclipse-phase-apocalypse.obsidianportal.com)
+[Eclipse Phase PbtA Uncharted](https://eclipsephaseuncharted.obsidianportal.com)
 
 [Powered by the Apocalypse](https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse)
 
