@@ -8,25 +8,44 @@
 //                         .replace('{{title}}', gameRef.ratings[ratingName.toLowerCase()]);
 // }
 
-// add container div
-function createColumn(appendTo, colClass) {
-    var div = document.createElement("div");
-    div.className = colClass;
-    appendTo.appendChild(div);
-    return div;
+// // add container div
+// function createColumn(appendTo, colClass) {
+//     var div = document.createElement("div");
+//     div.className = colClass;
+//     appendTo.appendChild(div);
+//     return div;
+// }
+
+
+// // add control div
+// function createControlContainer(appendTo) {
+//     var container = document.createElement("div");
+//     container.className = "control";
+//     appendTo.appendChild(container);
+//     return container;
+// }
+
+
+// add container
+function createContainer(appendTo, className, id) {
+    var container = document.createElement("div");
+    className ? container.className = className : null;
+    id ? container.id = id : null;
+    appendTo.appendChild(container);
+    return container;
 }
 
 
-// create plybook buttons
+// create playbook buttons
 function createPlaybookButtons(appendTo, playbooks) {
-    var container = document.createElement("div");
-    container.className = "control";
+    //var container = document.createElement("div");
+    //container.className = "control";
     for(var playbook of playbooks) {
         var pbutt = document.createElement("button");
         pbutt.innerHTML = playbook.toUpperCase();
         pbutt.id = playbook;
         pbutt.className = "playbook";
-        container.appendChild(pbutt);
+        appendTo.appendChild(pbutt);
         pbutt.addEventListener("click", async (e) => {
             var scriptPromise = playbookSelectClick(playbook, false);
             await scriptPromise.then(() => { 
@@ -35,7 +54,7 @@ function createPlaybookButtons(appendTo, playbooks) {
             });
         });
     }
-    appendTo.appendChild(container);
+    //appendTo.appendChild(container);
 }
 /* <div class="control">
 <button id="chosen" class="playbook">Chosen</button></nbsp><button id="expert" class="playbook">Expert</button>
@@ -56,6 +75,12 @@ function createLookOption(appendTo, look, option) {
     appendTo.insertAdjacentHTML("beforeend", optionHtml);
 }
 
+
+// create rating options
+function createRatingOption(appendTo, iter) {
+    const ratingLineHtml = '<div id="rating-option' + iter + '" class="rating-options"><div class="rating border"><input type="radio" name="edit-rating" id="edit-rating' + iter + '" value=' + iter + ' style="margin-top: 0.75rem; height:25px; width:25px;"></div></div>';
+    appendTo.insertAdjacentHTML("beforeend", ratingLineHtml);
+}
 
 // create rating card
 function createRatingCard(appendTo, name, value, title, addClick) {

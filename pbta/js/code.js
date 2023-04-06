@@ -166,11 +166,11 @@ function resetToonPage() {
 function primeHunterPage(pbook) {
 
     var section = document.querySelector("section#creation");
-    var sectionCol = createColumn(section, "onecol");
+    var sectionCol = createContainer(section, "onecol", null);
 
     // playbook and description
     createTitle(sectionCol, 'Choose your playbook');
-    createPlaybookButtons(sectionCol, gameRef.playbooks.list);
+    createPlaybookButtons(createContainer(sectionCol, 'control', null), gameRef.playbooks.list);
 
     for (let field in playbook) {
 
@@ -188,6 +188,29 @@ function primeHunterPage(pbook) {
             setFieldValue(field, toon[field]);
         }
 
+        // ratings
+        if (fieldDetails.type=='ratings') {
+            createTitle(sectionCol, 'Select a set of ratings that suit your hunter');
+            let ratingContainer = createContainer(sectionCol, "container", 'edit-ratings');
+
+            var iter = 1;
+            for (const ratingOption of playbook.ratingOptions.options) {
+        
+                // const ratingLineHtml = '<div id="rating-option' + iter + '" class="rating-options"><div class="rating border"><input type="radio" name="hunter-rating" id="hunter-rating' + iter + '" value=' + iter + ' style="margin-top: 0.75rem; height:25px; width:25px;"></div></div>';
+                // section.querySelector("div#hunter-ratings").insertAdjacentHTML("beforeend", ratingLineHtml);
+                createRatingOption(ratingContainer, iter);
+                const ratingSection = section.querySelector("div#rating-option" + iter);
+                for (const rating of ratingOption) {
+                    createRatingCard(ratingSection, rating.name, rating.value, gameRef.ratings[rating.name.toLowerCase()], false);
+                }
+                iter++;
+            }
+
+
+            setRadioValue('edit-rating', toon.ratingOption);
+            //if (toon) section.querySelectorAll('input[name="hunter-rating"]')[toon.ratingOption-1].checked = true;
+        }
+
     }
 
     // look, sex/face/clothes
@@ -201,20 +224,7 @@ function primeHunterPage(pbook) {
     //     if (toon) lookSection.querySelector('input[name="hunter-look-' + look + '"][value="' + toon.looks[look] + '"]').checked = true;
     // }
 
-    // ratings
-    var iter = 1;
-    for (const ratingOption of playbook.ratingOptions.options) {
-
-        const ratingLineHtml = '<div id="rating-option' + iter + '" class="rating-options"><div class="rating border"><input type="radio" name="hunter-rating" id="hunter-rating' + iter + '" value=' + iter + ' style="margin-top: 0.75rem; height:25px; width:25px;"></div></div>';
-        section.querySelector("div#hunter-ratings").insertAdjacentHTML("beforeend", ratingLineHtml);
-        const ratingSection = section.querySelector("div#rating-option" + iter);
-        for (const rating of ratingOption) {
-            createRatingCard(ratingSection, rating.name, rating.value, gameRef.ratings[rating.name.toLowerCase()], false);
-        }
-        iter++;
-    }
-    if (toon) section.querySelectorAll('input[name="hunter-rating"]')[toon.ratingOption-1].checked = true;
-
+    
     // moves
     createDefaultMoves(document.querySelector("div#hunter-moves"), false)
 
@@ -253,4 +263,10 @@ function primeToonPage() {
 function setFieldValue(name, value) {
     let field = document.getElementById('edit-' + name);
     field.value = value;
+}
+
+
+function setRadioValue(name, value) {
+    console.log(document.getElementsByName('edit-rating'));
+    document.getElementsByName('edit-rating')[value-1].checked = true;
 }
