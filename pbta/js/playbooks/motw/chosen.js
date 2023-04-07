@@ -1,20 +1,11 @@
 playbook = {
     'gameId': 'motw',
     'desc': {'type': 'display', 'text': 'Your birth was prophesied. You are the Chosen One, and with your abilities you can save the world. If you fail, all will be destroyed. It all rests on you. Only you'}, 
-    'name': {'type': 'text', 'title':'Give your hunter a suitable name', 'label': 'Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;', 'placeholder': 'Enter your hunter\'s name'},
+    'name': {'type': 'text', 'title':'Hunter Name and Playbook', 'label': 'Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;', 'placeholder': 'Enter your hunter\'s name'},
     'playbook': {'type': 'text', 'label': 'Playbook:&nbsp;&nbsp;', 'value':'Chosen', 'placeholder':'', 'disabled': true},
-    'looks': {'type': 'radio', 'options': {
-            'sex': [
-                'Man', 'Woman', 'Boy', 'Girl',
-            ],
-            'face': [
-                'Fresh', 'Haggard', 'Young', 'Haunted', 'hopeful', 'controlled',
-            ],
-            'clothes': [
-                'Preppy', 'Casual', 'Urban', 'Normal', 'Neat', 'Street',
-            ],
-        }
-    },
+    'sex': {'type': 'radio', 'title':'Hunter Look', 'label': 'Sex', 'options': ['Man', 'Woman', 'Boy', 'Girl']},
+    'face': {'type': 'radio', 'label': 'Face', 'options': ['Fresh', 'Haggard', 'Young', 'Haunted', 'hopeful', 'controlled']},
+    'clothes': {'type': 'radio', 'label': 'Clothes', 'options': ['Preppy', 'Casual', 'Urban', 'Normal', 'Neat', 'Street']},
     'ratings': {'type': 'ratings', 'options': 
     [
         [ {'name': 'Cool', 'value': -1}, {'name': 'Tough', 'value': 2}, {'name': 'Charm', 'value': 2}, {'name': 'Sharp', 'value': 1}, {'name': 'Weird', 'value': -1}, {'name': 'Arse', 'value': 2} ],

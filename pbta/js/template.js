@@ -62,14 +62,14 @@ function createPlaybookButtons(appendTo, playbooks) {
 
 // create look label
 function createLookLabel(appendTo, look) {
-    var lookLabel = '<div><label>{{look}}: </label>'.replace('{{look}}', look);
+    var lookLabel = '<label>{{look}}: </label>'.replace('{{look}}', look);
     appendTo.insertAdjacentHTML("beforeend", lookLabel);
 }
 
 
 // create look option
 function createLookOption(appendTo, look, option) {
-    var optionHtml = '<input type="radio" name="hunter-look-{{look}}" id="hunter-look-{{look}}-{{option}}" value="{{option}}"><label for="hunter-look-{{look}}-{{option}}">{{option}}</label>'
+    var optionHtml = '<input type="radio" name="edit-{{look}}" id="edit-{{look}}-{{option}}" value="{{option}}"><label for="edit-{{look}}-{{option}}">{{option}}</label>'
         .replaceAll('{{look}}', look)
         .replaceAll('{{option}}', option);
     appendTo.insertAdjacentHTML("beforeend", optionHtml);
@@ -161,6 +161,12 @@ function createLabelAndInputText(appendTo, type, name, label, placeholder, isDis
             .replace(/{{placeholder}}/g, placeholder)
             .replace(/{{disabled}}/g, isDisabled ? "disabled" : "")
     );
+}
+
+
+// display text and radio field
+function createDisplayField(appendTo, label, value) {
+    appendTo.insertAdjacentHTML('beforeend', label + ': ' + value + '<br>');
 }
 
 

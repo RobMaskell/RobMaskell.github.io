@@ -85,7 +85,7 @@ async function playbookSelectClick(pb, isNew) {
 
 
 // Save hunter to local storage
-function saveHunter() {
+function save() {
 
     toon = {};
     toon.gameId = playbook.gameId;
@@ -100,10 +100,13 @@ function saveHunter() {
             toon[field] = section.querySelector('input[name="edit-' + field + '"]').value;
         }
 
+        if (fieldDetails.type=='radio') {
+            toon[field] = section.querySelector('input[name="edit-' + field + '"]:checked').value;
+        }
+
         if (fieldDetails.type=='ratings') {
             toon[field] = {};
             toon[field].option = Number(section.querySelector('input[name="edit-rating"]:checked').value);
-            debugger;
             for (const rating of playbook.ratings.options[toon.ratings.option-1]) {
                 toon[field][rating.name] = rating.value;
             }
@@ -158,13 +161,18 @@ function resetEditPage() {
 // Reset the toon page
 function resetToonPage() {
 
-    var section = document.querySelector("section#sheet");
+    var section = document.querySelector("div.bigcollittlecol");
+
+    var section = document.querySelector("section#creation");
+    for (child of section.children) {
+        section.removeChild(child);
+    }
 
     // name and playbook
-    section.querySelector("div#toon-name").innerText = toon ? toon.name + ' (' + toon.playbook + ')' : "";
-    section.querySelector("div#toon-look").innerHTML = '';
-    section.querySelector("div#toon-ratings").innerHTML = '';
-    section.querySelector("div#toon-moves").innerHTML = '';
+    // section.querySelector("div#toon-name").innerText = toon ? toon.name + ' (' + toon.playbook + ')' : "";
+    // section.querySelector("div#toon-look").innerHTML = '';
+    // section.querySelector("div#toon-ratings").innerHTML = '';
+    // section.querySelector("div#toon-moves").innerHTML = '';
 
 }
 
@@ -172,8 +180,8 @@ function resetToonPage() {
 // Prime the hunter page
 function primeEditPage() {
 
-    var section = document.querySelector("section#creation");
-    var sectionCol = createContainer(section, "onecol", null);
+    let section = document.querySelector("section#creation");
+    let sectionCol = createContainer(section, "onecol", null);
 
     // playbook and description
     createTitle(sectionCol, 'Choose your playbook');
@@ -195,10 +203,27 @@ function primeEditPage() {
             setFieldValue(field, toon[field]);
         }
 
+        // radio button fields
+        if (fieldDetails.type=='radio') {
+
+            fieldDetails.title ? createTitle(sectionCol, fieldDetails.title) : null;
+            let radioContainer = createContainer(sectionCol, "control radio", null);
+            let radioDiv = createContainer(radioContainer, null, null);
+
+            createLookLabel(radioDiv, field);
+            for (option of playbook[field].options) {
+                createLookOption(radioDiv, field, option);
+            }
+
+            //lookSection.insertAdjacentHTML("afterend", "</div");
+            if (toon[field]) radioDiv.querySelector('input[name="edit-' + field + '"][value="' + toon[field] + '"]').checked = true;
+ 
+        }
+
         // ratings
         if (fieldDetails.type=='ratings') {
             createTitle(sectionCol, 'Select a set of ratings that suit your hunter');
-            let ratingContainer = createContainer(sectionCol, "container", 'edit-ratings');
+            let ratingContainer = createContainer(sectionCol, "control", 'edit-ratings');
 
             var iter = 1;
             for (const ratingOption of playbook.ratings.options) {
@@ -220,7 +245,7 @@ function primeEditPage() {
         // moves
         if (fieldDetails.type=='moves') {
             createTitle(sectionCol, 'Moves');
-            let ratingContainer = createContainer(sectionCol, "container grid moves", 'edit-moves');
+            let ratingContainer = createContainer(sectionCol, "control grid moves", 'edit-moves');
             createDefaultMoves(ratingContainer, false)
         }
 
@@ -234,8 +259,8 @@ function primeEditPage() {
     // hunter save button
     var rolldice = document.getElementById("save");
     rolldice.addEventListener("click", (e) => {
-        saveHunter();
-        resetHunterPage();
+        save();
+        resetEditPage();
         primeEditPage(toon.playbook);
         resetToonPage();
         primeToonPage();
@@ -248,7 +273,7 @@ function primeEditPage() {
         toon = {};
         var scriptPromise = playbookSelectClick("chosen", true);
         await scriptPromise.then(() => { 
-            resetHunterPage();
+            resetEditPage();
             primeEditPage(playbook.playbook);
             resetToonPage();
         });
@@ -273,10 +298,27 @@ function primeEditPage() {
 // Prime the toon page
 function primeToonPage() {
 
-    var section = document.querySelector("section#sheet");
+    let col = document.querySelector("div.bigcollittlecol");
+
+    for (let field in playbook) {
+
+        let fieldDetails = playbook[field];
+
+        // random bit of text
+        if (fieldDetails.type=='display') {
+            createParagraph(col, fieldDetails.text);
+        }
+
+        // text and radio fields
+        if (fieldDetails.type=='text' || fieldDetails.type=='hidden' || fieldDetails.type=='radio') {
+            fieldDetails.title ? createTitle(col, fieldDetails.title) : null;
+            createDisplayField(col, fieldDetails.label, toon[field])
+        }
+
+    }s
 
     // name and playbook
-    section.querySelector("div#toon-name").innerText = toon ? toon.name + ' (' + toon.playbook + ')' : "";
+    //section.querySelector("div#toon-name").innerText = toon ? toon.name + ' (' + toon.playbook + ')' : "";
 
     // looks
     // for (look in playbook.looks) {
@@ -284,17 +326,17 @@ function primeToonPage() {
     // }
 
     // ratings
-    if (toon && toon.ratings) {
-        var ratings = '';
-        ratings += '<div class="rating-options"></div>';
-        section.querySelector("div#toon-ratings").innerHTML = ratings;
-        for (const name in toon.ratings) {
-            if (name != 'option') createRatingCard(section.querySelector("div#toon-ratings div"), name, toon.ratings[name], gameRef.ratings[name.toLowerCase()], true);
-        }
-    }
+    // if (toon && toon.ratings) {
+    //     var ratings = '';
+    //     ratings += '<div class="rating-options"></div>';
+    //     section.querySelector("div#toon-ratings").innerHTML = ratings;
+    //     for (const name in toon.ratings) {
+    //         if (name != 'option') createRatingCard(section.querySelector("div#toon-ratings div"), name, toon.ratings[name], gameRef.ratings[name.toLowerCase()], true);
+    //     }
+    // }
 
     // default moves
-    createDefaultMoves(section.querySelector("div#toon-moves"), true)
+    // createDefaultMoves(section.querySelector("div#toon-moves"), true)
 
 }
 
@@ -306,6 +348,6 @@ function setFieldValue(name, value) {
 
 
 function setRadioValue(name, value) {
-    console.log(document.getElementsByName('edit-rating'));
+    //console.log(document.getElementsByName('edit-rating'));
     document.getElementsByName('edit-rating')[value-1].checked = true;
 }
