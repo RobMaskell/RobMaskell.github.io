@@ -5,15 +5,20 @@ var playbook = {};
 document.addEventListener('DOMContentLoaded', async () => {
 
     const isNew = localStorage.getItem("toon") === null;
-    toon = JSON.parse(localStorage.getItem("toon"));
-    selectedPlaybook = 'Chosen';
+    if (isNew) {
+        toon.name = '';
+        toon.playbook = 'chosen';
+    } else {
+        toon = JSON.parse(localStorage.getItem("toon"));
+    }
+    // selectedPlaybook = 'Chosen';
 
     setupButtons();
-    var scriptPromise = playbookSelectClick(isNew?selectedPlaybook.toLowerCase():toon.playbook, isNew)
+    var scriptPromise = playbookSelectClick(toon.playbook, isNew)
     await scriptPromise.then(() => { 
 
-        resetHunterPage();
-        primeHunterPage(isNew?selectedPlaybook.toLowerCase():toon.playbook);
+        resetEditPage();
+        primeEditPage();
         resetToonPage();
         primeToonPage();
     });
@@ -96,10 +101,11 @@ function saveHunter() {
         }
 
         if (fieldDetails.type=='ratings') {
-            toon[field] = Number(section.querySelector('input[name="edit-rating"]:checked').value);
-            toon.ratings = {};
-            for (const rating of playbook.ratingOptions.options[toon.ratingOptions-1]) {
-                toon.ratings[rating.name] = rating.value;
+            toon[field] = {};
+            toon[field].option = Number(section.querySelector('input[name="edit-rating"]:checked').value);
+            debugger;
+            for (const rating of playbook.ratings.options[toon.ratings.option-1]) {
+                toon[field][rating.name] = rating.value;
             }
         }
 
@@ -131,7 +137,7 @@ function saveHunter() {
 
 
 // Reset the hunter page
-function resetHunterPage() {
+function resetEditPage() {
 
     var section = document.querySelector("section#creation");
     for (child of section.children) {
@@ -164,7 +170,7 @@ function resetToonPage() {
 
 
 // Prime the hunter page
-function primeHunterPage(pbook) {
+function primeEditPage() {
 
     var section = document.querySelector("section#creation");
     var sectionCol = createContainer(section, "onecol", null);
@@ -195,7 +201,7 @@ function primeHunterPage(pbook) {
             let ratingContainer = createContainer(sectionCol, "container", 'edit-ratings');
 
             var iter = 1;
-            for (const ratingOption of playbook.ratingOptions.options) {
+            for (const ratingOption of playbook.ratings.options) {
         
                 // const ratingLineHtml = '<div id="rating-option' + iter + '" class="rating-options"><div class="rating border"><input type="radio" name="hunter-rating" id="hunter-rating' + iter + '" value=' + iter + ' style="margin-top: 0.75rem; height:25px; width:25px;"></div></div>';
                 // section.querySelector("div#hunter-ratings").insertAdjacentHTML("beforeend", ratingLineHtml);
@@ -208,7 +214,7 @@ function primeHunterPage(pbook) {
             }
 
 
-            setRadioValue('edit-rating', toon.ratingOption);
+            if (toon.ratings) setRadioValue('edit-rating', toon.ratings.option);
             //if (toon) section.querySelectorAll('input[name="hunter-rating"]')[toon.ratingOption-1].checked = true;
         }
         // moves
@@ -222,7 +228,7 @@ function primeHunterPage(pbook) {
 
     // add buttons
     let buttonControl = createContainer(sectionCol, 'control', null);
-    let buttonHtml = '<div class="control"><button id="save">Save Hunter</button><button id="reset" class="danger">Total hunter/toon reset (you will lose your character)</button></div>';
+    let buttonHtml = '<div class="control"><button id="save">Save Character</button><button id="reset" class="danger">Total reset (you will lose your character)</button></div>';
     buttonControl.insertAdjacentHTML('beforeend', buttonHtml);
 
     // hunter save button
@@ -230,7 +236,7 @@ function primeHunterPage(pbook) {
     rolldice.addEventListener("click", (e) => {
         saveHunter();
         resetHunterPage();
-        primeHunterPage(toon.playbook);
+        primeEditPage(toon.playbook);
         resetToonPage();
         primeToonPage();
     });
@@ -243,7 +249,7 @@ function primeHunterPage(pbook) {
         var scriptPromise = playbookSelectClick("chosen", true);
         await scriptPromise.then(() => { 
             resetHunterPage();
-            primeHunterPage(playbook.playbook);
+            primeEditPage(playbook.playbook);
             resetToonPage();
         });
     });
@@ -273,9 +279,9 @@ function primeToonPage() {
     section.querySelector("div#toon-name").innerText = toon ? toon.name + ' (' + toon.playbook + ')' : "";
 
     // looks
-    for (look in playbook.looks) {
-        section.querySelector('div#toon-look').insertAdjacentHTML('beforeend', look + "-" + (toon ? toon.looks[look] : ""));
-    }
+    // for (look in playbook.looks) {
+    //     section.querySelector('div#toon-look').insertAdjacentHTML('beforeend', look + "-" + (toon ? toon.looks[look] : ""));
+    // }
 
     // ratings
     if (toon && toon.ratings) {
@@ -283,7 +289,7 @@ function primeToonPage() {
         ratings += '<div class="rating-options"></div>';
         section.querySelector("div#toon-ratings").innerHTML = ratings;
         for (const name in toon.ratings) {
-            createRatingCard(section.querySelector("div#toon-ratings div"), name, toon.ratings[name], gameRef.ratings[name.toLowerCase()], true);
+            if (name != 'option') createRatingCard(section.querySelector("div#toon-ratings div"), name, toon.ratings[name], gameRef.ratings[name.toLowerCase()], true);
         }
     }
 
