@@ -56,29 +56,6 @@ function setupButtons() {
     //     });
     // }
 
-    // hunter save button
-    // var rolldice = document.getElementById("hunter-save");
-    // rolldice.addEventListener("click", (e) => {
-    //     saveHunter();
-    //     resetHunterPage();
-    //     primeHunterPage(toon.playbook);
-    //     resetToonPage();
-    //     primeToonPage();
-    // });
-
-    // reset button
-    // var reset = document.getElementById("reset");
-    // reset.addEventListener("click", async (e) => {
-    //     localStorage.removeItem("toon");
-    //     toon = {};
-    //     var scriptPromise = playbookSelectClick("chosen", true);
-    //     await scriptPromise.then(() => { 
-    //         resetHunterPage();
-    //         primeHunterPage(playbook.playbook);
-    //         resetToonPage();
-    //     });
-    // });
-
 }
 
 
@@ -108,24 +85,48 @@ function saveHunter() {
     toon = {};
     toon.gameId = playbook.gameId;
     var section = document.querySelector("section#creation");
-    toon.playbook = section.querySelector("input#hunter-playbook").value;
-    toon.name = section.querySelector("input#hunter-name").value;
 
-    // looks
-    toon.looks = {};
-    for (look in playbook.looks) {
-        toon.looks[look] = section.querySelector('input[name="hunter-look-' + look + '"]:checked').value;
+    for (let field in playbook) {
+
+        let fieldDetails = playbook[field];
+        console.log("field", field, fieldDetails);
+
+        if (fieldDetails.type=='text' || fieldDetails.type=='hidden') {
+            toon[field] = section.querySelector('input[name="edit-' + field + '"]').value;
+        }
+
+        if (fieldDetails.type=='ratings') {
+            toon[field] = Number(section.querySelector('input[name="edit-rating"]:checked').value);
+            toon.ratings = {};
+            for (const rating of playbook.ratingOptions.options[toon.ratingOptions-1]) {
+                toon.ratings[rating.name] = rating.value;
+            }
+        }
+
     }
 
-    // ratings
-    const ratingOption = section.querySelector('input[name="hunter-rating"]:checked').value;
-    toon.ratingOption = Number(ratingOption);
-    toon.ratings = {};
-    for (const rating of playbook.ratingOptions[toon.ratingOption-1]) {
-        toon.ratings[rating.name] = rating.value;
-    }
-
+    console.log("toon", toon, JSON.parse(localStorage.getItem("toon")));
     localStorage.setItem("toon", JSON.stringify(toon));
+
+    
+    // toon.playbook = section.querySelector("input#hunter-playbook").value;
+    // toon.name = section.querySelector("input#hunter-name").value;
+
+    // // looks
+    // toon.looks = {};
+    // for (look in playbook.looks) {
+    //     toon.looks[look] = section.querySelector('input[name="hunter-look-' + look + '"]:checked').value;
+    // }
+
+    // // ratings
+    // const ratingOption = section.querySelector('input[name="hunter-rating"]:checked').value;
+    // toon.ratingOption = Number(ratingOption);
+    // toon.ratings = {};
+    // for (const rating of playbook.ratingOptions[toon.ratingOption-1]) {
+    //     toon.ratings[rating.name] = rating.value;
+    // }
+
+    // localStorage.setItem("toon", JSON.stringify(toon));
 }
 
 
@@ -210,8 +211,43 @@ function primeHunterPage(pbook) {
             setRadioValue('edit-rating', toon.ratingOption);
             //if (toon) section.querySelectorAll('input[name="hunter-rating"]')[toon.ratingOption-1].checked = true;
         }
+        // moves
+        if (fieldDetails.type=='moves') {
+            createTitle(sectionCol, 'Moves');
+            let ratingContainer = createContainer(sectionCol, "container grid moves", 'edit-moves');
+            createDefaultMoves(ratingContainer, false)
+        }
 
     }
+
+    // add buttons
+    let buttonControl = createContainer(sectionCol, 'control', null);
+    let buttonHtml = '<div class="control"><button id="save">Save Hunter</button><button id="reset" class="danger">Total hunter/toon reset (you will lose your character)</button></div>';
+    buttonControl.insertAdjacentHTML('beforeend', buttonHtml);
+
+    // hunter save button
+    var rolldice = document.getElementById("save");
+    rolldice.addEventListener("click", (e) => {
+        saveHunter();
+        resetHunterPage();
+        primeHunterPage(toon.playbook);
+        resetToonPage();
+        primeToonPage();
+    });
+
+    // reset button
+    var reset = document.getElementById("reset");
+    reset.addEventListener("click", async (e) => {
+        localStorage.removeItem("toon");
+        toon = {};
+        var scriptPromise = playbookSelectClick("chosen", true);
+        await scriptPromise.then(() => { 
+            resetHunterPage();
+            primeHunterPage(playbook.playbook);
+            resetToonPage();
+        });
+    });
+
 
     // look, sex/face/clothes
     // var lookSection = section.querySelector("div#hunter-look");
@@ -224,9 +260,6 @@ function primeHunterPage(pbook) {
     //     if (toon) lookSection.querySelector('input[name="hunter-look-' + look + '"][value="' + toon.looks[look] + '"]').checked = true;
     // }
 
-    
-    // moves
-    createDefaultMoves(document.querySelector("div#hunter-moves"), false)
 
 }
 

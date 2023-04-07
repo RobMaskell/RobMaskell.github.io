@@ -111,7 +111,7 @@ function createDefaultMoves(appendTo, addClick) {
 
     var ratingDiv = document.createElement("div");
     ratingDiv.className = "grid";
-    const moves = gameRef.moves.concat(playbook.moves);
+    const moves = gameRef.moves.concat(playbook.moves.options);
     for(let move of moves) {
 
         var moveNameDiv = document.createElement("div");

@@ -23,10 +23,12 @@ playbook = {
         [ {'name': 'Cool', 'value': 1}, {'name': 'Tough', 'value': -1}, {'name': 'Charm', 'value': -1}, {'name': 'Sharp', 'value': 2}, {'name': 'Weird', 'value': 2}, {'name': 'Arse', 'value': 2} ],
         [ {'name': 'Cool', 'value': 2}, {'name': 'Tough', 'value': -1}, {'name': 'Charm', 'value': 1}, {'name': 'Sharp', 'value': -1}, {'name': 'Weird', 'value': 2}, {'name': 'Arse', 'value': 2} ],
     ]},
-    // 'moves': [
-    //     { 'name': 'Destiny\'s Plaything', 'rating': 'Weird', 'desc': 'At the beginning of each mystery, roll +Weird to see what is revealed about your immediate future. On a 10+, the Keeper will reveal a useful detail about the coming mystery. On a 7-9 you get a vague hint about it. On a miss, something bad is going to happen to you' },
-    //     { 'name': 'I\'m Here For A Reason', 'rating': 'none', 'desc': 'There\'s something you are destined to do. Work out the details with the Keeper, based on your fate. You cannot die until it comes to pass. If you die in play, then you must spend a Luck point. You will then, somehow, recover or get returned to life. Once your task is done (or you use up all your Luck), all bets are off' },
-    // ],
+    'moves': {'type': 'moves', 'options': 
+        [
+            { 'name': 'Destiny\'s Plaything', 'rating': 'Weird', 'desc': 'At the beginning of each mystery, roll +Weird to see what is revealed about your immediate future. On a 10+, the Keeper will reveal a useful detail about the coming mystery. On a 7-9 you get a vague hint about it. On a miss, something bad is going to happen to you' },
+            { 'name': 'I\'m Here For A Reason', 'rating': 'none', 'desc': 'There\'s something you are destined to do. Work out the details with the Keeper, based on your fate. You cannot die until it comes to pass. If you die in play, then you must spend a Luck point. You will then, somehow, recover or get returned to life. Once your task is done (or you use up all your Luck), all bets are off' },
+        ]
+    },
     // 'optional-moves': {
     //     'select': 1,
     //     'list': [

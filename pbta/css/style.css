@@ -109,13 +109,13 @@ div#toon-name, input#hunter-playbook {
     text-transform: capitalize;
 }
 
-div#toon-moves, div#hunter-moves {
+div#toon-moves, div.moves {
     display: inline-grid;
     grid-template-columns: auto auto auto;
     /* border: solid black 1px; */
 }
 
-div#toon-moves div, div#hunter-moves div {
+div#toon-moves div, div.moves div {
     padding: 0.5rem;
     /* border: solid black 1px; */
     border-style: solid;
