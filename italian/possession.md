@@ -9,3 +9,7 @@
 | Ours | il nostro | la nostra | i nostri | le nostre |
 | Yours | il vostro | la vostra | i vostri | le vostre |
 | Theirs | il loro | la loro | i loro | le loro |
+
+
+They eat their own cake - Mangiano la loro torta
+your insects are on my plate - i tuoi insetti sono nel mio piatto
