@@ -1,15 +1,15 @@
 # Verbs
 
-## Essere - To Be
+## Andare - To Go
 
 | IT | ENG |
 | --- | --- |
-| io | sono |
-| tu | sei |
-| lui/lei | e |
-| voi | siete |
-| noi | siamo |
-| loro | sono |
+| io | vado |
+| tu | vai |
+| lui/lei | va |
+| noi | andiamo |
+| voi | andate |
+| Loro | vanno |
 
 ## Avere - To Have
 
@@ -22,17 +22,6 @@
 | noi | avete |
 | loro | hanno |
 
-## Mangiare - To Eat
-
-| IT | ENG |
-| --- | --- |
-| io | mangio |
-| tu | mangi |
-| lui/lei | mangia |
-| noi | mangiamo |
-| voi | mangiate |
-| Loro | mangiano |
-
 ## Beve - To Drink
 
 | IT | ENG |
@@ -44,6 +33,17 @@
 | voi | bevete |
 | Loro | bevono |
 
+## Essere - To Be
+
+| IT | ENG |
+| --- | --- |
+| io | sono |
+| tu | sei |
+| lui/lei | e |
+| voi | siete |
+| noi | siamo |
+| loro | sono |
+
 ## Leggere - To Read
 
 | IT | ENG |
@@ -54,6 +54,17 @@
 | noi | leggiamo |
 | voi | leggete |
 | Loro | leggono |
+
+## Mangiare - To Eat
+
+| IT | ENG |
+| --- | --- |
+| io | mangio |
+| tu | mangi |
+| lui/lei | mangia |
+| noi | mangiamo |
+| voi | mangiate |
+| Loro | mangiano |
 
 ## Scrivere - To Write
 
