@@ -26,6 +26,7 @@
 
 | IT | ENG |
 | --- | --- |
+| andiamo | let's go |
 | prego | you're welcome |
 | ho fame | i am hungry |
 | nel | in the / on the whole (in + il) |
