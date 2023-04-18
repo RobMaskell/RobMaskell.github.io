@@ -15,12 +15,13 @@
 
 | un / una | IT | IT Plural | ENG |
 | --- | --- | --- | --- |
+| un | il cameriere | i camerieri | waiter / waiters |
 | un | il cuoco | i cuochi | cooks / cooks |
 | un | il vegatariano | i vegetariani | vegetarian / vegetarians |
 |  |  |  |  |
 |  |  |  |  |
 
-## Food / Drink
+## Food
 
 | un / una | IT | IT Plural | ENG |
 | --- | --- | --- | --- |
@@ -44,19 +45,19 @@
 | un | il gelato | i gelati | ice cream / ice creams |
 |  | il ghiaccio |  | ice |
 |  | il manzo |  | beef |
-|  | la marmellata |  | jam / marmalade |
+|  | la marmellata |  | jam / marmalade / jelly |
 |  | il pane |  | bread |
 | un | il panino | i panini | sandwich / sandwiches |
 |  | il pasto | i pasti | the food / the foods, meal / meals |
 |  | il pepe |  | pepper |
 | un | il pollo | i polli | chicken / chickens |
 | un | il pranzo | i polmoni | lunch / lunches |
-|  |  |  |  |
+| un | il riso |  | rice |
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
 
-## Food / Drink
+## Drink
 
 | un / una | IT | IT Plural | ENG |
 |  | l'acqua |  | water |
@@ -70,12 +71,14 @@
 
 | un / una | IT | IT Plural | ENG |
 |---|---|---|---|
+| una | l'anatra | le anatre | duck / ducks |
 | un | l'animale | gli animali | animal / animals |
 | una | la balena | le balene | whale / whales |
 | un | il cane | i cani | dog / dogs |
 | un | il delfino | i delfini | dolphin / dolphins |
 | un | l'elefante | gli elefanti | elephant / elephants |
 | una | la farfalla | le farfalle | butterfly / butterflies |
+| una | la fomica | le formiche | ant / ants |
 | un / una | il gatto / la gatta | i gatti / le gatte | cat / cats |
 | un | l'insetto | gli insetti | insect / insects |
 | un | il leone | i leoni | lion / lions |
@@ -106,6 +109,7 @@
 | una | la bottiglia | le bottiglie | bottle / bottles |
 | una | la ciotola | le ciotole | bowl / bowls |
 | un | il coltello | i coltelli | knife / knives |
+| un | il cucchiaio | i cucchiai | spoon / spoons |
 | una | la forchetta | le forchette | fork / forks |
 | un | il giornale | i giornali | newspaper / newspapers |
 | una | la griglia | le griglie | grill / grills |
@@ -118,7 +122,6 @@
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
-
 
 ## Places  
 
