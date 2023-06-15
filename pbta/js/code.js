@@ -315,7 +315,7 @@ function primeToonPage() {
             createDisplayField(col, fieldDetails.label, toon[field])
         }
 
-    }s
+    }
 
     // name and playbook
     //section.querySelector("div#toon-name").innerText = toon ? toon.name + ' (' + toon.playbook + ')' : "";
