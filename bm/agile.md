@@ -10,4 +10,5 @@
 
 [Invers Conway Manouver](https://martinfowler.com/bliki/ConwaysLaw.html)
 
-[The age of cargo cult Agile must end](https://jchyip.medium.com/the-age-of-cargo-cult-agile-must-end-9408e1d13e1d)
+[The age of cargo cult Agile must end](https://jchyip.medium.com/the-age-of-cargo-cult-agile-must-end-9408e1d13e1d)  
+[Imaginary problems at the root of bad software](https://cerebralab.com/Imaginary_Problems_Are_the_Root_of_Bad_Software)
