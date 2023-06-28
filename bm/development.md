@@ -38,3 +38,6 @@
 
 ### estimation
 [Improving dev estimation](https://jbconsulting.substack.com/p/task-estimation-conquering-hofstadters)  
+
+### macos
+[Advanced command prompt commands](https://saurabhs.org/advanced-macos-commands)  
