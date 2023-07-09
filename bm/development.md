@@ -41,3 +41,7 @@
 
 ### macos
 [Advanced command prompt commands](https://saurabhs.org/advanced-macos-commands)  
+
+### htmx
+[HTMX](https://htmx.org)  
+[HAndle authN errors on htmlx calls](https://www.wimdeblauwe.com/blog/2022/10/04/htmx-authentication-error-handling/)  
