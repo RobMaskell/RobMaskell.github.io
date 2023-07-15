@@ -45,3 +45,6 @@
 ### htmx
 [HTMX](https://htmx.org)  
 [HAndle authN errors on htmlx calls](https://www.wimdeblauwe.com/blog/2022/10/04/htmx-authentication-error-handling/)  
+
+### spring
+[Templare layouts in spring](https://blog.codeleak.pl/2013/11/thymeleaf-template-layouts-in-spring.html)  
