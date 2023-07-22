@@ -14,7 +14,8 @@
 
 [Unlearning Perfectionism](https://arunkprasad.com/log/unlearning-perfectionism/)
 
-[Tacit Knowledge](https://commoncog.com/tacit-knowledge-is-a-real-thing/)
+[Tacit Knowledge](https://commoncog.com/tacit-knowledge-is-a-real-thing/)   
+[Agreeableness, Receptivity, Enthusiasm](https://seths.blog/2023/06/the-a-r-e-skills-matter-more-than-ever/)
 
 ### memory
 
