@@ -28,3 +28,5 @@
 
 [What Does it Mean to be a Writer AND a Perfectionist?](http://writersinthestormblog.com/2016/04/what-does-it-mean-to-be-a-writer-and-a-perfectionist/)
 
+### tech mastery
+[Tech amateurs vs pros and mastery](https://adamsinger.substack.com/p/amateurs-obsess-over-tools-pros-over)
