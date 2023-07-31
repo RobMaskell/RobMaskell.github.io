@@ -22,6 +22,9 @@
 [37 signals bringing apps back home](https://dev.37signals.com/bringing-our-apps-back-home/)  
 
 
+### microservices
+[What we learnt at Netflix](https://www.infoq.com/presentations/microservices-netflix-industry)  
+
 ### devops / git
 
 [Oh shit git, how to correct git mistakes](https://ohshitgit.com)  
