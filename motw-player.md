@@ -42,5 +42,3 @@ When you advance this move, add this extra result:
 
 ### Moves That Grant Different Questions
 Many hunters have moves that grant special questions to ask instead of the usual list. To ensure these moves are still valuable, they now grant one of those special questions in addition to the questions granted by your investigate a mystery move result.
-
-# Alternates for "Use Magic" (moves for magic users)
