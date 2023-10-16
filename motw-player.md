@@ -25,6 +25,7 @@
 [The Searcher](/e22990e/MotW%20PC%20Playbook%20-%20Searcher.pdf)  
 [The Seer](/e22990e/MotW%20PC%20Playbook%20-%20Seer.pdf)  
 [The Snoop](/e22990e/MotW%20PC%20Playbook%20-%20Spell%20Slinger.pdf)  
+[The Spell Slinger](/e22990e/MotW%20PC%20Playbook%20-%20Spell%20Slinger.pdf)  
 [The Spoktacular](/e22990e/MotW%20PC%20Playbook%20-%20Spoktacular.pdf)  
 [The Spooky](/e22990e/MotW%20PC%20Playbook%20-%20Spooky.pdf)  
 [The Wronged](/e22990e/MotW%20PC%20Playbook%20-%20Wronged.pdf)  
