@@ -5,8 +5,8 @@
 # Player files for Monster of the Week
 
 ## Basic Rules
-[Players Handbook](/e22990e/motw%20players%20handbook.pdf)
-[Alternate Weird Moves](/e22990e/Alternate%20Weird%20Moves.pdf)
+[Players Handbook](/e22990e/motw%20players%20handbook.pdf)  
+[Alternate Weird Moves](/e22990e/Alternate%20Weird%20Moves.pdf)  
 
 ## Playbooks
 [The Action Scientist](/e22990e/MotW%20PC%20Playbook%20-%20Action%20Scientist.pdf)  
@@ -31,7 +31,7 @@
 [The Spooky](/e22990e/MotW%20PC%20Playbook%20-%20Spooky.pdf)  
 [The Wronged](/e22990e/MotW%20PC%20Playbook%20-%20Wronged.pdf)  
 
-# More Flexible Investigation
+## More Flexible Investigation
 
 When you investigate a mystery with your particular techniques and skills, roll +Sharp:
 * On a 10 or higher, ask the Keeper two general questions or one specific question. Based on how you are investigating, they will tell you honestly and with good detail what you discover.
