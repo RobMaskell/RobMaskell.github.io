@@ -10,6 +10,7 @@
 ## Playbooks
 [The Action Scientist](/e22990e/MotW%20PC%20Playbook%20-%20Action%20Scientist.pdf)  
 [The Chosen](/e22990e/MotW%20PC%20Playbook%20-%20Chosen.pdf)  
+[The Crooked](/e22990e/MotW%20PC%20Playbook%20-%20Crooked.pdf)  
 [The Divine](/e22990e/MotW%20PC%20Playbook%20-%20Divine.pdf)  
 [The Expert](/e22990e/MotW%20PC%20Playbook%20-%20Expert.pdf)  
 [The Flake](/e22990e/MotW%20PC%20Playbook%20-%20Flake.pdf)  
