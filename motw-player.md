@@ -4,5 +4,10 @@
 
 # Player files for Monster of the Week
 
-# Basic Rules
-[Players Handbook](/e22990e/motw+players+handbook.pdf)
+## Basic Rules
+[Players Handbook](/e22990e/motw%20players%20handbook.pdf)
+
+## Playbooks
+[](/e22990e/motw%20players%20handbook.pdf)  
+[](/e22990e/motw%20players%20handbook.pdf)  
+[](/e22990e/motw%20players%20handbook.pdf)  
