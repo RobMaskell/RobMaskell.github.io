@@ -6,6 +6,7 @@
 
 ## Basic Rules
 [Players Handbook](/e22990e/motw%20players%20handbook.pdf)
+[Alternate Weird Moves](/e22990e/Alternate%20Weird%20Moves.pdf)
 
 ## Playbooks
 [The Action Scientist](/e22990e/MotW%20PC%20Playbook%20-%20Action%20Scientist.pdf)  
@@ -29,3 +30,17 @@
 [The Spoktacular](/e22990e/MotW%20PC%20Playbook%20-%20Spoktacular.pdf)  
 [The Spooky](/e22990e/MotW%20PC%20Playbook%20-%20Spooky.pdf)  
 [The Wronged](/e22990e/MotW%20PC%20Playbook%20-%20Wronged.pdf)  
+
+# More Flexible Investigation
+
+When you investigate a mystery with your particular techniques and skills, roll +Sharp:
+* On a 10 or higher, ask the Keeper two general questions or one specific question. Based on how you are investigating, they will tell you honestly and with good detail what you discover.
+* On a 7 to 9, ask the Keeper one general question. Based on how you are investigating, they will tell you honestly and with reasonable detail what you discover.
+* On a miss, ask the Keeper one general question. They may answer it as they wish. Regardless of the question and answer, something bad happens.
+When you advance this move, add this extra result:
+* On a 12 or higher, as 10 or higher but you may ask one additional question—specific or general, your choice.
+
+### Moves That Grant Different Questions
+Many hunters have moves that grant special questions to ask instead of the usual list. To ensure these moves are still valuable, they now grant one of those special questions in addition to the questions granted by your investigate a mystery move result.
+
+# Alternates for "Use Magic" (moves for magic users)
