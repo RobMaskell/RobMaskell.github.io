@@ -1,3 +1,7 @@
+<style>
+  header: display: none;
+</style>
+
 # Player files for Monster of the Week
 
 # Basic Rules
