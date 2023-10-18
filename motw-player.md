@@ -7,6 +7,7 @@
 ## Basic Rules
 [Players Handbook](/e22990e/motw%20players%20handbook.pdf)  
 [Alternate Weird Moves](/e22990e/Alternate%20Weird%20Moves.pdf)  
+[Assorted Meeples - Playbook guides](https://assortedmeeples.com/?s=motw)  
 
 ## Playbooks
 [The Action Scientist](/e22990e/MotW%20PC%20Playbook%20-%20Action%20Scientist.pdf)  
