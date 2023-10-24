@@ -1,0 +1,88 @@
+blueprint:
+  name: Motion-activated Light
+  description: Turn on a light when motion is detected.
+  domain: automation
+  source_url: https://github.com/home-assistant/core/blob/dev/homeassistant/components/automation/blueprints/motion_light.yaml
+  author: Home Assistant
+  input:
+    motion_entity:
+      name: Motion Sensor
+      selector:
+        entity:
+          domain: binary_sensor
+          device_class: motion
+    light_target:
+      name: Light
+      selector:
+        target:
+          entity:
+            domain: light
+    no_motion_wait:
+      name: Wait time
+      description: Time to leave the light on after last motion is detected.
+      default: 120
+      selector:
+        number:
+          min: 0
+          max: 3600
+          unit_of_measurement: seconds
+
+# If motion is detected within the delay,
+# we restart the script.
+mode: restart
+max_exceeded: silent
+
+trigger:
+  platform: state
+  entity_id: !input motion_entity
+  from: "off"
+  to: "on"
+
+action:
+  - alias: "Turn on the light"
+    service: light.turn_on
+    target: !input light_target
+  - alias: "Wait until there is no motion from device"
+    wait_for_trigger:
+      platform: state
+      entity_id: !input motion_entity
+      from: "on"
+      to: "off"
+  - alias: "Wait the number of seconds that has been set"
+    delay: !input no_motion_wait
+  - alias: "Turn off the light"
+    service: light.turn_off
+    target: !input light_target
+
+
+
+
+
+
+
+
+
+
+- id: '1698173987185'
+  alias: Fake lights hall
+  description: ''
+  trigger:
+  - platform: time
+    at: '20:30:20'
+  condition: []
+  action:
+  - type: turn_on
+    device_id: 31432af36283a0dc5a3b4598a7664195
+    entity_id: bf451dc73509021f9eb6ab07f85bead2
+    domain: light
+    brightness_pct: 50
+  - delay:
+      hours: 0
+      minutes: 5
+      seconds: 0
+      milliseconds: 0
+  - type: turn_off
+    device_id: 31432af36283a0dc5a3b4598a7664195
+    entity_id: bf451dc73509021f9eb6ab07f85bead2
+    domain: light
+  mode: single
