@@ -7,4 +7,5 @@
 
 ### Inflammation
 
-[Probiotics for inflammation](https://selfhacked.com/blog/probiotics-inflammation-autoimmunity)
+[Probiotics for inflammation](https://selfhacked.com/blog/probiotics-inflammation-autoimmunity)  
+[Cardiac sarc mouse model](https://sarcoidosisnews.com/news/1st-cardiac-mouse-model-develop-treatments-mtorc1-protein/)  
