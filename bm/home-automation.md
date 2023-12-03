@@ -2,4 +2,6 @@
 
 ### privacy focussed stuff
 [Privacy doorbell](https://tristam.ie/2023/758/)  
-[nome assistant](#)
+[home assistant](#)  
+[Home assistant with cloudflare](https://hodgkins.io/securing-home-assitant-with-cloudflare)  
+
