@@ -1,5 +1,8 @@
 ## mind
 
+### ADHD
+[Hacking ADHD for the modern developer](https://www.ledger.com/blog/hacking-adhd-strategies-for-the-modern-developer)  
+
 ### life advice
 
 [Advice I wish I knew](https://kk.org/thetechnium/103-bits-of-advice-i-wish-i-had-known/)
