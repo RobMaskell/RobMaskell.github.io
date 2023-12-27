@@ -15,7 +15,7 @@
 [Powered by the Apocalypse](https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse)  
 [Apocalypse Now and it's impact on RPGs](https://www.goonhammer.com/turn-order-apocalypse-world-and-its-impact-on-rpgs/)  
 [Moster of the Week](https://evilhat.com/product/monster-of-the-week/)  
-[Theory behind AW and PbtA - Powered by the Apocalypse, part 1](https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1/?fbclid=IwAR3qf65SeL8WPaLk-xkjV-zelV__oreAhanfP7M9_uQm56wuNC9DYvvyySY)  
+[Theory behind AW and PbtA - Powered by the Apocalypse, part 1](https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1)  
 
 ### Dice percentages
 
