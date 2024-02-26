@@ -26,6 +26,8 @@
 
 [lifehacks](lifehacks)
 
+[london](london)  
+
 [machine learning](machine-learning)
 
 [mind](mind)
