@@ -4,6 +4,7 @@
 
 [Skeleton: Beautiful Boilerplate for Responsive, Mobile-Friendly Development](http://www.getskeleton.com/)  
 [Interactive guide to flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)  
+[Pedants guide to learning css](http://book.mixu.net/css/)  
 
 
 ### javascript
@@ -40,6 +41,7 @@
 ### databases
 
 [Use postgres for everything](https://www.amazingcto.com/postgres-for-everything/)  
+[The Querynomicon: An Introduction to SQL for Weary Data Scientists](https://gvwilson.github.io/sql-tutorial/)  
 
 ### estimation
 [Improving dev estimation](https://jbconsulting.substack.com/p/task-estimation-conquering-hofstadters)  
