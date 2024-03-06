@@ -68,7 +68,8 @@ module drawPill(length, height1, radius1, radius2, height2, radius3, radius4) {
 difference() {
 
     // the body of the dice tower
-    cube([dimX, dimY, dimZ], center=true);
+    //cube([dimX, dimY, dimZ], center=true);
+    drawRoundedBox();
 
     // the main dice route through the body
     translate([-6,-10,0])
@@ -85,4 +86,22 @@ difference() {
         drawPill(15, 2, dimZInt/2, dimZInt/2, 27, dimZInt/2, dimZInt/2);
 
 }   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
