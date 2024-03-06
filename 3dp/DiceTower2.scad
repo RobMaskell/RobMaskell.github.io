@@ -1,7 +1,7 @@
 
 $fa = 1;
 $fs = 0.4;
-$fn=60;
+$fn=100;
 
 radius = 2;
 dimX = 100;
@@ -86,22 +86,4 @@ difference() {
         drawPill(15, 2, dimZInt/2, dimZInt/2, 27, dimZInt/2, dimZInt/2);
 
 }   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
