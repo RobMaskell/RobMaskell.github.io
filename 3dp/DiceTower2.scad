@@ -85,5 +85,36 @@ difference() {
         rotate([0,0,90])
         drawPill(15, 2, dimZInt/2, dimZInt/2, 27, dimZInt/2, dimZInt/2);
 
+    // hollow out block
+    translate([-5,-5,0])
+        sphere(dimZInt/2);
+    translate([-2,-17,0])
+        sphere(dimZInt/2);
+    translate([-10,-17,0])
+        sphere(dimZInt/2);
+    translate([1,-29,0])
+        sphere(dimZInt/2);
+    translate([-15,-29,0])
+        sphere(dimZInt/2);
 }   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
