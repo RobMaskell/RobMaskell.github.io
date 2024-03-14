@@ -2,6 +2,7 @@
 
 ### general
 [How to tie shoelaces correctly](https://www.youtube.com/watch?v=YvaLbSA_kSg)  
+[Mark Manson - 40 lessons at 40](https://markmanson.net/40-lessons-at-40)  
 
 ### tech life hacks
 [libredirect redirects priavcy friendly sites](https://libredirect.github.io/index.html)  
