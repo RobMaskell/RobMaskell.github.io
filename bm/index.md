@@ -2,6 +2,8 @@
 
 [agile](agile)
 
+[architecture](architecture)  
+
 [bills](bills)
 
 [communication](communication)
@@ -14,7 +16,11 @@
 
 [development](development)
 
+[finance](finance)  
+
 [health](health)
+
+[home-automation](home-automation)  
 
 [house](house)
 
@@ -36,9 +42,13 @@
 
 [music](music)
 
+[personal-electric-vehicles](personal-electric-vehicles)  
+
 [philosophy](philosophy)
 
 [photography](photography)
+
+[platform](platform)  
 
 [platform](platform.md)
 
@@ -46,4 +56,5 @@
 
 [startup](startup.md)
 
-[tech companies](tech-companies)
+[tech companies](tech-companies)  
+[whitehat](whitehat)  
