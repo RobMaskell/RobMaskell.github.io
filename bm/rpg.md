@@ -16,6 +16,8 @@
 [Apocalypse Now and it's impact on RPGs](https://www.goonhammer.com/turn-order-apocalypse-world-and-its-impact-on-rpgs/)  
 [Moster of the Week](https://evilhat.com/product/monster-of-the-week/)  
 [Theory behind AW and PbtA - Powered by the Apocalypse, part 1](https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1)  
+[Picking gm moves in PbtA](https://magpiegames.com/blogs/news/picking-the-right-gm-move-in-pbta-part-one)  
+[Five tips for new PbtA GMs](https://magpiegames.com/blogs/news/5-tips-for-new-pbta-gms)  
 
 ### Dice percentages
 
