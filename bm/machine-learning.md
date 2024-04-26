@@ -10,3 +10,6 @@
 [Artificial General Intelligence is Nigh! Rejoice! Be very afraid!](https://ea.rna.nl/2023/11/26/artificial-general-intelligence-is-nigh-rejoice-be-very-afraid/)  
 [Writing with AI a nuanced take](https://ia.net/topics/writing-with-ai)  
 [LLMs and Programming in the first days of 2024](http://antirez.com/news/140)  
+
+### Underlying maths
+[Calculus Made Easy - book](https://calculusmadeeasy.org)
