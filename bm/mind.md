@@ -23,9 +23,9 @@
 
 ### memory
 
-[Top 10 Things You Can Do To Improve Your Memory](https://www.developgoodhabits.com/improve-memory/)
-
-[Want to Remember Everything You&#39;ll Ever Learn? Surrender to This Algorithm | WIRED](https://www.wired.com/2008/04/ff-wozniak/)
+[How axctors remember lines](https://thereader.mitpress.mit.edu/how-actors-remember-their-lines/)  
+[Top 10 Things You Can Do To Improve Your Memory](https://www.developgoodhabits.com/improve-memory/)  
+[Want to Remember Everything You&#39;ll Ever Learn? Surrender to This Algorithm | WIRED](https://www.wired.com/2008/04/ff-wozniak/)  
 
 ### mindfullness
 
