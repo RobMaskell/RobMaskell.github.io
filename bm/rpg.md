@@ -15,7 +15,7 @@
 [Moster of the Week](https://evilhat.com/product/monster-of-the-week/)  
 [Roll For Shoes](https://rollforshoes.com)  
 [2400 / 24XX](https://jasontocci.itch.io/2400)  
-[DIE RPG](https://diecomis.com/rpg)  
+[DIE RPG](https://diecomic.com/rpg)  
 
 ### Interesting RPG articles
 [Theory behind AW and PbtA - Powered by the Apocalypse, part 1](https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1)  
