@@ -13,6 +13,8 @@
 [Powered by the Apocalypse](https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse)  
 [Apocalypse Now and it's impact on RPGs](https://www.goonhammer.com/turn-order-apocalypse-world-and-its-impact-on-rpgs/)  
 [Moster of the Week](https://evilhat.com/product/monster-of-the-week/)  
+[Roll For Shoes](https://rollforshoes.com)  
+[2400 / 24XX](https://jasontocci.itch.io/2400)  
 
 ### Interesting RPG articles
 [Theory behind AW and PbtA - Powered by the Apocalypse, part 1](https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1)  
