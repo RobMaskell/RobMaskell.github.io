@@ -30,7 +30,8 @@
 ### devops / git
 
 [Oh shit git, how to correct git mistakes](https://ohshitgit.com)  
-[Git branching intuition and reality](https://jvns.ca/blog/2023/11/23/branches-intuition-reality/)
+[Git branching intuition and reality](https://jvns.ca/blog/2023/11/23/branches-intuition-reality/)  
+[Anyone can Access Deleted and Private Repository Data on GitHub](https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github)
 
 
 ### clean code
