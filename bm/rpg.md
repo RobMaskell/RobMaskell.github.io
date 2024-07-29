@@ -23,6 +23,7 @@
 [Picking the right GM move - Part Two](https://magpiegames.com/blogs/news/picking-the-right-gm-move-in-pbta-part-two)  
 [Five tips for new PbtA GMs](https://magpiegames.com/blogs/news/5-tips-for-new-pbta-gms)  
 [16 HP Dragon](http://www.latorra.org/2012/05/15/a-16-hp-dragon/)  
+[general RPG player advice](https://kierongillen.tumblr.com/post/755697944759566337/general-player-advice-for-rpgs)  
 
 ### Dice percentages
 [PbtA dice roll probabilities with modifiers](https://redmoosegames.blogspot.com/2014/10/probabilities-of-2d6-with-common-pbta.html)  
