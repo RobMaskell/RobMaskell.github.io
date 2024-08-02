@@ -24,6 +24,7 @@
 [Five tips for new PbtA GMs](https://magpiegames.com/blogs/news/5-tips-for-new-pbta-gms)  
 [16 HP Dragon](http://www.latorra.org/2012/05/15/a-16-hp-dragon/)  
 [general RPG player advice](https://kierongillen.tumblr.com/post/755697944759566337/general-player-advice-for-rpgs)  
+[Intro to world building](https://ia.net/topics/an-introduction-to-world-building)  
 
 ### Dice percentages
 [PbtA dice roll probabilities with modifiers](https://redmoosegames.blogspot.com/2014/10/probabilities-of-2d6-with-common-pbta.html)  
