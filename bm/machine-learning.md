@@ -12,4 +12,7 @@
 [LLMs and Programming in the first days of 2024](http://antirez.com/news/140)  
 
 ### Underlying maths
-[Calculus Made Easy - book](https://calculusmadeeasy.org)
+[Calculus Made Easy - book](https://calculusmadeeasy.org) 
+
+### new approaches
+[KAN Neural Network](https://spectrum.ieee.org/kan-neural-network)  
