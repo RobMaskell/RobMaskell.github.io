@@ -29,3 +29,6 @@
 ### Dice percentages
 [PbtA dice roll probabilities with modifiers](https://redmoosegames.blogspot.com/2014/10/probabilities-of-2d6-with-common-pbta.html)  
 [Foundry add-on for PbtA including MotW](https://asacolips.gitbook.io/pbta-system/)  
+
+### Session retros
+I’ve recently instituted the “flowers, buds, thorns” system at the end of sessions (flowers being things you liked, buds being things you’d like to see developed, thorns being things you didn’t like) and I think this has helped my stage fright / imposter syndrome a lot. Like “oh my friends aren’t lying and actually did have a good time!” Or if not, I can try to improve what they didn’t like.
