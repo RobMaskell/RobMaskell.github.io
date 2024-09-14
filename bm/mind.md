@@ -3,6 +3,7 @@
 ### ADHD
 [Hacking ADHD for the modern developer](https://www.ledger.com/blog/hacking-adhd-strategies-for-the-modern-developer)  
 [ADHD and the link with Autism](https://neurodivergentinsights.com/adhd-infographics/adhd-and-autism-overlap)  
+[Using a list to manage executive function](https://drmaciver.substack.com/p/using-a-list-to-manage-executive)  
 
 ### life advice
 
