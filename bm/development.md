@@ -56,3 +56,6 @@
 
 ### spring
 [Templare layouts in spring](https://blog.codeleak.pl/2013/11/thymeleaf-template-layouts-in-spring.html)  
+
+### domains/networking
+[Haunted Domain Names](https://www.bryanbraun.com/2024/10/25/before-you-buy-a-domain-name-first-check-to-see-if-its-haunted/)  
