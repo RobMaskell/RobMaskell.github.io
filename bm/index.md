@@ -26,7 +26,7 @@
 [photography](photography)  
 [platform](platform)  
 [platform](platform.md)  
-[rpg](rpg.md)  
 [startup](startup.md)  
 [tech companies](tech-companies)  
 [whitehat](whitehat)  
+[writing](writing)  
