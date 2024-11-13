@@ -43,6 +43,7 @@
 
 [Use postgres for everything](https://www.amazingcto.com/postgres-for-everything/)  
 [The Querynomicon: An Introduction to SQL for Weary Data Scientists](https://gvwilson.github.io/sql-tutorial/)  
+[What I wish someone told me about postgres](https://challahscript.com/what_i_wish_someone_told_me_about_postgres)  
 
 ### estimation
 [Improving dev estimation](https://jbconsulting.substack.com/p/task-estimation-conquering-hofstadters)  
