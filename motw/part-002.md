@@ -20,3 +20,5 @@ George sees light coming down from the sky, it appears to be somewhere near the 
 Turns out the skeleton, wasn't Edmund. George asks the angels for help, offering to go quietly afterwards, and one of them points to another pauper's grave. They start digging but Kyle isn't really fit enough or the right shape to move much earth. With the knowledge that his number is up anyway, George sacrifices himself to Edmund in place of the innocent Silas in order to spare him. Skeletal hands come out of the earth and drag George under. There is a sigh from Edmund and he is heard of no more. The angels make a comment that perhaps George isn't as bad as they thought and saying goodbye to Gabriel and Kyle they bamf away.
 
 The last two head back to the inn, muddy but warm in the knowledge that they have prevented the death of an innocent and found out about the Hands of Purity.
+
+[back to index](index)

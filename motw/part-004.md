@@ -23,8 +23,10 @@ A quick bit if research and asking questions doesn't yeild any clues as to who t
 Our tired hunters head off for some rest overnight in order to further heal their wounds. After breakfast in the morning, and Gabriel and George head off to Cleronwell's office to get an update on the overnight stakeout (pun intended) It seems there are at least 10 werewolves, if they are all werewolves, coming and going from the slaughterhouse. The injured one is seen to come back and there is an obvious attempt at communication when another is sent off with a letter in a carriage. It seems after the injured werewolf returns they have upped security on the place, almost like they are expecting trouble.
 
 ## Questions
-Who is Octavian Frostholm?
-What might he want with a live (well sort of) alpha vampire?
-What are the werewolves on the Isle of Dogs afraid of?
-Is it time to pay a visit to the reporter Vanessa Waverly to see if she can shed some light on any of these questions?
-Is there going to be a war between dogs and vamps?
+Who is Octavian Frostholm?  
+What might he want with a live (well sort of) alpha vampire?  
+What are the werewolves on the Isle of Dogs afraid of?  
+Is it time to pay a visit to the reporter Vanessa Waverly to see if she can shed some light on any of these questions?  
+Is there going to be a war between dogs and vamps?  
+
+[back to index](index)

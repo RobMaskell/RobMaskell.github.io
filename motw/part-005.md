@@ -9,8 +9,10 @@ Samuel takes a look through the wall, and see two men being restrained but more 
 The other man is freed and interrogated, turns out he is one of the werewolves who was nabbed by the hench octopusses, both he and Percival were being drained to feed the big lad. Under more intense interrogation he give our merry band some potentially useful information before being healed and allowed to leave. He tells them that Octavian is looking to cast a ritual called "Litania Nihilis Atrorum" from a book called the "Principia Magica", but our man doesn't know where he is or what the ritual magic will do.
 
 ## Questions
-What is Octavian trying to Accomplish?
-How is the Alpha Vampire involved?
-How are the Werewolves involved?
-Is Percival ok?
-Does the reporter know anything?
+What is Octavian trying to Accomplish?  
+How is the Alpha Vampire involved?  
+How are the Werewolves involved?  
+Is Percival ok?  
+Does the reporter know anything?  
+
+[back to index](index)

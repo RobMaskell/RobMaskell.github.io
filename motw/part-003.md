@@ -36,3 +36,5 @@ Why are the possible werewolves not killing the vampires?
 What could they possibly want with one?  
 Did they come up with this plan on their own?  
 Will the vampires wake up and kill everyone... join us for the next episode  
+
+[back to index](index)

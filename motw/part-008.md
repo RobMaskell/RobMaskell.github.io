@@ -36,12 +36,13 @@ When they arrive back at the club, with Kyle wheezing like an an old squeeze box
 Our heros assume that he has the vamp blood, based on the coffin shaped box, but this is unconfirmed.
 
 ## Questions
-* Who bought the book?
-* How many of the items might Octavian already have?
-* Is Silas the book shop owner friend or foe?
-* Is the British Library out to get the Order?
-* Did anyone follow them back to HQ?
-* What will the red tape Gabriel suffers in the next mission consist of?
-* Can he trust The Foundation?
-* Where the fuck is Kent?
+* Who bought the book?  
+* How many of the items might Octavian already have?  
+* Is Silas the book shop owner friend or foe?  
+* Is the British Library out to get the Order?  
+* Did anyone follow them back to HQ?  
+* What will the red tape Gabriel suffers in the next mission consist of?  
+* Can he trust The Foundation?  
+* Where the fuck is Kent?  
 
+[back to index](index)

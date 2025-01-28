@@ -11,9 +11,11 @@ A quick pitstop is taken to visit the Veiled Dawn's library, the librarian Gideo
 The three men head off to the offices of The Times to see Vanessa Waverly, after a pretty cagey conversation where neither side really wants to give anything important away, the gand get some info about Octavian, that he comes from shady money, has a bit pile down in Kent. They also swap contact info. Gabriel takes the opportuniy to drop some paper on the floor for Vanessa, which was the form from earlier signed by George...
 
 ## Questions
-Where is the mansion in Kent?
-Where is the Principia?
-How many copies exist and does Octavian already have one?
-What will Vanessa do with the form?
-What will Gabriel do about the Foundation?
-Can he trust anything he gets from them anymore?
+Where is the mansion in Kent?  
+Where is the Principia?  
+How many copies exist and does Octavian already have one?  
+What will Vanessa do with the form?  
+What will Gabriel do about the Foundation?  
+Can he trust anything he gets from them anymore?  
+
+[back to index](index)
