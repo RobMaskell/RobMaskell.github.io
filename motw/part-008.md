@@ -28,10 +28,10 @@ When they arrive back at the club, with Kyle wheezing like an an old squeeze box
 * Spell to summon a great old one, could be biblically bad
 * Octavian will need the name of the great old one he wants to summon
 * Plus:
-* * a 500+ carat diamond
-* * blood of an alpha vampire
-* * Egyption tablet of the dead
-* * casting time will be 12 hours
+  * a 500+ carat diamond
+  * blood of an alpha vampire
+  * Egyption tablet of the dead
+  * casting time will be 12 hours
 
 Our heros assume that he has the vamp blood, based on the coffin shaped box, but this is unconfirmed.
 

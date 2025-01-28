@@ -29,12 +29,12 @@ Samuel calls in Gabriel, who once he has sliently moved the boarding from the do
 A bold plan is hatched. Samuel will use his magic to tie the man in the gods up with his own rope. With the help of Gabriel, Sean will shoot the man on the stage with his rifle and massive silver bullet. George will be on hand to bamf around and try to deal with anything that goes wrong. They execute the plan...
 
 ## Questions
-Will Vanessa become a useful friend to the hunters?  
-Will the magic rope trick work?  
-Will Sean's shot kill his target?  
-Why are the possible werewolves not killing the vampires?  
-What could they possibly want with one?  
-Did they come up with this plan on their own?  
-Will the vampires wake up and kill everyone... join us for the next episode  
+* Will Vanessa become a useful friend to the hunters?  
+* Will the magic rope trick work?  
+* Will Sean's shot kill his target?  
+* Why are the possible werewolves not killing the vampires?  
+* What could they possibly want with one?  
+* Did they come up with this plan on their own?  
+* Will the vampires wake up and kill everyone... join us for the next episode  
 
 [back to index](index)

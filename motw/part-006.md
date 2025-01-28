@@ -11,9 +11,9 @@ When they get down to the vault floor via stairs through the cellar storage floo
 Outside the vault Jasper has gone and they can hear an alarm sounding. They head up one floor and use things lying around to disguise themselves as janitors. Samuel tells them about the case in Jasper's office that they will need to grab if they are to take him with them back to the order. They are planning to pretent to be cleaners to be able to move around the building. On the main library floor they are spotted by Lucinda who originally greeted them at the front desk. Gabriel knocks his leg on the bannister and feigns injury, Lucinda helps him to a seat and goes for tea. George and Samuel head up the stairs to the offices and decide on the code word "wings" if things get interesting. In the office, after a short conversation, George hits Jasper again and then bamfs back to the order. He misses and ends up dropping Samuel+case in the street outside the club. Gabriel gets out of the library in the confusion and heads back to the club. It all ends well but potentially bridges burnt at the library.
 
 ## Questions
-What else in in that magical vault?  
-Would they be recognised if they went back?  
-Will the library beef up security on the vault?  
+* What else in in that magical vault?  
+* Would they be recognised if they went back?  
+* Will the library beef up security on the vault?  
 
 Answers to riddles, map, coffin, time, echo, footsteps  
 
