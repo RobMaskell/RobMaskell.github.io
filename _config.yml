@@ -1,3 +1,5 @@
-name: ""
+name: "The is the Name"
+title: "This is the Title"
 title: null
 theme: jekyll-theme-slate
+show_downloads: false
