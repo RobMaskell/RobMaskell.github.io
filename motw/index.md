@@ -1,4 +1,4 @@
 # Website for the current MotW Campaign
 
 ## Writeups
-[Part 1](Part+1)
+[Miracles and Maladies - Part 1](part-001)
