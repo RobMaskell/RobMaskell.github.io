@@ -1,4 +1,4 @@
-# Collating data
+# Just collating data
 
 It's the morning of the day after the theatre escapade and Gabriel, sitting in the loungue of the Ambers Society, gets a telegram "Your god-daughter has fallen ill. Please attend urgently". He spurns the offered help from Sean and George and after making his excuses to Clerkonwell he heads off into the London morning. The other we know head off to deal with the issue at the docks but what happened to Gabriel... He takes a coach to the nonedescript headquarters of The Foundation. After getting through the coded lock on the inner door, he walks past the steampunk vacuum tubes and heads on up to the office of his handler C12 and walks directly in. Pleasantries exchanged they get down to it. C12 pumps Gabriel for more information and doesn't get any. He also tells Gabriel that he needs to leave Octavian Frostholm alone and that this order come directly down from Novilium Black the head of The Foundation. It's pointed out to Gabriel that failing to comply could be a career limiting move. Gabriel says that he understands and hangs around for a while to cover the time he would have been visting the sick child.
 
