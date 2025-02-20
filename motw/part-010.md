@@ -1,6 +1,6 @@
 # Angels and Demons
 
-George walks out of the pub, and something appears disrectly behind him, smacks him on the back of the head, knocking hom out, and they both disappear. Quick work between Sean and Samuel means they can work out that the apparition was a demon and that George has likely been snatched.
+George walks out of the pub, and something appears disrectly behind him, smacks him on the back of the head, knocking him out, and they both disappear. Quick work between Sean and Samuel means they can work out that the apparition was a demon and that George has likely been snatched.
 
 The motely crew discuss moving on without him, especially Gabriel who thinks there are some forms to be filled in back at the Veiled Dawn. In the end they decide on recovery. Samuel casts a spell using George's spare hip flask to try and locate him. Tendrils of his ghsotly essence head off in all directions and return to form a ghostly scene of a gate house on a road. After a short dicsussion it's assumed this is the Appledore gate house.
 
