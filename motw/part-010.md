@@ -30,3 +30,5 @@ At this point all the guns are snatched from hands and sent ceiling-wards...
 * Is killing innocents ok, were they dead anyway?
 * What will Sean find is happening now that is related to something that happened years ago?
 * Who snatched the guns at the end?
+
+[back to index](index)
