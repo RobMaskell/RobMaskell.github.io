@@ -17,3 +17,4 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 [Meet the big bad](part-011)  
 [Hauntings and Dark Pasts](part-012)  
 [George gets his arse handed to him](part-013)  
+[Letters, Confessions and Lies](part-014)  
