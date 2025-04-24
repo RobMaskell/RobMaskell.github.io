@@ -2,7 +2,7 @@
 
 Our hunters head back to the club, after a hard night. George heads out to Vanessa's office at The Times. He just about gets away with the ensuing  break-in, and removes the letter mentioned from a locked desk draw.
 
-Gabriel gets started on the paperwork coving the previous adventures, his report while mostly fair and accurate does seem to load a fair quantity of the blame onto George, not a surprise given the note and him throwing George under the omnibus earlier that evening. They head to sleep it off, the night passes uneventfully. Those that eat have sausage pancakes for breakfast. Gabriel heads to the stores and avails himself of a new whipblade.
+Gabriel gets started on the paperwork covering the previous adventures, his report while mostly fair and accurate does seem to load a fair quantity of the blame onto George, not a surprise given the note and him throwing George under the omnibus earlier that evening. They head to sleep it off, the night passes uneventfully. Those that eat have sausage pancakes for breakfast. Gabriel heads to the stores and avails himself of a new whipblade.
 
 They are summoned to Clerkonwell's office... There is a discussion about the letter Gabriel left in Vanessa's office on behalf of George. Clerkonwell tells them off and asks if they are capable of working together, and suggests that for the good of the world they need to. They discuss what they are going to try next, the diamond, the Tablet of the Dead, Kyle's ex Isadora Featherstone (who he can't currently remember). Kyle deals with this by heading off to the post room, collecting more sausages on the way.
 
