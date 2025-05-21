@@ -20,3 +20,4 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 [Letters, Confessions and Lies](part-014)  
 [Fickle memories and pointy things](part-015)  
 [House breaking is hell](part-016)  
+[The vampire, the demons and the dagger](part-017)  
