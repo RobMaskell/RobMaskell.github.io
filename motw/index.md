@@ -21,3 +21,4 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 [Fickle memories and pointy things](part-015)  
 [House breaking is hell](part-016)  
 [The vampire, the demons and the dagger](part-017)  
+[Kyle and the arches of destiny](part-018)
