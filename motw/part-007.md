@@ -12,7 +12,7 @@ Percival tells them that he saw the building up of guards at the warehouse on th
 
 A quick pit-stop is taken to visit the Veiled Dawn's library, the librarian Gideon Emberwynd doesn't have a copy of the Principia but promises to make enquiries.
 
-The three men head off to the offices of The Times to see Vanessa Waverly, after a pretty cagey conversation where neither side really wants to give anything important away, the gang get some info about Octavian, that he comes from shady money, has a bit pile down in Kent. They also swap contact info. Gabriel takes the opportunity to drop some paper on the floor for Vanessa, which was the form from earlier signed by George...
+The three men head off to the offices of The Times to see Vanessa Waverly, after a pretty cagey conversation where neither side really wants to give anything important away, the gang get some info about Octavian, that he comes from shady money, has a big pile down in Kent. They also swap contact info. Gabriel takes the opportunity to drop some paper on the floor for Vanessa, which was the form from earlier signed by George...
 
 ## Questions
 * Where is the mansion in Kent?  
