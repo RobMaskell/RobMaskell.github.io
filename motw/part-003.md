@@ -39,4 +39,4 @@ A bold plan is hatched. Samuel will use his magic to tie the man in the gods up 
 * Did they come up with this plan on their own?  
 * Will the vampires wake up and kill everyone... join us for the next episode  
 
-[back to index](index)
+[prev](part-002) - [back to index](index) - [next](part-004)
