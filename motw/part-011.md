@@ -1,5 +1,7 @@
 # Meet the big bad
 
+December 13th 1896 - Early evening
+
 A tall man with long dark hair reveals himself to our plucky heroes. He starts the traditional BBEG monologue asking who he is talking to. Sean claims to be called Bob, Kyle claims to be called Sean. He tells them his name is Octavian Frostholm and appears to be left handed. Asking Sean to come in from his tree and for the rest, minus Samuel, to sit down, Octavian offers them tea and biscuits which his demon goons dutifully fetch. Kyle makes a start on the biscuits, and demolishes all but one of them without breaking a sweat.
 
 Gabriel's friends from The Foundation, use an unseen fire escape to climb up to the room George is trapped in. They break the circle having suggested he stay silent. The three of them pile down the stairs and take out a couple of demon goons. Octavian has had enough and leaves by vanishing, his goons then leave too. The group pick up their weapons from the floor and under the tree and head back to the carriage. Edmund and Barty nearly break Gabriel's cover in the aftermath of the confrontation, Gabriel considers reporting them for that. George suggests they should have a further word with the reporter.
