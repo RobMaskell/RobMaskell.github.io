@@ -33,4 +33,4 @@ Samuel heads through the last arch `Chalice with Skull`, as he heads through he 
 * Will he tells the rest of the group?
 * What now for our heroes?
 
-[back to index](index)
+[prev](part-017) - [back to index](index) - [next](part-019)
