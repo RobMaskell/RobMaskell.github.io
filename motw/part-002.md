@@ -23,4 +23,4 @@ Turns out the skeleton, wasn't Edmund. George asks the angels for help, offering
 
 The last two head back to the inn, muddy but warm in the knowledge that they have prevented the death of an innocent and found out about the Hands of Purity.
 
-[back to index](index)
+[prev](part-001) - [back to index](index) - [next](part-003)
