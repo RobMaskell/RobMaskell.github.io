@@ -28,4 +28,4 @@ They head off to the British Museum to speak to Isadora Featherstone, who the te
 * What might happen at the Sterlinghart residence?
 * What might they find at Harrington Hall?
 
-[back to index](index)
+[prev](part-014) - [back to index](index) - [next](part-016)
