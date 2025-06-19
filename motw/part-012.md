@@ -1,5 +1,7 @@
 # Hauntings and Dark Pasts
 
+December 14th 1896 - Midday
+
 Coming out of the school about midday, George, Gabriel and Kyle are discussing what they can do next, Gabriel has a few ideas on different angles they can try. Kyle quizzes George on the kidnapping, specifically, how it happened. George asks Gabriel about the two guys, Edmund and Barty, who are they? how does he know them? Why do they seem to know things about the situation? George avoids difficult questions by talking about smiting and cricket. As they exit the school they see Sean go down, with Edmund and Barty rushing over to try and help. Gabriel reacts quickest getting to Sean before the others, he makes it clear to Edmund and Barty that they need to leave.
 
 Two things quickly become apparent. Samuel's quill case is gone, and Sean is more badly hurt than first realised, some kind of paralytic it appears. Gabriel asks Samuel where he thinks he is, Samuel exits the quill case and scares the bejesus out of the people who stole it and everyone else in the bar, with the expectation of one well dressed gentleman sitting at a table sipping his cup of tea. Samuel, with a final flourish, sinks through the floor into the basement.
