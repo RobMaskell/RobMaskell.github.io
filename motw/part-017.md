@@ -40,4 +40,4 @@ Samuel is all set to try and move the dagger using magic. Gabriel looks carefull
 * What happens if you touch the dagger?
 * What happens if you take the dagger?
 
-[back to index](index)
+[prev](part-016) - [back to index](index) - [next](part-018)
