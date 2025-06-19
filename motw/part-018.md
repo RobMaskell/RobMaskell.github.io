@@ -1,5 +1,7 @@
 # Kyle and the arches of destiny
 
+December 17th 1896 - Late evening
+
 Gabriel reaches out a glove clad hand to grab the Ravenshade Dagger, time slows, sounds distort, and the shadows stretch long. From the gloom, feathers fall like black snow. Emerging from the darkness is Azreal, a tall, androgynous figure draped in layers of ragged feathers and tattered funeral silk. Their face is half-hidden beneath a bird-skull mask
 
 I am the Raven, I am Azreal, I am the passage to heaven for the worthy, I am the eyes and ears of god. You hold in your hand the dagger of endings, why do you think you are worthy to wield my dagger? 
