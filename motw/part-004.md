@@ -31,4 +31,4 @@ Our tired hunters head off for some rest overnight in order to further heal thei
 * Is it time to pay a visit to the reporter Vanessa Waverly to see if she can shed some light on any of these questions?  
 * Is there going to be a war between dogs and vamps?  
 
-[back to index](index)
+[prev](part-003) - [back to index](index) - [next](part-005)
