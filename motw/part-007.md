@@ -22,4 +22,4 @@ The three men head off to the offices of The Times to see Vanessa Waverly, after
 * What will Gabriel do about the Foundation?  
 * Can he trust anything he gets from them any more?  
 
-[back to index](index)
+[prev](part-006) - [back to index](index) - [next](part-008)
