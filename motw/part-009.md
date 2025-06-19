@@ -79,4 +79,4 @@ Gabriel sees a couple of guys in sharp suits hanging around the village square, 
 * Will the ghost hunters be annoying?
 * What will happen to the 3 hold the GM has on Gabriel?
 
-[back to index](index)
+[prev](part-008) - [back to index](index) - [next](part-010)
