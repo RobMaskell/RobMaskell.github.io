@@ -1,5 +1,7 @@
 # Dealing with the vamps in the theatre
 
+December 7th 1896 - Late evening
+
 Samuel's spell works and the rope wraps itself around the man in the gods of the theatre, but that's the last we here of Samuel. The man is now tied up, but also tied to the vampire he was trying to lower to the stage with the rope, they are both hanging from the same rope over the same scaffold pole in the gods of the theatre.
 The shot from Sean's express rifle clips the man on the stage in the shoulder, he's wounded and begins to turn into what looks like a werewolf, head and paws first, but still looks ready to fight. George bamfs onto the stage and attempts, successfully, to behead him with his flaming sword but is injured in the process. With him out of the way, apart from the pile of remains and the pool of blood, Sean tries to repeat his shot on the rope holding the vampire and the werewolf, he misses and hitting the other werewolf in the thigh, who screams out in pain.
 
