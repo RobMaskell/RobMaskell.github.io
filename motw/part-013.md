@@ -32,4 +32,4 @@ When she gets some of her wits back, Vanessa asks George what he is after seeing
 * Will Vanessa stay silent or will her reporters instincts for a good story kick in?
 * What's going down in a couple of days?
 
-[back to index](index)
+[prev](part-012) - [back to index](index) - [next](part-014)
