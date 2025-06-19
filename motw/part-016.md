@@ -31,4 +31,4 @@ As the hound runs at the other two, George manages to slash the tendons in it's 
 * Will they get to rob the place or will they get discovered?
 * What other monsters await them in the basement this week?
 
-[back to index](index)
+[prev](part-015) - [back to index](index) - [next](part-017)
