@@ -12,6 +12,8 @@ Sleeping arrangements are Sean and George in one room and Gabriel and Kyle in th
 
 Edmund and Barty, Gabriel's Foundation tail are outside the pub drinking beers and looking to blend in.
 
+December 14th 1896 - Morning
+
 In the morning there is a discussion at breakfast...
 * need to research demons, try to find his real name?
 * use the land registry to find out who owns Appledore?
