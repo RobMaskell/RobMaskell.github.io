@@ -47,4 +47,4 @@ Our heroes assume that he has the vamp blood, based on the coffin shaped box, bu
 * Can he trust The Foundation?  
 * Where the fuck is Kent?  
 
-[back to index](index)
+[prev](part-007) - [back to index](index) - [next](part-009)
