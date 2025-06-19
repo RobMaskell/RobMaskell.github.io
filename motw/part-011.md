@@ -1,6 +1,6 @@
 # Meet the big bad
 
-December 13th 1896 - Early evening
+December 13th 1896 - Mid Afternoon
 
 A tall man with long dark hair reveals himself to our plucky heroes. He starts the traditional BBEG monologue asking who he is talking to. Sean claims to be called Bob, Kyle claims to be called Sean. He tells them his name is Octavian Frostholm and appears to be left handed. Asking Sean to come in from his tree and for the rest, minus Samuel, to sit down, Octavian offers them tea and biscuits which his demon goons dutifully fetch. Kyle makes a start on the biscuits, and demolishes all but one of them without breaking a sweat.
 
