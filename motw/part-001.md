@@ -1,6 +1,6 @@
 # Miracles and Maladies - Part 1
 
-December 3th 1896
+December 3th 1896 - Early afternoon
 
 George Banks (The Divine / Tom) and Sean (The Mundane / JonP) are sitting in the gentlemen's club in London that serves as the headquarters of The Order of the Veiled Dawn. The room is opulent, wood panelled, green leather, huge leather armchairs, a set of double doors lead to a billiard room with shelves of books around the walls. Cigar smoke hangs in the air. The Order is a society tasked with investigating and resolving paranormal and supernatural occurrences. George has a drink and a cigar and is reading the paper, Sean is sitting pondering the world with a drink. In walks The leader of the Order, James Clerkonwell, surprised by the lack of people he comments out loud and seeing that George and Sean are the only men present invites them to his office to discuss a case he wants them to investigate urgently. They walk down to the office slowly, nothing is done fast in a gentlemen's club.
 
