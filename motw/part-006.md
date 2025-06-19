@@ -19,4 +19,4 @@ Outside the vault Jasper has gone and they can hear an alarm sounding. They head
 
 Answers to riddles, map, coffin, time, echo, footsteps  
 
-[back to index](index)
+[prev](part-005) - [back to index](index) - [next](part-007)
