@@ -6,6 +6,8 @@ The crew decide to follow the two new members as they leave the Ambers Society b
 
 Checking the club records, our heroes find out that their names are Thurston Asbriar and Tobias Langford, and were introduced to the club by Harrington Frostbane. His address is on the forms and it's a house on the edge of London, in the direction of Kent. Kyle hits the books to see what he can find and comes up with bupkis. Sean asks Clerkonwell for help tracing the men and as it's late at night he tells Sean he'll try and have something for him by tomorrow lunchtime.
 
+December 17th 1896 - Breakfast
+
 They head for their beds, well Samuel gets on with some light haunting and George does the rounds of his regular night time haunts (no pun intended) to try and be available for Silas to find him. Waiting around near Winchester Cathedral, George see a dark hooded figure heading towards him, his old friend Silas. They discuss events in the past and present. Silas tells George of the Ravenshade dagger that can kill any demon even if you don't have it's real name. The dagger was last seen in Lisbon a hundred years ago.
 
 Hubert returns in the morning and tells George what he saw when he followed Gabriel to the church the previous evening and where the two gentlemen went. They headed to a house on the edge of London to pick up a man and then headed off to Kent. He can find the house again and believes the coaches eventual destination was the Frostholm mansion. He says he wasn't seen.
