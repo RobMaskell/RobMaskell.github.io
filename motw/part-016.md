@@ -1,5 +1,7 @@
 # House breaking is hell
 
+December 17th 1896 - Afternoon
+
 On their way back from the British Museum Sean and Kyle discuss bringing joy to the sisters, one of which Kyle had just met for the first time. As they enter The Ambers Society building, they find Gabriel sitting in a high backed leather sipping a stiff drink. George summons his owl assistant Hubert, who drops that he'd followed Gabriel and there is a short discussion about why george felt that was necessary.
 
 Sean procures train tickets as the fastest way to the Harrington House, Kyle is carrying Samuel's quill case. On arrival, standing outside the rather large two winged house like a group of house breaking burglars... they discuss how they will seek entry. The house looks darkish, but there is some light inside. Samuel floats off for a recce and finds at least two guards patrolling inside the house. Sean loudly considers setting fire to a bush in the front garden to act as a distraction, but finds that he doesn't have the votes, and also it's winter, damp and the bush has no leaves. Gabriel and George jump the wall down the side of the house level with the scullery door on the left side wall, Samuel floats around to the side too. The plan is for Sean, wearing a bowler hat, and Kyle, also wearing a bowler hat having been given one by Kyle, to knock on the front door and try to gain entry while distracting the guards. A plan of being carol singers is also discussed and put to one side. Samuel confirms that the guards look to be human.
