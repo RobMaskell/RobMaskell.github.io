@@ -1,6 +1,6 @@
 # Check out the theatre full of vamps
 
-December 7th 1896
+December 7th 1896 - Late morning
 
 Sean, Gabriel and Kyle are sitting in the lounge of The Ambers Society, their private members club near Westminster? The boss James Clerkonwell walks in and summons them to his office.
 
