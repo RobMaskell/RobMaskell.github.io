@@ -33,4 +33,4 @@ At this point all the guns are snatched from hands and sent ceiling-wards...
 * What will Sean find is happening now that is related to something that happened years ago?
 * Who snatched the guns at the end?
 
-[back to index](index)
+[prev](part-009) - [back to index](index) - [next](part-011)
