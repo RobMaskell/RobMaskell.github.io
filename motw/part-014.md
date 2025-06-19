@@ -1,5 +1,7 @@
 # Letters, Confessions and Lies
 
+December 15th 1896 - Evening
+
 Our hunters head back to the club, after a hard night. George heads out to Vanessa's office at The Times. He just about gets away with the ensuing  break-in, and removes the letter mentioned from a locked desk draw.
 
 Gabriel gets started on the paperwork covering the previous adventures, his report while mostly fair and accurate does seem to load a fair quantity of the blame onto George, not a surprise given the note and him throwing George under the omnibus earlier that evening. They head to sleep it off, the night passes uneventfully. Those that eat have sausage pancakes for breakfast. Gabriel heads to the stores and avails himself of a new whipblade.
