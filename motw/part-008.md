@@ -8,6 +8,8 @@ A weekend passes, the group spend their time...
 - George, Visits Winchester Cathedral, speaks with the powers up top
 Back in lounge of the Ambers Society they discuss bacon and Samuels aversion to salt. They decide to try and find the book and then head to kent.
 
+December 12th 1896 - Late morning
+
 George and Gabriel head off to see a contact in a bookshop George knows... "Fobiles Fantastic Emporium for Nik Naks and the Occult" It's a run down place with a pub sign, bay windows, shabby curtains, double doors, a bell that rings when the door opens. There are stuffed animals on piles of books, it's very weird. Behind the counter stands a small man, wearing a Fez. On the counter there are books and assorted nick naks like rabbits feet. His name is Silas Dunmore. A beaded off area at the back, purple and white beads, leads off to a seating area. The owner clearly lives in the shop.
 
 They talk of the Pricipia Magica, Silas tells them there are two known copies, one of which sold to a private buyer 3 months ago.
