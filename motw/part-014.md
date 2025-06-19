@@ -51,4 +51,4 @@ Back at the talk, Sean chats with Reginald afterwards, asks to see his collectio
 * Will they find the tablet in Lord Sterlinghard's collection?
 * If they do where will they hide it from Octavian?
 
-[back to index](index)
+[prev](part-013) - [back to index](index) - [next](part-015)
