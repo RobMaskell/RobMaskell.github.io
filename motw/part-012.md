@@ -30,4 +30,4 @@ At the newspaper, George talks his way into getting someone to check Vanessa's o
 * What has Vanessa gotten herself involved in?
 * Is George walking into a trap?
 
-[back to index](index)
+[prev](part-011) - [back to index](index) - [next](part-013)
