@@ -17,4 +17,4 @@ The other man is freed and interrogated, turns out he is one of the werewolves w
 * Is Percival ok?  
 * Does the reporter know anything?  
 
-[back to index](index)
+[prev](part-004) - [back to index](index) - [next](part-006)
