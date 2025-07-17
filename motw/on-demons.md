@@ -42,3 +42,5 @@ A collection of the information acquired thus far on demons, this information ha
 * Any demon can be killed using the Ravenshade Dagger (allegedly).
 
 Written by (in alphabetical order), George Banks, Samuel Fitzwilliam, Kyle Nugget, Gabriel West & Sean on behalf of The Order of the Veiled Dawn
+
+[back to index](index)
