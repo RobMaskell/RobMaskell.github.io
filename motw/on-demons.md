@@ -30,7 +30,7 @@ A collection of the information acquired thus far on demons, this information ha
   * Additional strengths
     * Invisibility (as seen by us in Kent at the Frostholm mansion)
     * ???
-<div style="display: hidden;">
+<div style="display: none;">
     * Can **Use Magic** at least as well as a human adept
     * Teleport (like George)
     * Telekinesis
