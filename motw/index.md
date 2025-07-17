@@ -23,4 +23,5 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 [The vampire, the demons and the dagger](part-017)  
 [Kyle and the arches of destiny](part-018)  
 [On saving old friends and hands](part-019)  
-[Fire in the hole](part-020). 
+[Fire in the hole](part-020)  
+[Off to the circus](part-021)  
