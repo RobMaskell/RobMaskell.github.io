@@ -25,7 +25,7 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 [On saving old friends and hands](part-019)  
 [Fire in the hole](part-020)  
 [Off to the circus](part-021)  
-[Dogs now too...](part-22)  
+[Dogs now too...](part-022)  
 
 ### Reference material
 [On demons...](on-demons)
