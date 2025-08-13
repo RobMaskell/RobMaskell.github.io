@@ -3,8 +3,8 @@
 A collection of the information acquired thus far on demons, this information has been procured at much cost, guard it well and pass it on to all the right kind of people.
 
 ## Demon identification
-* Demons inhabit the bodies of normal humans.
-* Ghosts like Samuel can spot a demon inhabiting a human.
+* Demons inhabit the bodies of normal humans and animals.
+* Ghosts like Samuel can spot a demon inhabiting a human or animal.
 * On leaving a host the demon may "smoke out" you will see black smoke coming out of the mouth and this is the demonic essence leaving the body. It is not known exactly where this essence goes and what happens to it.
 * Demons will sometimes show in the eyes of the host as these can turn black when the demon uses it's powers. Speaking the sacraments "Christo- etc" in latin causes eyes to turn black.
 
