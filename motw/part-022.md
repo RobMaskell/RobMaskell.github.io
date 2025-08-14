@@ -23,8 +23,8 @@ The decision is to split the party, some will go save Sterlinghart, the steward 
 
 ## Questions
 * Can Gabriel and George actually work together?
-* Will he cantankerous Hubert play his part?
-* Will George sort out the problems at The Foundation or will he get chewed up by them?
+* Will the cantankerous Hubert play his part?
+* Will Gabriel sort out the problems at The Foundation or will he get chewed up by them?
 * Will Kyle eat the Ambers Society out of pancakes?
 * Are Sean and Samuel going to fall out?
 * What special enemy killing weapon will Kyle find in his armoury?
