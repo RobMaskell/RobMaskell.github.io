@@ -1,0 +1,34 @@
+# Mummy, help
+
+December 19th 1896 - Early-Afternoon
+
+The party suddenly realise that Kyle is gone, and seem to remember another coach pulling up at the gatehouse whilst the fighting was at it's heaviest. It's discussed but they decide to push on into the house, given the urgency of getting the tablet before whoever is in control of the house does. If that is what they are doing here. Luckily Sean was carrying Samuel's quill case.
+
+In the light of finding themselves a man down, they decide to stick together, and to go after Sterlinghart and family. Samuel is the first to suggest this, but the other agree eventually after a vote. There is also a short discussion about setting things on fire, but it's suggested to Sean, by Gabriel that he will need an accelerant this time. Gabriel thinks Lord Sterlinghart first then finding the ghost Samuel knows followed by the tablet. Sean asks George about Hubert and whether he came with them or not, George says he didn't come this time. Sean also suggests they pretend to be undertakers and go in the front, Gabriel has a look out of the carriage and reading a bad situation, sees some canine scratches around the front door and is worried about being surrounded by werewolves if the alarm is raised. They settle on sneaking through the bushes around the side of the house to the priest's hole.
+
+They make it to the door of the priests hole without attracting any unwanted attention, and Samuel looks through the wall, which appears to be becoming more difficult, to see what they are up against. He sees a short corridor, with a set of steps on the left leading down and back to what he correctly surmises would be the church. The door doesn't open, George offers to open it with his flaming sword, but Gabriel attempts a to pick the lock instead with Sean helping by holding up a candle. Sean promptly drops the candle, setting his trousers on fire, but Gabriel uses his skills to pick the lock, he does make some noise in the process. When the get into the passage, and close the door, they see a slide-able bolt on the back.
+
+They work their way into the next room, it's being used for storage, there are piles of old furniture and nic-naks, in disorganised heaps. They can hear men in the next room arguing, one heads through the door, presumably to try and work out what the noise was earlier. The crew scatter and go to ground in the piles of stuff. George starts to argue with the man, while Sean gets behind him and hits him with a random piece of wood he finds in the stacks. This makes more noise and the other man also heads through the doorway to find his mate. Gabriel sneaks around and while the man is distracted by Sean and the first man fighting over the stick. George becomes embroiled in Sean's fight with man 1, he's trying to stab the guy, George jumps in with a head butt, pushing the now unconscious man onto Sean and both of them onto a pile of furniture.
+
+Gabriel calls for Samuel, and cold cocks man 2 with his shotgun, swung like a baseball bat. It was a hard hit, they heard the sickening thunk, Gabriel might have killed him. They secure the guards and untie Lord Sterlinghart and his family. They reintroduce themselves to Lord Sterlinghart, he remembers them from the Ambers Society and is not phased at all by seeing Samuel in ghost form. They tell him what's happening and why they are here. All Sterlinghart cares about right now is his wife and daughter, and getting them to safety. The crew want to head to the church where they think the tablet is, and then get everyone to safety after that, but Sterlinghart isn't buying it.
+
+Sean interrogates the two men, who he thinks might be werewolves. Under duress they tell him that Belthasar is in charge.
+
+As they head for the church, into the passage, Sterlinghart goes for the door and expresses a wish to "borrow" the carriage, Gabriel attempts to convince him to stick to the plan, the one he didn't like in the first place but he's still not buying it. He agrees to help the crew if they can get his family to safety. Gabriel takes him to the carriage and instructs the driver to get the women to safety at the inn in a nearby town and them come back for them.
+
+After crawling down the passage from the priest's hole to the church, they come up in the deserted church, festooned with Egyptian artefacts and covered in a think layer of the sand that was used to pack them in for transport back to England. They light some lanterns and hear a ghostly voice, Samuel thinks he's in luck but it turns out this is not the ghost he spoke to before but an Egyptian King named "Eketep". Sean looking around stumbles on a large stone box that has the Egyptian hieroglyph of a mouth on the top. Meanwhile Eketep is asking them to let him out of his sarcophagus. One of two such items at one end of the church. His is the one laid down flat, the other is leaning up against the wall. There are all sorts of artefacts around, large ceramic pots, some with lids some without, some with hieroglyphs on them. After another vote they decide to open the chest as Sean thinks it must be important, however Eketep warns them not to open it. Sean opens the box anyway, warnings be damned, tentacles dart out from inside and grab him, trying to pull him into the box. Sean loses his shoes, George gets to Sean and wings him to the roof of the church, although he himself ends up by Gabriel which was the plan in the first place, however Sean is now out of danger, well he's in a different kind of danger.
+
+Sean climbs back down from the roof without falling off and empties the chest of dead mimic. On the bottom he finds the following hieroglyphs, HEART / HEAD / DESTRUCTION / VASE. They use Sterlinghart to get the correct translations. But they have not worked out what it means yet. There is a discussion about what to next, they also have a cursory look for any vases with the previously described hieroglyphs on them, but with a quick search they find none but there are a lot of them in this church. It seems to be where Sterlinghart bring his finds to unpack and investigate them before they are added to his collection.
+
+They decide to open the sarcophagus, as they push the lid off, the Mummy inside sits up...
+
+## Questions
+* What has happened to Kyle?
+* Where is he when his expert knowledge might be needed?
+* Why did Sean open the box?
+* Was he hoping for something flammable?
+* Will George ever master the two-up wings manoeuvre?
+* Do the team know anything about fighting Mummies?
+* What do the hieroglyphs mean and if there are vases where the hell are they?
+
+[prev](part-022) - [back to index](index) - [next](part-024)

@@ -26,6 +26,7 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 [Fire in the hole](part-020)  
 [Off to the circus](part-021)  
 [Dogs now too...](part-022)  
+[Mummy, help](part-023)  
 
 ### Reference material
 [On demons...](on-demons)
