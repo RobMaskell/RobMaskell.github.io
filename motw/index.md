@@ -29,6 +29,7 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 [Mummy, help](part-023)  
 [The battle of the church](part-024)  
 [Mummy, and everyone else, rides again](part-025)  
+[The Pursuit from Sterlinghart's Estate](part-026)
 
 ### Reference material
 [On demons...](on-demons)
