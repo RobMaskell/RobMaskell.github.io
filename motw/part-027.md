@@ -1,5 +1,7 @@
 # Being an Account of Diverse Misadventures and Mystical Machinations
 
+December 19th 1896 - Late Evening
+
 *Being a faithful record of the events of December 19th-20th, 1896, as witnessed by the intrepid band of investigators*
 
 ## Chapter the First: Of Separated Companions and Nocturnal Perils

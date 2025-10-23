@@ -31,6 +31,7 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 [Mummy, and everyone else, rides again](part-025)   
 [The Pursuit from Sterlinghart's Estate](part-026)  
 [Being an Account of Diverse Misadventures and Mystical Machinations](part-027)  
+[A Most Eventful Soirée: Being a True Account of Supernatural Confrontations and Clandestine Machinations](part-028)  
 
 ### Reference material
 [On demons...](on-demons)

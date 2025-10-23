@@ -1,4 +1,7 @@
 # The Pursuit from Sterlinghart's Estate
+
+December 19th 1896 - Evening
+
 *Being a faithful account of the harrowing events of December 19th, 1896, wherein our intrepid hunters faced pursuit, danger, and difficult choices in their ongoing battle against the forces of darkness.*
 ## The Flight from Danger
 As the winter evening of December 19th deepened into true darkness, our band of extraordinary gentlemen found themselves fleeing Lord Sterlinghart's estate with their precious prize—the Egyptian Tablet of the Dead—secured within their carriage. Samuel Fitzwilliam, in his spectral form, had successfully returned to his quill case for safer transport, whilst the stalwart Gabriel West took command of the reins from the absent Sean, his experience with horses proving invaluable in their desperate flight.
