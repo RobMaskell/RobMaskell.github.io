@@ -39,6 +39,8 @@ The church itself proved deceptively peaceful - a traditional house of worship t
 
 Most significantly, their search yielded a crucial clue: a business card bearing the name "Joshua Barker" and adorned with the image of a building's foundation - the symbol of that shadowy organization known as The Foundation. This discovery suggested that Gabriel's disappearance might indeed be connected to his professional affiliations rather than mere misadventure.
 
+Hubert was then dispatched to the remains of the Order with instruction left to let our plucky heroes know if more assistance was required and to request assistance from their celestial masters.
+
 ## Chapter VI: The Mystical Arts
 Samuel's spectral expertise will prove invaluable in their plans to create a convincing forgery of the ancient tablet. Through the application of his otherworldly abilities and Kyle's "preparedness" in knowing one Mason Stone - a stonemason conveniently working in the area - they are preparing to craft a duplicate that might deceive their enemies. The ethereal scholar's magic would guide the chisel work, though he warned of the inherent risks: "Magic is weird, always comes with potential side effects."
 
