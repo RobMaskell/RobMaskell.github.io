@@ -32,8 +32,8 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 [The Pursuit from Sterlinghart's Estate](part-026)  
 [Being an Account of Diverse Misadventures and Mystical Machinations](part-027)  
 [A Most Eventful Soirée: Being a True Account of Supernatural Confrontations and Clandestine Machinations](part-028)  
-[A Most Perilous Evening's Work: A Chronicle of the Hunters' Latest Tribulations](part-029)
-[Being an account of multiple messes in Maida Vale](part-030)
+[A Most Perilous Evening's Work: A Chronicle of the Hunters' Latest Tribulations](part-029)  
+[Being an account of multiple messes in Maida Vale](part-030)  
 
 ### Reference material
 [On demons...](on-demons)
