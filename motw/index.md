@@ -35,6 +35,7 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 [A Most Perilous Evening's Work: A Chronicle of the Hunters' Latest Tribulations](part-029)  
 [Being an account of multiple messes in Maida Vale](part-030)  
 [A Most Harrowing Evening of Mayhem and Demonic Machinations](part-031)  
+[A Victorian Chronicle of the aftermath of the night before](part-032)  
 
 ### Reference material
 [On demons...](on-demons)
