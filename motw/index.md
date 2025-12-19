@@ -36,6 +36,7 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 [Being an account of multiple messes in Maida Vale](part-030)  
 [A Most Harrowing Evening of Mayhem and Demonic Machinations](part-031)  
 [A Victorian Chronicle of the aftermath of the night before](part-032)  
+[The Mystery of Little Italy's Lost Children](part-033)
 
 ### Reference material
 [On demons...](on-demons)
