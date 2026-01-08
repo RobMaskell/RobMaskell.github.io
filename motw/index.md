@@ -41,3 +41,5 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 ### Reference material
 [On demons...](on-demons)  
 [Upon the fashioning of a deceptive tablet for the confounding and banishment of dæmonic forces](on-creation-of-tablets)  
+
+[back to index](index)
