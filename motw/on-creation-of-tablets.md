@@ -38,3 +38,5 @@ Proceed, therefore, with wisdom and circumspection in all your undertakings.
 
 ## A precise description of the prescribed ritual follows, enact with care
 ...
+
+[back to index](index)
