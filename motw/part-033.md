@@ -1,5 +1,7 @@
 # The Mystery of Little Italy's Lost Children
 
+December 22th 1896 - Day
+
 *Being an Account of the Peculiar Adventures of Four Hunters in a Pocket Dimension, as Recorded for Posterity*
 
 ## Prologue: Return to the Ravaged Order

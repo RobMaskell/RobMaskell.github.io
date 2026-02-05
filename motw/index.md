@@ -38,6 +38,7 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 [A Victorian Chronicle of the aftermath of the night before](part-032)  
 [The Mystery of Little Italy's Lost Children](part-033)  
 [A Most Harrowing Descent into the Ancient Woodland](part-034)  
+[A Most Extraordinary Chronicle of the Lindworm's Blood](part-035)
 
 ### Reference material
 [On demons...](on-demons)  

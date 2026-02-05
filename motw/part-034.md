@@ -1,6 +1,6 @@
 # A Most Harrowing Descent into the Ancient Woodland: Being a Faithful Account of Our Heroes' Perilous Journey to the Lindworm's Lair
 
-December 21th 1896 - Late Afternoon
+December 22th 1896 - Late Afternoon
 
 *As recorded by a humble chronicler in this year of our Lord 1896*
 
