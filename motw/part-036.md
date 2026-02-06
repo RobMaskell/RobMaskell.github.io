@@ -25,12 +25,14 @@ Young Sean volunteered to investigate, wisely divesting himself of incriminating
 
 When pressed about his muddy condition, Sean claimed to have slipped down a nearby bank—a fabrication that required his companions to hastily manufacture evidence. The exchange revealed the police sought jewel thieves matching the hunters' descriptions, and Sean's mention of crown jewels (when the officer had only said "jewels") nearly compromised his position entirely.
 
-George, demonstrating the selflessness one expects from angelic beings, volunteered to create the necessary muddy slide, despite wearing his finest three-piece tailored suit. Samuel Fitzwilliam, our ancient ghostly scholar, accompanied him in spectral form, employing his poltergeist abilities to create a tremendous disturbance with bins, shutters, and the obligatory pile of cardboard boxes that mysteriously populate Victorian alleyways.
+George, demonstrating the selflessness one expects from angelic beings, volunteered to create the necessary muddy slide, despite wearing his finest three-piece tailored suit. 
 
 ## A Rooftop Escapade Most Perilous
-The plan proceeded with characteristic chaos. George ascended a ladder to a rooftop, shouting in his best Cockney accent, "You'll never take me alive, copper, nor find them jewels!" whilst Samuel's supernatural rattling drew the constables' attention. However, George's grip upon the gutter proved precarious, and in the ensuing scramble, Samuel's quill case became lodged therein.
+Another plan as hatched by George to try and draw the officers away from their vigil. Samuel Fitzwilliam, our ancient ghostly scholar, accompanied him in spectral form, employing his poltergeist abilities to create a tremendous disturbance with bins, shutters, and the obligatory pile of cardboard boxes that mysteriously populate Victorian alleyways.
 
-The gutter creaked ominously as George inched along to retrieve the precious case, all whilst officers climbed the ladder below. With considerable effort and Samuel's assistance (the ghost poking his head from the case in most helpful fashion), George recovered the quill case and prepared to "bant" (teleport) back to the carriage. Alas, his transportation proved only partially successful—whilst George arrived safely, the quill case went skittering across the cobblestones like a stone upon a frozen lake, directly into the path of the oncoming carriage horses.
+The plan proceeded with characteristic chaos. George ascended a ladder to a rooftop, shouting in his best Cockney accent, "You'll never take me alive, copper, nor find them jewels!" whilst Samuel's supernatural rattling drew the constables' attention. However, George's grip upon the gutter proved precarious, and in the ensuing scramble, Samuel's quill case slipped from his person and became lodged therein.
+
+The gutter creaked ominously as George inched along to retrieve the precious case, all whilst officers climbed the ladder below. With considerable effort and Samuel's assistance (the ghost poking his head from the case in most helpful fashion), George recovered the quill case and prepared to "bamf" (teleport) back to the carriage. Alas, his transportation proved only partially successful—whilst George arrived safely, the quill case went skittering across the cobblestones like a stone upon a frozen lake, directly into the path of the oncoming carriage horses.
 
 Sean, demonstrating commendable presence of mind, retrieved the wayward case as the carriage slowed to collect him. The company then faced a dilemma: return through the roadblock or flee? The appearance of Hubert, George's snowy owl companion, provided crucial intelligence—all major roads leading to the Amber Society bore similar roadblocks, suggesting either remarkable police efficiency or more sinister coordination.
 
@@ -40,13 +42,26 @@ Hubert delivered further unwelcome news: during their absence, the Amber Society
 The company engaged in philosophical debate regarding the trolley problem (or as Kyle attempted to phrase it, "the horse and carriage problem," such conveyance not achieving fame until 1967). Gabriel articulated a utilitarian position: one life against six billion made the mathematics of sacrifice rather straightforward. George reminded them of heavenly prohibitions against murdering innocents, whilst Kyle pragmatically noted they had already committed such acts, so why cease now? Sean displayed characteristic hypocrisy, alternately condemning and justifying their violent methods, earning rebuke from his companions.
 
 ## A Change of Plans
-Recognising that the Amber Society had become untenable as sanctuary, Gabriel proposed they rest in the carriage whilst seeking alternative shelter. Kyle revealed potentially valuable intelligence: he possessed personal knowledge of one Jessica Sloane, a lady of negotiable affection in Soho, who maintained intimate relations with their quarry, Atticus Rook of the Hermetic Order of the Golden Dawn.
+Recognising that the Amber Society had become untenable as sanctuary, Gabriel proposed they rest in the carriage whilst seeking alternative shelter. Kyle revealed potentially valuable intelligence: he possessed personal knowledge of one Jessica Sloane, a lady of negotiable affection in Soho, who maintained intimate relations with their quarry, Atticus Rook of the Hermetic Order of the Golden Dawn. He was reminded of this after Gabriel had retrieved a note from Novilium Black's drop box stating the name of a particular man that Kyle remembered having bad blood with over Jessica.
+
+> My Dear West,
+> 
+> Fortune smiles upon our desperate endeavour, though I confess the favour comes at considerable risk. Through channels most circuitous and at no small peril to my person, I have secured intelligence regarding your enquiry into that most clandestine of societies.
+> 
+> One Atticus Rook, formerly of The Hermetic Order of the Golden Dawn, may prove amenable to discourse. He was cast out from their fellowship under circumstances most scandalous, and his bitterness toward his former brethren might serve your purposes admirably. I have an old address but it may prove to be information of a most outdated nature.
+> 
+> I cannot emphasise sufficiently the gravity of what you contemplate. The Golden Dawn are no mere gathering of eccentric mystics playing at parlour tricks. They are dangerous beyond measure, their secrets guarded with fanatical devotion, their reach extending into the highest echelons of society. They suffer inquiry most poorly, and those who intrude uninvited upon their mysteries have been known to simply... disappear.
+> 
+> Tread carefully, old friend. The stakes could scarcely be higher, but neither could the perils.
+> 
+> N.B.
 
 Kyle's relationship with both Jessica and Atticus proved complicated—he and Rook had, in his delicate phrasing, "crossed swords multiple times in multiple ways" over the lady's favours. Kyle even knew Jessica's address in Hackney, though she remained unaware of this knowledge, suggesting his interest had perhaps exceeded the bounds of a normal client relationship.
-Gabriel's patience with subtlety had evidently worn thin. He declared in no uncertain terms that given the stakes—the potential ending of the world—he would not permit individuals to obstruct their mission "whatever the cost." George acknowledged using "localised flooding" (his euphemism for Old Testament-style smiting) earlier, noting he had been "frowned upon, but not sacked yet."
+
+Gabriel's patience with subtlety had evidently worn thin. He declared in no uncertain terms that given the stakes—the potential ending of the world—he would not permit individuals to obstruct their mission "whatever the cost." George acknowledged using "localised flooding" (his euphemism for water torture) earlier, noting he had been "frowned upon, but not sacked yet."
 
 ## The Matter of Samuel's Restoration
-The company recognised their exhausted state. Samuel, still suffering from his encounter with the salt-wielding bats of the lindworm's lair, required substantial rest to literally pull himself together on a psychic level. The ghost explained he had lost some ability to maintain cohesion and needed time for regeneration. Given that Samuel remained in an unstable condition—vulnerable to sudden deterioration at the Keeper's whim—the party agreed upon a full night's rest rather than pushing forward in their compromised state.
+The company recognised their exhausted state. Samuel, still suffering from his encounter with the salt-wielding bats of the lindworm's lair, required substantial rest to literally pull himself together on a psychic level. The ghost explained he had lost some ability to maintain cohesion and needed time for regeneration. Given that Samuel remained in an unstable condition—vulnerable to sudden deterioration at the universe's whim—the party agreed upon a full night's rest rather than pushing forward in their compromised state.
 
 The driver, displaying admirable professionalism despite his growing exasperation with their constant changes of direction, was instructed to proceed to Hackney whilst the hunters took their rest. Gabriel's luxurious carriage, though garishly golden and conspicuous, at least provided beds that folded down from above and adequate provisions—dry biscuits and preserved foods, along with a well-stocked bar. Not enough to fully satisfy Kyle's prodigious appetite, but sufficient to prevent him consuming either the carriage's upholstery or Carla, Sean's newly acquired canine companion.
 
@@ -57,7 +72,7 @@ As the carriage rattled through London's streets, avoiding major thoroughfares a
 
 By midday, they arrived in Hackney, restored somewhat in vigour though bearing the accumulated grime and exhaustion of their recent trials. Samuel had recovered sufficiently to stabilise his spectral form, no longer at immediate risk of dissolution. The others had healed minor wounds, though they remained far from their full strength.
 
-They now possessed crucial intelligence: the name and former address of Atticus Rook, expelled member of the Hermetic Order of the Golden Dawn, and his association with Jessica Sloane. Kyle's intimate knowledge of both parties offered potential leverage, though the exact nature of that leverage remained to be determined. Gabriel had made clear his willingness to employ whatever means necessary to extract the information they required—specifically, the location and means of obtaining the "essence of evil," the final component needed for their ritual to counter the apocalyptic scheme.
+They now possessed crucial intelligence: the name and former address of Jessica Sloane. Kyle's intimate knowledge of both parties offered potential leverage, though the exact nature of that leverage remained to be determined. Gabriel had made clear his willingness to employ whatever means necessary to extract the information they required—specifically, the location and means of obtaining the "essence of evil," the final component needed for their ritual to counter the apocalyptic scheme.
 
 The message from Gabriel's mysterious contact had warned that the Hermetic Order represented dangerous opposition—not the brutish, direct threat of sword-wielding cultists, but rather individuals capable of destroying not merely one's person but one's family, reputation, and very existence. These were practitioners of sophisticated magic, expelled from their order for transgressions unknown, potentially bitter and certainly formidable.
 
@@ -73,7 +88,6 @@ The revelation that Azrael, the Angel of Death himself, had chosen Kyle as his v
 As they prepared to approach Jessica Sloane's residence in Hackney, one could only wonder what reception awaited them. Would Kyle's previous "friendship" smooth their path, or had his behaviour—particularly his knowledge of her private address—created enmity? Would Atticus Rook prove ally, enemy, or something more complicated? Could they extract the information they required without adding to George's growing list of prohibited smitings?
 
 The stage was set for confrontation, negotiation, or violence—quite possibly all three in rapid succession, given this company's established pattern of social interaction.
-Questions Most Pertinent Regarding Future Events
 
 # Questions for the Next Session:
 * Will Kyle's intimate knowledge of Jessica Sloane's address prove romantic foresight or evidence of stalking behaviour requiring explanation, and might his current increased girth prevent her from recognising him entirely?
