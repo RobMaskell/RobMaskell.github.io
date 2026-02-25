@@ -40,6 +40,7 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 [A Most Harrowing Descent into the Ancient Woodland](part-034)  
 [A Most Extraordinary Chronicle of the Lindworm's Blood](part-035)  
 [A Most Perilous Journey into London](part-036)  
+[An account of the Investigators' Endeavours at the Slippery Eel](part-037)  
 
 ### Reference material
 [On demons...](on-demons)  
