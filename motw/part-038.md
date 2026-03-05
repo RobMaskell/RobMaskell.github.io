@@ -1,23 +1,57 @@
-# As Yet Untitled Adventure
+# Into the Headquarters of the Hermetic Order of the Golden Dawn
 
 December 23th 1896 - Evening
 
-*An account of...*
+*A Record of Events at Thirty-Five Grace Church Street, London*
 
+The evening of the party's vigil outside Thirty-Five Grace Church Street found the company reunited, freshly washed and re-clothed, having passed the daylight hours in rather more civilised fashion than their recent exertions had afforded. The building before them — the London headquarters of the Hermetic Order of the Golden Dawn — sat in dark and silent repose, not a single lamp lit within, not a soul observed entering or departing since darkness had fallen. Samuel Fitzwilliam, the ancient Elizabethan scholar whose ethereal presence had maintained the watch throughout, offered his considered assessment: the building appeared entirely unoccupied — at least by those who required light to navigate their surroundings.
 
+From the carriage, Gabriel West applied his considerable professional acumen to the scene, noting with particular interest the figure of a vagrant stationed outside the grand portico. The man had been there for some hours, conspicuously disinclined to seek better ground as foot traffic dwindled toward evening — behaviour that struck Gabriel as rather too deliberate for a man merely seeking charity. George Banks recalled his earlier encounter with this same fellow, who had most agreeably extracted a rather generous sum from the angelic Divine's purse. More tellingly, George had remarked upon the man's teeth — rather too fine, rather too well-maintained, for a genuine creature of the streets. This was not a man who had slept under bridges.
 
+The company's deliberations turned, as they so often do, toward the question of approach. Gabriel favoured the direct: announce themselves and request audience with the Order. Sean, possessed of a particular talent for placing himself in uncomfortable situations, volunteered to adopt the role of a fellow vagrant and take up position beside the suspicious sentry. Armed with his faithful dog — whose neck was promptly adorned with a scarf, as is apparently obligatory in such arrangements — Sean introduced himself as one "Caruthers" and sat himself beside the man, who gave his name as Reginald.
 
+The conversation between these two alleged men of the road was, by any measure, an exercise in mutual suspicion cloaked in studied affability. Reginald's vocabulary proved somewhat elevated for his apparent station — the word convivial slipping from his lips with practised ease — and when Sean attempted to exploit this observation, probing the question of Reginald's suspiciously excellent dentition, the effort came to nought. Reginald, it transpired, was no ordinary sentinel; neither monster nor mere man, he proved entirely immune to Sean's attempts at manipulation. He did, however, permit an elderly gentleman to pay a shilling to pet the dog, which Reginald considered something of an affront to his professional territory.
 
+When Sean advanced toward the door itself, pausing to peer through the narrow windows to either side, what he observed brought no comfort: the interior of the building had the unmistakable character of a hasty abandonment — papers strewn upon the floor, tea chests and packing materials left where they fell, the detritus of people who had departed quickly and without great care for appearances. Reginald, for his part, offered the mild advisory that the people normally resident therein were not fond of visitors.
 
+Meanwhile, Gabriel had followed Reginald's departure from his post — the sentinel having vacated upon some unspoken signal — to a nearby restaurant, where the man vanished with the efficiency of someone who knew precisely where he was going. The establishment's maitre d' flatly denied that anyone had entered in the preceding half hour. Gabriel, with admirable presence of mind, reserved a table for two under false pretences and departed having gained nothing except a reservation he would never honour and the unsettling knowledge that Reginald moved through the city with rather more purpose than a beggar ought.
 
+The party regrouped. George, reasoning that subtlety had largely failed them and that the building appeared unoccupied, drew forth his burning celestial blade and applied it to the door's lock and crossbar with the brisk efficiency of a man who considers locked doors a problem best solved decisively. The door swung open. The mechanism was, as George later acknowledged, somewhat damaged in the process.
 
+Gabriel's response to this development was succinct: "What the fuck have you guys done?"
 
+The party entered.
 
+They had scarcely begun to orient themselves in the dark hallway — Gabriel having dispatched the carriage a few streets distant with instructions to remain on standby — when footsteps sounded from the depths of the house, and Reginald appeared before them in the darkness, considerably tidier than his vagrant persona had suggested, his false beard now absent, bearing a sword and an expression of considerable professional displeasure. His opening position was firm: reinforcements had been summoned, and the party would leave immediately or face the consequences.
 
+What followed was a brief but spirited exchange of steel and wit. George bore the brunt of Reginald's initial assault, the two exchanging blows in the narrow hallway — George being harmed for his trouble, Reginald rather more, the angelic sword leaving its mark with characteristic prejudice. Sean contributed admirably by sliding a broken chair across the floor at the critical moment, spoiling Reginald's footing with the timing of a man who has spent considerable time observing things go wrong. Samuel, meanwhile, exercised his developing poltergeist abilities to considerable theatrical effect, sending great swirling clouds of paper and dust into Reginald's face — a spectacle that George later likened, not entirely flatteringly, to a scene from a popular series of children's novels about witches and wizards at school.
 
+Gabriel ended the matter by disarming Reginald with considerable martial efficiency — wrenching the rapier from his grip and depositing the man on the floor — before offering the plain assessment that conversation remained preferable to further violence. George, bringing to bear the particular quality of divine calm that he carries with him, spoke quietly and with some authority, and Reginald's aggression subsided, though his resolve to protect the building and its secrets remained absolute. Despite Gabriel's most earnest entreaty — explaining that they sought audience with one Samuel Liddell Mathers, and that the world's ending was, broadly speaking, the matter at hand — Reginald would not be moved. He had taken an oath. He would not break it. He ran.
 
+The party proceeded to explore the building's interior, finding room after room stripped of anything of significance — a bar, a reading room, a library emptied of every book. In a small side room, however, they encountered something rather more remarkable: a five-foot cube of dark, smoky glass resting upon a three-foot high plinth. The glass glowed where touched, responding to human contact with an eerie luminescence before fading once more. It was hollow, or so the resonance of a knocked knuckle suggested, and smooth and seamless on every surface.
+
+Samuel, applying his unique perspective as a being without corporeal substance, approached the object with characteristic caution — and promptly found his hand unwilling to withdraw. The interior of the cube, he reported with some bewilderment, felt pleasant. More than pleasant — it felt, after three centuries of cold ethereal existence, like something approaching peace. The ghost was unable to resist its pull, and Samuel drifted, with the contented inevitability of a ghost finding the one comfortable armchair in a haunted house, entirely inside the object. Communication ceased. The tinnitus that served as his calling signal went silent.
+
+The party set about breaking him out.
+
+George's celestial blade produced only a fingernails-on-chalkboard shriek from the glass, with no penetration whatsoever. Sean, employing his instinct for discovering useful objects in unlikely places, turned up a centre punch in the debris, fashioned a makeshift pickaxe from it and a chair leg bound with salvaged string, and proceeded to drive it into the glass with commendable determination. On approximately the fifth blow, the entire cube shattered into fragments.
+
+Samuel emerged, seemingly partially recovered in vitality, and expressed what could only be described as mournful bereavement at the loss of what had been, in his assessment, the most pleasant ten minutes of the last three hundred years. The cube contained nothing — no essence of evil, no magical artefact, no prisoner. Nothing save the lingering impression of a well-constructed ghost trap, and the essence of one rather dazed Elizabethan scholar. "If you find another one," Samuel observed, with some feeling, "leave me in it for longer."
+
+Further exploration brought the party to a store room lined with shelves of occult components — vials, salt, chalk, candles, and tinctures — several of which Samuel recognised from Kyle Nugget's catalogue of requirements for the great ritual. These were gathered with some ceremony, Samuel directing operations from a comfortable hovering position while others performed the physical labour of collection.
+
+In a further room, George's experienced eye detected what any scholar of secret societies might hope to find: a bookcase concealing a hidden door, triggered by a copy of Pride and Prejudice protruding fractionally from the shelf. The bookcase swung aside to reveal a spiral staircase descending into the cellar.
+
+Below, they found the characteristic accumulation of a society in flight — decades of accumulated material piled haphazardly in the manner of people who had carried everything they valued and discarded the rest. Samuel peered into a load-bearing tea chest at the base of the pile and found three magical books of no particular immediate relevance. George, with the boldness that defines his character, extracted the chest with a single swift pull. The pile shifted, groaned, and — against all probability — settled rather than collapsed. The label on the chest, partially obscured, resolved upon examination to read: Abel and Sons, 3 Grant Wharf, Isle of Dogs.
+
+The Order of the Golden Dawn, it would appear, had not gone far. With reinforcements incoming and nothing further of use remaining in the ransacked headquarters, the party resolved to press on.
 
 # Questions for the Next Session:
-* ???
+* Will the party's visit to Grant Wharf, Isle of Dogs, involve more breaking down of doors, or will they attempt the radical strategy of knocking first?
+* Samuel spent ten minutes in a glass cube and emerged restored and blissful — what precisely was that cube, and is there a way to acquire another one without accidentally trapping the rest of the party inside it?
+* Kyle Nugget has been indisposed throughout this adventure due to a regrettable incident involving a suspiciously aged piece of bacon found in a seldom-used pocket — will he recover in time to identify any of the items collected, or will the party be left guessing which vials are useful and which are merely poisonous?
+* Reginald — impeccably toothed, professionally competent, and apparently entirely willing to die for his oath — ran off into the depths of the building rather than be captured. Should the party expect to see him again, and if so, will he still have his sword?
+* The reinforcements summoned by Reginald were, as of the party's departure, still on their way to Thirty-Five Grace Church Street — how long before the Golden Dawn realises not only that their headquarters has been broken into, but that someone has made off with their supply of ritual components and their forwarding address?
+
 
 [prev](part-037) - [back to index](index) - [next](part-039)

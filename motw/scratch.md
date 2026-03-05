@@ -1,10 +1,11 @@
 # Session 5th Feb 2026
 
 ## Details from last session
-* Quill case - Kyle
+* Quill case - Sean
 * Real Tablet - Gabriel
 * Fake tablet - George
-* Holy hand grenade - Kyle
+* Holy hand grenade - Sean
+* Ravenshade Dagger - Kyle
 
 ## 7 - 3 - 1 for tonight's game
 
@@ -17,8 +18,6 @@ Motivation      : Wants to get new clients and sell her girls
 Sensory details : Smell of flowers clouds of aroma you are wondering what is being covered up, beautiful if old clothes that have seen better days, 
 At table.       : I'm a lady, but trying to pull all the time, sensuous
 Information.    : Knows which room he is in, room 6
-
-**ASK** What the whorehouse looks like
 
 
 ### Atticus Rook - Ex member of the Order of the Golden Dawn
@@ -33,8 +32,6 @@ Motivation      : Watching the place, to see who comes... but as a delinquent
 Sensory details : Smell of excrement and sweat, Greasy hair and beard, better shoes than he has any right to
 At table.       : Scivy, fagin style, would pick your pocket, might even try
 Information.    : Suggests to them to go look around inside, might have left something
-
-**ASK** What the HQ of the golden dawn used to look like and how does it look now, 1 thing it had, one thing it has now
 
 Find a tea chest with a label on it, warehouse by the docks, Able and Sons, 3 Grant Wharf, Isle of Dogs
 
@@ -62,55 +59,6 @@ At table.       : Common accent, bit if a drawl, can't be arsed
 Information.    : Open to bribes
 
 
-## 35 Gracechurch Street the HQ of the Hermetic Order of the Golden Dawn
-
-Most of the rooms look mostly empty, a few papers lying around, empty boxes strewn ever where, broken furniture and strange symbols on some of the walls
-
-### Interesting Room 1 - Dealing with Reginald Screed
-
-You see the beggar from outside, he's lost his jovial personality and he looks angry, tell you that he has raised the alarm and then draws a sword from who knows where and advancing on the party he lunges at someone
-
-*Ask someone to give a detail about his clothing, body, hair etc, say they know this as he's getting closer and lunges at them specifically
-
-### Interesting Room 2 - Alchemical Store Room
-
-There are lots of materials and provisions, you can see salt, vials with labels fallen off here, some vials with labels still on you probably don't want to touch those... and investigate a mystery roll will reveal
-
-Success - You spot a few smaller things that might be handy for the big magic ritual to come
-Partial - Same as above but you knock over something like a wooden pot and the lid comes off, and a dark swirling gas starts to coalesce into a ghostly form (plenty of salt available)
-Failure - Knock over something, but it coalesces into a swirling vortex sucking everything into the vortex including on of the required items... depending on whoever it is that rolls and what they have on them
-
-### Interesting Room 3 - Ghost Trap Room
-
-On one wall is a black box, it has a glassy look to it, tapping on the glass elicits a glow where it has been touched and you can tell that it is hollow, the walls are fairly thin but you can not see into the inky darkness
-
-### Interesting Room 4 - Claymore Room
-
-Old pottery vase on a thin 5 ft plinth in the middle of the room, mess all around but this has been left. It's a curiosity, if the hunters get too close it will split onto shrapnel and fire out in a 10ft diameter globe, starting a slowly at first so the players get a chance to see and make a defensive move. Shards are sharp and will cut the hunters to bits fo a harm if they get caught in it
-
-
-### Interesting Room 5 - Secret Passage Room
-
-There is an entirely intact book case, with books against one of the internal walls, AuP roll to see if they find a way through and exactly what it costs
-
-Success - Get through, sounds coming towards them they just make it
-Partial - Last man doesn't get through as the bookcase shuts again, it was only timed for one person, sounds getting louder
-Failure - The ??????? come around the corner facing you down with glowing golden eyes...
-
-Creature: Pixies, small blue, big black bug eyes, hundreds of them, they don't look happy - Mischievous but easy to kill, can't really hurt party but will slow them down and make noise
-
-
-### Interesting Room 6 - Information room
-
-Passage way down from bookcase, to a cellar, usual disarray of crap left behind, more broken furniture and a packing case that appears to be forming part of a structure
-of old crap and appears to be load bearing, you make out half a sticker and can't quite read the rest
-
-Investigate
-
-Success - Address of Able & Sons, 3 Grant Wharf, Isle of Dogs printed on the a side
-Partial - Packing case and all the crap fall on you, knock you over but you can get it and read it
-Failure - Triggered a trap and a door has slid down obstructing the entrance where you came in
-
 
 ## Thoughts for next week
 
@@ -124,3 +72,11 @@ Failure - Triggered a trap and a door has slid down obstructing the entrance whe
 * Do the goons start chatting about a dark cloud growing in the sky over? The House? The OotVD HQ? Both?
 * Play up the police angle?
 * Does Matthers call the police?
+
+## New week, new session
+
+Info the players have
+* All the gear from the HOotGD has gone to a warehouse at Able & Sons, 3 Grant Wharf, Isle of Dogs
+* They have not found Mathers yet (he is in his private members club)
+
+Situation they are in

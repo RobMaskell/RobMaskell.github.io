@@ -41,6 +41,8 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 [A Most Extraordinary Chronicle of the Lindworm's Blood](part-035)  
 [A Most Perilous Journey into London](part-036)  
 [An account of the Investigators' Endeavours at the Slippery Eel](part-037)  
+[Into the Headquarters of the Hermetic Order of the Golden Dawn](part-038)  
+
 
 ### Reference material
 [On demons...](on-demons)  
