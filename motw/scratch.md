@@ -38,8 +38,8 @@ Find a tea chest with a label on it, warehouse by the docks, Able and Sons, 3 Gr
 
 ### Samuel Liddell Mathers - Leader of the OTGD at this point, can be found at his club in Mayfair
 Motivation      : Protect the society, and it's secrets, angrily if needed
-Sensory details : Smart clothes, scent of cigar smoke, dressed in fine clothes
-At table.       : Posh accent, slippery as fuck, somewhat threatening, with curses if he doesn't know who they are
+Sensory details : scent of cigar smoke, dressed in fine clothes, a hat to rival Kyle's, Cane or exotic wood with a ravens head atop it
+At table.       : Posh accent, slippery as fuck, somewhat threatening, with curses if he doesn't know who they are. Will double cross the party for fun
 Information.    : Yes they have a phylactery purported to contain an essence of evil from a practitioner that went bad
 
 The order have gone to ground, and all there stuff has gone into storage, Able & Sons, 3 Grant Wharf, Isle of Dogs, slight chill up your spines as he says this
@@ -68,15 +68,26 @@ Information.    : Open to bribes
 * Do they get searched?
 * Do they have their stuff confiscated
 * Does Matthers show up (after 3 hours)
-* Does Hubert show up? Or not
-* Do the goons start chatting about a dark cloud growing in the sky over? The House? The OotVD HQ? Both?
-* Play up the police angle?
-* Does Matthers call the police?
+
+* Does Matthers call the police? Or Mr Frostholme directly
+
+* Are the HOotGD in cahoots with the BBEG, have they been promised a place in the new world order?
+
+* how do they find the Essence of Evil in the storage area?
+
 
 ## New week, new session
 
 Info the players have
 * All the gear from the HOotGD has gone to a warehouse at Able & Sons, 3 Grant Wharf, Isle of Dogs
+* Hubert incoming...? Does he get shot down or injured in some way
+
+Info the players don't yet have
 * They have not found Mathers yet (he is in his private members club)
+* They have had a bunker built by Gustave Eiffel that they will try to ride out the coming horrors
+* There are items most dangerous in the warehouse, it mostly protects itself
+* There will be talk of either explosions or gathering dark and brooding clouds and omens of evil about in the world
+* Goons maybe overheard chatting about it while they wait for Mathers
+* Mathers may call the police, he has connections
 
 Situation they are in
