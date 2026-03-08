@@ -31,3 +31,5 @@
 [YouTube - Guys after the Game](http://www.youtube.com/watch?v=bnAyzWvuvGk)
 
 [SP-Studio](http://www.sp-studio.de/)
+
+[Manifesto for Half-Arsed Agile Software Development](https://www.halfarsedagilemanifesto.org)  

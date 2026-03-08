@@ -11,6 +11,10 @@
 [Friends come from shared contect not shared activities](https://billmei.net/blog/friendship)  
 [Intentionally making close friends](https://www.neelnanda.io/blog/43-making-friends)  
 [Essential Conversation Skills](https://tynan.com/letstalk/)  
+[The jhanas are a series of eight (or nine) altered mental states, which progress from euphoria, to calm, to dissolution of reality](https://nadia.xyz/jhanas)  
+[Almost anything you give sustained attention to will begin to loop on itself and bloom](https://www.henrikkarlsson.xyz/p/attention)  
+[Should More of Us Be Moving to Live Near Friends?](https://www.architecturaldigest.com/story/should-more-of-us-be-moving-to-live-near-friends)  
+[How to network as an introvert](https://aginfer.bearblog.dev/how-to-network-as-an-introvert/)  
 
 ### mental traits
 
