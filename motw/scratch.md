@@ -1,11 +1,11 @@
-# Session 5th Feb 2026
+# Session 2th Apr 2026
 
 ## Details from last session
-* Quill case - Sean
-* Real Tablet - Gabriel
-* Fake tablet - George
-* Holy hand grenade - Sean
-* Ravenshade Dagger - Kyle
+* Quill case - Taken by British Library
+* Real Tablet - Taken by British Library
+* Fake tablet - Taken by British Library
+* Holy hand grenade - Taken by British Library
+* Ravenshade Dagger - Taken by British Library (someone died doing it though)
 
 ## 7 - 3 - 1 for tonight's game
 
@@ -13,21 +13,7 @@
 Before a session, I come up with 7 total NPCs, locations, and encounters. I give each of these a motivation. I then come up with 3 sensory details for each that I can describe at the table (sights, smells, sounds, and so forth). Finally, I think of 1 way I can physically embody each at the table (a distinct noise, voice, verbal tic, body posture, mannerism, etc.). I write all these things down.
 ```
 
-### Molly Malone - Runs the brothel suggested by Kyles memory
-Motivation      : Wants to get new clients and sell her girls
-Sensory details : Smell of flowers clouds of aroma you are wondering what is being covered up, beautiful if old clothes that have seen better days, 
-At table.       : I'm a lady, but trying to pull all the time, sensuous
-Information.    : Knows which room he is in, room 6
-
-
-### Atticus Rook - Ex member of the Order of the Golden Dawn
-Motivation      : Self preservation above all things, is in hiding from the Order
-Sensory details : Old ragged clothes, the stench of rum, sex and tobacco, limp due to a close escape from the GD
-At table.       : Nervous disposition, always looking around, doesn't want to get cornered
-Information.    : He knows where their "London Grand Lodge" used to be at least.... 35 Gracechurch Street, and the names of the leaders, also gives a grave warning
-
-
-### Reginald Screed - down and out (or is he) at the GD address
+### PERSON: Reginald Screed - down and out (or is he) at the GD address
 Motivation      : Watching the place, to see who comes... but as a delinquent
 Sensory details : Smell of excrement and sweat, Greasy hair and beard, better shoes than he has any right to
 At table.       : Scivy, fagin style, would pick your pocket, might even try
@@ -35,8 +21,7 @@ Information.    : Suggests to them to go look around inside, might have left som
 
 Find a tea chest with a label on it, warehouse by the docks, Able and Sons, 3 Grant Wharf, Isle of Dogs
 
-
-### Samuel Liddell Mathers - Leader of the OTGD at this point, can be found at his club in Mayfair
+### PERSON: Samuel Liddell Mathers - Leader of the OTGD at this point, can be found at his club in Mayfair
 Motivation      : Protect the society, and it's secrets, angrily if needed
 Sensory details : scent of cigar smoke, dressed in fine clothes, a hat to rival Kyle's, Cane or exotic wood with a ravens head atop it
 At table.       : Posh accent, slippery as fuck, somewhat threatening, with curses if he doesn't know who they are. Will double cross the party for fun
@@ -44,15 +29,42 @@ Information.    : Yes they have a phylactery purported to contain an essence of 
 
 The order have gone to ground, and all there stuff has gone into storage, Able & Sons, 3 Grant Wharf, Isle of Dogs, slight chill up your spines as he says this
 
+### LOCATION: Warehouse @ Able & Sons, 3 Grant Wharf, Isle of Dogs
+Sensory Details : Smell of old musty books and recently recirculating dust
+At Table.       : Many boxes on high shelves, some are HOotGD and some are just general stuff from other clients
+Information.    : Golden Dawn stuff caged off, cage locked by physical and magical means, there are magical wards on the inside of the cage, don't appear to deter or affect the hunters
 
-### Anthony Able - Owner of the warehouse, found at the warehouse
+Guarded by a Pukwudgie... Initially looks like a large Cougar, more normally a 2 foot small pygmy see the photo (not nice)
+* Can shapeshift
+* Can appear and disappear at will
+* Can employ steath
+* Can create fire, launch poison arrows, use magic
+* Can lure people to their deaths
+* Can Blind with sand (temporary)
+* Can stap with small swords
+Interaction
+* Observation and Caution: Approach interactions with Pukwudgies with a healthy dose of skepticism, observing their behavior before extending trust.
+* Diplomacy and Respect: If seeking an alliance, approach with respect for their customs and territory, offering tokens of goodwill to foster positive relations. WHAT WILL YOU GIVE ME?
+* Maintain Independence: While alliances may be forged, always maintain autonomy and be prepared to defend against betrayal or deception. DOUBLE CROSS FOR THE WIN?
+Weaknesses:
+* Repelled by Salt / Iron
+* Silver infused snares
+* Banishment rituals (requires specific herbs, such as sage, lavender, and juniper)
+
+Make sure George gets blinded so he can't just use smite as a weakness this time
+
+How do they find the weakness...? Who is shooting with what ammo, who is carrying salt
+
+Can't affect Samuel, except by magic, maybe when the others have been incapacitated he uses his magic move and accidentally covers it with salt so they know salt is a weakness, gives time for the others to recover and somehow trap the Pukwudgie or kill it...
+
+### PERSON: Anthony Able - Owner of the warehouse, found at the warehouse
 Motivation      : Confidentiality of their clients
 Sensory details : Ordinary clothes, smart but not new or posh, musty smell of storage
 At table.       : Cagey, doesn't want to give anything away
 Information.    : They can see a large filing system that appears to document who owns what and where it is
 
 
-### Colton Diggory - Night security guard for warehouse 
+### PERSON: Colton Diggory - Night security guard for warehouse 
 Motivation      : To get paid for the minimum amount of work possible, bribable
 Sensory details : Smells of tea and cake/biscuits
 At table.       : Common accent, bit if a drawl, can't be arsed
@@ -91,3 +103,21 @@ Info the players don't yet have
 * Mathers may call the police, he has connections
 
 Situation they are in
+
+
+# Archived information
+
+## OLD INFO FROM 7 - 3 - 1 for tonight's game
+
+### Molly Malone - Runs the brothel suggested by Kyles memory
+Motivation      : Wants to get new clients and sell her girls
+Sensory details : Smell of flowers clouds of aroma you are wondering what is being covered up, beautiful if old clothes that have seen better days, 
+At table.       : I'm a lady, but trying to pull all the time, sensuous
+Information.    : Knows which room he is in, room 6
+
+### Atticus Rook - Ex member of the Order of the Golden Dawn
+Motivation      : Self preservation above all things, is in hiding from the Order
+Sensory details : Old ragged clothes, the stench of rum, sex and tobacco, limp due to a close escape from the GD
+At table.       : Nervous disposition, always looking around, doesn't want to get cornered
+Information.    : He knows where their "London Grand Lodge" used to be at least.... 35 Gracechurch Street, and the names of the leaders, also gives a grave warning
+
