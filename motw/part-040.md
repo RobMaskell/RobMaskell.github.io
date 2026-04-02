@@ -1,23 +1,46 @@
-# As Yet Untitled Adventure
+# Vaults, Demons and Fire at the British Library
 
-December 23th 1896 - Late Evening
+December 24th 1896 - Absurdly Early in the Morning
 
-*An account of...*
+*Being an Account of the Extraordinary Doings of Those Brave and Sometimes Foolhardy Individuals Known Amongst Themselves as Hunters*
 
+It was in the cold and unforgiving hours before the dawn of Christmas Eve, in the year of Our Lord eighteen hundred and ninety-six, that two members of that peculiar fellowship found themselves in circumstances most disagreeable. George Banks, the Divine — that celestial warrior clothed in human flesh — and Sean, a man of no particular mystical distinction save for an almost supernatural affinity for combustion, awoke to find themselves shackled to a solid mahogany table in a bare and distinctly unfriendly room beneath the British Library. The room, known to them from a previous misadventure, had been stripped of even its meagre comforts and furnished instead with the accessories of interrogation. Their companions — Gabriel West, Kyle Nugget, and the spectral scholar Samuel Fitzwilliam — had, it seemed, succumbed rather more thoroughly to the drugged tea and digestive biscuits served by their hosts, and remained unconscious elsewhere in the building.
 
+Sean, displaying his customary attitude of serene bafflement in the face of crisis, noted approvingly the quality of the woodwork constraining them, offering an unsolicited eulogy to the mahogany table as evidence of their captors' fine taste and reliability. George, for his part, attempted to take stock of their situation with a practised eye, and while his read of matters was not without merit, it confirmed chiefly that their best avenue of escape lay in the divine gift of teleportation — a gift the wards of the room had conspicuously failed to account for. With characteristic ease, George orb'd himself free of his shackles and stood beside his companion. Sean, demonstrating a dexterity more admirable in intention than execution, managed to pick the lock of his own restraints using a paper clip recovered from the floor — though the effort reduced the implement to something fit only for the dustbin.
 
+A brief examination of the room revealed little of interest beyond portraits of successive Head Librarians upon the walls, one of which Sean took the liberty of adorning with a hand-drawn moustache using the ruined paper clip. Before the pair could attempt the door, it opened of its own accord, admitting the Head Librarian himself along with two associates of the brutish variety. The Librarian, with the polished courtesy of a man accustomed to getting what he wanted through indirection, invited them to sit, announced that it was now three o'clock in the morning of Christmas Eve, and proceeded to lay out a proposition.
 
+It seemed that certain persons unknown had broken into the library's Egyptian vault — a chamber distinct from the vault of occult books which our heroes had previously explored — and had become trapped therein. The library's own staff had found these individuals so alarming that they had sealed the vault by both physical and magical means rather than attempt to evict them. One librarian, it was noted with mournful brevity, was no longer among the employed. The Head Librarian wished George and Sean to deal with the problem. In exchange, he would return their confiscated possessions and overlook the matter of certain books and a quill case previously liberated from the library's collection by their order.
 
+The negotiation that followed was conducted in the spirit of gentlemen who had been recently drugged and were not above a certain amount of theatrical performance. Sean enquired about the finer points of the vault's inhabitants, expressed his philosophy on firearms and the natural habitat of express rifles, and proposed that the best approach would be to enter the vault disguised as a butler bearing tea and biscuits — a stratagem which the Head Librarian received with the politely suppressed incredulity it deserved. George, having satisfied himself that the individuals within had at minimum coveted the vault's large statue of an ox and thereby placed themselves firmly within smitable territory, declared himself adequately armed by virtue of his divine constitution alone — though he did accept the offer of a Roman centurion's shield, reportedly the property of one Maximus Decimus Meridius, which he felt might prove useful.
 
+Thus equipped — Sean in a borrowed butler's uniform complete with shoulder pads, bearing a tray of tea and biscuits; George behind his ancient shield — the two were admitted to the Egyptian vault.
 
+The door shut behind them with great finality. The vault was entirely dark.
 
+What followed was a demonstration of improvisation under increasingly trying circumstances. A torch, conjured to a wall sconce by George's divine connexion with higher powers, revealed the vault to be vast — somewhere between a tennis court and half a association football pitch in size — filled with sarcophagi, statues, marble, sandstone, and a considerable quantity of Egyptian antiquity. Three armed men occupied this space, and they were not interested in tea.
 
+Sean, maintaining his cover as Caruthers the butler with an admirable commitment to character, offered refreshments and a catalogue of the vault's contents in order to locate the tablet of the dead the intruders sought. The intruders, unmoved, fired a warning shot and began manoeuvring to flank the pair. George, reading the situation with uncharacteristic acuity, perceived the flanking movement and moved to intercept — only to be captured himself, a gun pressed to his head.
 
+Sean continued to negotiate. George bided his time. And then Sean, moving towards the torch under the pretence of finding somewhere to set down the tea tray, allowed the light to fall — whereupon the vault's wooden crates became, through no deliberate design, extremely and enthusiastically flammable. Sean protested that he had specified stone. But wood it was. The resulting fire was, in any event, very informative.
 
+In the flickering light, George deployed his wings with sudden and devastating effect — knocking the gun from his captor's grasp and delivering a headbutt of celestial force directly to the bridge of the man's nose. He then stamped upon the fallen man's head with the calm deliberateness of an angel who has made his judgement and will not be revisiting it. Black smoke poured from the man's mouth — for these were not mere criminals but demons in human vessels — and made immediately for George's face. The change in tone of the room at this turn of events was palpable, George and Sean both realised they were in somewhat more peril than they had thought possible when the took on the task of clearing the vault.
 
+Sean dispatched the second man with remarkable precision, delivering a shot to the shoulder and thereafter conducting a protracted close-quarters engagement that culminated in a gunfight of the sort more properly associated with the moving-picture theatres of a later century. He took a single shot to the shoulder — absorbed, mercifully, by his padding — and put his opponent down. The resulting smoke headed for Sean, who ran through it rather than permit possession, falling at George's feet. George, with a prayer and a flash of golden light rather more powerful than he had strictly intended, expelled the smoke entirely from the room.
 
+One demon had been captured in a sealed Egyptian jar through what George would later describe as the "crouching wing, hidden jar" technique. One had been banished by holy fire. The third — the leader, the most powerful of the three, a man who had demonstrated knowledge of the name Frostholm and the ability to paralyse divine warriors with a gesture — had proved the most troublesome. He paralysed George, took Sean prisoner, broke free, was recaptured, was knocked unconscious, awoke, ran for the open door, was trapped by George's magic, was shot in the thigh by Sean, punched in the kidneys by George, and finally expired — his demon escaping under cover of the very considerable smoke now filling the vault — into the general atmospheric murk of the British Library's lower levels, whereabouts unknown.
+
+As librarians rushed in with buckets, and the Head Librarian regarded the smoke-wreathed vault with an expression suggesting that the relationship between the Amber Society and the British Library had entered a complex new phase, George Banks fixed the man with a glowing-eyed stare and delivered his final words of the evening:
+"Get everyone out of here immediately. Have no one enter the room, and I must speak to your head librarian when you get a moment. And for the love of all that is holy and good, give me back my cane."
+
+The fate of the third demon, the contents of the Egyptian vault, the unconscious members of the party still abed elsewhere in the library, and the condition of several priceless antiquities recently subjected to open flame, remained — as the clock struck the small hours of Christmas Eve — entirely unresolved.
 
 # Questions for the Next Session:
-* ???
+* Will Sean's butler disguise prove so convincing that the Head Librarian simply adds him to the payroll, and will he accept?
+* With the smoke of the third demon now loose in the British Library, might unsuspecting scholars begin exhibiting unusual behaviour — and will anyone actually notice the difference?
+* George has now acquired a Roman centurion's shield, a sealed jar containing a demon, and one point of harm — will any of these prove most inconvenient at Christmas dinner?
+* Kyle Nugget, reportedly insensible due to having eaten an above-average quantity of drugged biscuits, has missed the entire affair — will his reaction upon waking be remorse, hunger, or both?
+* The Head Librarian now knows considerably more about the Amber Society than he did before — is this an asset, a liability, or simply another problem to be addressed after the New Year?
+
 
 [prev](part-039) - [back to index](index) - [next](part-041)
