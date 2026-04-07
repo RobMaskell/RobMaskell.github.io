@@ -44,6 +44,7 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 [Into the Headquarters of the Hermetic Order of the Golden Dawn](part-038)  
 [Escape From the Golden Dawn, Summoned Cryptids, Serious Befouling and the prospect of Veiled Dawn Paperwork](part-039)  
 [Vaults, Demons and Fire at the British Library](part-040)  
+[Heading to the Warehouse after the Essence of Evil](part-041)  
 
 ### Reference material
 [On demons...](on-demons)  
