@@ -99,4 +99,4 @@ The stage was set for confrontation, negotiation, or violence—quite possibly a
 * Has anyone considered that arriving at a lady's residence at midday with a large armed company including an angel, a ghost, a potentially demonic-possessed fat man, an arsonist, and Gabriel West might not represent the most subtle approach to intelligence gathering, and should they perhaps have sent George alone with flowers?
 
 
-[prev](part-036) - [back to index](index) - [next](part-038)
+[prev](part-035) - [back to index](index) - [next](part-037)
