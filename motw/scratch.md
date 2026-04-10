@@ -1,11 +1,12 @@
 # Session 2th Apr 2026
 
 ## Details from last session
-* Quill case - Taken by British Library
-* Real Tablet - Taken by British Library
-* Fake tablet - Taken by British Library
-* Holy hand grenade - Taken by British Library
-* Ravenshade Dagger - Taken by British Library (someone died doing it though)
+* Quill case - Kyle
+* Real Tablet - Gabriel
+* Fake tablet - George
+* Holy hand grenade - Kyle
+* Ravenshade Dagger - Kyle
+* Sean's Gun and stuff, Gabriel / Coach
 
 ## 7 - 3 - 1 for tonight's game
 
@@ -34,28 +35,9 @@ Sensory Details : Smell of old musty books and recently recirculating dust
 At Table.       : Many boxes on high shelves, some are HOotGD and some are just general stuff from other clients
 Information.    : Golden Dawn stuff caged off, cage locked by physical and magical means, there are magical wards on the inside of the cage, don't appear to deter or affect the hunters
 
-Guarded by a Pukwudgie... Initially looks like a large Cougar, more normally a 2 foot small pygmy see the photo (not nice)
-* Can shapeshift
-* Can appear and disappear at will
-* Can employ steath
-* Can create fire, launch poison arrows, use magic
-* Can lure people to their deaths
-* Can Blind with sand (temporary)
-* Can stap with small swords
-Interaction
-* Observation and Caution: Approach interactions with Pukwudgies with a healthy dose of skepticism, observing their behavior before extending trust.
-* Diplomacy and Respect: If seeking an alliance, approach with respect for their customs and territory, offering tokens of goodwill to foster positive relations. WHAT WILL YOU GIVE ME?
-* Maintain Independence: While alliances may be forged, always maintain autonomy and be prepared to defend against betrayal or deception. DOUBLE CROSS FOR THE WIN?
-Weaknesses:
-* Repelled by Salt / Iron
-* Silver infused snares
-* Banishment rituals (requires specific herbs, such as sage, lavender, and juniper)
-
-Make sure George gets blinded so he can't just use smite as a weakness this time
-
-How do they find the weakness...? Who is shooting with what ammo, who is carrying salt
-
-Can't affect Samuel, except by magic, maybe when the others have been incapacitated he uses his magic move and accidentally covers it with salt so they know salt is a weakness, gives time for the others to recover and somehow trap the Pukwudgie or kill it...
+Some magical defensive items that are dangerous
+* Skeletal hand mounted vertically on a small wooden plinth sitting on a large piece of wooden furniture (desk), beautiful dagger on plinth looks razor sharp and hilt inlaid with gold in a stylish not gaudy way
+* Box of pixies, once opened tricky to contain again
 
 ### PERSON: Anthony Able - Owner of the warehouse, found at the warehouse
 Motivation      : Confidentiality of their clients
@@ -70,29 +52,44 @@ Sensory details : Smells of tea and cake/biscuits
 At table.       : Common accent, bit if a drawl, can't be arsed
 Information.    : Open to bribes
 
+### Magical MotW guard of the Order portion of the warehouse
+Guarded by a Pukwudgie... Initially looks like a large Cougar, more normally a 2 foot small pygmy see the photo (not nice)
+* Can shapeshift *
+* Can appear and disappear at will *
+* Can employ stealth 
+* Can create fire, launch poison arrows, use magic *
+* Can lure people to their deaths
+* Can Blind with sand (temporary)
+* Can stab with small swords
+Interaction
+* Observation and Caution: Approach interactions with Pukwudgies with a healthy dose of scepticism, observing their behaviour before extending trust.
+* Diplomacy and Respect: If seeking an alliance, approach with respect for their customs and territory, offering tokens of goodwill to foster positive relations. WHAT WILL YOU GIVE ME?
+* Maintain Independence: While alliances may be forged, always maintain autonomy and be prepared to defend against betrayal or deception. DOUBLE CROSS FOR THE WIN?
+Weaknesses:
+* Repelled by Salt / Iron
+* Silver infused snares
+* Banishment rituals (requires specific herbs, such as sage, lavender, and juniper)
+
+Make sure George gets blinded so he can't just use smite as a weakness this time (He's been banned from doing it by heaven)
+
+How do they find the weakness...? Who is shooting with what ammo, who is carrying salt
+* Bumps into something salty or iron or silver and recoils in pain?
+
+Can't affect Samuel, except by magic, maybe when the others have been incapacitated he uses his magic move and accidentally covers it with salt so they know salt is a weakness, gives time for the others to recover and somehow trap the Pukwudgie or kill it...
+
 
 
 ## Thoughts for next week
 
-* Will they get out of the house without meeting the "reinforcements" and Reg
-* So you want to meet Matthers huh, I have summoned him from his club, but he is going to be pissed when he gets here... if he gets here...
-* Do they wait, do they leave with the info they have?
-* Do they get searched?
-* Do they have their stuff confiscated
-* Does Matthers show up (after 3 hours)
-
-* Does Matthers call the police? Or Mr Frostholme directly
-
 * Are the HOotGD in cahoots with the BBEG, have they been promised a place in the new world order?
+* How do they find the Essence of Evil in the storage area?
 
-* how do they find the Essence of Evil in the storage area?
 
 
 ## New week, new session
 
 Info the players have
 * All the gear from the HOotGD has gone to a warehouse at Able & Sons, 3 Grant Wharf, Isle of Dogs
-* Hubert incoming...? Does he get shot down or injured in some way
 
 Info the players don't yet have
 * They have not found Mathers yet (he is in his private members club)
