@@ -1,23 +1,56 @@
-# As Yet Untitled Adventure 42
+# Able and Sons, 3 Grant Wharf, Isle of Dogs - Part 1
 
-December 24th 1896 - Early in the Morning
+December 24th 1896 - Still very early in the Morning
 
-*An account of...*
+*An account of the extraordinary events at a riverside warehouse*
 
+The hour was unsociable, the streets of East London wrapped in the particular darkness that precedes the grey London dawn, when our extraordinary band of investigators found themselves gathered outside a riverside warehouse of considerable size. The fog off the Thames clung to the cobblestones, and the lamplight did little to illuminate the nature of their task. Within those walls, it was believed, lay artefacts of considerable danger — the collected works and possessions of the Hermetic Order of the Golden Dawn, transported from their address at Thirty-Five Grace Church Street and now residing, under circumstances most irregular, in a caged-off section of the warehouse interior.
 
+It fell to the inimitable Samuel Fitzwilliam — scholar, Elizabethan, and gentleman of some three hundred and eighty years of accumulated wisdom — to serve as the company's advance scout. Manifesting from his customary receptacle, the quill case carried by the rotund and frequently distracted Kyle Nugget, Samuel demonstrated admirable discretion in his emergence. One notes, with some delicacy, that Mr. Nugget chose this moment to attend to certain personal ablutions against the warehouse wall, apparently unbothered by the presence of his spectral companion. Samuel, for his part, averted his gaze with the dignity one might expect of a man who had, in his long existence, witnessed considerably more troubling sights than a fellow's soiled trousers.
 
+Peering through the grimy office window, Samuel discovered two souls within: one labouring diligently over paperwork by candlelight in the main warehouse body, and the other — apparently in a position of some seniority — occupying the office with his feet upon the desk and his attention fixed upon lithographic material of a decidedly private nature. Samuel confirmed, with the particular gift afforded to him in detecting the demonic, that neither man was anything other than thoroughly ordinary. "The man working in there," Samuel is recorded to have observed with characteristic dry precision, "just has a terrible job."
 
+The question of entry was resolved with characteristic ingenuity. Samuel, employing his considerable poltergeist abilities, slid the bolt on the smaller warehouse door with practised ease — the lock mechanism being, as he noted, well-maintained and obligingly silent. The ghost of the Elizabethan scholar lingered outside whilst Gabriel West, professional agent of the Foundation and bearer of both a prototype flamethrower and Sean's express rifle, led the infiltration. It is worth noting that Gabriel, exercising sound professional judgement, deposited the more obvious equipment outside before entering — leaving it in the care of George Banks, the divine angel, who collected the items with the sort of resigned pragmatism that characterises a man who has seen considerably worse.
 
+Gabriel's entrance was executed with impressive quiet. He closed upon the warehouse worker with swift efficiency, restraining the man from behind. The fellow, displaying admirable spirit if poor tactical sense, began to struggle. George, watching from the doorway and muttering something about the inadvisability of choking out innocent men, nonetheless entered to assist. Between the two of them, the worker was sufficiently restrained — though not without some noise, which sent his colleague Colton bolting himself into the office with considerable urgency.
 
+George, deploying the soft cadences of his angelic presence, soothed the frightened worker with remarkable effect. The man calmed, enquired whether they intended to rob the place, and received from Gabriel the production of official-looking identification — a customs agent's badge of somewhat approximate relevance — which had the satisfying effect of shifting the man's concern from robbery to audit. Gabriel, with the smooth invention of a practised professional, explained that their unannounced entry was standard procedure. "If we knocked on the door," he reasoned with perfect sincerity, "you'd have the opportunity to go running around and remove the produce we're looking for." The worker, sufficiently persuaded, led them to within twenty feet of the caged-off area before declining to venture further. "Give me the heebie-jeebies, if I'm honest," he confided, before departing to manage the increasingly agitated Colton.
 
+Kyle, who had remained outside during these proceedings, was summoned in and arrived bearing Gabriel's equipment, which had somehow acquired an impressive coating of grease in his brief tenure as its guardian. Samuel, meanwhile, re-emerged from his quill case to join the assembled party.
 
+The caged area was substantial — the entire end of the warehouse, it appeared, cordoned off with chicken wire secured to the brick walls, containing what appeared to be the entire contents of a dismantled stately home. Row upon row of tall wooden racking stretched into the warehouse's dark interior, laden with tea chests, furniture, pottery, and items of indeterminate but clearly significant provenance. Most notably, Gabriel's sharp professional eye detected, on the wooden boards facing inward, a series of magical sigils — warding symbols, facing not outward to prevent intrusion, but inward, as if designed to contain something within. And within the caged area, briefly glimpsed slinking between the aisles with the fluid grace of a large predator, was something that moved very much like a cougar.
 
+Kyle identified the symbols as warding marks and, through a combination of scholarly instinct and a particular talent for finding himself entangled in morally complex situations, successfully performed the ritual component required to disengage the magical lock. Gabriel, pouring every ounce of his considerable professional focus into the task, addressed himself to the mechanical lock with such extraordinary precision that the mechanism yielded with absolute silence, the gate swinging open as though it had been waiting politely for exactly this moment.
 
+The company entered.
 
+What happened next unfolded with the particular chaos that seems to follow these gentlemen wherever they venture. Kyle, whose eye for fine blades is both a professional virtue and a personal weakness, spotted upon a desk within the first aisle a most handsome dagger resting on a wooden plinth, hovering over it's place was what appeared to be a skeletal hand. Samuel identified, by means of scholarly investigation and a memory stretching back three centuries, that they were dealing with a Pukwudgie — a creature of considerable versatility, capable of shapeshifting, vanishing and reappearing at will, firing poison arrows, blinding with thrown sand, and carrying a small but businesslike stabbing sword. Iron, salt, and silver, he noted, were the creature's significant aversions.
 
+This intelligence proved immediately relevant. The Pukwudgie, appearing on a high shelf in the form of a large orangutan, dispatched a poison arrow with unerring accuracy at George, who failed to deflect it despite an admirable attempt with his sword-cane. George absorbed the blow with the stoic dignity appropriate to a divine being temporarily stripped of his smiting privileges — a development he regarded with barely concealed irritation — and coughed up a modest quantity of golden blood. Samuel, thinking quickly and in a thoroughly poltergeist manner, hurled an assortment of nearby objects at the creature, apparently catching it a painful blow. The Pukwudgie transformed into a falcon and retreated down the aisle.
+
+Kyle, having heard Samuel's assessment that the creature was vulnerable to iron, made an entirely sound decision to reach for the handsome dagger — which was, of course, immediately seized by the skeletal hand that guarded it, pinning him firmly to the desk by the wrist. The dagger skittered away beyond reach. Kyle remained attached to the desk for the remainder of some considerable proceedings, attempting to free himself with steadily diminishing success whilst his companions battled both the Pukwudgie and each other's better judgement.
+
+Gabriel climbed the shelving for a better vantage point, intending to detect the essence of evil through proximity sickness. The Pukwudgie, displaying a tendency toward repeat engagements, descended upon him with considerable enthusiasm — scratching, stabbing, and in general making a thorough nuisance of itself before George's timely arrival, armed with a handful of iron nails, drove it off once more. Gabriel, though bloodied and understandably irritated, retained the presence of mind to pass the flamethrower to George before ascending again.
+
+George, demonstrating a moment of inspired lateral thinking, used magic to open communication with the skeletal hand, which proved to be a creature of simple but firm principles — it communicated via sign language that its grievance was straightforward: "Man stole dagger." George's subsequent attempt to negotiate an alliance was received with considerably less enthusiasm, the hand delivering what can only be described as an extremely rude gesture before returning to the desk.
+
+Samuel attempted to banish the hand with mixed results — it was dislodged from Kyle's wrist but took up residence on George's ankle instead, dragging its plinth behind it. George accepted this new accessory with the equanimity of a man who has faced considerably worse and continued walking, the skeletal hand's plinth scraping along the warehouse floor with each step.
+
+Kyle was freed. The hand migrated. The Pukwudgie retreated. And at the close of our account, with the party advancing into a fresh aisle in search of the dangerous essence they sought, Kyle Nugget came face to face — at a distance of five feet — with a very large black bear.
+
+The bear was facing him. Kyle swung.
+
+The result of that swing, and what became of the bear, must wait for another night's account.
+
+The chronicle continues. The essence remains unfound. The bear remains angry. And Kyle Nugget, it must be noted, has learned absolutely nothing about skeletal hands.
 
 
 # Questions for the Next Session:
-* ???
+* Will Kyle Nugget's bear encounter prove that he is, in fact, entirely unable to keep his hands to himself — even when the hands in question belong to large carnivores?
+* Now that George is dragging a skeletal hand on a plinth around the warehouse making considerable noise, is the element of surprise now entirely and permanently lost?
+* Gabriel has taken a poison arrow, multiple stab wounds, and various scratches this evening — will his next encounter with the Pukwudgie finally convince him that the flamethrower was, all along, the correct choice for every situation?
+* The dagger remains on the plinth, the skeletal hand has returned to guard it, and Kyle has demonstrated he cannot be trusted near shiny blades — how many more appendages must the party sacrifice before someone simply asks Kyle to wait outside?
+* Samuel successfully identified the Pukwudgie from three centuries of accumulated reading — but given that he also inadvertently freed a crawling skeletal hand into the general party area, should he perhaps consider whether his poltergeist powers are doing more harm than good?
+
 
 [prev](part-041) - [back to index](index) - [next](part-043)

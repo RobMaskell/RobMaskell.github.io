@@ -45,6 +45,7 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 [Escape From the Golden Dawn, Summoned Cryptids, Serious Befouling and the prospect of Veiled Dawn Paperwork](part-039)  
 [Vaults, Demons and Fire at the British Library](part-040)  
 [Heading to the Warehouse after the Essence of Evil](part-041)  
+[Able and Sons, 3 Grant Wharf, Isle of Dogs - Part 1](part-042)
 
 ### Reference material
 [On demons...](on-demons)  
