@@ -79,6 +79,20 @@ Can't affect Samuel, except by magic, maybe when the others have been incapacita
 
 
 
+
+## Session 16 Apr
+* Pudwugie will try to attack Gabriel on the racking, if he fails it will throw him off
+* If it gets the chance, transform into a giant Eagle and grab him, drop him in an aisle
+* Gabriel gets a role he'll be at -1 for being on the racking and possibly also -1 for sickness if has found the essence
+* Give them some time to decide what to do to save Gabriel, if they fail to save him, then he bumps down off a load of boxes takes harm and is knocked out
+
+* Ideally they will get the essence by the end of the session so the Sean storyline can kick in next week
+* Also ideally George will find some way to become incapacitated, maybe the very pressence of the essence troubles him and he bamfs away
+
+
+
+
+
 ## Thoughts for next week
 
 * Are the HOotGD in cahoots with the BBEG, have they been promised a place in the new world order?
