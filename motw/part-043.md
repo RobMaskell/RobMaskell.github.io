@@ -1,4 +1,4 @@
-# As Yet Untitled Adventure 43
+# Able and Sons, 3 Grant Wharf, Isle of Dogs - Part 2
 
 December 24th 1896 -  Just after dawn
 
@@ -6,6 +6,7 @@ December 24th 1896 -  Just after dawn
 
 ## The Warehouse of Wonders and Woe
 When last we left our intrepid band of investigators, they found themselves within the confines of a Victorian warehouse of considerable age and dubious structural integrity — a labyrinthine arrangement of wooden racking, stacked some thirty to forty feet into the cavernous reaches of the building, groaning under the weight of innumerable crates, boxes, and at least one chest of assorted cutlery. The bear, it must be noted for posterity, had already made its egress, having exchanged something of a spiritual burden with one Kyle Nugget, a transaction that had left the portly expert considerably worse for wear, nursing wounds both visible and otherwise as he brought up the rear of the party's cautious advance.
+
 Gabriel West, professional agent of The Foundation and possessor of an increasingly bewildering suite of nascent magical abilities, had positioned himself high upon the racking — that second or third tier of rickety Victorian engineering — where he had begun to feel a most unpleasant sensation emanating from somewhere further into the warehouse. Like some infernal game of hot and cold played out against the backdrop of catastrophic structural failure, Gabriel moved carefully among the boxes, guided by a growing nausea that intensified the higher and further he ventured. The conclusion was unavoidable: whatever they had come for was stored not upon the ground, as any sensible person might keep their cursed artefacts, but as far from the working populace as possible — up amongst the gods, in the uppermost reaches of the racking.
 
 ## The Unfortunate Business of the Orangutan
@@ -20,7 +21,7 @@ Gabriel, following the intensifying sensation of supernatural malevolence, climb
 The distinction between the genuine orangutan and the disguised Pukwudgie was, to the trained eye, a relatively straightforward matter: one of them had a bullet wound in its leg.
 Gabriel, beset by the supernatural ick emanating from nearby crates and operating at a considerable disadvantage among the precarious and slippery surfaces of the upper racking, drew his shotgun and made his stand. The exchange did not favour him. The Pukwudgie-orangutan's tremendous reach proved decisive, and Gabriel found himself departing the racking in the manner of a man who had not planned to descend quite so rapidly.
 
-What followed was one of those moments of extraordinary collective heroism that occasionally emerge from even the most chaotic of enterprises. Samuel Fitzwilliam — that ancient Elizabethan scholar, ghostly poltergeist, and gentleman of considerable ingenuity — reached out with spectral influence and dragged a sofa from the lower shelving out into the aisle below. George, demonstrating a most celestial grace, orbited to Gabriel mid-fall and wrapped him in protective wings. Kyle, for his part, positioned himself beneath the descending pair and took just enough of their momentum to prevent serious injury. The three landed upon the sofa with a tremendous crash, the furniture's legs splaying outward in four directions simultaneously before collapsing entirely to the floor. Gabriel, George, and Kyle emerged unharmed. Samuel observed all this from a comfortable remove, entirely untroubled by the laws of gravity.
+What followed was one of those moments of extraordinary collective heroism that occasionally emerge from even the most chaotic of enterprises. Samuel Fitzwilliam — that ancient Elizabethan scholar, ghostly poltergeist, and gentleman of considerable ingenuity — reached out with spectral influence and dragged a sofa from the lower shelving out into the aisle below. George, demonstrating a most celestial grace, bamf'd to Gabriel mid-fall and wrapped him in protective wings. Kyle, for his part, positioned himself beneath the descending pair and took just enough of their momentum to prevent serious injury. The three landed upon the sofa with a tremendous crash, the furniture's legs splaying outward in four directions simultaneously before collapsing entirely to the floor. Gabriel, George, and Kyle emerged unharmed. Samuel observed all this from a comfortable remove, entirely untroubled by the laws of gravity.
 
 "Just how I planned," Kyle observed.
 
@@ -70,7 +71,8 @@ And then they were gone.
 
 George Banks, Divine, angelic being, and summoner of cryptids, was taken to account.
 
-Thus ended one of the more eventful nights in the recent history of the Amber Society. The phylactery was secured. The Pukwudgie was defeated. Bigfoot was briefly introduced to the Isle of Dogs. Two warehouse employees had an experience they would struggle to explain at any dinner party. And George, who had this evening summoned an orangutan, a Bigfoot, and indirectly liquefied an endangered primate, was apparently overdue for a conversation with management.
+Thus ended one of the more eventful nights in the recent history of The Order of the Veiled Dawn. The phylactery was secured. The Pukwudgie was defeated. Bigfoot was briefly introduced to the Isle of Dogs. Two warehouse employees had an experience they would struggle to explain at any dinner party. And George, who had this evening summoned an orangutan, a Bigfoot, and indirectly liquefied an endangered primate, was apparently overdue for a conversation with management.
+
 The storm from the southeast continued to build.
 
 # Questions for the Next Session:
