@@ -132,3 +132,26 @@ Sensory details : Old ragged clothes, the stench of rum, sex and tobacco, limp d
 At table.       : Nervous disposition, always looking around, doesn't want to get cornered
 Information.    : He knows where their "London Grand Lodge" used to be at least.... 35 Gracechurch Street, and the names of the leaders, also gives a grave warning
 
+
+
+# Session at the house
+
+## Slight retcon
+Once you were in the carriage on the way from St Pauls to Clarissa's house and you knew that was where you were to perform the ritual, George Bamf'd back to the Order of the Veiled Dawn and picked up 2 large bags Sean had prepared earlier when working on the big tablet making ritual. THe bags contain all the things you will need, chalk, salt, herbs, candles, occult symbols etc to perform the ritual
+
+
+## The ritual itself
+
+* You clear out one of the rooms, removing all the furniture and carpet back to a bare floor
+* You chalk out a magic circle, and place candles herbs and the tinctures you have made in the places required by Kyle's masterwork
+* You bring the fake tablet, the Holy Hand Grenade, the Essence of Evil in it's phylactery
+* Kyle brings the RavenShade Dagger into the circle
+* A large flat bottomed stone bath larger than the fake tablet is carried into the very middle of the circle, with the Lindworm Ichor sloshing from side to side, you are careful not to spill any
+* There is an hour of chanting, and walking around the circle, with people kneeling in certain places and swapping when required, all coreographed by Kyle
+* One by one the Dagger and Hand grenade are introduced to the Ichor. They dissolve gradually over a number of hours
+* There is more chanting, kneeling and solemn faces
+* The stone bath is left for many hours for the elements to properly dissolve and mix
+* Later after more chanting the fake stone tablet is lowered carefully into the esoteric mixture and over the course of more hours and much chanting if soaks up the liquid in the bath
+* There is a small additional ritual cast at the end of the process to set fast the liquid in the tablet and make it some anyone can pick it up
+* at the end of this process you are all tired as the ritual has extracted it's all from you during the casting. Kyle particularly is dead on his feet
+* But you have been successful and you now have both an original tablet of the dead and a very decent facsimile that only you can tell apart.
