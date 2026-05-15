@@ -48,6 +48,7 @@ A rag tag group of hunters belonging to The Order of the Veiled Dawn attempt to 
 [Able and Sons, 3 Grant Wharf, Isle of Dogs - Part 1](part-042)  
 [Able and Sons, 3 Grant Wharf, Isle of Dogs - Part 2](part-043)  
 [The Ex-wife, the Possessed Friend and the Decanted Demon](part-044)  
+[The Last Stand of The Order of the Veiled Dawn - Part One](part-045)  
 
 ### Reference material
 [On demons...](on-demons)  

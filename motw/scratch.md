@@ -14,144 +14,55 @@
 Before a session, I come up with 7 total NPCs, locations, and encounters. I give each of these a motivation. I then come up with 3 sensory details for each that I can describe at the table (sights, smells, sounds, and so forth). Finally, I think of 1 way I can physically embody each at the table (a distinct noise, voice, verbal tic, body posture, mannerism, etc.). I write all these things down.
 ```
 
-### PERSON: Reginald Screed - down and out (or is he) at the GD address
-Motivation      : Watching the place, to see who comes... but as a delinquent
-Sensory details : Smell of excrement and sweat, Greasy hair and beard, better shoes than he has any right to
-At table.       : Scivy, fagin style, would pick your pocket, might even try
-Information.    : Suggests to them to go look around inside, might have left something
-
-Find a tea chest with a label on it, warehouse by the docks, Able and Sons, 3 Grant Wharf, Isle of Dogs
-
-### PERSON: Samuel Liddell Mathers - Leader of the OTGD at this point, can be found at his club in Mayfair
-Motivation      : Protect the society, and it's secrets, angrily if needed
-Sensory details : scent of cigar smoke, dressed in fine clothes, a hat to rival Kyle's, Cane or exotic wood with a ravens head atop it
-At table.       : Posh accent, slippery as fuck, somewhat threatening, with curses if he doesn't know who they are. Will double cross the party for fun
-Information.    : Yes they have a phylactery purported to contain an essence of evil from a practitioner that went bad
-
-The order have gone to ground, and all there stuff has gone into storage, Able & Sons, 3 Grant Wharf, Isle of Dogs, slight chill up your spines as he says this
-
-### LOCATION: Warehouse @ Able & Sons, 3 Grant Wharf, Isle of Dogs
-Sensory Details : Smell of old musty books and recently recirculating dust
-At Table.       : Many boxes on high shelves, some are HOotGD and some are just general stuff from other clients
-Information.    : Golden Dawn stuff caged off, cage locked by physical and magical means, there are magical wards on the inside of the cage, don't appear to deter or affect the hunters
-
-Some magical defensive items that are dangerous
-* Skeletal hand mounted vertically on a small wooden plinth sitting on a large piece of wooden furniture (desk), beautiful dagger on plinth looks razor sharp and hilt inlaid with gold in a stylish not gaudy way
-* Box of pixies, once opened tricky to contain again
-
-### PERSON: Anthony Able - Owner of the warehouse, found at the warehouse
-Motivation      : Confidentiality of their clients
-Sensory details : Ordinary clothes, smart but not new or posh, musty smell of storage
-At table.       : Cagey, doesn't want to give anything away
-Information.    : They can see a large filing system that appears to document who owns what and where it is
+## Opening lines
+And so it is that we find our rag tag band of hunters, standing in the way of the utmost peril, the fate of life on earth in their hands... hands that are battered and bruised like their bodies, they have taken much punishment in pursuit of their collective goal of stopping the demons and especially one Octavian Frostholm from destroying everything they hold dear. They have arrived here on different paths some more dark and winding than others. Some may have started out for themselves but all have been galvanised by events into a now fearsome collective that has so far dealt with everything their enemies and even sometimes themselves have thrown in their way. They are however currently split, George was yoinked up to heaven to answer for let more morally questionable behaviour. They stand on the verge of the most complicated ritual they have ever attempted, it has to succeed, there are however concerns that it was thrown together on one night by Kyle and also to what will become of Kyle once he is split from his deathly-daggery binding... (leave that up to Kyle I think)
 
 
-### PERSON: Colton Diggory - Night security guard for warehouse 
-Motivation      : To get paid for the minimum amount of work possible, bribable
-Sensory details : Smells of tea and cake/biscuits
-At table.       : Common accent, bit if a drawl, can't be arsed
-Information.    : Open to bribes
-
-### Magical MotW guard of the Order portion of the warehouse
-Guarded by a Pukwudgie... Initially looks like a large Cougar, more normally a 2 foot small pygmy see the photo (not nice)
-* Can shapeshift *
-* Can appear and disappear at will *
-* Can employ stealth 
-* Can create fire, launch poison arrows, use magic *
-* Can lure people to their deaths
-* Can Blind with sand (temporary)
-* Can stab with small swords
-Interaction
-* Observation and Caution: Approach interactions with Pukwudgies with a healthy dose of scepticism, observing their behaviour before extending trust.
-* Diplomacy and Respect: If seeking an alliance, approach with respect for their customs and territory, offering tokens of goodwill to foster positive relations. WHAT WILL YOU GIVE ME?
-* Maintain Independence: While alliances may be forged, always maintain autonomy and be prepared to defend against betrayal or deception. DOUBLE CROSS FOR THE WIN?
-Weaknesses:
-* Repelled by Salt / Iron
-* Silver infused snares
-* Banishment rituals (requires specific herbs, such as sage, lavender, and juniper)
-
-Make sure George gets blinded so he can't just use smite as a weakness this time (He's been banned from doing it by heaven)
-
-How do they find the weakness...? Who is shooting with what ammo, who is carrying salt
-* Bumps into something salty or iron or silver and recoils in pain?
-
-Can't affect Samuel, except by magic, maybe when the others have been incapacitated he uses his magic move and accidentally covers it with salt so they know salt is a weakness, gives time for the others to recover and somehow trap the Pukwudgie or kill it...
-
-
-
-
-## Session 16 Apr
-* Pudwugie will try to attack Gabriel on the racking, if he fails it will throw him off
-* If it gets the chance, transform into a giant Eagle and grab him, drop him in an aisle
-* Gabriel gets a role he'll be at -1 for being on the racking and possibly also -1 for sickness if has found the essence
-* Give them some time to decide what to do to save Gabriel, if they fail to save him, then he bumps down off a load of boxes takes harm and is knocked out
-
-* Ideally they will get the essence by the end of the session so the Sean storyline can kick in next week
-* Also ideally George will find some way to become incapacitated, maybe the very pressence of the essence troubles him and he bamfs away
-
-
-
-
-
-## Thoughts for next week
-
-* Are the HOotGD in cahoots with the BBEG, have they been promised a place in the new world order?
-* How do they find the Essence of Evil in the storage area?
-
-
-
-## New week, new session
-
-Info the players have
-* All the gear from the HOotGD has gone to a warehouse at Able & Sons, 3 Grant Wharf, Isle of Dogs
-
-Info the players don't yet have
-* They have not found Mathers yet (he is in his private members club)
-* They have had a bunker built by Gustave Eiffel that they will try to ride out the coming horrors
-* There are items most dangerous in the warehouse, it mostly protects itself
-* There will be talk of either explosions or gathering dark and brooding clouds and omens of evil about in the world
-* Goons maybe overheard chatting about it while they wait for Mathers
-* Mathers may call the police, he has connections
-
-Situation they are in
-
-
-# Archived information
-
-## OLD INFO FROM 7 - 3 - 1 for tonight's game
-
-### Molly Malone - Runs the brothel suggested by Kyles memory
-Motivation      : Wants to get new clients and sell her girls
-Sensory details : Smell of flowers clouds of aroma you are wondering what is being covered up, beautiful if old clothes that have seen better days, 
-At table.       : I'm a lady, but trying to pull all the time, sensuous
-Information.    : Knows which room he is in, room 6
-
-### Atticus Rook - Ex member of the Order of the Golden Dawn
-Motivation      : Self preservation above all things, is in hiding from the Order
-Sensory details : Old ragged clothes, the stench of rum, sex and tobacco, limp due to a close escape from the GD
-At table.       : Nervous disposition, always looking around, doesn't want to get cornered
-Information.    : He knows where their "London Grand Lodge" used to be at least.... 35 Gracechurch Street, and the names of the leaders, also gives a grave warning
-
-
-
-# Session at the house
-
-## Slight retcon
-Once you were in the carriage on the way from St Pauls to Clarissa's house and you knew that was where you were to perform the ritual, George Bamf'd back to the Order of the Veiled Dawn and picked up 2 large bags Sean had prepared earlier when working on the big tablet making ritual. THe bags contain all the things you will need, chalk, salt, herbs, candles, occult symbols etc to perform the ritual
+## Start with George in heaven
+* You may have noticed that we up here in heaven and very clear on the correct version of morality, we demand our servants are very clear on right and wrong
+* You have committed repeated infractions, for which you have been repeatedly sanctioned
+* God is very aware of the situations you have been placed in, however they believe that you may have "Gone native" having spent so long down on Earth with several characters of an extreme moral flexibility
+* After this current emergency you will definitely be withdrawn to heaven from your front line position for... re-education, however you have one last chance to speak for yourself, they are listening, to decide if we let you go back down in your current form or not. You may summon one of your comrades to speak for you if you desire?
 
 
 ## The ritual itself
-
-* You clear out one of the rooms, removing all the furniture and carpet back to a bare floor
+* Sean, through his railway contacts finds you a large train car in a mostly abandoned set of sidings to work in
+* You clear out the detritus from the chosen train carriage, removing all the furniture, boxes and old railway pariphinalia
+* **Question:** What do you find?
+* The carriage is swept and the collection of occult workings and some filched bedding, food and drink and carried into the carriage
 * You chalk out a magic circle, and place candles herbs and the tinctures you have made in the places required by Kyle's masterwork
+* Kyle is very much in charge of proceedings, George, Gabriel and Sean are following his lead. Unless a candle needs lighting or herbs need burning in which case Sean jumps at the opportunity. It's also clear that more red wine than was actually required has been sourced from the Ambers Society cellars, and that Kyle is intend on drinking most of it
 * You bring the fake tablet, the Holy Hand Grenade, the Essence of Evil in it's phylactery
 * Kyle brings the RavenShade Dagger into the circle
-* A large flat bottomed stone bath larger than the fake tablet is carried into the very middle of the circle, with the Lindworm Ichor sloshing from side to side, you are careful not to spill any
+* A large flat bottomed stone bath larger than the fake tablet is carried into the very middle of the circle by the three most able to lift it (not Kyle or Samuel), with the Lindworm Ichor sloshing from side to side, you are very careful not to spill any
 * There is an hour of chanting, and walking around the circle, with people kneeling in certain places and swapping when required, all coreographed by Kyle
-* One by one the Dagger and Hand grenade are introduced to the Ichor. They dissolve gradually over a number of hours
+* One by one the Dagger and Hand grenade are introduced to the Ichor. They dissolve gradually over a number of hours, the chanting continues by flickering lamp light
 * There is more chanting, kneeling and solemn faces
-* The stone bath is left for many hours for the elements to properly dissolve and mix
-* Later after more chanting the fake stone tablet is lowered carefully into the esoteric mixture and over the course of more hours and much chanting if soaks up the liquid in the bath
+* The stone bath is left for many hours for the elements to properly dissolve and mix, some rest is snatched, always with one person keeping an eye on the circle and one an eye on outside
+* Later after more chanting the fake stone tablet is lowered carefully into the esoteric mixture and over the course of more hours and much chanting it soaks up the liquid in the bath
 * There is a small additional ritual cast at the end of the process to set fast the liquid in the tablet and make it some anyone can pick it up
 * at the end of this process you are all tired as the ritual has extracted it's all from you during the casting. Kyle particularly is dead on his feet
 * But you have been successful and you now have both an original tablet of the dead and a very decent facsimile that only you can tell apart.
+
+What next?
+
+## People who might make an appearance at the end...
+
+## Octavian Frostholm
+* Long dark hair
+* Intimidating manner, both physically and from his piercing stare
+* Exceptionally well dressed, one might even say fashionable
+* Didn't take them too seriously the last time they met, won't be making that mistake again...
+Desires: The end of the world and will do what ever it takes to get it
+
+
+## Patricia - Kyles ex-wife (the evil one)
+* Ask Kyle for a description
+* Will play with Kyle for shits and giggles
+Desires: The death of Kyle, eventually
+
+
+## Harrington Frostbane - Frostholm's main general
+* Owner of Harrington House, the place in London where the world ending ritual is like to take place
+* Dark hair, dark clothes, almost low-key gothic/steam punk in appearance and demeanour 
+Desires: Serve his master, end the world, get revenge on those who made him look stupid at the Sterlingheart mansion
