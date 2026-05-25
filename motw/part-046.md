@@ -54,7 +54,7 @@ He smiled, and said nothing.
 
 Thus endeth the archive of the twilight of the Veiled Dawn
 
-# Questions left answered:
+# Questions left unanswered:
 * Will Samuel Fitzwilliam's investigation into his own death reveal that he was, in fact, done in by someone he'd previously haunted — and will said someone have the audacity to be still alive?
 * Has Gabriel West's meticulous rebuilding of the Foundation been somewhat complicated by the fact that he may or may not have helped himself to several items from the Crown Jewels collection, and is there now an extremely well-funded supernatural investigation unit looking into it?
 * Will Hubert the owl ever forgive George for carrying him like that, or shall this grievance be nursed across the eternal span of heaven?
